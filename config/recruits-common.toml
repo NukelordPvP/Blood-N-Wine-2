@@ -1,0 +1,93 @@
+#
+###Version, do not change!##
+#Range: > 0
+Version = 8
+
+#Recruits Config:
+[Recruits]
+	#
+	#----Should Recruits Make Villager Huh? sound?----
+	#	(takes effect after restart)
+	#	default: true
+	PlayVillagerAmbientSound = true
+	#
+	#----Should Recruits Name Tag Render for the owner----
+	#	(takes effect after restart)
+	#	default: true
+	RenderNameTagforOwner = true
+	#
+	#----Should Recruits instead of Iron Golems spawn in Villages ----
+	#	(takes effect after restart)
+	#	default: true
+	OverrideIronGolemSpawn = true
+	#
+	#Max Recruits in a Village Chunk to Spawn
+	#	(takes effect after restart)
+	#	default: 1
+	#Range: 1 ~ 10
+	MaxSpawnRecruitsInVillage = 1
+	#
+	#----Should Pillagers do Friendlyfire ----
+	#	(takes effect after restart)
+	#	default: false
+	PillagerFriendlyFire = false
+	#
+	#----Should Pillagers Spawn naturally ----
+	#	(takes effect after restart)
+	#	default: true
+	PillagerSpawn = true
+	#
+	#----Should Pillagers attack Monsters----
+	#	(takes effect after restart)
+	#	default: true
+	PillagerAttackMonsters = true
+	#
+	#----Should Monsters attack Pillagers----
+	#	(takes effect after restart)
+	#	default: true
+	MonstersAttackPillagers = true
+	#
+	#----Should Pillagers attack all Living----
+	#	(takes effect after restart)
+	#	default: true
+	ShouldPillagersRaidNaturally = true
+	#
+	#Max XP a Recruit needs to Level Up
+	#	(takes effect after restart)
+	#	default: 250
+	#Range: 50 ~ 10000
+	RecruitsMaxXpForLevelUp = 250
+	#
+	#----Should Pillagers have increased Combat Range, so they can shoot from far away----
+	#	(takes effect after restart)
+	#	default: true
+	PillagerIncreasedCombatRange = true
+	#
+	#----Should Vindicators can spawn with shield and sword and AI to use these----
+	#	(takes effect after restart)
+	#	default: true
+	VindicatorSpawnItems = true
+	#
+	#----Should Pillagers can spawn with shield and sword and AI to use these----
+	#	(takes effect after restart)
+	#	default: true
+	PillagerSpawnItems = true
+	#
+	#WIP: Max Assassins to buy from the Assassin Leader
+	#	(takes effect after restart)
+	#	default: 16
+	#Range: 1 ~ 64
+	MaxAssassinCount = 16
+	#
+	#Distance Recruits will start to follow its owner
+	#	(takes effect after restart)
+	#	default: 9.0
+	#Range: 4.0 ~ 16.0
+	RecruitFollowStartDistance = 9.0
+	#
+	#Max amount a player can recruit
+	#	(takes effect after restart)
+	#	default: 64
+	#Range: 1 ~ 1280
+	MaxRecruitsForPlayer = 64
+

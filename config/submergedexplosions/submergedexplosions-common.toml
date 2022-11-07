@@ -1,0 +1,11 @@
+
+[main]
+	#Whether liquid blocks can be destroyed by explosions.
+	DestroyLiquids = false
+
+	#A multiplier to apply to the blast resistance of all liquids.
+	#	+ Raise this value to allow less blocks to be broken from explosions submerged in liquids.
+	#	- Lower this value to allow more blocks to be broken from explosions submerged in liquids.
+	#Range: 0.0 ~ 1.0
+	LiquidBlastAbsorption = 0.02
+

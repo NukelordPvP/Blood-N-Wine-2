@@ -1,0 +1,7 @@
+To use optifine shaders remove:
+bmvsb-1.0.2.jar
+dynamiclightsreforged-mc1.16.5_v1.0.1.jar
+helium-1.0.jar
+magnesium_extras-mc1.16.5_v1.3.1.jar
+magnesium-1.5.jar
+Distant-Horizons_1.16.5-a1.5.4

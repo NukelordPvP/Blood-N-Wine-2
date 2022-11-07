@@ -1,0 +1,18 @@
+{
+  "minecraft:mushroom_stew": [
+    {
+      "identity": {},
+      "group": "food",
+      "temperature": 1.0,
+      "duration": 1200
+    }
+  ],
+  "minecraft:rabbit_stew": [
+    {
+      "identity": {},
+      "group": "food",
+      "temperature": 1.0,
+      "duration": 1200
+    }
+  ]
+}

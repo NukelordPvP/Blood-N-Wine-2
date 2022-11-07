@@ -1,0 +1,23 @@
+
+[main]
+	#The player's cooldown between throwing.
+	#Range: 0 ~ 100
+	ThrowCooldown = 10
+
+	#The player's throwing strength.
+	#Range: 0.0 ~ 2.0
+	ThrowStrength = 1.0
+
+[usage]
+	#Whether explosives can be thrown while using an Elytra.
+	Elytra = true
+
+	#Whether explosives can be thrown while sprinting.
+	Sprinting = true
+
+	#Whether explosives can be thrown while submerged in liquid.
+	Submerged = true
+
+	#Whether explosives can be thrown while swimming.
+	Swimming = true
+

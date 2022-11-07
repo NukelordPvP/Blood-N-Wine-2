@@ -1,0 +1,112 @@
+{
+  "main": {
+    "1": {
+      "title": "Chunk Pre-Generator Options",
+      "icon": {
+        "stack": "{id:\"minecraft:oak_sapling\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "Options Gui",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Bounding Box Outline Reloaded - Show Bounding Boxes",
+      "icon": {
+        "stack": "{id:\"minecraft:nether_bricks\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "bbor.key.toggleActive",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Lycanitesmobs - Beastiary",
+      "icon": {
+        "stack": "{id:\"lycanitesmobs:spawn_imp\",Count:1b,tag:{CreatureInfoSpawnEgg:{creaturename:\"arix\"}}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.beastiary",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "More Overlays - Show/Hide Dark Spots",
+      "icon": {
+        "stack": "{id:\"minecraft:glass_pane\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "key.moreoverlays.lightoverlay.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "More Overlays - Show/Hide Chunk Boundaries",
+      "icon": {
+        "stack": "{id:\"minecraft:iron_bars\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "key.moreoverlays.chunkbounds.desc",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "FTB Quests",
+      "icon": {
+        "stack": "{id:\"ftbquests:book\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbquests.quests",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Toast Control - Clear Active Toasts",
+      "icon": {
+        "stack": "{id:\"pamhc2foodcore:toastitem\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "key.toastcontrol.clear",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Open Sigil of Holding",
+      "icon": {
+        "stack": "{id:\"bloodmagic:lavasigil\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "bloodmagic.keybind.open_holding",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Music Triggers",
+      "icon": {
+        "stack": "{id:\"minecraft:note_block\",Count:1b}"
+      },
+      "action": {
+        "key": {
+          "key": "key.reload_musictriggers",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

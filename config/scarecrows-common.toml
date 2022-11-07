@@ -1,0 +1,49 @@
+
+#Spoopy Scarecrow Configuration
+[spoopy]
+	#The effect range of this scarecrow
+	#Range: > 0
+	range = 10
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = false
+
+#Super Spoopy Scarecrow Configuration
+[super_spoopy]
+	#The effect range of this scarecrow
+	#Range: > 0
+	range = 10
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = true
+
+#Spooky Scarecrow Configuration
+[spooky]
+	#The effect range of this scarecrow
+	#Range: > 0
+	range = 25
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = false
+
+#Super Spooky Scarecrow Configuration
+[super_spooky]
+	#The effect range of this scarecrow
+	#Range: > 0
+	range = 25
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = true
+
+#Scary Scarecrow Configuration
+[scary]
+	#The effect range of this scarecrow
+	#Range: > 0
+	range = 50
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = false
+
+#Super Scary Scarecrow Configuration
+[super_scary]
+	#The effect range of this scarecrow
+	#Range: > 0
+	range = 50
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = true
+

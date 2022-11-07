@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": {
+    "item": "tconstruct:cobalt_reinforcement"
+  },
+  "amount_per_item": 1,
+  "needed_per_level": 24,
+  "tools": [
+    {
+    "tag": "tconstruct:modifiable/armor/helmets"
+    },
+    {
+    "tag": "tconstruct:modifiable/armor/chestplates"
+    },
+    {
+      "tag": "tconstruct:modifiable/armor/boots"
+    }
+  ],
+  "slots": {
+    "defense": 1
+  },
+  "result": {
+    "name": "tconstruct:melee_protection",
+    "level": 1
+  },
+  "max_level": 1
+}

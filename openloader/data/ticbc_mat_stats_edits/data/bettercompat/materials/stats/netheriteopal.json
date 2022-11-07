@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "tconstruct:head": {
+      "durability": 6300,
+      "miningSpeed": 12.0,
+      "harvestLevel": 5,
+      "attack": 6.0
+    },
+    "tconstruct:handle": {
+      "durability": 1.2,
+      "miningSpeed": 1.1,
+      "attackSpeed": 1.5,
+      "attackDamage": 1.0
+    },
+    "tconstruct:extra": {
+      "durability": 400
+    }
+  }
+}
