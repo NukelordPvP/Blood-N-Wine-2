@@ -1,0 +1,21 @@
+#Ignore folders
+XaeroWaypoints
+XaeroWorldMap
+capes
+crash-reports
+dumps
+fancymenu_data
+logs
+saves/Cobtopia 6-22-2021
+saves/New World (1) - Copy1
+saves/Ore Test Template
+saves/bnw2
+saves/shulkerfarmtutorial
+saves/flying machine test.7z
+screenshots
+simple-rpc
+tconplanner
+
+reauth.toml
+usercache.json
+usernamecache.json
