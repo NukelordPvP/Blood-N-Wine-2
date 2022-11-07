@@ -1,0 +1,37 @@
+
+{
+  "oreConfig": [
+	{
+      "ore": "dead_guys_untitled_deep_dark_:cold_deep_stone",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 10,
+      "maxVeinSize": 32,
+      "spawnRate": 20.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "dead_guys_untitled_deep_dark_:cold_deep_stone",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 1,
+      "maxY": 10,
+      "maxVeinSize": 32,
+      "spawnRate": 20.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "dead_guys_untitled_deep_dark_:cold_deep_stone",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 123,
+      "maxY": 128,
+      "maxVeinSize": 32,
+      "spawnRate": 20.0,
+      "biomeBlacklist": [],
+		"biomeWhitelist": [
+			"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    }
+  ]
+}

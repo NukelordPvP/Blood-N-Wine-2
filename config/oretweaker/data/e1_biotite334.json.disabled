@@ -1,0 +1,15 @@
+{
+  "oreConfig": [
+    {
+      "ore": "quark:biotite_ore",
+      "filler": "minecraft:end_stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 32,
+      "spawnRate": 1.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		]
+    }
+  ]
+}

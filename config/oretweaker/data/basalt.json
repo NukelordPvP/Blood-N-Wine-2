@@ -1,0 +1,24 @@
+{
+	"oreConfig": [
+		{
+			"ore": "cavesandcliffs:smooth_basalt",
+			"filler": "minecraft:stone",
+			"minY": 1,
+			"maxY": 32,
+			"maxVeinSize": 12,
+			"spawnRate": 2.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		},
+		{
+			"ore": "cavesandcliffs:smooth_basalt",
+			"filler": "minecraft:stone",
+			"minY": 1,
+			"maxY": 32,
+			"maxVeinSize": 6,
+			"spawnRate": 4.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		}
+	]
+}

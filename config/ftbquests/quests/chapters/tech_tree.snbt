@@ -1,0 +1,6450 @@
+{
+	group: ""
+	id: "1711B5140168C9C1"
+	filename: "tech_tree"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Tech Tree"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				type: "item"
+				id: "5855655075F3CAC6"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+					Count: 1b
+				}
+				title: "Any #minecraft:logs"
+			}]
+			id: "75FAE8F2BDBA59AA"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "3DEC37A0689D15B0"
+				item: {
+					id: "tconstruct:pattern"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["7E206A39E2DB5BB8"]
+			id: "58256FE98538C5CA"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "324DF6F4093BBFA0"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:tables"
+					}
+					Count: 1b
+				}
+				title: "Any #tconstruct:tables"
+			}]
+			dependencies: ["75FAE8F2BDBA59AA"]
+			id: "7E206A39E2DB5BB8"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "5D369895FD11B61E"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable/harvest/stone"
+					}
+					Count: 1b
+				}
+				title: "Any #tconstruct:modifiable/harvest/stone"
+			}]
+			dependencies: ["58256FE98538C5CA"]
+			id: "089AC5D5E13B9112"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "2FE71B79C7863E09"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable/melee_or_harvest"
+					}
+					Count: 1b
+				}
+				title: "Any #tconstruct:modifiable/melee_or_harvest"
+			}]
+			dependencies: ["089AC5D5E13B9112"]
+			id: "41F5CF6E360CEABE"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "20DDC2072A9DF68B"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable/melee/sword"
+					}
+					Count: 1b
+				}
+				title: "Any #tconstruct:modifiable/melee/sword"
+			}]
+			dependencies: ["089AC5D5E13B9112"]
+			id: "6AA4859D77319A45"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				id: "301457113BDCF27C"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bow"
+				}
+				type: "item"
+			}]
+			dependencies: ["6AA4859D77319A45"]
+			id: "7B4976D7127C3FFF"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "7140795E510BE6FD"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gravel"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:gravel"
+			}]
+			dependencies: ["41F5CF6E360CEABE"]
+			id: "16686EECF3D6ABD1"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "7EAC357C3556F77E"
+				item: {
+					id: "minecraft:clay_ball"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["41F5CF6E360CEABE"]
+			id: "2908FB8F968886D5"
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "7A79A58A803626A5"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sand"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:sand"
+			}]
+			dependencies: ["41F5CF6E360CEABE"]
+			id: "3E957F6EF6A5B626"
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			tasks: [{
+				id: "1118E42FBDD3CECA"
+				item: {
+					id: "tconstruct:grout"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"16686EECF3D6ABD1"
+				"3E957F6EF6A5B626"
+				"2908FB8F968886D5"
+			]
+			id: "7008DB66079256EB"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				id: "32B35C2C04F97A96"
+				item: {
+					id: "minecraft:farmland"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"41F5CF6E360CEABE"
+				"7AE565E12AFF8E4E"
+				"4D4DE9C9B1830F95"
+				"7ABD5C4D205C0AE1"
+				"5592DB34A46F3FCA"
+				"0E4D2D21C219DC7B"
+				"18D3655C8FF94764"
+				"3105681A5539DC61"
+			]
+			id: "22ECC1A431609C14"
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			tasks: [{
+				id: "0DD011F7F5EC8DFB"
+				item: {
+					id: "tconstruct:seared_brick"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["7008DB66079256EB"]
+			id: "5EDA2B9D7D21B7B7"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 18L
+					id: "0F18CDE52CF890C2"
+					item: {
+						id: "tconstruct:seared_bricks"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+				{
+					id: "1D013FB466C5B451"
+					item: {
+						id: "tconstruct:seared_drain"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "1A1F28335CA00A0E"
+					item: {
+						id: "tconstruct:seared_basin"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "5A4CB920AEC8B550"
+					item: {
+						id: "tconstruct:seared_table"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "1E84D458B6C416C0"
+					item: {
+						id: "tconstruct:seared_faucet"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+				{
+					type: "item"
+					id: "5D0B019A68F4DF2A"
+					item: {
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+						Count: 1b
+					}
+					title: "Any #tconstruct:seared_tanks"
+				}
+			]
+			dependencies: ["5EDA2B9D7D21B7B7"]
+			id: "267E191EA432D359"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				id: "6C3EEE9FE54036B1"
+				item: {
+					id: "minecraft:glass"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["3E957F6EF6A5B626"]
+			id: "76C07294643D7478"
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			tasks: [{
+				id: "272DBA38DCDB4D53"
+				item: {
+					id: "tconstruct:seared_heater"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5EDA2B9D7D21B7B7"]
+			id: "253DA9D1A9DA2F6B"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				id: "487665204646B0D5"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/copper"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:ingots/copper"
+			}]
+			dependencies: ["22FA4C912EC0C1F2"]
+			id: "6D5238A849EE16F7"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				id: "5AC53E8ED041360F"
+				item: {
+					id: "tconstruct:smeltery_controller"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"6D5238A849EE16F7"
+				"253DA9D1A9DA2F6B"
+			]
+			id: "36065EF1E810EA79"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "38A864AC6E60DC7D"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/copper"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:ores/copper"
+			}]
+			dependencies: ["089AC5D5E13B9112"]
+			id: "22FA4C912EC0C1F2"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			tasks: [{
+				id: "1DE84B4A39B522C0"
+				item: {
+					id: "tconstruct:molten_clay_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: ["267E191EA432D359"]
+			id: "6CCF51D4F0ABE2BF"
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				id: "6A08B2242D5AD789"
+				item: {
+					id: "tconstruct:seared_stone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["6CCF51D4F0ABE2BF"]
+			id: "40FDB3C001EFD8D4"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			tasks: [{
+				id: "6384CB6D9F6D944F"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_stats: {
+							"tconstruct:attack_damage": 0.35000002f
+							"tconstruct:durability": 91.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 10.5f
+							"tconstruct:harvest_level": 3.0f
+						}
+						tic_multipliers: { }
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:seared_stone"
+							"tconstruct:seared_stone"
+							"tconstruct:seared_stone"
+						]
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:searing"
+								level: 3s
+							}
+						]
+						tic_broken: 0b
+						tic_volatile_data: {
+							"tconstruct:tank_capacity": 288
+						}
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pickaxe"
+				}
+				type: "item"
+			}]
+			dependencies: ["6CCF51D4F0ABE2BF"]
+			id: "4F1CAD5487185209"
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			tasks: [{
+				id: "17385E847C77E40B"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_stats: {
+							"tconstruct:attack_damage": 0.45f
+							"tconstruct:durability": 117.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 13.5f
+							"tconstruct:harvest_level": 4.0f
+						}
+						tic_multipliers: { }
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:copper"
+							"tconstruct:copper"
+							"tconstruct:copper"
+						]
+						tic_modifiers: [
+							{
+								name: "tconstruct:dwarven"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_broken: 0b
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pickaxe"
+				}
+				type: "item"
+			}]
+			dependencies: ["45D320502BEC3027"]
+			id: "3A01D4AA452D1422"
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "6D24C460B74DAA0A"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_stats: {
+							"tconstruct:attack_damage": 0.050000012f
+							"tconstruct:durability": 13.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 1.5f
+							"tconstruct:harvest_level": 1.0f
+						}
+						tic_multipliers: { }
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_broken: 0b
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pickaxe"
+				}
+				type: "item"
+			}]
+			dependencies: ["6BCC4BB65E68CDCE"]
+			id: "192E713F8F57CA90"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				id: "78723CA319743B30"
+				item: {
+					id: "tconstruct:molten_copper_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"267E191EA432D359"
+				"025CDC065D40AE98"
+			]
+			id: "45D320502BEC3027"
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			tasks: [{
+				id: "5645972F5685E33B"
+				item: {
+					id: "minecraft:oak_planks"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["58256FE98538C5CA"]
+			id: "6BCC4BB65E68CDCE"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				id: "1C6D118B0A2B92F2"
+				item: {
+					id: "minecraft:wheat_seeds"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["4A997D54430D6FFE"]
+			id: "3105681A5539DC61"
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			tasks: [{
+				id: "415791B43C0689A0"
+				item: {
+					id: "minecraft:grass"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "4A997D54430D6FFE"
+			x: -6.5d
+			y: -14.0d
+		}
+		{
+			tasks: [{
+				id: "53012C8A4208D226"
+				item: {
+					id: "tconstruct:ingot_cast"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["65FB8AA3C37C7EC7"]
+			id: "2951D14E27DA0591"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			tasks: [{
+				id: "6088909A2700DA3F"
+				item: {
+					id: "tconstruct:molten_gold_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"267E191EA432D359"
+				"28D679F06F55B43A"
+			]
+			id: "65FB8AA3C37C7EC7"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 8L
+					id: "1C78827238025319"
+					item: {
+						id: "minecraft:gold_block"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+				{
+					id: "6C55270CDC2E9084"
+					item: {
+						id: "minecraft:apple"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			dependencies: ["65FB8AA3C37C7EC7"]
+			id: "03A8CAF7921FF920"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			tasks: [
+				{
+					id: "4BDD5DC973FDFB2C"
+					item: {
+						id: "minecraft:carrot"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					type: "item"
+					count: 8L
+					id: "021C5AA2B81F4432"
+					item: {
+						id: "minecraft:gold_nugget"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+			]
+			dependencies: ["65FB8AA3C37C7EC7"]
+			id: "4B362BF87B792FAD"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "1C02D0D3142A775F"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:golden_helmet"
+				}
+				type: "item"
+			}]
+			dependencies: ["65FB8AA3C37C7EC7"]
+			id: "55A229615E710845"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "754C3BB12FF45F05"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:ingots"
+			}]
+			dependencies: ["2951D14E27DA0591"]
+			id: "2FDBC1AB0F7CB4C9"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			tasks: [{
+				id: "30F6A9AE3349788B"
+				item: {
+					id: "minecraft:zombified_piglin_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "28D679F06F55B43A"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			tasks: [{
+				id: "21881DC1C54D7F31"
+				item: {
+					id: "pamhc2crops:aridgarden"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "7AE565E12AFF8E4E"
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			tasks: [{
+				id: "019838B32E2B2E57"
+				item: {
+					id: "pamhc2crops:frostgarden"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "4D4DE9C9B1830F95"
+			x: -3.0d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "5375EF1B40D54E69"
+				item: {
+					id: "pamhc2crops:shadedgarden"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "7ABD5C4D205C0AE1"
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			tasks: [{
+				id: "6A06FD0F82029F84"
+				item: {
+					id: "pamhc2crops:soggygarden"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "5592DB34A46F3FCA"
+			x: 0.5d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "54A4FD5FA2E7D96D"
+				item: {
+					id: "pamhc2crops:tropicalgarden"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "0E4D2D21C219DC7B"
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			tasks: [{
+				id: "301E311E177D36C4"
+				item: {
+					id: "pamhc2crops:windygarden"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "18D3655C8FF94764"
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			tasks: [{
+				id: "787CBB5CF8B4FF78"
+				item: {
+					id: "minecraft:bread"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["4A5A732BED47EB80"]
+			id: "2D19679FFE667922"
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "37E0AAC500943983"
+				item: {
+					id: "minecraft:wheat"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["3105681A5539DC61"]
+			id: "4A5A732BED47EB80"
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "7FDABE209C324EBD"
+				item: {
+					id: "tconstruct:molten_iron_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"267E191EA432D359"
+				"76EA0C0C2CACDF4F"
+			]
+			id: "083E64067EB75A10"
+			x: -10.5d
+			y: -11.5d
+		}
+		{
+			tasks: [{
+				id: "418B6C483D9C4B4B"
+				item: {
+					id: "guardvillagers:iron_golem_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "76EA0C0C2CACDF4F"
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				id: "290CBE8196419122"
+				item: {
+					id: "minecraft:anvil"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "4814C1A4CCAF6BF9"
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			tasks: [{
+				id: "05C8B7D734C68184"
+				item: {
+					id: "minecraft:hopper"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "55F054216E8D2767"
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			tasks: [{
+				id: "57F24373F228A48B"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:shears"
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "767A754773F23DA1"
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "221319B81265C76E"
+				item: {
+					id: "minecraft:iron_door"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "5C392C0796462835"
+			x: -12.5d
+			y: -11.0d
+		}
+		{
+			tasks: [{
+				id: "5C8F86262C6D6E8E"
+				item: {
+					id: "minecraft:iron_trapdoor"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "583BCA9D9B624513"
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			tasks: [{
+				id: "4ED423ED0E555C3B"
+				item: {
+					id: "minecraft:rail"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "6207BBA7817C3B92"
+			x: -8.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "2206896B0A9D3B2B"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:iron_helmet"
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "0BCE0E56FE2C66BF"
+			x: -12.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "65DAD37A77593E7F"
+				item: {
+					id: "minecraft:zombie_villager_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "040C01C15A476432"
+			x: 15.5d
+			y: -18.0d
+		}
+		{
+			tasks: [{
+				id: "4D260A3DF2DA37BF"
+				item: {
+					id: "minecraft:villager_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["281FB5BD98DFC629"]
+			id: "23677509FEAA2B5E"
+			x: 15.5d
+			y: -14.0d
+		}
+		{
+			tasks: [
+				{
+					id: "3F03E88E444E5222"
+					item: {
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					id: "05ADAF7F70EE8142"
+					item: {
+						id: "minecraft:golden_apple"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			dependencies: ["040C01C15A476432"]
+			id: "281FB5BD98DFC629"
+			x: 15.5d
+			y: -16.0d
+		}
+		{
+			tasks: [{
+				id: "29D63815BF94695E"
+				item: {
+					id: "minecraft:lectern"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "00E779C6C2D438B4"
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "25F9AA5590D224FB"
+				item: {
+					id: "minecraft:blast_furnace"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "5748CF8C44709FCB"
+			x: 15.5d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				id: "7AF0E60C02BF55A6"
+				item: {
+					id: "minecraft:smoker"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "54415AF0F1A1BAE5"
+			x: 15.5d
+			y: -10.0d
+		}
+		{
+			tasks: [{
+				id: "5F63A2E77F63C0D7"
+				item: {
+					id: "minecraft:cartography_table"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "4A4990FD9C11FF8B"
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			tasks: [{
+				id: "4D2E388F24A6ABDD"
+				item: {
+					id: "minecraft:brewing_stand"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "4D2636E9E3F8FE24"
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				id: "6CC9B381011F7577"
+				item: {
+					id: "minecraft:composter"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "184FADEF7EC24BE6"
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			tasks: [{
+				id: "16DF01A5F5E96C9D"
+				item: {
+					id: "minecraft:barrel"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "6BBDA1A49381EFB5"
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			tasks: [{
+				id: "02C4FA3F17C6AA0D"
+				item: {
+					id: "minecraft:fletching_table"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "7AE3004F218EC92F"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "75DB6789EBA99292"
+				item: {
+					id: "minecraft:cauldron"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "2D094E5B658AE4D1"
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			tasks: [{
+				id: "18496830C11FAEA1"
+				item: {
+					id: "minecraft:stonecutter"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "21788A96A8644C2D"
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			tasks: [{
+				id: "32B9E0BEA0418A40"
+				item: {
+					id: "minecraft:loom"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "1F97CBFB7355DADB"
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			tasks: [{
+				id: "7C6947AC660CA14A"
+				item: {
+					id: "minecraft:smithing_table"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "05EECAC47D5C7CF6"
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			tasks: [{
+				id: "3E05C25C2DBD86F4"
+				item: {
+					id: "minecraft:grindstone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "67A9C1E478164550"
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			tasks: [{
+				id: "0C6521EBCBC73554"
+				item: {
+					id: "iceandfire:lectern"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "34E4B02AF68973BB"
+			x: 15.5d
+			y: 14.0d
+		}
+		{
+			tasks: [{
+				id: "7CCAEF3A185F5F2E"
+				item: {
+					id: "minecraft:drowned_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["6A0C66503BBE2981"]
+			id: "025CDC065D40AE98"
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			tasks: [
+				{
+					id: "666AFE0586B0964F"
+					item: {
+						id: "minecraft:zombie_spawn_egg"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "5349611218FB926B"
+					item: {
+						id: "minecraft:water_bucket"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			id: "6A0C66503BBE2981"
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			tasks: [{
+				id: "290CCFABBE9461F5"
+				item: {
+					id: "minecraft:lava_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "2119BBED08DBED77"
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 10L
+				id: "08531BD35DA28CD0"
+				item: {
+					id: "minecraft:obsidian"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+			}]
+			dependencies: [
+				"2119BBED08DBED77"
+				"31188634C4D0009B"
+				"13E72C109D4814CC"
+				"4FD87A450BEB48EC"
+			]
+			id: "074E58E9C05CB956"
+			x: -9.5d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "414869A2A135B257"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:flint_and_steel"
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "13E72C109D4814CC"
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			tasks: [{
+				id: "772B71851C968B80"
+				item: {
+					Count: 1b
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:lava"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ceramicbucket:filled_ceramic_bucket"
+				}
+				type: "item"
+			}]
+			dependencies: ["5A4FAA1915BC238E"]
+			id: "31188634C4D0009B"
+			x: -7.5d
+			y: -15.5d
+		}
+		{
+			tasks: [{
+				id: "30BD8234D39AFE0E"
+				item: {
+					id: "minecraft:clay_ball"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "5A4FAA1915BC238E"
+			x: -6.5d
+			y: -17.0d
+		}
+		{
+			tasks: [{
+				id: "14DAF6AA60583C49"
+				item: {
+					Count: 1b
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ceramicbucket:filled_ceramic_bucket"
+				}
+				type: "item"
+			}]
+			dependencies: ["5A4FAA1915BC238E"]
+			id: "4FD87A450BEB48EC"
+			x: -8.0d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "1D7E1ACD013EFBA3"
+				item: {
+					id: "minecraft:netherrack"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "1345E0249BE7969D"
+			x: -11.0d
+			y: -17.0d
+		}
+		{
+			tasks: [
+				{
+					id: "021CB02CB0ED99FE"
+					item: {
+						id: "minecraft:chest"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "376375CECC51FD79"
+					item: {
+						id: "minecraft:water_bucket"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			id: "0592CE82438F2314"
+			x: -15.0d
+			y: -15.0d
+		}
+		{
+			tasks: [{
+				id: "32023C01446AED5F"
+				item: {
+					id: "minecraft:diamond"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["0592CE82438F2314"]
+			id: "4A2D0F047594A5FE"
+			x: -14.5d
+			y: -16.0d
+		}
+		{
+			tasks: [{
+				id: "3BF2B16C9F11DAE0"
+				item: {
+					id: "minecraft:chain"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "02166857BA5484D5"
+			x: -11.5d
+			y: -13.5d
+		}
+		{
+			tasks: [{
+				id: "132903FC0FD51715"
+				item: {
+					id: "dead_guys_untitled_deep_dark_:unactivated_lightn_dark_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"02166857BA5484D5"
+				"0ECB2FAC8F093C0B"
+				"7EC163E85DE95217"
+				"4A2D0F047594A5FE"
+			]
+			id: "71E0CE4FD48D129C"
+			x: -13.5d
+			y: -15.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 3L
+				id: "74B6D171EBAFBF5B"
+				item: {
+					id: "minecraft:obsidian"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+			}]
+			id: "0ECB2FAC8F093C0B"
+			x: -12.0d
+			y: -15.0d
+		}
+		{
+			tasks: [{
+				id: "0911A5F5AA742D59"
+				item: {
+					id: "dead_guys_untitled_deep_dark_:cold_deep_stone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "7EC163E85DE95217"
+			x: -12.5d
+			y: -16.0d
+		}
+		{
+			tasks: [{
+				id: "1B17AF09A8196D0D"
+				item: {
+					id: "minecraft:diamond_ore"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["71E0CE4FD48D129C"]
+			id: "11CEB876DA3FA063"
+			x: -13.5d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "20435B18A045C2EF"
+				item: {
+					id: "minecraft:redstone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["311C1BCF8E8C69E8"]
+			id: "4689DACCB01B0025"
+			x: -16.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "2DA9A07B133B80AF"
+				item: {
+					id: "minecraft:witch_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "311C1BCF8E8C69E8"
+			x: -18.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "382DC1305FF0A638"
+				item: {
+					id: "minecraft:piston"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"083E64067EB75A10"
+				"4689DACCB01B0025"
+				"2A3B9F73C116B76B"
+			]
+			id: "752C3508E4C7AAAB"
+			x: -14.5d
+			y: -12.0d
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 4L
+					id: "1EF01B6666DECB5D"
+					item: {
+						id: "minecraft:cobblestone"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+				{
+					type: "item"
+					count: 3L
+					id: "5C640E002F9031B6"
+					item: {
+						id: "minecraft:oak_planks"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+			]
+			id: "2A3B9F73C116B76B"
+			x: -14.5d
+			y: -13.5d
+		}
+		{
+			tasks: [{
+				id: "41BEC35D13C3877E"
+				item: {
+					id: "minecraft:crimson_nylium"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "392D333D09B302FB"
+			x: -8.0d
+			y: -18.5d
+		}
+		{
+			tasks: [{
+				id: "0A7E3A09C05AD28E"
+				item: {
+					id: "minecraft:warped_nylium"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "76325139FD9564FA"
+			x: -9.0d
+			y: -19.5d
+		}
+		{
+			tasks: [{
+				id: "1B23304693CDF0E4"
+				item: {
+					id: "minecraft:repeater"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["4373DA1B324DC394"]
+			id: "19A7529301C8FB4C"
+			x: -16.5d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "288A54B5CCEC5142"
+				item: {
+					id: "minecraft:redstone_torch"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["4689DACCB01B0025"]
+			id: "4373DA1B324DC394"
+			x: -19.0d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "73D81CDD495AE25B"
+				item: {
+					id: "minecraft:observer"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"06AEB16308CF2D8B"
+				"4689DACCB01B0025"
+			]
+			id: "4862DFEC7B632AFA"
+			x: -15.5d
+			y: -17.0d
+		}
+		{
+			tasks: [{
+				id: "5106C9F49AF2E1C2"
+				item: {
+					id: "minecraft:detector_rail"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"083E64067EB75A10"
+				"4689DACCB01B0025"
+			]
+			id: "494A42E66944E066"
+			x: -15.5d
+			y: -11.0d
+		}
+		{
+			tasks: [{
+				id: "13F68246D088791C"
+				item: {
+					id: "minecraft:comparator"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["4373DA1B324DC394"]
+			id: "7AD92EA2638C445E"
+			x: -17.5d
+			y: -9.5d
+		}
+		{
+			tasks: [{
+				id: "59A3D9C073EAA24D"
+				item: {
+					id: "minecraft:slime_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "3BDD08AF5B8163D2"
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			tasks: [{
+				id: "4AD14DF0098353B7"
+				item: {
+					id: "minecraft:slime_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["3BDD08AF5B8163D2"]
+			id: "1F0E99369E65F9AC"
+			x: -15.5d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				id: "271B6BC61AE53837"
+				item: {
+					id: "minecraft:creeper_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "7F34606E76FB3800"
+			x: -19.5d
+			y: -11.5d
+		}
+		{
+			tasks: [{
+				id: "1F86E5B455ADE56A"
+				item: {
+					id: "minecraft:gunpowder"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"383738E096D5CE0E"
+				"7F34606E76FB3800"
+				"311C1BCF8E8C69E8"
+			]
+			id: "0422142400A63B74"
+			x: -20.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "42ECC3E07E62F76B"
+				item: {
+					id: "minecraft:ghast_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "383738E096D5CE0E"
+			x: -19.5d
+			y: -13.5d
+		}
+		{
+			tasks: [{
+				id: "1D6F775C08C11397"
+				item: {
+					id: "minecraft:nether_quartz_ore"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "06AEB16308CF2D8B"
+			x: -11.0d
+			y: -18.5d
+		}
+		{
+			tasks: [{
+				id: "23421F2588F3F010"
+				item: {
+					id: "minecraft:husk_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "63202EA06D413DF1"
+			x: -20.0d
+			y: -14.5d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "55DF9B15249B9FAD"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sand"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:sand"
+			}]
+			dependencies: [
+				"63202EA06D413DF1"
+				"5B3CAC7642E77DAA"
+			]
+			id: "07C28F69AA93A1B6"
+			x: -21.5d
+			y: -14.0d
+		}
+		{
+			tasks: [{
+				id: "2AEF684A2C551241"
+				item: {
+					id: "minecraft:end_portal_frame"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "5B3CAC7642E77DAA"
+			x: -21.5d
+			y: -15.5d
+		}
+		{
+			tasks: [{
+				id: "43776FB56953968E"
+				item: {
+					id: "minecraft:tnt"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"07C28F69AA93A1B6"
+				"0422142400A63B74"
+			]
+			id: "3501EABD476ACF38"
+			x: -22.0d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				id: "2301319DEA064B28"
+				item: {
+					id: "minecraft:minecart"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "73ADD8B0DC9E1504"
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			tasks: [
+				{
+					id: "6E387628B9446EB0"
+					item: {
+						id: "minecraft:slime_block"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "5FA9AD59F0681F15"
+					item: {
+						id: "minecraft:detector_rail"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "3E43ECB44D59AF4C"
+					item: {
+						id: "minecraft:minecart"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "3B3FE1921672A1B2"
+					item: {
+						id: "minecraft:tnt"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			dependencies: [
+				"1F0E99369E65F9AC"
+				"73ADD8B0DC9E1504"
+				"494A42E66944E066"
+				"3501EABD476ACF38"
+			]
+			id: "05D56F1A906DD50D"
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			tasks: [{
+				id: "245C4336A0ACBB86"
+				item: {
+					id: "minecraft:tnt_minecart"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"3501EABD476ACF38"
+				"73ADD8B0DC9E1504"
+			]
+			id: "26A02FBBA009B9DB"
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			tasks: [{
+				id: "61DB1E715BEAE0CE"
+				item: {
+					id: "bkexplosivearrows:explosivearrow_strong"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"3501EABD476ACF38"
+				"21B4ED5492DB0CDB"
+				"18E27C9941AC346D"
+			]
+			id: "5EF24B1E76BD8440"
+			x: -23.5d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				id: "40AA04EC496AAA5B"
+				item: {
+					id: "minecraft:string"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["217D6D29C52884C4"]
+			id: "18E27C9941AC346D"
+			x: -26.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "0C0A42A5111988D8"
+				item: {
+					id: "minecraft:feather"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["001863B0A4BBBD3D"]
+			id: "0CDFAC09DFF88BEF"
+			x: -26.5d
+			y: -8.5d
+		}
+		{
+			tasks: [{
+				id: "05675975F43FA780"
+				item: {
+					id: "minecraft:flint"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["76A5AF91FBBA22F7"]
+			id: "0DD9AA6E7E1BB425"
+			x: -23.0d
+			y: -9.5d
+		}
+		{
+			tasks: [{
+				id: "6F947AA12235D1B8"
+				item: {
+					id: "minecraft:arrow"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"0DD9AA6E7E1BB425"
+				"0CDFAC09DFF88BEF"
+				"4A807A3ABE0EE3D6"
+			]
+			id: "21B4ED5492DB0CDB"
+			x: -24.5d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "439C496DD9E043EE"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gravel"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:gravel"
+			}]
+			dependencies: ["059CFD200E347D9D"]
+			id: "76A5AF91FBBA22F7"
+			x: -22.0d
+			y: -10.0d
+		}
+		{
+			tasks: [{
+				id: "6559402A9B8182E2"
+				item: {
+					id: "minecraft:spider_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "217D6D29C52884C4"
+			x: -29.0d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				id: "2705013F83C01443"
+				item: {
+					id: "minecraft:end_portal_frame"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "059CFD200E347D9D"
+			x: -22.0d
+			y: -11.0d
+		}
+		{
+			tasks: [{
+				id: "091EEA6BE7B30EF7"
+				item: {
+					id: "minecraft:chicken_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "001863B0A4BBBD3D"
+			x: -26.5d
+			y: -6.5d
+		}
+		{
+			tasks: [{
+				id: "67002F8DD734243A"
+				item: {
+					id: "minecraft:egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["001863B0A4BBBD3D"]
+			id: "4C3AEF63E3F6237C"
+			x: -23.5d
+			y: -6.5d
+		}
+		{
+			tasks: [{
+				id: "21DC97470D526755"
+				item: {
+					id: "minecraft:skeleton_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "4A807A3ABE0EE3D6"
+			x: -22.0d
+			y: -8.0d
+		}
+		{
+			tasks: [{
+				id: "527E7BB0C04DFDCA"
+				item: {
+					id: "bkexplosivearrows:explosivearrow_weak"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"21B4ED5492DB0CDB"
+				"18E27C9941AC346D"
+				"2FA1B36281FF0469"
+			]
+			id: "628426AE06C30698"
+			x: -26.5d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "10A7BC20F07FD6EA"
+				item: {
+					id: "minecraft:torch"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "2FA1B36281FF0469"
+			x: -29.0d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "5755DC668CFF2E42"
+				item: {
+					id: "bkexplosivearrows:explosivearrow_normal"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"0422142400A63B74"
+				"18E27C9941AC346D"
+				"21B4ED5492DB0CDB"
+			]
+			id: "0E338D0FD8EC4637"
+			x: -25.0d
+			y: -14.0d
+		}
+		{
+			tasks: [
+				{
+					id: "1E85652BF1B1C8E2"
+					item: {
+						id: "minecraft:enchanting_table"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					type: "item"
+					count: 15L
+					id: "4A6D8B58145A1822"
+					item: {
+						id: "minecraft:bookshelf"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+			]
+			dependencies: ["11CEB876DA3FA063"]
+			id: "53BD19CADE6325BC"
+			x: -13.5d
+			y: -18.5d
+		}
+		{
+			tasks: [{
+				type: "custom"
+				id: "18591544F41A19A7"
+				icon: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Protection IV"
+			}]
+			id: "208A8ED9E52DF348"
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "6A70FD00712F9898"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:fire_protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Fire Protection IV"
+			}]
+			id: "5CC7FF6D3148021E"
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "5A4E49F65C1656A6"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:feather_falling"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Feather Falling IV"
+			}]
+			id: "4B207FE6AAE94F02"
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "1798A2F1E99F0E49"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:blast_protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Blast Protection IV"
+			}]
+			id: "0C498FC0AEDCB265"
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "05777E544AC8845F"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:projectile_protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Projectile Protection IV"
+			}]
+			id: "0E26641ABB3A5D0F"
+			x: 30.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "5114FFAD9F6F414B"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:respiration"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Respiration III"
+			}]
+			id: "3940F7F7A52A35D5"
+			x: 33.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "115B3FE455FC72E0"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:aqua_affinity"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Aqua Affinity"
+			}]
+			id: "2081E70639B3D043"
+			x: 36.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "65732AC019E6EAE6"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:thorns"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Thorns III"
+			}]
+			id: "6D529CEDEE0E46BF"
+			x: 39.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "10BFD74F32B90290"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:depth_strider"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Depth Strider III"
+			}]
+			id: "6C5E706F1D5F9963"
+			x: 43.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "027AB3C13B7F71F9"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:frost_walker"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "5C7210D044AB7959"
+			x: 46.0d
+			y: 4.0d
+			title: "Frost Walker II"
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "31537E14EF1DE7AA"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:binding_curse"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Curse of Binding"
+			}]
+			id: "0563F36401161303"
+			x: 49.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "689361C3EAFC1798"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:soul_speed"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Soul Speed III"
+			}]
+			id: "79DA7333EE0AAB7D"
+			x: 52.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "79BDFEC92C5FF8C2"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "227561EF19349107"
+			x: 55.5d
+			y: 4.0d
+			title: "Sharpness V"
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "6F862FFDAB437C91"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:smite"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Smite V"
+			}]
+			id: "0F4FACB9C09B8CD5"
+			x: 58.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "327F70A2D7BF9A71"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:bane_of_arthropods"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Bane of Arthropods V"
+			}]
+			id: "7824EF67C8F141E6"
+			x: 62.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "3CB355B74475B231"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:knockback"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Knockback II"
+			}]
+			id: "4E95654FAF10B18E"
+			x: 65.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "7F4EA01416F8C0C7"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:fire_aspect"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Fire Aspect II"
+			}]
+			id: "6C0609E0A71E2936"
+			x: 69.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "0FB395FB395D6B19"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:looting"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "417D1A7D918E2289"
+			x: 72.0d
+			y: 4.0d
+			title: "Looting III"
+		}
+		{
+			tasks: [{
+				id: "0329C937A063C11E"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:sweeping"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "28E5AE35AE79FCDF"
+			x: 75.0d
+			y: 4.0d
+			title: "Sweeping Edge III"
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "7915E9C2DB0715B1"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:efficiency"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Efficiency V"
+			}]
+			id: "715585323D7404D6"
+			x: 78.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "2FA9EE6FAEDEDB75"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Silk Touch I"
+			}]
+			id: "152E194BA1410BEC"
+			x: 81.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "0058DB169851D490"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Unbreaking III"
+			}]
+			id: "33D8B492B32AA920"
+			x: 84.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "0E1F31C33BE4A3AA"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Fortune III"
+			}]
+			id: "5D141E2054F04F8C"
+			x: 87.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "6DEB1151119C009B"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:power"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Power V"
+			}]
+			id: "38F2DEA8798BF0BB"
+			x: 91.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "1150017CF669317C"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:punch"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "040590F7D9FC57E4"
+			x: 94.5d
+			y: 4.0d
+			title: "Punch II"
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "3038B5C765AE234F"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:infinity"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Infinity"
+			}]
+			id: "46879ECF60B26FFA"
+			x: 98.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "5630951655FE9CB6"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:luck_of_the_sea"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Luck of the Sea III"
+			}]
+			id: "32A673830C0BE12F"
+			x: 101.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "3CCD50F1A04F8AF5"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:lure"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Lure III"
+			}]
+			id: "47047D2A334BE3EC"
+			x: 105.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "60FDE9663B69C1AF"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:loyalty"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Loyalty III"
+			}]
+			id: "312DCE95798FAF68"
+			x: 109.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "11DB4E64923160C6"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:impaling"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Impaling V"
+			}]
+			id: "785BFDB363B6089B"
+			x: 113.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "1D487681A3D0D333"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:riptide"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Riptide III"
+			}]
+			id: "1BA14EE782AC52D5"
+			x: 117.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "56CD3BB01AC1659F"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:channeling"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Channeling"
+			}]
+			id: "4F2615718863470C"
+			x: 121.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "0AA87F1B42E9BFD9"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:multishot"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "05F6EAEC18110E43"
+			x: 125.0d
+			y: 4.0d
+			title: "Multishot"
+		}
+		{
+			tasks: [{
+				id: "6579AAFEC9689B58"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:quick_charge"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "394BE59EDEF76028"
+			x: 129.0d
+			y: 4.0d
+			title: "Quick Charge III"
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "72C9DE07EAA2958E"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:piercing"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				title: "Piercing IV"
+			}]
+			id: "64AB533A208E26FB"
+			x: 133.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "1663845A2AD686A2"
+				item: {
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:vanishing_curse"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			id: "6BDB2B9479B0FCE3"
+			x: 136.5d
+			y: 4.0d
+			title: "Curse of Vanishing"
+		}
+		{
+			tasks: [{
+				id: "309166C1E0BE9811"
+				item: {
+					id: "minecraft:ghast_tear"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["383738E096D5CE0E"]
+			id: "6760B27D9FBAD21E"
+			x: -18.5d
+			y: -14.5d
+		}
+		{
+			tasks: [{
+				id: "35998C9AA6E2BFD8"
+				item: {
+					id: "minecraft:rotten_flesh"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["63202EA06D413DF1"]
+			id: "2304CB61F474A405"
+			x: -19.5d
+			y: -16.0d
+		}
+		{
+			tasks: [{
+				id: "1918B648FECA8E75"
+				item: {
+					id: "minecraft:warped_fungus"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["76325139FD9564FA"]
+			id: "6A207F1F26658063"
+			x: -8.5d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "0822E13296962506"
+				item: {
+					id: "minecraft:crimson_fungus"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["392D333D09B302FB"]
+			id: "04977337AE23FE25"
+			x: -7.5d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "0C33C936A4700FCC"
+				item: {
+					id: "minecraft:warped_stem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["6A207F1F26658063"]
+			id: "503BC9DC3DC20452"
+			x: -8.5d
+			y: -23.0d
+		}
+		{
+			tasks: [{
+				id: "71BB1ED7C47E238A"
+				item: {
+					id: "minecraft:crimson_stem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["04977337AE23FE25"]
+			id: "5E42235568CE4E29"
+			x: -7.5d
+			y: -23.0d
+		}
+		{
+			tasks: [{
+				id: "7D0AB62D39B1D73D"
+				item: {
+					id: "minecraft:emerald_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["23677509FEAA2B5E"]
+			id: "7429E5C2FF14DD96"
+			x: 18.0d
+			y: -14.0d
+		}
+		{
+			tasks: [{
+				id: "0819CB205FA8C9F3"
+				item: {
+					id: "minecraft:cactus"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["3E957F6EF6A5B626"]
+			id: "44ABD196B98F7FF6"
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			tasks: [{
+				id: "1F3C55BD767FAA24"
+				item: {
+					id: "minecraft:experience_bottle"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["44ABD196B98F7FF6"]
+			id: "087A78C2CE2A0A82"
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			tasks: [{
+				id: "4321E23B3A6C357F"
+				item: {
+					id: "minecraft:ancient_debris"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "3B61E4F7F3C3DD97"
+			x: -11.0d
+			y: -19.5d
+		}
+		{
+			tasks: [{
+				id: "5605732C1DAFC6F6"
+				item: {
+					id: "minecraft:wither_skeleton_skull"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "05C961D8BE94E416"
+			x: -11.0d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "177395C291AC6E80"
+				item: {
+					id: "minecraft:soul_sand"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "54C3E67CFC970F09"
+			x: -10.0d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "3F3DB461549CBA24"
+				item: {
+					id: "minecraft:nether_wart"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["54C3E67CFC970F09"]
+			id: "7CA2FF6846B0E9EF"
+			x: -10.5d
+			y: -23.0d
+		}
+		{
+			tasks: [{
+				id: "5DBA201CAB1EEDCF"
+				item: {
+					id: "minecraft:nether_star"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"05C961D8BE94E416"
+				"54C3E67CFC970F09"
+			]
+			id: "3D3B40EB5AAE876A"
+			x: -11.5d
+			y: -23.0d
+		}
+		{
+			tasks: [{
+				id: "01174644FEBB8A74"
+				item: {
+					id: "minecraft:melon_slice"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["22ECC1A431609C14"]
+			id: "1DFECD0093D66C68"
+			x: -2.5d
+			y: -19.0d
+		}
+		{
+			tasks: [{
+				id: "1C43208A7E10FDE6"
+				item: {
+					id: "minecraft:gold_nugget"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "329F061023A415C7"
+			x: -0.5d
+			y: -19.5d
+		}
+		{
+			tasks: [{
+				id: "061DD4AD660E32E3"
+				item: {
+					id: "minecraft:glistering_melon_slice"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"329F061023A415C7"
+				"1DFECD0093D66C68"
+			]
+			id: "787E7933180F8E3B"
+			x: -1.5d
+			y: -20.5d
+		}
+		{
+			tasks: [{
+				id: "376C8BA63975923D"
+				item: {
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			dependencies: ["787E7933180F8E3B"]
+			id: "425152AD053C59AD"
+			x: -1.5d
+			y: -22.5d
+		}
+		{
+			tasks: [{
+				id: "0A45E30A76BFA132"
+				item: {
+					id: "minecraft:bone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["4A807A3ABE0EE3D6"]
+			id: "2BBE05125CE0AB57"
+			x: -20.5d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				id: "35ED4FE6E289851D"
+				item: {
+					id: "minecraft:wolf_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["2BBE05125CE0AB57"]
+			id: "3EBD09B40D50DC52"
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			tasks: [{
+				id: "2FA27297DB348364"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_stats: {
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:durability": 39.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 4.5f
+							"tconstruct:harvest_level": 1.0f
+						}
+						tic_multipliers: { }
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:bone"
+							"tconstruct:bone"
+							"tconstruct:bone"
+						]
+						tic_modifiers: [{
+							name: "tconstruct:piercing"
+							level: 4s
+						}]
+						tic_broken: 0b
+						tic_volatile_data: {
+							"tconstruct:piercing_debuff": 1.35f
+						}
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pickaxe"
+				}
+				type: "item"
+			}]
+			dependencies: ["2BBE05125CE0AB57"]
+			id: "2C8F54B2BEB82049"
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			tasks: [{
+				id: "2ECFEA4B39AFD3A1"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_stats: {
+							"tconstruct:attack_damage": 0.3f
+							"tconstruct:durability": 78.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 9.0f
+							"tconstruct:harvest_level": 2.0f
+						}
+						tic_multipliers: { }
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:flint"
+							"tconstruct:flint"
+							"tconstruct:flint"
+						]
+						tic_modifiers: [
+							{
+								name: "tconstruct:jagged"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_broken: 0b
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pickaxe"
+				}
+				type: "item"
+			}]
+			dependencies: ["16686EECF3D6ABD1"]
+			id: "093F10CF58E855CA"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			tasks: [{
+				id: "34DE6D8C23F872A8"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_stats: {
+							"tconstruct:attack_damage": 0.75f
+							"tconstruct:durability": 282.75f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 22.5f
+							"tconstruct:harvest_level": 7.0f
+						}
+						tic_multipliers: { }
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:sturdy"
+								level: 3s
+							}
+						]
+						tic_broken: 0b
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pickaxe"
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "1AF3B2245071BF30"
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			tasks: [{
+				id: "3CC61ABED1956250"
+				item: {
+					id: "minecraft:pumpkin"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["22ECC1A431609C14"]
+			id: "2A20BBCE946BECFF"
+			x: 1.5d
+			y: -14.0d
+		}
+		{
+			tasks: [
+				{
+					id: "39F8B39AA053A7AD"
+					item: {
+						id: "minecraft:carved_pumpkin"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "35C1F94A7D6DD55A"
+					item: {
+						id: "minecraft:snow_block"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+			]
+			dependencies: ["2A20BBCE946BECFF"]
+			id: "1D3D2E333C077080"
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			tasks: [
+				{
+					id: "30C1B0224B415202"
+					item: {
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:vanishing_curse"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "661E61F51C3FDB4F"
+					item: {
+						id: "minecraft:carved_pumpkin"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			dependencies: ["2A20BBCE946BECFF"]
+			id: "196E569D111B6B9B"
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			tasks: [{
+				type: "biome"
+				biome: "minecraft:savannah"
+				id: "225113F325065880"
+				title: "Visit Savannah"
+			}]
+			id: "34043EBF2D9DC424"
+			icon: {
+				id: "minecraft:acacia_sapling"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			tasks: [{
+				id: "661B9542AFE0CEB7"
+				item: {
+					id: "minecraft:beacon"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["3D3B40EB5AAE876A"]
+			id: "6745CA3B8B4AF5C6"
+			x: -12.0d
+			y: -24.0d
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 4L
+					id: "237A5E91C9D76D02"
+					item: {
+						id: "minecraft:netherite_scrap"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+				{
+					type: "item"
+					count: 4L
+					id: "5D6D73C08D008C6C"
+					item: {
+						id: "minecraft:gold_ingot"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+			]
+			dependencies: ["3B61E4F7F3C3DD97"]
+			id: "3306E1F445378C59"
+			x: -12.0d
+			y: -20.5d
+		}
+		{
+			tasks: [{
+				id: "4E9F359CDF96836F"
+				item: {
+					id: "minecraft:netherite_ingot"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["3306E1F445378C59"]
+			id: "41F54B67DD5D549D"
+			x: -13.0d
+			y: -21.5d
+		}
+		{
+			tasks: [{
+				id: "720FADFD0BC9BEDD"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:netherite_helmet"
+				}
+				type: "item"
+			}]
+			dependencies: ["41F54B67DD5D549D"]
+			id: "7A88B237FB37F4D1"
+			x: -14.0d
+			y: -22.5d
+		}
+		{
+			tasks: [{
+				id: "2A671A0C665CB5DA"
+				item: {
+					id: "minecraft:cobblestone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["58256FE98538C5CA"]
+			id: "7EEB1523D4E083E3"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			tasks: [{
+				id: "7AF85EF6F9E7A0A3"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+						tic_stats: {
+							"tconstruct:attack_damage": 0.19999999f
+							"tconstruct:durability": 52.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 6.0f
+							"tconstruct:harvest_level": 2.0f
+						}
+						tic_multipliers: { }
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:stone"
+							"tconstruct:stone"
+							"tconstruct:stone"
+						]
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:stonebound"
+								level: 3s
+							}
+						]
+						tic_broken: 0b
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pickaxe"
+				}
+				type: "item"
+			}]
+			dependencies: ["7EEB1523D4E083E3"]
+			id: "0D6DBE5FF7362430"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			tasks: [{
+				id: "7B0A492C5DAB495A"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "woodarmor:stone_helmet"
+				}
+				type: "item"
+			}]
+			dependencies: ["7EEB1523D4E083E3"]
+			id: "4AE2AD6B85612AB2"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			tasks: [{
+				id: "6D5AEA5AD5B2E05D"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "woodarmor:wooden_helmet"
+				}
+				type: "item"
+			}]
+			dependencies: ["7E206A39E2DB5BB8"]
+			id: "167611F061DDC71B"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			tasks: [{
+				id: "34E65B2D9C409606"
+				item: {
+					id: "minecraft:ice"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5A3C599DE06F5168"]
+			id: "729C2C5FB1E90AF9"
+			x: 10.5d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "57B86C43A41FADF9"
+				item: {
+					id: "minecraft:blue_ice"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5A3C599DE06F5168"]
+			id: "0E1F0FF033CBB4A0"
+			x: 7.5d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "5836BC9410F31DCA"
+				item: {
+					id: "minecraft:packed_ice"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5A3C599DE06F5168"]
+			id: "6EF891F188C96FAC"
+			x: 9.0d
+			y: -16.5d
+		}
+		{
+			tasks: [{
+				id: "35318D7288923779"
+				biome: "minecraft:frozen_ocean"
+				type: "biome"
+			}]
+			id: "5A3C599DE06F5168"
+			x: 9.0d
+			y: -15.0d
+		}
+		{
+			tasks: [{
+				type: "biome"
+				biome: "minecraft:jungle"
+				id: "7F2BB2AF86330D5E"
+				title: "Visit Jungle"
+			}]
+			id: "0901A57905A0CCCC"
+			icon: {
+				id: "minecraft:jungle_sapling"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			tasks: [{
+				id: "42F4178E8420572E"
+				biome: "minecraft:swamp"
+				type: "biome"
+			}]
+			id: "740101862C0F8909"
+			x: 1.0d
+			y: -17.0d
+			title: "Visit Swamp"
+		}
+		{
+			tasks: [{
+				id: "0F6FD5351BE78062"
+				biome: "minecraft:extreme_hills"
+				type: "biome"
+			}]
+			id: "6D4AB715EDAD8694"
+			icon: {
+				id: "minecraft:spruce_sapling"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: -3.5d
+			y: -17.0d
+			title: "Visit Extreme Hills"
+		}
+		{
+			tasks: [{
+				id: "3DB694DBE63EABDB"
+				biome: "minecraft:forest"
+				type: "biome"
+			}]
+			id: "0C34BD69E66430BD"
+			x: -0.5d
+			y: -17.5d
+			title: "Visit Forest"
+		}
+		{
+			tasks: [{
+				type: "biome"
+				biome: "minecraft:desert"
+				id: "3A9040B76E6393B0"
+				title: "Visit Desert"
+			}]
+			id: "6AB611C5FCFD7D7B"
+			icon: {
+				id: "minecraft:dead_bush"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: -4.5d
+			y: -16.0d
+		}
+		{
+			tasks: [{
+				id: "4FA5C077F01F35C3"
+				item: {
+					id: "minecraft:ender_chest"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"074E58E9C05CB956"
+				"1355761C5C007693"
+			]
+			id: "65BCB5135FBA3718"
+			x: -9.5d
+			y: -25.0d
+		}
+		{
+			tasks: [{
+				id: "55A39E8C13B51138"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:shield"
+				}
+				type: "item"
+			}]
+			dependencies: ["083E64067EB75A10"]
+			id: "468DB236EAC90BBB"
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			tasks: [{
+				id: "5738B3156B708743"
+				item: {
+					id: "minecraft:end_portal_frame"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["1355761C5C007693"]
+			id: "1E962BCC7D76ADFE"
+			x: -7.5d
+			y: -26.0d
+		}
+		{
+			tasks: [{
+				id: "5414F6EC42B92E04"
+				item: {
+					id: "minecraft:ender_eye"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "1355761C5C007693"
+			x: -11.0d
+			y: -25.5d
+		}
+		{
+			tasks: [{
+				id: "7673505241AA6716"
+				item: {
+					id: "minecraft:shulker_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["1E962BCC7D76ADFE"]
+			id: "037014258942DC54"
+			x: -7.5d
+			y: -28.0d
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 8L
+					id: "2E0B121B9C1FB689"
+					item: {
+						id: "minecraft:shulker_shell"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+				}
+				{
+					id: "6730A17139AFACC8"
+					item: {
+						id: "minecraft:chest"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			dependencies: ["037014258942DC54"]
+			id: "21864F73FB53BF0E"
+			x: -7.5d
+			y: -30.5d
+		}
+		{
+			tasks: [{
+				id: "0136D3C8573EA828"
+				item: {
+					id: "minecraft:chorus_flower"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["1E962BCC7D76ADFE"]
+			id: "73E3FAD27061E6A5"
+			x: -5.5d
+			y: -27.5d
+		}
+		{
+			tasks: [{
+				id: "2E4655206E3DF282"
+				item: {
+					id: "minecraft:chorus_fruit"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["73E3FAD27061E6A5"]
+			id: "604524E1E15385EB"
+			x: -3.5d
+			y: -27.5d
+		}
+		{
+			tasks: [{
+				id: "37DF52A817A26092"
+				item: {
+					id: "minecraft:enderman_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["1E962BCC7D76ADFE"]
+			id: "3CB7005D7984C944"
+			x: -5.5d
+			y: -26.0d
+		}
+		{
+			tasks: [{
+				id: "7C109821314A7878"
+				item: {
+					id: "minecraft:ender_pearl"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["3CB7005D7984C944"]
+			id: "44C9888D64687F44"
+			x: -3.5d
+			y: -26.0d
+		}
+		{
+			tasks: [{
+				id: "5853A5C816AFD051"
+				item: {
+					id: "minecraft:end_stone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["1E962BCC7D76ADFE"]
+			id: "1393A09882DF4B35"
+			x: -6.5d
+			y: -24.5d
+		}
+		{
+			tasks: [{
+				id: "5651519FC90F5114"
+				item: {
+					id: "minecraft:magma_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "27E6875CAEE137B6"
+			x: -8.0d
+			y: -20.0d
+		}
+		{
+			tasks: [{
+				id: "605FF9DDB292701E"
+				item: {
+					id: "cavesandcliffs:pointed_dripstone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["1163CD90E4472BC7"]
+			id: "74BFEDF7AD5537BF"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "51699A43958588EA"
+				item: {
+					id: "cavesandcliffs:dripstone_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"41A61695003F3AE2"
+				"089AC5D5E13B9112"
+			]
+			id: "1163CD90E4472BC7"
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "1D7878F5CB87A574"
+				item: {
+					id: "minecraft:lava_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "41A61695003F3AE2"
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "2E2F175E7DE50CC4"
+				item: {
+					id: "minecraft:lava_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5DA304E704F7B251"]
+			id: "11EB4C413A4C50BA"
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			tasks: [{
+				id: "59ED65FF2C96FD46"
+				item: {
+					id: "minecraft:cauldron"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["74BFEDF7AD5537BF"]
+			id: "5DA304E704F7B251"
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			tasks: [
+				{
+					id: "1E61182A2C84E3F4"
+					item: {
+						id: "cavesandcliffs:moss_block"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "63555417FA1AA529"
+					item: {
+						id: "minecraft:stone"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			dependencies: ["2BBE05125CE0AB57"]
+			id: "72ADB7A3C62798A9"
+			x: -21.0d
+			y: -4.5d
+		}
+		{
+			tasks: [
+				{
+					id: "319976AB309BE827"
+					item: {
+						id: "cavesandcliffs:azalea"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "09D09EC19F7498BE"
+					item: {
+						id: "cavesandcliffs:flowering_azalea"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "5C401EFE90039DD8"
+					item: {
+						id: "cavesandcliffs:moss_carpet"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "3FF39DF1F7FBD038"
+					item: {
+						id: "cavesandcliffs:moss_block"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+				{
+					id: "46DCEAFBD8DEEA33"
+					item: {
+						id: "minecraft:dirt"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						Count: 1b
+					}
+					type: "item"
+				}
+			]
+			dependencies: ["72ADB7A3C62798A9"]
+			id: "0B1F5E4EEC9ABB24"
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			tasks: [{
+				id: "1A148252BF0FB85B"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:elytra"
+				}
+				type: "item"
+			}]
+			dependencies: ["1E962BCC7D76ADFE"]
+			id: "02D29D0B10F04DC2"
+			x: -9.0d
+			y: -27.5d
+		}
+		{
+			tasks: [{
+				id: "4D720F9E0E7C0BC9"
+				item: {
+					id: "minecraft:glowstone"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "46B524BB4941C52F"
+			x: -7.5d
+			y: -18.0d
+		}
+		{
+			tasks: [{
+				id: "208BB32E8D7567CE"
+				item: {
+					id: "minecraft:hopper_minecart"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"73ADD8B0DC9E1504"
+				"55F054216E8D2767"
+			]
+			id: "332EA409AA777D8C"
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			tasks: [{
+				id: "2CDE9889C69EE43F"
+				item: {
+					id: "minecraft:cow_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "00006B0C118083AC"
+			x: 1.0d
+			y: -19.0d
+		}
+		{
+			tasks: [{
+				id: "1ABC415BD3447FCE"
+				item: {
+					id: "minecraft:rabbit_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "050F55C548906FAA"
+			x: 3.5d
+			y: -19.0d
+		}
+		{
+			tasks: [{
+				id: "4A6C52BEC7694D89"
+				item: {
+					id: "minecraft:leather"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["00006B0C118083AC"]
+			id: "461EB52527956BF9"
+			x: 2.5d
+			y: -17.5d
+		}
+		{
+			tasks: [{
+				id: "7090F9567602063A"
+				item: {
+					id: "minecraft:rabbit_hide"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["050F55C548906FAA"]
+			id: "070146D475CD53ED"
+			x: 4.5d
+			y: -17.0d
+		}
+		{
+			tasks: [{
+				id: "267AE22DFB94D2C8"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:leather_helmet"
+				}
+				type: "item"
+			}]
+			dependencies: ["461EB52527956BF9"]
+			id: "64E469CC21B2B45C"
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			tasks: [{
+				id: "3EADC13F8995537D"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "survivaloverhaul:desert_helmet"
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"070146D475CD53ED"
+				"461EB52527956BF9"
+			]
+			id: "267A104DBCD7AAA0"
+			x: 5.0d
+			y: -15.5d
+		}
+		{
+			tasks: [{
+				id: "16197CB024CBC877"
+				item: {
+					id: "minecraft:jungle_log"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["0901A57905A0CCCC"]
+			id: "651357564DCAE2B4"
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			tasks: [{
+				id: "38A5D71B2CF5041C"
+				item: {
+					id: "minecraft:cocoa_beans"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["651357564DCAE2B4"]
+			id: "60EE710D75284553"
+			x: 4.0d
+			y: -14.5d
+		}
+		{
+			tasks: [{
+				id: "74F745DD56CD234B"
+				item: {
+					id: "allay:allay_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"160FD44F0D1C5D0D"
+				"0FFAF561702728FC"
+			]
+			id: "08504930F08F967E"
+			x: -19.5d
+			y: -6.5d
+		}
+		{
+			tasks: [{
+				type: "biome"
+				biome: "minecraft:flower_forest"
+				id: "3E59818C40C470FB"
+				icon: {
+					id: "minecraft:sunflower"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+			}]
+			id: "160FD44F0D1C5D0D"
+			x: -21.5d
+			y: -9.0d
+		}
+		{
+			tasks: [{
+				id: "634154193A2DA7CE"
+				item: {
+					id: "whatareyouvotingfor:glare_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["2701C87AFC4D32CF"]
+			id: "07F60F876926A515"
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "6459A74C61915252"
+				item: {
+					id: "outvoted:hunger_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["67C2076423C06A23"]
+			id: "51692DD6147DED78"
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "7CDF76C9F61A4437"
+				item: {
+					id: "whatareyouvotingfor:copper_golem_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"45D320502BEC3027"
+				"22BEAFA8ADC0610D"
+			]
+			id: "356BA818922FD95F"
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "5DA898429EAB7CDB"
+				item: {
+					id: "minecraft:torch"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "Detects low light levels"
+			}]
+			id: "2701C87AFC4D32CF"
+			x: -20.0d
+			y: -1.5d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "2F12B6B445B168CA"
+				item: {
+					id: "minecraft:grass_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "Waits underground for prey to walk over."
+			}]
+			id: "67C2076423C06A23"
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			tasks: [{
+				id: "687A9FC6A5635231"
+				item: {
+					id: "whatareyouvotingfor:copper_button"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "22BEAFA8ADC0610D"
+			x: -16.0d
+			y: -1.5d
+			title: "Copper Golem randomly presses copper buttons."
+		}
+		{
+			tasks: [{
+				id: "07E7A4FE2B74705A"
+				item: {
+					id: "minecraft:water_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "2D403AF48A3B096C"
+			x: -18.0d
+			y: -1.5d
+			title: "ITS THE KRAKEN"
+		}
+		{
+			tasks: [{
+				id: "36C3A90DDCDE71FA"
+				item: {
+					id: "outvoted:kraken_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["2D403AF48A3B096C"]
+			id: "37B48472468FF0D2"
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "0BD183B520BADED1"
+				item: {
+					id: "minecraft:fire_charge"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "495FA20A79652C24"
+			x: -17.0d
+			y: -1.5d
+			title: "The Wildfire is a super Blaze that shoots many fireballs at once!"
+		}
+		{
+			tasks: [{
+				id: "32BBEFED88DA2B86"
+				item: {
+					id: "outvoted:wildfire_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["495FA20A79652C24"]
+			id: "2ABE0AFB3A999C81"
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "41A616F35E69C396"
+				item: {
+					id: "pamhc2foodcore:potitem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "47A8ABB1A84BBA3F"
+			x: 6.0d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "0BAF720CD8FD7482"
+				item: {
+					id: "pamhc2foodcore:saucepanitem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "4E940579D3FE0DAB"
+			x: 9.0d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "66F81FC9C75101F8"
+				item: {
+					id: "pamhc2foodcore:bakewareitem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "5EC11CB482FEACA6"
+			x: 6.0d
+			y: -22.5d
+		}
+		{
+			tasks: [{
+				id: "760F450F12B16339"
+				item: {
+					id: "pamhc2foodcore:cuttingboarditem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "0E91558237283ECB"
+			x: 7.5d
+			y: -22.5d
+		}
+		{
+			tasks: [{
+				id: "77095CE74899E047"
+				item: {
+					id: "pamhc2foodcore:juiceritem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "5B9ADF95DDDE1ED0"
+			x: 9.0d
+			y: -22.5d
+		}
+		{
+			tasks: [{
+				id: "7F3532236D650465"
+				item: {
+					id: "pamhc2foodcore:grinderitem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "5B8A13E44F62EC06"
+			x: 10.5d
+			y: -22.5d
+		}
+		{
+			tasks: [{
+				id: "3672C422183A335A"
+				item: {
+					id: "pamhc2foodcore:mixingbowlitem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "5549FB9D69B2CA43"
+			x: 6.0d
+			y: -19.5d
+		}
+		{
+			tasks: [{
+				id: "0F8462836B7C143A"
+				item: {
+					id: "pamhc2foodcore:rolleritem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "3648E238CA75A18C"
+			x: 7.5d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "124ED77B11996147"
+				item: {
+					id: "pamhc2foodcore:skilletitem"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "4886A58311550A77"
+			x: 10.5d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "5F45F3CCF6CB7FAD"
+				item: {
+					id: "minecraft:blaze_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "6A7AE4129C5F3E6F"
+			x: -12.5d
+			y: -23.0d
+		}
+		{
+			tasks: [{
+				id: "29634BBFE281EEB4"
+				item: {
+					id: "minecraft:blaze_rod"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["6A7AE4129C5F3E6F"]
+			id: "5D14FAEC1EF5770E"
+			x: -14.0d
+			y: -24.0d
+		}
+		{
+			tasks: [{
+				id: "2AAE0FABE959231C"
+				item: {
+					id: "minecraft:blaze_powder"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5D14FAEC1EF5770E"]
+			id: "75040EB9CD299C6E"
+			x: -16.5d
+			y: -25.0d
+		}
+		{
+			tasks: [{
+				id: "383F931687C187B7"
+				item: {
+					id: "minecraft:brewing_stand"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"5D14FAEC1EF5770E"
+				"75040EB9CD299C6E"
+			]
+			id: "6347A7A457432AAF"
+			x: -15.5d
+			y: -22.5d
+		}
+		{
+			tasks: [{
+				id: "2B2C5D4BD8261CAE"
+				item: {
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			dependencies: ["75040EB9CD299C6E"]
+			id: "4016B014D9B5EF78"
+			x: -18.5d
+			y: -25.0d
+		}
+		{
+			tasks: [{
+				id: "0884C7B218950F8C"
+				item: {
+					id: "minecraft:experience_bottle"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["6A7AE4129C5F3E6F"]
+			id: "77C3D6684DA0DDE3"
+			x: -13.0d
+			y: -25.5d
+		}
+		{
+			tasks: [{
+				id: "0DD96C2C0508B52A"
+				item: {
+					id: "minecraft:wither_rose"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["09D677605138B673"]
+			id: "629D61030244A8CB"
+			x: -9.5d
+			y: -22.0d
+		}
+		{
+			tasks: [{
+				id: "540FCDA283413787"
+				item: {
+					id: "minecraft:chicken_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["05C961D8BE94E416"]
+			id: "09D677605138B673"
+			x: -10.5d
+			y: -22.0d
+		}
+		{
+			tasks: [{
+				id: "4402C5D4C6ECC8DD"
+				item: {
+					id: "iceandfire:spawn_egg_fire_dragon"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "177630EF856FBE5E"
+			x: -2.0d
+			y: -26.0d
+		}
+		{
+			tasks: [{
+				id: "4734D49B84115274"
+				item: {
+					id: "iceandfire:spawn_egg_ice_dragon"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "35B022D0A961073E"
+			x: 1.0d
+			y: -26.0d
+		}
+		{
+			tasks: [{
+				id: "0D96C9220458E538"
+				item: {
+					id: "iceandfire:spawn_egg_lightning_dragon"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "7FB0C18A69168F9C"
+			x: -0.5d
+			y: -26.0d
+		}
+		{
+			tasks: [{
+				id: "46B37250406D9A95"
+				item: {
+					id: "minecraft:dragon_head"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["1E962BCC7D76ADFE"]
+			id: "5D5A9104453D4089"
+			x: -6.5d
+			y: -28.0d
+		}
+		{
+			tasks: [{
+				id: "04ED8FEF4AD765A2"
+				item: {
+					id: "minecraft:experience_bottle"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5D5A9104453D4089"]
+			id: "72C100696FC10417"
+			x: -6.0d
+			y: -29.5d
+		}
+		{
+			tasks: [{
+				id: "25D03727087A7130"
+				item: {
+					id: "iceandfire:dragonscales_red"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["177630EF856FBE5E"]
+			id: "1334267E8A0C1029"
+			x: -2.0d
+			y: -27.5d
+		}
+		{
+			tasks: [{
+				id: "3D09DB985340005D"
+				item: {
+					id: "iceandfire:dragonscales_amythest"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["7FB0C18A69168F9C"]
+			id: "2C4307A0CC2F1ABD"
+			x: -0.5d
+			y: -27.5d
+		}
+		{
+			tasks: [{
+				id: "08239A8D935E0BFE"
+				item: {
+					id: "iceandfire:dragonscales_blue"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["35B022D0A961073E"]
+			id: "1BD5407F24FAF903"
+			x: 1.0d
+			y: -27.5d
+		}
+		{
+			tasks: [{
+				id: "492C6181CF40E9B2"
+				item: {
+					id: "minecraft:note_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "0FFAF561702728FC"
+			x: -20.0d
+			y: -8.5d
+		}
+		{
+			tasks: [{
+				id: "262D9E733AFCE3CA"
+				item: {
+					id: "tconstruct:nether_grout"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: [
+				"54C3E67CFC970F09"
+				"71D418CC59124DFA"
+				"5F4F0C16952E3643"
+			]
+			id: "28CB9477CDCA9190"
+			x: -13.0d
+			y: -19.5d
+		}
+		{
+			tasks: [{
+				id: "3FBBADD23569F8DD"
+				item: {
+					id: "minecraft:magma_cube_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["074E58E9C05CB956"]
+			id: "264C1831140C8E54"
+			x: -12.0d
+			y: -18.5d
+		}
+		{
+			tasks: [{
+				id: "68069E0EADDAE81F"
+				item: {
+					id: "minecraft:magma_cream"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "71D418CC59124DFA"
+			x: -13.0d
+			y: -20.5d
+		}
+		{
+			tasks: [{
+				type: "item"
+				id: "32BCB8CA9098AFE1"
+				item: {
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gravel"
+					}
+					Count: 1b
+				}
+				title: "Any #forge:gravel"
+			}]
+			id: "5F4F0C16952E3643"
+			x: -14.0d
+			y: -21.0d
+		}
+		{
+			tasks: [{
+				id: "7AB1189B55D4A667"
+				item: {
+					id: "tconstruct:scorched_brick"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["28CB9477CDCA9190"]
+			id: "02C7D03CCFCA5F62"
+			x: -15.0d
+			y: -19.5d
+		}
+		{
+			tasks: [{
+				id: "6414C5C64918375A"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_helmet"
+				}
+				type: "item"
+			}]
+			id: "7DE5465B701D90A2"
+			x: 18.0d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				id: "7783DD3C815FA36B"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_chestplate"
+				}
+				type: "item"
+			}]
+			id: "6B411E9DAE7CBA6C"
+			x: 21.0d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				id: "328421CA0D766DC2"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_leggings"
+				}
+				type: "item"
+			}]
+			id: "293775074415B592"
+			x: 24.0d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				id: "1EC0243D86C57268"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_boots"
+				}
+				type: "item"
+			}]
+			id: "69822B382F822202"
+			x: 27.5d
+			y: -12.0d
+		}
+		{
+			tasks: [{
+				id: "6C15C97FB832DC0D"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_axe"
+				}
+				type: "item"
+			}]
+			id: "5B26A74CCD9AF89A"
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			tasks: [{
+				id: "1BF2D323590AC7C3"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_sword"
+				}
+				type: "item"
+			}]
+			id: "5413D19465F4FE04"
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			tasks: [{
+				id: "3290D9C0FF999C58"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_hoe"
+				}
+				type: "item"
+			}]
+			id: "4C4B1AD3DCF2671E"
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			tasks: [{
+				id: "2301C80BE0425A50"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_axe"
+				}
+				type: "item"
+			}]
+			id: "590B4FED8C37C69A"
+			x: 21.0d
+			y: 10.0d
+		}
+		{
+			tasks: [{
+				id: "42A0FABD16DF1D89"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_shovel"
+				}
+				type: "item"
+			}]
+			id: "59DC9E6A21775F50"
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			tasks: [{
+				id: "103FD134BC6A44CD"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_pickaxe"
+				}
+				type: "item"
+			}]
+			id: "23720E9174E764E9"
+			x: 27.0d
+			y: 10.0d
+		}
+		{
+			tasks: [{
+				id: "58D3C258DADE735A"
+				item: {
+					id: "tconstruct:molten_diamond_bucket"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["53BA9A4B1F31133F"]
+			id: "5796C0573800B3B9"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			tasks: [{
+				id: "48C7EB8B84FBE89C"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_chestplate"
+				}
+				type: "item"
+			}]
+			dependencies: ["267E191EA432D359"]
+			id: "53BA9A4B1F31133F"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			tasks: [{
+				id: "4BA6111F3794D15C"
+				item: {
+					id: "tconstruct:gem_cast"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["5796C0573800B3B9"]
+			id: "251BC0C4A42CA0C1"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			tasks: [{
+				id: "55AEE6BEFA0D992B"
+				item: {
+					id: "minecraft:diamond"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["251BC0C4A42CA0C1"]
+			id: "6DB83363B8B89318"
+			x: -9.0d
+			y: 0.0d
+		}
+	]
+}

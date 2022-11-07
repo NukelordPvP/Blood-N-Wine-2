@@ -1,0 +1,76 @@
+{
+	"oreConfig": [
+		{
+			"ore": "cavesandcliffs:deepslate",
+			"filler": "minecraft:stone",
+			"minY": 1,
+			"maxY": 22,
+			"maxVeinSize": 25,
+			"spawnRate": 60.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		},
+		{
+			"ore": "cavesandcliffs:deepslate",
+			"filler": "minecraft:stone",
+			"minY": 9,
+			"maxY": 24,
+			"maxVeinSize": 15,
+			"spawnRate": 65.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		},
+		{
+			"ore": "cavesandcliffs:deepslate",
+			"filler": "minecraft:stone",
+			"minY": 9,
+			"maxY": 26,
+			"maxVeinSize": 10,
+			"spawnRate": 80.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		},
+		{
+			"ore": "cavesandcliffs:deepslate",
+			"filler": "minecraft:stone",
+			"minY": 9,
+			"maxY": 28,
+			"maxVeinSize": 7,
+			"spawnRate": 95.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		},
+		{
+			"ore": "cavesandcliffs:deepslate",
+			"filler": "minecraft:stone",
+			"minY": 9,
+			"maxY": 30,
+			"maxVeinSize": 3,
+			"spawnRate": 110.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		},
+		{
+			"ore": "cavesandcliffs:deepslate",
+			"filler": "minecraft:stone",
+			"minY": 9,
+			"maxY": 30,
+			"maxVeinSize": 2,
+			"spawnRate": 125.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": []
+		},
+		{
+			"ore": "cavesandcliffs:deepslate",
+			"filler": "dead_guys_untitled_deep_dark_:deep_stone",
+			"minY": 1,
+			"maxY": 128,
+			"maxVeinSize": 30,
+			"spawnRate": 150.0,
+			"biomeBlacklist": [],
+			"biomeWhitelist": [
+				"dead_guys_untitled_deep_dark_:the_deep_dark"
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+	{
+      "ore": "quark:netherrack_bricks",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 5,
+      "maxVeinSize": 32,
+      "spawnRate": 20.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

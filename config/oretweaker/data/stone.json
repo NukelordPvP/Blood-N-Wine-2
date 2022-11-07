@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:stone",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 20,
+      "spawnRate": 100.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

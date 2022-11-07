@@ -1,0 +1,3 @@
+#A list of times where the sun should stop to increase the day/night cycle. Each entry has a time (in ticks) and a duration (in ticks) where the time is when (during the day) the daylight cycle should stop and the duration is how much time will the cycle stop.
+"Extension List" = ["6000,12000", "18000,12000"]
+

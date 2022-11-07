@@ -1,0 +1,54 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:gravel",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 32,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:gravel",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 16,
+      "spawnRate": 16.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+    {
+      "ore": "minecraft:gravel",
+      "filler": "minecraft:netherrack",
+      "minY": 5,
+      "maxY": 37,
+      "maxVeinSize": 32,
+      "spawnRate": 2.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:gravel",
+      "filler": "minecraft:netherrack",
+      "minY": 5,
+      "maxY": 37,
+      "maxVeinSize": 16,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:gravel",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 16,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+    {
+      "mob": "minecraft:evoker",
+      "remove": "minecraft:totem_of_undying",
+      "player": true,
+      "item": "minecraft:totem_of_undying",
+      "itemcount": "0-1"
+    },
+    {
+      "mob": "minecraft:husk",
+      "player": false,
+      "item": "minecraft:sand",
+      "itemcount": "0-3"
+    }
+  ]
+  

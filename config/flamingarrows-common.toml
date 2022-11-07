@@ -1,0 +1,10 @@
+
+#The general configuration for this mod
+[general]
+	#If this is set to true the flame enchantment will be disabled by setting its max level to 0.
+	#Default: true
+	removeFlame = true
+	#If this is set to true Flaming Arrows will spawn a few flame particles while flying.(a similiar amount to the particles spawned by Spectral Arrows)
+	#Default: true
+	addFlameParticles = true
+

@@ -1,0 +1,15 @@
+{
+  "oreConfig": [
+    {
+      "ore": "betterendforge:thallasium_ore",
+      "filler": "minecraft:end_stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 11,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		]
+    }
+  ]
+}

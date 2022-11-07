@@ -1,0 +1,4 @@
+"Enable Debug Output" = false
+"Disable Ores" = ["nourished_end:malachite_ore", "nourished_end:end_iron_ore", "nourished_end:voidsteel_ore", "betterendforge:thallasium_ore", "betterendforge:amber_ore", "betterendforge:ender_ore", "dead_guys_untitled_deep_dark_:deep_stone_diamonds", "dead_guys_untitled_deep_dark_:deep_stone_gold", "dead_guys_untitled_deep_dark_:deep_stone_lapis", "dead_guys_untitled_deep_dark_:deep_stone_emerald", "dead_guys_untitled_deep_dark_:deep_stone_iron", "dead_guys_untitled_deep_dark_:deep_stone_redstone", "dead_guys_untitled_deep_dark_:deep_stone", "dead_guys_untitled_deep_dark_:cold_deep_stone", "tinkersarchery:tantalum_ore"]
+"Custom Ore" = []
+

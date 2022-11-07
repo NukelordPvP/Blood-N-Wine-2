@@ -1,0 +1,71 @@
+
+#Common config file for The Legend of Herobrine Minecraft mod.
+[entity_config]
+	#Determines if the Herobrine warrior can break blocks.
+	WarriorBreaksBlocks = true
+	#If set to true Herobrine and infected mobs can exist even if Altar of Herobrine is not activated in a world.
+	HerobrineAlwaysSpawns = false
+	#Determines if the Herobrine Builder builds structures.
+	BuilderBuilds = true
+	#The spawn weight of the Herobrine warrior. Higher values makes it more common, while 0 disables it.
+	#Range: 0 ~ 1024
+	HerobrineWarriorWeight = 7
+	#The spawn weight of the Herobrine spy. Higher values makes it more common, while 0 disables it.
+	#Range: 0 ~ 1024
+	HerobrineSpyWeight = 12
+	#The spawn weight of the Herobrine builder. Higher values makes it more common, while 0 disables it.
+	#Range: 0 ~ 1024
+	HerobrineBuilderWeight = 7
+	#The spawn weight of the Herobrine mage. Higher values makes it more common, while 0 disables it.
+	#Range: 0 ~ 1024
+	HerobrineMageWeight = 12
+	#The spawn weight of the Herobrine stalker. Higher values makes it more common, while 0 disables it.
+	#Range: 0 ~ 1024
+	HerobrineStalkerWeight = 10
+	#The spawn weight of Infected mobs. Higher values makes them more common, while 0 disables them.
+	#Range: 0 ~ 1024
+	InfectedMobWeight = 12
+	#The distance in blocks the Herobrine spy observes the player from.
+	#Range: 0 ~ 64
+	HerobrineSpyObservationDistance = 60
+	#Controls if Herobrine can spawn in the end. 0 makes Herobrine unable to spawn in the end. 1 makes only non hostile Herobrine types spawn (Stalker and Spy), 2 makes the builder spawn, and 3 makes all Herobrine types spawn. Herobrine will never spawn on the center island no matter what this is set to.
+	#Range: 0 ~ 3
+	HerobrineEndSpawnType = 0
+
+[biome_config]
+	#The spawn weight of the Cursed Forest biome. Greater values make the biome more common. Setting the value to 0 disables the biome, while 1024 makes the entire world a Cursed Forest.
+	#Range: 0 ~ 1024
+	CursedForestWeight = 3
+
+[structure_config]
+	#The spawn weight of the Trapped House structure. Greater values make the structure more common. Setting the value to 0 disables the structure, while 1000000 covers the entire world in Suspicious Houses.
+	#Range: 0 ~ 1000000
+	TrappedHouseWeight = 150
+	#The spawn weight of the Shrine Remnant Structure. Greater values make the structure more common. Setting the value to 0 disables the structure, while 1000000 covers the entire world in Shrine Remnants.
+	#Range: 0 ~ 1000000
+	ShrineRemnantWeight = 1666
+	#The spawn weight of the Herobrine Statue Structure. Greater values make the structure more common. Setting the value to 0 disables the structure, while 1000000 covers the entire world in Herobrine Statues.
+	#Range: 0 ~ 1000000
+	HerobrineStatueWeight = 3333
+	#The spawn weight of the Survivor Base Structure. Greater values make the structure more common. Setting the value to 0 disables the structure, while 1000000 covers the entire world in Survivor Bases.
+	#Range: 0 ~ 1000000
+	SurvivorBaseWeight = 500
+	#The spawn weight of the Glowstone Pillar Structure. Greater values make the structure more common. Setting the value to 0 disables the structure, while 1000000 covers the entire world in Glowstone Pillars.
+	#Range: 0 ~ 1000000
+	GlowstonePillarWeight = 250
+	#The spawn weight of the Sand Pyramid Structure. Greater values make the structure more common. Setting the value to 0 disables the structure, while 1000000 covers the entire world in Sand Pyramids.
+	#Range: 0 ~ 1000000
+	SandPyramidWeight = 3000
+
+[item_config]
+	#Determines if the Bedrock Sword can be obtained in Survival as an extremely rare drop from the Herobrine Warrior.
+	BedrockSwordDrops = false
+
+[block_config]
+	#Determines if the Altar of Herobrine needs to be built on a shrine to be activated.
+	AltarRequiresShrine = true
+
+[misc]
+	#If set to true makes chat messages from summoning and removing Herobrine appear to all players instead of just the player that is responsible for it.
+	GlobalHerobrineMessages = true
+

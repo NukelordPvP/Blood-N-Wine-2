@@ -1,0 +1,34 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:dirt",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 32,
+      "spawnRate": 10.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:dirt",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 16,
+      "spawnRate": 20.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:dirt",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 16,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

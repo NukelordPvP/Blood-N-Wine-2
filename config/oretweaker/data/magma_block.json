@@ -1,0 +1,34 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:magma_block",
+      "filler": "minecraft:netherrack",
+      "minY": 26,
+      "maxY": 36,
+      "maxVeinSize": 20,
+      "spawnRate": 7.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:magma_block",
+      "filler": "minecraft:netherrack",
+      "minY": 26,
+      "maxY": 36,
+      "maxVeinSize": 10,
+      "spawnRate": 14.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:magma_block",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 15,
+      "maxVeinSize": 10,
+      "spawnRate": 7.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

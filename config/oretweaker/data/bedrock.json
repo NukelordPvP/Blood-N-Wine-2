@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+	{
+      "ore": "minecraft:bedrock",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 124,
+      "maxY": 128,
+      "maxVeinSize": 1,
+      "spawnRate": 0.5,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:bedrock",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 5,
+      "maxVeinSize": 2,
+      "spawnRate": 0.5,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

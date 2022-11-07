@@ -1,0 +1,504 @@
+{
+	group: ""
+	id: "021F5CB6BC1B1E9A"
+	filename: "stats"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Stats"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				type: "stat"
+				value: 999
+				id: "78DB9CDAA04BE07D"
+				title: "Deaths"
+				stat: "minecraft:deaths"
+			}]
+			id: "2CBB19B1769534C3"
+			icon: {
+				id: "minecraft:skeleton_skull"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: -5.5d
+			y: -3.5d
+			rewards: [{
+				id: "3A4340D583F92659"
+				item: {
+					id: "minecraft:dead_bush"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999
+				id: "47810D0DE239A913"
+				stat: "minecraft:mob_kills"
+			}]
+			id: "6AD276AE73E8BE27"
+			icon: {
+				id: "minecraft:zombie_head"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "72205A76DB9E4240"
+				stat: "minecraft:boat_one_cm"
+			}]
+			id: "3BF605AB2A510CC7"
+			icon: {
+				id: "minecraft:oak_boat"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "0587E45CF4050B4C"
+				stat: "minecraft:sprint_one_cm"
+			}]
+			id: "46B076211635ED2E"
+			icon: {
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:chainmail_boots"
+			}
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "46EE011DCCD69026"
+				stat: "minecraft:walk_one_cm"
+			}]
+			id: "31BD088D0B51B626"
+			icon: {
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:leather_boots"
+			}
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "6878A28F8552BBB7"
+				stat: "minecraft:aviate_one_cm"
+			}]
+			id: "15DAA2E3C1F13C2E"
+			icon: {
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:elytra"
+			}
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "7506CBBDF69C8B4F"
+				stat: "minecraft:time_since_death"
+			}]
+			id: "0ED8C7D42A503169"
+			icon: {
+				id: "minecraft:clock"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "3D5E01262387F62F"
+				stat: "minecraft:crouch_one_cm"
+			}]
+			id: "3719C1AFD8B8EF28"
+			icon: {
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:iron_boots"
+			}
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "111231D78FDD9E1E"
+				stat: "minecraft:play_one_minute"
+			}]
+			id: "39A42D4B171008CB"
+			icon: {
+				id: "minecraft:ender_eye"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				Count: 1b
+			}
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "0846F0C7C36C5443"
+				stat: "minecraft:damage_dealt"
+			}]
+			id: "1C97503DCCB4676C"
+			icon: {
+				Count: 1b
+				tag: {
+					Damage: 0
+					tic_stats: {
+						"tconstruct:attack_damage": 3.05f
+						"tconstruct:durability": 14.3f
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:mining_speed": 0.75f
+						"tconstruct:harvest_level": 1.0f
+					}
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.5f
+						"tconstruct:durability": 1.1f
+					}
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:wood"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 3s
+						}
+						{
+							name: "tconstruct:silky_shears"
+							level: 1s
+						}
+					]
+					tic_broken: 0b
+					tic_persistent_data: {
+						upgrades: 3
+						abilities: 1
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tconstruct:sword"
+			}
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				id: "4CE2C9F777B80D62"
+				dimension: "minecraft:overworld"
+				type: "dimension"
+			}]
+			id: "4E4825006EC4D57E"
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			tasks: [{
+				id: "336BDFC528D34261"
+				dimension: "minecraft:the_nether"
+				type: "dimension"
+			}]
+			id: "11D33EE2B4FF7503"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			tasks: [{
+				id: "02763C455D42C554"
+				dimension: "minecraft:the_end"
+				type: "dimension"
+			}]
+			id: "5BB821C6D8A1AA26"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			tasks: [{
+				id: "10B5BD69F47B5256"
+				dimension: "dead_guys_untitled_deep_dark_:deep_darky"
+				type: "dimension"
+			}]
+			id: "7F22EB441760BC61"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			tasks: [{
+				type: "xp"
+				value: 99999999L
+				id: "172CA5FB8AC5A4E5"
+				points: false
+			}]
+			id: "3D0AB1B68BFB4D5C"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "3AC3A51510BCBE49"
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "Dragon Slayer"
+			}]
+			id: "18A022A9D187442C"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 100L
+				id: "471558995EBAA5A0"
+				entity: "cavesandcliffs:glow_squid"
+				icon: {
+					id: "cavesandcliffs:glow_ink_sac"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "What a useless mob"
+			}]
+			id: "7FB313A0DFE9DBD7"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 6L
+				id: "7A99B88D39C665A4"
+				entity: "minecraft:wither"
+				icon: {
+					id: "minecraft:wither_rose"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "Wither Slayer"
+			}]
+			id: "0AC936C0D881AC97"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			tasks: [{
+				entity: "iceandfire:troll"
+				value: 1L
+				id: "714101A26C52B5A9"
+				type: "kill"
+				title: "Troloolol"
+			}]
+			id: "1B4000C992587774"
+			x: -0.5d
+			y: -6.0d
+			title: "Get Trolled"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 69L
+				id: "29A58549638297C0"
+				entity: "alexsmobs:crimson_mosquito"
+				icon: {
+					id: "alexsmobs:mosquito_larva"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "I Hate Mosquitos"
+			}]
+			id: "45DFE8DDC7C3E812"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5487A6D127441368"
+				entity: "minecraft:shulker"
+				icon: {
+					id: "nourished_end:chiseled_shulker_shell_block"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "Shulker Lives Matter!"
+			}]
+			id: "0B82E7536E99C67D"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 100L
+				id: "7AFF5F947E7D2FCB"
+				entity: "minecraft:donkey"
+				icon: {
+					id: "minecraft:donkey_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "What an ass!"
+			}]
+			id: "7E0441292A161606"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 99999999
+				id: "4239CB524B9CDD48"
+				stat: "minecraft:raid_trigger"
+				icon: {
+					id: "minecraft:pillager_spawn_egg"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "Raider"
+			}]
+			id: "3C43A48BB9F20101"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 99999999L
+				id: "0BF8BAA6D2B706C2"
+				entity: "minecraft:villager"
+				icon: {
+					id: "minecraft:emerald"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					Count: 1b
+				}
+				title: "Why you steal my money!?!!?"
+			}]
+			id: "4AEF398BB4455E4E"
+			x: 2.0d
+			y: -3.5d
+		}
+	]
+}

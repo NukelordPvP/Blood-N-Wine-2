@@ -1,0 +1,64 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:emerald_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 80,
+      "maxVeinSize": 2,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+        "MOUNTAIN"
+      ]
+    },
+	{
+      "ore": "minecraft:emerald_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    },
+	{
+      "ore": "cavesandcliffs:deepslate_emerald_ore",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 1,
+      "maxY": 30,
+      "maxVeinSize": 2,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+        "MOUNTAIN"
+      ]
+    },
+	{
+      "ore": "cavesandcliffs:deepslate_emerald_ore",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    },
+	{
+      "ore": "dead_guys_untitled_deep_dark_:deep_stone_emerald",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    }
+  ]
+}

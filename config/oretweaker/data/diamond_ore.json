@@ -1,0 +1,40 @@
+{
+  "oreConfig": [
+	{
+      "ore": "minecraft:diamond_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 5,
+      "spawnRate": 1.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    },
+	{
+      "ore": "cavesandcliffs:deepslate_diamond_ore",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 5,
+      "spawnRate": 1.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    },
+	{
+      "ore": "dead_guys_untitled_deep_dark_:deep_stone_diamonds",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 5,
+      "spawnRate": 1.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    }
+  ]
+}

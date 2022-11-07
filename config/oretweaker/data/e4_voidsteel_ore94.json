@@ -1,0 +1,15 @@
+{
+  "oreConfig": [
+    {
+      "ore": "nourished_end:voidsteel_ore",
+      "filler": "minecraft:end_stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 3,
+      "spawnRate": 10,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		]
+    }
+  ]
+}

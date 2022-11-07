@@ -1,0 +1,48 @@
+{
+  "oreConfig": [
+    {
+      "ore": "cavesandcliffs:copper_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 168,
+      "maxVeinSize": 8,
+      "spawnRate": 14.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "cavesandcliffs:copper_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 192,
+      "maxVeinSize": 8,
+      "spawnRate": 14.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    },
+	{
+      "ore": "cavesandcliffs:deepslate_copper_ore",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 1,
+      "maxY": 30,
+      "maxVeinSize": 8,
+      "spawnRate": 14.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "cavesandcliffs:deepslate_copper_ore",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 8,
+      "spawnRate": 14.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    }
+  ]
+}

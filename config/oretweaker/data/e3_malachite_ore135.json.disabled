@@ -1,0 +1,15 @@
+{
+  "oreConfig": [
+    {
+      "ore": "nourished_end:malachite_ore",
+      "filler": "minecraft:end_stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 12,
+      "spawnRate": 2.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		]
+    }
+  ]
+}

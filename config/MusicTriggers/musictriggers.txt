@@ -1,0 +1,606 @@
+All event Triggers
+
+	Universal Delay=0
+
+	Main Menu
+		Songs=<
+		darkwood
+		60
+		>
+
+	Generic
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Difficulty
+		Priority [min: -99, max: 2147483647 default: 100]
+		Priority Value=100
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs per difficulty
+		Format[songname,difficulty [int],(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]]
+		Note - peaceful=0 easy=1 normal=2 hard=3 hardcore=4
+		Example normal,2,111
+		Songs=<
+		>
+
+	Zones
+		Priority [min: -99, max: 2147483647 default: 10000]
+		Priority Value=10000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs per zone
+		Format[min x,min y,min z,max x, max y,max z,songname,(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]]
+		Example: 0,0,0,100,100,100,home3,33981,200
+
+		Songs=<
+		>
+
+	Day
+		Priority [min: -99, max: 2147483647 default: 1000]
+		Priority Value=1000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=3600
+
+		Songs=<
+		apokatastasisi
+		apokatastasisii
+		journeytothecelestialrivers
+		marchofthepriests
+		60
+		passing
+		templeofabandon
+		thehermit
+		aesthetic
+		601
+		nekrosis
+		ecstaticparadigm
+		ecclesiauniversalis
+		heosphoros
+		602
+		illuminatio
+		thylight
+		mysteriisdesanguine
+		sacrumnoctis
+		603
+		chaliceofeternity
+		>
+
+	Night
+		Priority [min: -99, max: 2147483647 default: 900]
+		Priority Value=900
+
+		Songs- Format: [song name,moon phase,(Optional)fade time [in ticks, default: 0]]
+		Moon Phases: 1 - Full Moon, 2 - Waning Gibbous, 3 - Third Quarter, 4 - Waning Crescent
+		5 - New Moon, 6 - Waxing Crescent, 7 - First Quarter, 8 - Waxing Gibbous
+		You can put 0 to ignore moon phase, or put multiple numbers for a song to be active during multiple phases
+		Example 1: [nighttime,1] - This will only play during a full moon
+		Example 2: [nighttime,2,3,4,6,7,8] - This will play every night except for full moons and new moons
+		Example 3: [nighttime,0] - This will play whenever it is nighttime, just like the old version of this trigger
+		Note - If the fade is not the last number it will not work properly
+		Songs=<
+		intro,0,3600
+		dream,0,3600
+		baba,0,3600
+		greenpeople,0,3600
+		60,0,3600
+		roadtohome,5,3600
+		untitled1,0,3600
+		firstvisit,0,3600
+		heartbeat,0,3600
+		601,0,3600
+		piotrek,0,3600
+		untitled2,0,3600
+		wedding,1,3600
+		untitled3,0,3600
+		602,0,3600
+		wolf,0,3600
+		voices,0,3600
+		lasthideout,0,3600
+		603,0,3600
+		>
+
+	Sunrise
+		Priority [min: -99, max: 2147483647 default: 1111]
+		Priority Value=1111
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		endofthenight
+		>
+
+	Sunset
+		Priority [min: -99, max: 2147483647 default: 1111]
+		Priority Value=1111
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Light Level
+		Priority [min: -99, max: 2147483647 default: 500]
+		Priority Value=500
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 7]
+		Level Value=7
+
+		Songs - [Format: "SongName,Identifier(string name to tie a group of songs to a pool),Light Level(maximum light level),(Optional)Sky Light[default: true],(Optional)Light Time[default: 20],(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]"]
+		Note: Sky light will let you choose whether or not to take that into account
+		Additional Note: The light time is how long it will take before the trigger is deactivated after the conditions are no longer met
+		Example: spookydark,5,3,false,20,9945,50
+		Tip - Setting sky light to false would work best when combining it with the night trigger
+		Songs=<
+		>
+
+	Underground - underground with no sky visible
+		Priority [min: -99, max: 2147483647 default: 1500]
+		Priority Value=1500
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 55]
+		Level Value=55
+
+		Songs=<
+		>
+
+	Deep Under - deep below the surface with no sky visible
+		Priority [min: -99, max: 2147483647 default: 2000]
+		Priority Value=2000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 20]
+		Level Value=20
+
+		Songs=<
+		>
+
+	Raining
+		Priority [min: -99, max: 2147483647 default: 1300]
+		Priority Value=1300
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Storming
+		Priority [min: -99, max: 2147483647 default: 1350]
+		Priority Value=1350
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Snowing
+		Priority [min: -99, max: 2147483647 default: 1333]
+		Priority Value=1333
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Low HP
+		Priority [min: -99, max: 2147483647 default: 3000]
+		Priority Value=3000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Percentage of maximum health [Out of 100, default: 30]
+		Level Value=30
+
+		Songs=<
+		>
+
+	Dead
+		Priority [min: -99, max: 2147483647 default: 10000]
+		Priority Value=10000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=3600
+
+		Songs=<
+		death
+		death8bit
+		oof
+		yodadeath
+		>
+
+	inVoid
+		Priority [min: -99, max: 2147483647 default: 7777]
+		Priority Value=7777
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 0]
+		Level Value=0
+
+		Songs=<
+		>
+
+	Spectator
+		Priority [min: -99, max: 2147483647 default: 5000]
+		Priority Value=5000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Creative
+		Priority [min: -99, max: 2147483647 default: 5000]
+		Priority Value=5000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Riding
+		Priority [min: -99, max: 2147483647 default: 2222]
+		Priority Value=2222
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Pet
+		Priority [min: -99, max: 2147483647 default: 1200]
+		Priority Value=1200
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	High
+		Priority [min: -99, max: 2147483647 default: 1200]
+		Priority Value=1200
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 150]
+		Level Value=150
+
+		Songs=<
+		>
+
+	Underwater
+		Priority [min: -99, max: 2147483647 default: 1999]
+		Priority Value=1999
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	PVP
+		Priority [min: -99, max: 2147483647 default: 20000]
+		Priority Value=20000
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 16]
+		Level Value=16
+
+		Battle Time [in ticks, default: 200]
+		PVP Persistence=0
+
+		Victory - whether to activate the victory trigger [default: false]
+		Victory=false
+
+		Victory ID - ID of the victory to activate [default: 0]
+		VictoryID=0
+
+		Songs=<
+		>
+
+	Dimension
+		Priority [min: -99, max: 2147483647 default: 1150]
+		Priority Value=1150
+
+		Songs per dimension [Format: dimensionID,SongName,(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]
+		Note: You only have to set the priority per dimension ID for 1 song
+		Example: minecraft:the_nether,(songname),11111
+		Songs=<
+		-1,whattheearthbore,3600
+		-1,thedeadfire,3600
+		-1,burrows,3600
+		-1,echo,3600
+		-1,60,3600
+		-1,inanarchedworld,3600
+		-1,omission,3600
+		-1,eschatology,3600
+		-1,drawnlikeamoth,3600
+		-1,601,3600
+		-1,alldreamsmined,3600
+		-1,immemorial,3600
+		-1,onesatoptheunknown,3600
+		-1,nightsoclosetothetongue,3600
+		-1,602,3600
+		-1,alonelystrain,3600
+		-1,aphotic,3600
+		-1,cavernofigneousflame,3600
+		-1,onyx,3600
+		-1,603,3600
+		-1,apalesignrevealed,3600
+		-1,avenoir,3600
+		-1,604,3600
+		1,ancientamulet,3600
+		1,unveilingthescript,3600
+		1,deepspacesignals,3600
+		1,consternation,3600
+		1,605,3600
+		1,activating,3600
+		1,iridescenceshimmer,3600
+		1,theplanet,3600
+		1,induction,3600
+		1,606,3600
+		1,nascency,3600
+		1,roadtonowhere,3600
+		1,solarhalos,3600
+		1,beyondtheedge,3600
+		1,607,3600
+		1,echosphere,3600
+		1,brokenworlds,3600
+		1,losthorizon,3600
+		1,overland,3600
+		1,608,3600
+		1,oceangrooves,3600
+		1,reverseechoes,3600
+		1,deltazero,3600
+		1,spellbound,3600
+		1,609,3600
+		1,intothevoid,3600
+		1,paralleldestiny,3600
+		1,ancientpillars,3600
+		1,particlestorm,3600
+		1,6010,3600
+		1,floatingspheres,3600
+		1,6011,3600
+		>
+
+	Biome
+		Priority [min: -99, max: 2147483647 default: 1160]
+		Priority Value=1160
+
+		Songs Per Biome [Format: "BiomeResourceName,SongName,(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0],(Optional)Biome Time[default: 20]"]
+		Note: You only have to set the priority per biome name for 1 song
+		Example: minecraft:swampland,(songname),11111
+		Additional Note: You can also specify multiple biomes at once through regexing! You can use this feature for both mod ids and biome names
+		Example 2: minecraft,(songname),11111 (all minecraft biomes will have (songname))
+		Example 3: forest,(songname),11111 (all biomes with "forest" in the name will have (songname))
+		Final Note: The biome time will allow the trigger to persist after leaving the specified biome for that amount of time
+		Full Scale Example: swamp,(songname),11111,50,30
+		Songs=<
+		>
+
+	Structure
+		Priority [min: -99, max: 2147483647 default: 3333]
+		Priority Value=3333
+
+		Songs per structure [Format: "structurename,SongName,(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]"]
+		Note: You only have to set the priority per structure name for 1 song
+		Example: Fortress,(songname),11111
+		Songs=<
+		>
+
+	Mob (This works for both bosses and hordes!)
+		Priority [min: -99, max: 2147483647 default: 3500]
+		Priority Value=3500
+
+		Songs Per Mob [Format: "MobName,number of mobs,SongName,(Optional)detection range[min: 1, max: 1000, default: 16],(Optional)Priority:[min: -99, max: 2147483647],(Optional)Fade Time:[in ticks, default: 0],(Optional)Targetting[default: false],(Optional)Horde Targetting percentage[default: 100], (Optional)Health[default: 100],(Optional)Horde Health Percentage[default: 100],(Optional)Battle Time[in ticks, default: 0],(Optional)Trigger Victory[default: false],(Optional)Victory ID[min:0, max:2147483647, default: 0](Optional)Infernal[only works with the mod infernal mobs active]"]
+		Note: You only have to set the priority per mob name for 1 song
+		Additional Note: Putting high numbers (over 100) for the mob range may cause lag! The higher it is, the more noticable that lag will be. Only use higher numbers for a boss that could be far away, like the Ender Dragon
+		Additional Note: Targetting requires the mob(s) to be looking at you while horde targetting percentage is the total percentage of the number of mobs you set that have to be looking at you
+		Additional Note: Health requires the mob(s) to be below the set percentage threshold of health while horde health percentage is the total percentage of the number of mobs you set that have to be below the set percentage threshold of health
+		Additional Note: Battle time is how long the trigger will persist after the conditions are no longer met. Due to possible conflicts it may to better to leave this at 0
+		Additional Note: The victory trigger is special in that it can only activated after escaping the set trigger. The ID exists so there can multiple different victory scenarios
+		Final Note: The infernal trigger goes of of the mod name, which can be obtained via the debug info set by the debug config. Number of mobs will not affect this
+		Example: Zombie,8,(songname),16,11111
+		Full-Scale example: Skeleton,4,123486,50,true,50,80,25,0,Withering
+		Special case - If you put "MOB" as the mob ID, it will default to any hostile mob
+		Songs=<
+		>
+
+	Effect (Trigger based on potion effects)
+		Priority [min: -99, max: 2147483647 default: 500]
+		Priority Value=500
+
+		Songs Per Effect [Format: "EffectName,SongName,(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]"]
+		Note: You only have to set the priority per effect name for 1 song
+		Example: effect.regeneration,(songname),11111
+		Songs=<
+		>
+
+	Victory - This can only be called after the pvp or mob trigger
+		Priority [min: -99, max: 2147483647 default: 20000]
+		Priority Value=20000
+
+		Songs - [Format: "SongName,Victory ID,(Optional)Victory Time[default: 200],(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]"]
+		Note - The victory time is how long the victory trigger will last for
+		Additional Note: Dying will cut the trigger short
+		Example: enderdragonwin,11,300,9999999,20
+		Songs=<
+		>
+
+	Gui
+		Priority [min: -99, max: 2147483647 default: 999]
+		Priority Value=13333
+
+Songs - [Format: "Gui Name,SongName,(Optional)Priority:[min: -99, max: 2147483647],(Optional)Fade Time:[in ticks, default: 0]"]
+Example: net.minecraft.client.gui.inventory.GuiInventory,inventory,67000
+Note: This can also be a regex
+Example 2: GuiInventory,inventory,67000
+		Songs=<
+		>
+
+	Elytra
+		Priority [min: -99, max: 2147483647 default: 1234]
+		Priority Value=1234
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 60]
+		Level Value=60
+
+		Songs=<
+		>
+
+	Fishing
+		Priority [min: -99, max: 2147483647 default: 13333]
+		Priority Value=13333
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Configurable Level [Y level to activate, default: 60]
+		Level Value=60
+
+		Persistence time:[in ticks, default: 100]
+		Fishing Persistence=0
+
+		Songs=<
+		>
+
+	Gamestages (Only fires if the mod Game Stages is active)
+		Priority [min: -99, max: 2147483647 default: 500]
+		Priority Value=500
+
+		Songs Per Gamestage [Format: "StageName,whitelist,SongName,(Optional)Priority:[min: -99, max: 2147483647 ],(Optional)Fade Time:[in ticks, default: 0]"]
+		Note: You only have to set the priority per gamestage name for 1 song
+		Example: StageOne,true,(songname),11111 - This will play when the player has the stage. If it were false it would play whenever the player does not have it.
+		Songs=<
+		>
+
+	Blood Moon (Only fires if the mod Enhanced Celestials is active)
+		Priority [min: -99, max: 2147483647 default: 1200]
+		Priority Value=1200
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Harvest Moon (Only fires if the mod Enhanced Celestials is active)
+		Priority [min: -99, max: 2147483647 default: 1400]
+		Priority Value=1400
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Blue Moon (Only fires if the mod Enhanced Celestials is active)
+		Priority [min: -99, max: 2147483647 default: 1400]
+		Priority Value=1400
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Rain Intensity (Only fires if the mod dynamic surroundings is active)
+		Priority [min: -99, max: 2147483647 default: 1349]
+		Priority Value=1349
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs [Format: "songname,Intensity Level (min: 0, max: 100)"]
+		Note - This trigger will play when the rain has a higher intensity than you put in
+		Example: intenserain,70
+		Songs=<
+		>
+
+	Acid Rain (Only fires if the mod better weather is active)
+		Priority [min: -99, max: 2147483647 default: 9999]
+		Priority Value=9999
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Blizzard (Only fires if the mod better weather is active)
+		Priority [min: -99, max: 2147483647 default: 9999]
+		Priority Value=9999
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Cloudy (Only fires if the mod better weather is active)
+		Priority [min: -99, max: 2147483647 default: 9999]
+		Priority Value=9999
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Light Rain (Only fires if the mod better weather is active)
+		Priority [min: -99, max: 2147483647 default: 9999]
+		Priority Value=9999
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs=<
+		>
+
+	Seasons (Only fires if the mod serene season is active)
+		Priority [min: -99, max: 2147483647 default: 500]
+		Priority Value=500
+
+		Fade Time [in ticks, default: 0]
+		Fade Value=0
+
+		Songs per seasons
+		Format[songname],season [int],(Optional)Priority:[min: -99, max: 2147483647],(Optional)Fade Time:[in ticks, default: 0]]
+		Note - Spring=0 Summer=1 Fall=2 Winter=3
+		Example spring,0,511,20
+		Songs=<
+		>
+

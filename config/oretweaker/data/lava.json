@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+	{
+      "ore": "minecraft:lava",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 2,
+      "maxY": 3,
+      "maxVeinSize": 32,
+      "spawnRate": 10.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "minecraft:lava",
+      "filler": "dead_guys_untitled_deep_dark_:deep_stone",
+      "minY": 63,
+      "maxY": 64,
+      "maxVeinSize": 16,
+      "spawnRate": 5.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

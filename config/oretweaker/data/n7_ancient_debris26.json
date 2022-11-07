@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:ancient_debris",
+      "filler": "minecraft:netherrack",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 0.8,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+    {
+      "ore": "minecraft:ancient_debris",
+      "filler": "minecraft:netherrack",
+      "minY": 1,
+      "maxY": 24,
+      "maxVeinSize": 4,
+      "spawnRate": 0.8,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

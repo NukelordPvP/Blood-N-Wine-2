@@ -1,0 +1,15 @@
+{
+  "oreConfig": [
+    {
+      "ore": "betterendforge:amber_ore",
+      "filler": "minecraft:end_stone",
+      "minY": 1,
+      "maxY": 256,
+      "maxVeinSize": 2,
+      "spawnRate": 10.6,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		]
+    }
+  ]
+}

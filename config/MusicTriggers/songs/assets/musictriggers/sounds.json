@@ -1,0 +1,667 @@
+{
+  "music.60": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/60",
+			"stream": true
+		}]
+	},
+  "music.601": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/601",
+			"stream": true
+		}]
+	},
+  "music.6010": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/6010",
+			"stream": true
+		}]
+	},
+  "music.6011": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/6011",
+			"stream": true
+		}]
+	},
+  "music.602": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/602",
+			"stream": true
+		}]
+	},
+  "music.604": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/604",
+			"stream": true
+		}]
+	},
+  "music.605": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/605",
+			"stream": true
+		}]
+	},
+  "music.606": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/606",
+			"stream": true
+		}]
+	},
+  "music.607": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/607",
+			"stream": true
+		}]
+	},
+  "music.608": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/608",
+			"stream": true
+		}]
+	},
+  "music.609": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/609",
+			"stream": true
+		}]
+	},
+  "music.activating": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/activating",
+			"stream": true
+		}]
+	},
+  "music.aesthetic": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/aesthetic",
+			"stream": true
+		}]
+	},
+  "music.alldreamsmined": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/alldreamsmined",
+			"stream": true
+		}]
+	},
+  "music.alonelystrain": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/alonelystrain",
+			"stream": true
+		}]
+	},
+  "music.ancientamulet": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ancientamulet",
+			"stream": true
+		}]
+	},
+  "music.ancientpillars": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ancientpillars",
+			"stream": true
+		}]
+	},
+  "music.apalesignrevealed": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/apalesignrevealed",
+			"stream": true
+		}]
+	},
+  "music.aphotic": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/aphotic",
+			"stream": true
+		}]
+	},
+  "music.apokatastasisi": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/apokatastasisi",
+			"stream": true
+		}]
+	},
+  "music.apokatastasisii": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/apokatastasisii",
+			"stream": true
+		}]
+	},
+  "music.avenoir": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/avenoir",
+			"stream": true
+		}]
+	},
+  "music.azure": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/azure",
+			"stream": true
+		}]
+	},
+  "music.baba": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/baba",
+			"stream": true
+		}]
+	},
+  "music.beyondtheedge": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/beyondtheedge",
+			"stream": true
+		}]
+	},
+  "music.brokenworlds": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/brokenworlds",
+			"stream": true
+		}]
+	},
+  "music.burrows": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/burrows",
+			"stream": true
+		}]
+	},
+  "music.cavernofigneousflame": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/cavernofigneousflame",
+			"stream": true
+		}]
+	},
+  "music.chaliceofeternity": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/chaliceofeternity",
+			"stream": true
+		}]
+	},
+  "music.consternation": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/consternation",
+			"stream": true
+		}]
+	},
+  "music.darkwood": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/darkwood",
+			"stream": true
+		}]
+	},
+  "music.death": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/death",
+			"stream": true
+		}]
+	},
+  "music.death8bit": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/death8bit",
+			"stream": true
+		}]
+	},
+  "music.deepspacesignals": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/deepspacesignals",
+			"stream": true
+		}]
+	},
+  "music.deltazero": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/deltazero",
+			"stream": true
+		}]
+	},
+  "music.dontletgo": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/dontletgo",
+			"stream": true
+		}]
+	},
+  "music.drawnlikeamoth": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/drawnlikeamoth",
+			"stream": true
+		}]
+	},
+  "music.dream": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/dream",
+			"stream": true
+		}]
+	},
+  "music.ecclesiauniversalis": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ecclesiauniversalis",
+			"stream": true
+		}]
+	},
+  "music.echo": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/echo",
+			"stream": true
+		}]
+	},
+  "music.echosphere": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/echosphere",
+			"stream": true
+		}]
+	},
+  "music.ecstaticparadigm": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ecstaticparadigm",
+			"stream": true
+		}]
+	},
+  "music.endofthenight": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/endofthenight",
+			"stream": true
+		}]
+	},
+  "music.eschatology": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/eschatology",
+			"stream": true
+		}]
+	},
+  "music.firstvisit": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/firstvisit",
+			"stream": true
+		}]
+	},
+  "music.floatingspheres": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/floatingspheres",
+			"stream": true
+		}]
+	},
+  "music.greenpeople": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/greenpeople",
+			"stream": true
+		}]
+	},
+  "music.heartbeat": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/heartbeat",
+			"stream": true
+		}]
+	},
+  "music.heosphoros": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/heosphoros",
+			"stream": true
+		}]
+	},
+  "music.illuminatio": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/illuminatio",
+			"stream": true
+		}]
+	},
+  "music.immemorial": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/immemorial",
+			"stream": true
+		}]
+	},
+  "music.inanarchedworld": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/inanarchedworld",
+			"stream": true
+		}]
+	},
+  "music.induction": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/induction",
+			"stream": true
+		}]
+	},
+  "music.intothevoid": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/intothevoid",
+			"stream": true
+		}]
+	},
+  "music.intro": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/intro",
+			"stream": true
+		}]
+	},
+  "music.iridescenceshimmer": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/iridescenceshimmer",
+			"stream": true
+		}]
+	},
+  "music.journeytothecelestialrivers": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/journeytothecelestialrivers",
+			"stream": true
+		}]
+	},
+  "music.lasthideout": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/lasthideout",
+			"stream": true
+		}]
+	},
+  "music.losthorizon": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/losthorizon",
+			"stream": true
+		}]
+	},
+  "music.marchofthepriests": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/marchofthepriests",
+			"stream": true
+		}]
+	},
+  "music.mysteriisdesanguine": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mysteriisdesanguine",
+			"stream": true
+		}]
+	},
+  "music.nascency": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/nascency",
+			"stream": true
+		}]
+	},
+  "music.nekrosis": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/nekrosis",
+			"stream": true
+		}]
+	},
+  "music.nightsoclosetothetongue": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/nightsoclosetothetongue",
+			"stream": true
+		}]
+	},
+  "music.oceangrooves": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/oceangrooves",
+			"stream": true
+		}]
+	},
+  "music.omission": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/omission",
+			"stream": true
+		}]
+	},
+  "music.onesatoptheunknown": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/onesatoptheunknown",
+			"stream": true
+		}]
+	},
+  "music.onyx": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/onyx",
+			"stream": true
+		}]
+	},
+  "music.oof": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/oof",
+			"stream": true
+		}]
+	},
+  "music.overland": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/overland",
+			"stream": true
+		}]
+	},
+  "music.paralleldestiny": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/paralleldestiny",
+			"stream": true
+		}]
+	},
+  "music.particlestorm": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/particlestorm",
+			"stream": true
+		}]
+	},
+  "music.passing": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/passing",
+			"stream": true
+		}]
+	},
+  "music.piotrek": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/piotrek",
+			"stream": true
+		}]
+	},
+  "music.reverseechoes": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/reverseechoes",
+			"stream": true
+		}]
+	},
+  "music.roadtohome": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/roadtohome",
+			"stream": true
+		}]
+	},
+  "music.roadtonowhere": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/roadtonowhere",
+			"stream": true
+		}]
+	},
+  "music.sacrumnoctis": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/sacrumnoctis",
+			"stream": true
+		}]
+	},
+  "music.solarhalos": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/solarhalos",
+			"stream": true
+		}]
+	},
+  "music.spellbound": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/spellbound",
+			"stream": true
+		}]
+	},
+  "music.templeofabandon": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/templeofabandon",
+			"stream": true
+		}]
+	},
+  "music.thedeadfire": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/thedeadfire",
+			"stream": true
+		}]
+	},
+  "music.thehermit": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/thehermit",
+			"stream": true
+		}]
+	},
+  "music.theplanet": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/theplanet",
+			"stream": true
+		}]
+	},
+  "music.thylight": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/thylight",
+			"stream": true
+		}]
+	},
+  "music.untitled1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/untitled1",
+			"stream": true
+		}]
+	},
+  "music.untitled2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/untitled2",
+			"stream": true
+		}]
+	},
+  "music.untitled3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/untitled3",
+			"stream": true
+		}]
+	},
+  "music.unveilingthescript": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/unveilingthescript",
+			"stream": true
+		}]
+	},
+  "music.voice": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/voice",
+			"stream": true
+		}]
+	},
+  "music.voices": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/voices",
+			"stream": true
+		}]
+	},
+  "music.wedding": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/wedding",
+			"stream": true
+		}]
+	},
+  "music.whattheearthbore": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/whattheearthbore",
+			"stream": true
+		}]
+	},
+  "music.wolf": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/wolf",
+			"stream": true
+		}]
+	},
+  "music.yodadeath": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/yodadeath",
+			"stream": true
+		}]
+	}
+}
