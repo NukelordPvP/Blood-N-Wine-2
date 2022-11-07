@@ -1,8 +1,0 @@
-#
-#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:global
-#
-waypoint:Spawners:S:-131:97:602:6:false:0:gui.xaero_default:false:0:false
-waypoint:Lavacasted 8x tp:L:-1059:35:1654:8:false:0:gui.xaero_default:false:0:false
-waypoint:Slime Nether:S:-147:80:929:3:false:0:gui.xaero_default:false:0:false
-waypoint:Base Nether:B:-139:100:220:13:false:0:gui.xaero_default:false:0:false
-waypoint:Village Nether:S:-129:77:564:1:false:0:gui.xaero_default:false:0:false
