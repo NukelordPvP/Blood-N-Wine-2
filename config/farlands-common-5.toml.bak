@@ -1,0 +1,18 @@
+
+[Farlands]
+	#Enable farlands generation?
+	FarlandsEnabled = true
+
+	[Farlands."World generation xz scale settings"]
+		#Should this mod override scales? if false then settings below wouldn't change anything
+		OverrideScales = true
+		#Overworld Scale (Default=684.412)
+		#Range: -1.0E8 ~ 1.0E8
+		OverrideOverworldScale = 85900
+		#Nether Scale (Default=684.412)
+		#Range: -1.0E8 ~ 1.0E8
+		OverrideNetherScale = 92426
+		#End Scale (Default=684.412)
+		#Range: -1.0E8 ~ 1.0E8
+		OverrideENDScale = 92426
+

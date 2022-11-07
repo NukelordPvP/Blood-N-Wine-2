@@ -1,0 +1,21 @@
+
+[Farlands]
+	#Enable farlands generation?
+	FarlandsEnabled = true
+
+	[Farlands."World Generation Overrides"]
+		#Should this mod override world generation settings? if false then settings below won't change anything
+		OverrideWorldGen = true
+		#Overworld Scale (Default=684.412)
+		#Range: -1.0E8 ~ 1.0E8
+		OverrideOverworldScale = 85890
+		#Nether Scale (Default=684.412)
+		#Range: -1.0E8 ~ 1.0E8
+		OverrideNetherScale = 85890
+		#End Scale (Default=684.412)
+		#Range: -1.0E8 ~ 1.0E8
+		OverrideENDScale = 85890
+		#Overworld Noise Height (Default=256)
+		#Range: 0 ~ 256
+		OverrideOverworldNoiseHeight = 240
+

@@ -1,0 +1,42 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = drippyloadingscreen/cursed mineshaft.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  textcolor = #9a0403
+  action = editforgestatustext
+}
+
+customization {
+  action = editprogressbar
+  barcolor = #9a0403
+}
+
+customization {
+  textcolor = #9a0403
+  action = editforgememoryinfo
+}
+
+customization {
+  path = drippyloadingscreen/bloodnwine2logoonly.png
+  orientation = mid-centered
+  x = 0
+  width = 518
+  action = addtexture
+  actionid = 10a8d61d-89de-4cb5-879c-bd51bd48d6a21643073592707
+  y = 0
+  height = 100
+}
+
