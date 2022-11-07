@@ -1,0 +1,8 @@
+{
+  "minecraft:sweet_berry_bush": {
+    "category/TAIGA": 0.4
+  },
+  "minecraft:melon_stem": {
+    "category/JUNGLE": 0.4
+  }
+}

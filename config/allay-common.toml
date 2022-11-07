@@ -1,0 +1,26 @@
+
+[general]
+	#
+	#Biome name where the Allay should spawn
+	biome_name = "minecraft:flower_forest"
+
+	#Spawn rate settings
+	[general.spawnrate]
+		#Model type to choose from: 0 or 1
+		#Range: 0 ~ 1
+		type = 0
+		#Spawn only at night
+		spawn_rule_1 = true
+
+		#Allay
+		[general.spawnrate.allay]
+			#Spawn Chance
+			#Range: > 0
+			weight = 8
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+

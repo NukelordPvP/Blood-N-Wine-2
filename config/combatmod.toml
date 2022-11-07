@@ -1,0 +1,23 @@
+
+[Misc]
+	#Hold attack key down to keep attacking
+	HoldAttack = true
+	#Hold attack delay between each attack
+	HoldAttackInterval = 6
+
+[Projectiles]
+
+	[Projectiles.Snowballs]
+		#enable player knockback from snowball
+		PlayerKnockBack = true
+		#should shields block snowball knockback
+		ShieldsBlockSnowballs = true
+
+[Potions]
+	#Potion Drink Delay (lower means faster drinking, vanilla is 32)
+	PotionDrinkDuration = 20
+
+[Swords]
+	#sweeping attacks only works when enchanted with sweeping edge
+	DisableSwordSweepingEdgeWithoutEnchantment = true
+

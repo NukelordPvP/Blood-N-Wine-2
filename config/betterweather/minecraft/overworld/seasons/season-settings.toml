@@ -1,0 +1,511 @@
+#Does Season Time tick in this world when no players are online?
+tickSeasonTimeWhenNoPlayersOnline = true
+#Represents this world's year length in ticks(a minecraft day is 24000 ticks). Season length is 1/4 of this value. Sub season length is 1/12(or 1/3 of season length) of this value.
+yearLength = 4800000
+
+[seasons]
+
+	[seasons.AUTUMN]
+
+		[seasons.AUTUMN.phases]
+
+			[seasons.AUTUMN.phases.END]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 0.65
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = 0.1
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 0.75
+
+				[seasons.AUTUMN.phases.END.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ff9b673c"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ff9b673c"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ff9b673c"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ff9b673c"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ff9b673c"
+
+				#Represents the chance of the listed weather event.
+				[seasons.AUTUMN.phases.END.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.AUTUMN.phases.MID]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 0.75
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 0.7
+
+				[seasons.AUTUMN.phases.MID.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ff9b673c"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ff9b673c"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ff9b673c"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ff9b673c"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ff9b673c"
+
+				#Represents the chance of the listed weather event.
+				[seasons.AUTUMN.phases.MID.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.AUTUMN.phases.START]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 0.8
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 0.7
+
+				[seasons.AUTUMN.phases.START.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ff9b673c"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ff9b673c"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ff9b673c"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ff9b673c"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ff9b673c"
+
+				#Represents the chance of the listed weather event.
+				[seasons.AUTUMN.phases.START.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+	[seasons.SPRING]
+
+		[seasons.SPRING.phases]
+
+			[seasons.SPRING.phases.END]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 1.7
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = 0.4
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 1.5
+
+				[seasons.SPRING.phases.END.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ff145702"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ff145702"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ff145702"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ff145702"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ff145702"
+
+				#Represents the chance of the listed weather event.
+				[seasons.SPRING.phases.END.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.SPRING.phases.MID]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 2.0
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = 0.5
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 2.0
+
+				[seasons.SPRING.phases.MID.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ff295702"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ff295702"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ff295702"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ff295702"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ff295702"
+
+				#Represents the chance of the listed weather event.
+				[seasons.SPRING.phases.MID.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.SPRING.phases.START]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 1.3
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = 0.5
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 1.5
+
+				[seasons.SPRING.phases.START.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ff336132"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ff336132"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ff336132"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ff336132"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ff336132"
+
+				#Represents the chance of the listed weather event.
+				[seasons.SPRING.phases.START.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+	[seasons.SUMMER]
+
+		[seasons.SUMMER.phases]
+
+			[seasons.SUMMER.phases.END]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 1.0
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = -0.1
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 0.5
+
+				[seasons.SUMMER.phases.END.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = ""
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = ""
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.0
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = ""
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = ""
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = ""
+
+				#Represents the chance of the listed weather event.
+				[seasons.SUMMER.phases.END.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.SUMMER.phases.MID]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 1.0
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = -0.3
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 0.2
+
+				[seasons.SUMMER.phases.MID.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = ""
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = ""
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.0
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = ""
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = ""
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = ""
+
+				#Represents the chance of the listed weather event.
+				[seasons.SUMMER.phases.MID.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.SUMMER.phases.START]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 1.15
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = -0.1
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 0.75
+
+				[seasons.SUMMER.phases.START.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = ""
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = ""
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.0
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = ""
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = ""
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = ""
+
+				#Represents the chance of the listed weather event.
+				[seasons.SUMMER.phases.START.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+	[seasons.WINTER]
+
+		[seasons.WINTER.phases]
+
+			[seasons.WINTER.phases.END]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 0.75
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = 0.2
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 1.25
+
+				[seasons.WINTER.phases.END.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ffa52a2a"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ffa52a2a"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ffa52a2a"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ffa52a2a"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ffa52a2a"
+
+				#Represents the chance of the listed weather event.
+				[seasons.WINTER.phases.END.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.WINTER.phases.MID]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 0.5
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = 0.2
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 1.0
+
+				[seasons.WINTER.phases.MID.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ffa52a2a"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ffa52a2a"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ffa52a2a"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ffa52a2a"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ffa52a2a"
+
+				#Represents the chance of the listed weather event.
+				[seasons.WINTER.phases.MID.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+
+			[seasons.WINTER.phases.START]
+				#Multiplies the growth rate of crops when ticked.
+				cropGrowthChanceMultiplier = 0.6
+				#Blacklist specific mobs from breeding.
+				entityBreedingBlacklist = ["modid:dummymob", "modid:dummymob2"]
+				#Modifies this world's humidity.
+				humidityModifier = 0.2
+				#Modifies this world's temperature.
+				tempModifier = 0.0
+				#Multiplies the chance of a weather event occurring.
+				weatherEventChanceMultiplier = 1.0
+
+				[seasons.WINTER.phases.START.client]
+					cloudColorBlendStrength = 0.0
+					cloudTargetHexColor = "ffa52a2a"
+					#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+					#Range: 0 - 1.0
+					fogColorBlendStrength = 0.0
+					#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+					fogTargetHexColor = "ffa52a2a"
+					#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+					#Range: 0 - 1.0
+					foliageColorBlendStrength = 0.5
+					#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+					foliageTargetHexColor = "ffa52a2a"
+					#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+					#Range: 0 - 1.0
+					grassColorBlendStrength = 0.5
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+					grassTargetHexColor = "ffa52a2a"
+					#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+					#Range: 0 - 1.0
+					skyColorBlendStrength = 0.0
+					#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+					skyTargetHexColor = "ffa52a2a"
+
+				#Represents the chance of the listed weather event.
+				[seasons.WINTER.phases.START.weatherEventController]
+					RAIN = 1.0
+					THUNDER = 0.75
+

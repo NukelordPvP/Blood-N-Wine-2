@@ -1,0 +1,35 @@
+
+[client]
+	#Range: > -2147483648
+	keyCodeSprintHold = -1
+	#Range: > -2147483648
+	keyCodeSprintToggle = 82
+	#Range: > -2147483648
+	keyCodeSneakToggle = -1
+	#Range: > -2147483648
+	keyCodeOptionsMenu = -1
+	#Allowed Values: KEYSYM, SCANCODE, MOUSE
+	keyTypeSprintHold = "KEYSYM"
+	#Allowed Values: KEYSYM, SCANCODE, MOUSE
+	keyTypeSprintToggle = "KEYSYM"
+	#Allowed Values: KEYSYM, SCANCODE, MOUSE
+	keyTypeSneakToggle = "KEYSYM"
+	#Allowed Values: KEYSYM, SCANCODE, MOUSE
+	keyTypeOptionsMenu = "KEYSYM"
+	#Allowed Values: TAP, HOLD
+	sprintKeyMode = "HOLD"
+	#Range: 0 ~ 7
+	flySpeedBoost = 3
+	flyOnGround = true
+	enableDoubleTap = true
+	enableAllDirs = false
+	disableMod = false
+	#Allowed Values: CONTROL, SHIFT, ALT, NONE
+	keyModSprintHold = "NONE"
+	#Allowed Values: CONTROL, SHIFT, ALT, NONE
+	keyModSprintToggle = "NONE"
+	#Allowed Values: CONTROL, SHIFT, ALT, NONE
+	keyModSneakToggle = "NONE"
+	#Allowed Values: CONTROL, SHIFT, ALT, NONE
+	keyModOptionsMenu = "NONE"
+

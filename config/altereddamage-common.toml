@@ -1,0 +1,15 @@
+
+[General]
+	#When enabled, does not change the damage output if it would be fatal with the modifier and not fatal without. Prevents dying from for example poison and starvation.
+	preventFatalModifiedDamage = true
+	#If enabled, modifies the damage another entity receives by the global modifier.
+	alterEntityDamageTaken = true
+	#If enabled, modifies the damage a player receives by the global modifier.
+	alterPlayerDamageTaken = true
+	#The global damage modifier for other entities.
+	#Range: 0.01 ~ 20.0
+	entityDamageModifier = 0.75
+	#The global damage modifier for players.
+	#Range: 0.01 ~ 20.0
+	playerDamageModifier = 1.5
+
