@@ -1,0 +1,16 @@
+{
+	id: "fd6a4d15-bd4c-44f1-b49e-8de12b89dc49"
+	type: "player"
+	player_name: "Lavacasted"
+	ranks: {
+		fd6a4d15-bd4c-44f1-b49e-8de12b89dc49: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Lavacasted"
+		"ftbteams:color": "#595CFF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

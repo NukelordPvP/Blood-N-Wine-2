@@ -1,0 +1,33 @@
+{
+	id: "c19b5fed-fe17-4f33-85ee-a6da9f59d4dd"
+	type: "party"
+	owner: "29e423c1-26c9-42d8-9e77-6772bd06df02"
+	ranks: {
+		29e423c1-26c9-42d8-9e77-6772bd06df02: "owner"
+		24028860-97a0-43b2-9f06-2cac3bbd9fc1: "member"
+		12b52f18-2eb8-4a72-80b1-a1aca27ff033: "member"
+		5f908a1e-142b-4533-8bcf-3c51c3f14a51: "member"
+		bd3a981d-24f6-4dd1-b12e-e2e8cc29c653: "member"
+		86ef4ee7-db8e-4d01-b95c-8b6518601dc3: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "Nukelord420's Party"
+		"ftbteams:color": "#FF59BA"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1658204614134L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Nukelord420\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "29e423c1-26c9-42d8-9e77-6772bd06df02", date: 1658204614214L, text: "{\"color\":\"green\",\"text\":\"Invited SteveLovesMining\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1658204620410L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"SteveLovesMining\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "29e423c1-26c9-42d8-9e77-6772bd06df02", date: 1658346696579L, text: "{\"color\":\"green\",\"text\":\"Invited Lord_Mahan\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1658346784830L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Lord_Mahan\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "29e423c1-26c9-42d8-9e77-6772bd06df02", date: 1658349852297L, text: "{\"color\":\"green\",\"text\":\"Invited IH8teMinorities\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1658349856753L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"IH8teMinorities\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "29e423c1-26c9-42d8-9e77-6772bd06df02", date: 1665805087724L, text: "{\"color\":\"green\",\"text\":\"Invited CrunchyHotSauce\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1665805091893L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"CrunchyHotSauce\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "29e423c1-26c9-42d8-9e77-6772bd06df02", date: 1665814882228L, text: "{\"color\":\"green\",\"text\":\"Invited DiademDracon\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1665814887129L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"DiademDracon\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

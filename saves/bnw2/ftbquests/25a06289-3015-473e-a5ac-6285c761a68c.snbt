@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "25a062893015473ea5ac6285c761a68c"
+	name: "HAUSEVULT"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

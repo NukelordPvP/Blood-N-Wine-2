@@ -1,0 +1,14 @@
+{
+	id: "24028860-97a0-43b2-9f06-2cac3bbd9fc1"
+	type: "player"
+	player_name: "SteveLovesMining"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "SteveLovesMining"
+		"ftbteams:color": "#59FFBC"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,20 @@
+#Shall a pregeneration feedback send to all online players?
+send_feedback = true
+
+#Delays of the print and save tasks
+[delays]
+	#Time between 2 status prints
+	#Range: > 1
+	print = 1
+	#Time between 2 saving events
+	#Range: > 1
+	save = 180
+
+#Parameters for the parallel generation of several chunks
+[parallel]
+	#Should the chunks be generated in parallel?
+	enabled = false
+	#How many chunk generation shall run in parallel? If the value is "0", the number of processor cores is used.
+	#Range: > 0
+	count = 0
+

@@ -1,0 +1,14 @@
+{
+	id: "86ef4ee7-db8e-4d01-b95c-8b6518601dc3"
+	type: "player"
+	player_name: "DiademDracon"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "DiademDracon"
+		"ftbteams:color": "#FF9F59"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,14 @@
+{
+	id: "12b52f18-2eb8-4a72-80b1-a1aca27ff033"
+	type: "player"
+	player_name: "Lord_Mahan"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Lord_Mahan"
+		"ftbteams:color": "#FF59F7"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

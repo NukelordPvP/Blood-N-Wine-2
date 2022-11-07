@@ -1,0 +1,14 @@
+{
+	id: "bd3a981d-24f6-4dd1-b12e-e2e8cc29c653"
+	type: "player"
+	player_name: "IH8teMinorities"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "NukelordPvP"
+		"ftbteams:color": "#FF59B6"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,14 @@
+{
+	id: "5f908a1e-142b-4533-8bcf-3c51c3f14a51"
+	type: "player"
+	player_name: "CrunchyHotSauce"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "CrunchyHotSauce"
+		"ftbteams:color": "#FF59AD"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

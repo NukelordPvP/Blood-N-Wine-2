@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "97e5a87a556d471aba3ba49b0ac6c8e9"
+	name: "GoldJames1"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}
