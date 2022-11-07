@@ -1,0 +1,21 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type
+#
+waypoint:gui.xaero_deathpoint:D:99997:130:257:0:false:1:gui.xaero_default:false:0:1
+waypoint:gui.xaero_deathpoint_old:D:-1045:115:4826:0:false:2:gui.xaero_default:false:0:1
+waypoint:gui.xaero_deathpoint_old:D:-1107:131:4820:0:false:2:gui.xaero_default:false:0:1
+waypoint:SHROOMS:S:-1718:153:5093:13:false:0:gui.xaero_default:false:0:0
+waypoint:Spawners:S:-1056:156:4816:1:false:0:gui.xaero_default:false:0:0
+waypoint:Frozen Ocean:F:-2256:~:-3320:1:false:0:gui.xaero_default:false:0:0
+waypoint:gui.xaero_deathpoint_old:D:-155:125:619:0:false:2:gui.xaero_default:false:0:1
+waypoint:SLIME:S:-1154:134:7409:1:false:0:gui.xaero_default:false:0:0
+waypoint:Village 2 Overworld:V:-834:145:5627:5:false:0:gui.xaero_default:false:0:0
+waypoint:Village:V:1552:~:7784:12:false:0:gui.xaero_default:false:0:0
+waypoint:Village Overworld:S:-1043:133:4531:3:false:0:gui.xaero_default:false:0:0
+waypoint:gui.xaero_deathpoint_old:D:-65:124:-386:0:false:2:gui.xaero_default:false:0:1
+waypoint:Shared Location:S:-126:128:-370:13:false:0:gui.xaero_default:false:0:0
+waypoint:gui.xaero_deathpoint_old:D:-1045:126:1647:0:false:0:gui.xaero_default:false:0:0
+waypoint:command block:C:414:160:398:5:false:0:gui.xaero_default:false:0:0
+waypoint:my body:M:-420:128:1106:1:false:0:gui.xaero_default:false:0:0
+waypoint:Mine:M:-1079:118:1649:5:false:0:gui.xaero_default:false:0:0
+waypoint:Jewhut:J:1287:141:117:2:false:0:gui.xaero_default:false:0:0

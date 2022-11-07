@@ -1,0 +1,51 @@
+
+[spawns]
+
+	[[spawns.desert_quarry]]
+		entity = "minecraft:pillager"
+		weight = 100
+		min = 1
+		max = 4
+
+	[[spawns.desert_quarry]]
+		entity = "workshopsofdoom:excavator"
+		weight = 100
+		min = 1
+		max = 4
+
+	[[spawns.plains_quarry]]
+		entity = "minecraft:pillager"
+		weight = 100
+		min = 1
+		max = 4
+
+	[[spawns.plains_quarry]]
+		entity = "workshopsofdoom:excavator"
+		weight = 100
+		min = 1
+		max = 4
+
+	[[spawns.mountain_mines]]
+		entity = "minecraft:pillager"
+		weight = 100
+		min = 1
+		max = 4
+
+	[[spawns.mountain_mines]]
+		entity = "workshopsofdoom:excavator"
+		weight = 100
+		min = 1
+		max = 4
+
+	[[spawns.badlands_mines]]
+		entity = "minecraft:pillager"
+		weight = 100
+		min = 1
+		max = 4
+
+	[[spawns.badlands_mines]]
+		entity = "workshopsofdoom:excavator"
+		weight = 100
+		min = 1
+		max = 4
+

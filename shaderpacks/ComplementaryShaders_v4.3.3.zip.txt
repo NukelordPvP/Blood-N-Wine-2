@@ -1,0 +1,7 @@
+#Sun Nov 06 10:27:49 PST 2022
+shadowDistance=128.0
+BLOCK_ENTITY_SHADOWS=false
+shadowMapResolution=1024
+REFLECTION_SPECULAR=false
+RP_SUPPORT=2
+ENTITY_SHADOWS=false
