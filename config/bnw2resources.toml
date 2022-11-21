@@ -37,7 +37,7 @@
 	#mod ids to be removed
 	ModIDsToBeRemoved = ["kleeslabs", "roadrunner", "snowrealmagic", "kiwi"]
 	#mod jars to be removed
-	ModJarsToBeRemoved = ["magnesium-1.5.jar"]
+	ModJarsToBeRemoved = ["magnesium-1.5.jar","NetherPortalFix_1.16.3-7.2.1.jar","evilwanderingtrader-1.2.jar","helium-1.0.jar"]
 
 ["Ender Dragon"]
 	#custom exit portal generation height (use 0 for vanilla behavior)
@@ -98,7 +98,7 @@
 	#Range: -1.0 ~ 1.0
 	MaxGamma = 0.3
 	#at which day should halloween end in November? (default=3)
-	HalloweenNovemberEndDay = 13
+	HalloweenNovemberEndDay = 3
 
 [TerraForged]
 	#The range that terraforged generates terrain. chunks outside this range will be generated using vanilla code.
