@@ -3,3 +3,6 @@ type = customizablemenus
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+

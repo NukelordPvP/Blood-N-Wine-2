@@ -31,3 +31,9 @@
 	#Range: -10000 ~ 10000
 	worldConfigButtonYOffset = 100
 
+[acid_rain_properties]
+	#Decides the color to be used for acid rain. Must be hex color. Keep in mind that the color of the rain texture itself will "mix" with this setting.
+	rainColor = "#ACFF75"
+	#Decides the color to be used for snow during acid rain. Must be hex color. Keep in mind that the color of the snow texture itself will "mix" with this setting.
+	snowColor = "#52FF3F"
+

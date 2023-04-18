@@ -36,5 +36,23 @@ furnace.removeRecipe(<item:tconstruct:copper_ingot>);
 //add melting recipe for quark gold bars
 <recipetype:tconstruct:melting>.addMeltingRecipe("gold_bars", <item:quark:gold_bars>, <fluid:tconstruct:molten_gold> * 54, 700, 35);
 
+
+//remove rail melting recipes
+<recipetype:tconstruct:melting>.removeByName("tconstruct:smeltery/melting/metal/iron/ingot_6_16");
+<recipetype:tconstruct:melting>.removeByName("tconstruct:smeltery/melting/metal/iron/ingot_1");
+<recipetype:tconstruct:melting>.removeByName("tconstruct:smeltery/melting/metal/gold/powered_rail");
+
+//add rail melting recipes
+<recipetype:tconstruct:melting>.addMeltingRecipe("rail", <item:minecraft:rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("detector_rail", <item:minecraft:detector_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("powered_rail", <item:minecraft:powered_rail>, <fluid:tconstruct:molten_gold> * 2, 700, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("rail_turn", <item:moreminecarts:rail_turn>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("parallel_rail", <item:moreminecarts:parallel_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("cross_rail", <item:moreminecarts:cross_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("projector_rail", <item:moreminecarts:projector_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("maglev_rail", <item:moreminecarts:maglev_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("piston_lifter_rail", <item:moreminecarts:piston_lifter_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+<recipetype:tconstruct:melting>.addMeltingRecipe("arithmetic_rail", <item:moreminecarts:arithmetic_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
+
 //remove electrum alloy as it is useless
 <recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_electrum");

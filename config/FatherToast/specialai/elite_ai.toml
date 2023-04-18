@@ -69,12 +69,6 @@
 		"infernalexp:blackstone_dwarf 0.1 0.02",
 		"betternether:jungle_skeleton 0.1 0.02",
 		"betterendforge:shadow_walker 0.1 0.02",
-		"dungeons_mobs:armored_drowned 0.1 0.02",
-		"dungeons_mobs:armored_mountaineer 0.1 0.02",
-		"dungeons_mobs:armored_pillager 0.1 0.02",
-		"dungeons_mobs:armored_skeleton 0.1 0.02",
-		"dungeons_mobs:armored_sunken_skeleton 0.1 0.02",
-		"dungeons_mobs:armored_vindicator 0.1 0.02",
 		"dungeons_mobs:drowned_necromancer 0.1 0.02",
 		"dungeons_mobs:frozen_zombie 0.1 0.02",
 		"dungeons_mobs:fungus_thrower 0.1 0.02",
@@ -85,15 +79,12 @@
 		"dungeons_mobs:mountaineer 0.1 0.02",
 		"dungeons_mobs:necromancer 0.1 0.02",
 		"dungeons_mobs:royal_guard 0.1 0.02",
-		"dungeons_mobs:skeleton_horseman 0.1 0.02",
 		"dungeons_mobs:skeleton_vanguard 0.1 0.02",
 		"dungeons_mobs:sunken_skeleton 0.1 0.02",
-		"dungeons_mobs:vindicator_chef 0.1 0.02",
 		"dungeons_mobs:wavewhisperer 0.1 0.02",
 		"dungeons_mobs:whisperer 0.1 0.02",
 		"dungeons_mobs:windcaller 0.1 0.02",
 		"dungeons_mobs:wraith 0.1 0.02",
-		"dungeons_mobs:zombified_armored_piglin 0.1 0.02",
 		"dungeons_mobs:zombified_fungus_thrower 0.1 0.02"
 	]
 	# <Entity List> Format: [ "namespace:entity_type", ... ], Default: []

@@ -37,7 +37,7 @@
 	#mod ids to be removed
 	ModIDsToBeRemoved = ["kleeslabs", "roadrunner", "snowrealmagic", "kiwi"]
 	#mod jars to be removed
-	ModJarsToBeRemoved = ["magnesium-1.5.jar"]
+	ModJarsToBeRemoved = ["magnesium-1.5.jar", "dragonfight-1.8.jar"]
 
 ["Ender Dragon"]
 	#custom exit portal generation height (use 0 for vanilla behavior)
@@ -62,7 +62,7 @@
 
 [Wither]
 	#Wither's initial explosion strength. (7 in vanilla)
-	#Range: 1.0 ~ 500.0
+	#Range: 1.0 ~ 100.0
 	ExplosionRadius = 14.0
 
 ["Mob Attribute Modifiers"]
@@ -98,9 +98,21 @@
 	#Range: -1.0 ~ 1.0
 	MaxGamma = 0.3
 	#at which day should halloween end in November? (default=3)
-	HalloweenNovemberEndDay = 13
+	HalloweenNovemberEndDay = 10
+	#Limit max mending repair in % (100 means no limit and 0 disables Mending repair)
+	#Range: 66.0 ~ 100.0
+	PlayerHeadDropChance = 66.0
 
 [TerraForged]
 	#The range that terraforged generates terrain. chunks outside this range will be generated using vanilla code.
 	TfMaxGenerationRange = 100000
+
+[Ravager]
+	#Ravager's attack reach (4 in vanilla)
+	#Range: 0.0 ~ 8.0
+	RavagerAttackReach = 2.0
+
+[Villager]
+	#Initial player reputation for villager pricing (0 in vanilla)
+	VillagerStartReputation = -20
 

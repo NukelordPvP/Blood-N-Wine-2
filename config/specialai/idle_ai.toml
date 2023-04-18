@@ -27,19 +27,19 @@
 
 	# The range at which mobs will search for blocks to target horizontally (xz-plane) and vertically (y-axis).
 	# <Integer> Range: ≥ 1, Default: 12
-	idle_general.scan_range.horizontal = 12
+	idle_general.scan_range.horizontal = 9
 	# <Integer> Range: ≥ 1, Default: 6
-	idle_general.scan_range.vertical = 6
+	idle_general.scan_range.vertical = 5
 
 	# The number of ticks between each block scan.
 	# <Integer> Range: ≥ 1, Default: 2
-	idle_general.scan_delay = 2
+	idle_general.scan_delay = 4
 	# The number of blocks each mob randomly searches to grief/fiddle with every "scan_delay" ticks.
 	# <Integer> Range: ≥ 1, Default: 32
-	idle_general.scan_count = 32
+	idle_general.scan_count = 16
 	# The maximum number of blocks that can be searched in any given tick by all mobs. 0 is no limit.
 	# <Integer> Range: ≥ 0, Default: 3000
-	idle_general.global_scan_count = 3000
+	idle_general.global_scan_count = 2500
 
 
 # Category: idle_griefing
@@ -53,18 +53,12 @@
 		"minecraft:skeleton 1.0",
 		"minecraft:stray 1.0",
 		"minecraft:wither_skeleton 1.0",
-		"minecraft:zombified_piglin 1.0",
-		"minecraft:piglin 1.0",
-		"minecraft:piglin_brute 1.0",
 		"minecraft:zombie 1.0",
-		"minecraft:zombie_villager 1.0",
 		"minecraft:husk 1.0",
-		"minecraft:enderman 1.0",
 		"minecraft:drowned 1.0",
 		"minecraft:evoker 1.0",
 		"minecraft:pillager 1.0",
 		"minecraft:vindicator 1.0",
-		"minecraft:witch 1.0",
 		"minecraft:illusioner 1.0",
 		"illagers_plus:archer 1.0",
 		"illagers_plus:berserker 1.0",
@@ -86,7 +80,6 @@
 		"quark:wrapped 1.0",
 		"dead_guys_untitled_deep_dark_:sculk_emissiary 1.0",
 		"dead_guys_untitled_deep_dark_:sculk_mite 1.0",
-		"dead_guys_untitled_deep_dark_:sculk_villager 1.0",
 		"dead_guys_untitled_deep_dark_:warden 1.0",
 		"dead_guys_untitled_deep_dark_:zombie_of_the_sculk 1.0",
 		"tinyskeletons:baby_wither_skeleton 1.0",
@@ -97,36 +90,20 @@
 		"betterendforge:shadow_walker 1.0",
 		"specialmobs:spitfirewitherskeleton 1.0",
 		"specialmobs:strayskeleton 1.0",
-		"specialmobs:thiefenderman 1.0",
-		"specialmobs:undeadwitch 1.0",
-		"specialmobs:vampirezombifiedpiglin 1.0",
 		"specialmobs:weatheredskeleton 1.0",
-		"specialmobs:wildswitch 1.0",
-		"specialmobs:windwitch 1.0",
 		"specialmobs:abyssaldrowned 1.0",
-		"specialmobs:blindingenderman 1.0",
 		"specialmobs:brutedrowned 1.0",
 		"specialmobs:bruteskeleton 1.0",
 		"specialmobs:brutewitherskeleton 1.0",
 		"specialmobs:brutezombie 1.0",
-		"specialmobs:brutezombifiedpiglin 1.0",
-		"specialmobs:dominationwitch 1.0",
 		"specialmobs:drowned 1.0",
-		"specialmobs:enderman 1.0",
 		"specialmobs:fishingdrowned 1.0",
 		"specialmobs:fishingzombie 1.0",
-		"specialmobs:fishingzombifiedpiglin 1.0",
-		"specialmobs:flameenderman 1.0",
 		"specialmobs:frozendrowned 1.0",
 		"specialmobs:frozenzombie 1.0",
-		"specialmobs:minienderman 1.0",
-		"specialmobs:mirageenderman 1.0",
 		"specialmobs:plaguedrowned 1.0",
 		"specialmobs:plaguezombie 1.0",
-		"specialmobs:plaguezombifiedpiglin 1.0",
 		"specialmobs:poisonskeleton 1.0",
-		"specialmobs:runicenderman 1.0",
-		"specialmobs:shadowswitch 1.0",
 		"specialmobs:skeleton 1.0",
 		"specialmobs:sniperskeleton 1.0",
 		"specialmobs:sniperwitherskeleton 1.0"
@@ -583,14 +560,11 @@
 		"minecraft:piglin 1.0",
 		"minecraft:piglin_brute 1.0",
 		"minecraft:zombie 1.0",
-		"minecraft:zombie_villager 1.0",
 		"minecraft:husk 1.0",
-		"minecraft:enderman 1.0",
 		"minecraft:drowned 1.0",
 		"minecraft:evoker 1.0",
 		"minecraft:pillager 1.0",
 		"minecraft:vindicator 1.0",
-		"minecraft:witch 1.0",
 		"minecraft:illusioner 1.0",
 		"illagers_plus:archer 1.0",
 		"illagers_plus:berserker 1.0",
@@ -612,7 +586,6 @@
 		"quark:wrapped 1.0",
 		"dead_guys_untitled_deep_dark_:sculk_emissiary 1.0",
 		"dead_guys_untitled_deep_dark_:sculk_mite 1.0",
-		"dead_guys_untitled_deep_dark_:sculk_villager 1.0",
 		"dead_guys_untitled_deep_dark_:warden 1.0",
 		"dead_guys_untitled_deep_dark_:zombie_of_the_sculk 1.0",
 		"tinyskeletons:baby_wither_skeleton 1.0",
@@ -623,36 +596,24 @@
 		"betterendforge:shadow_walker 1.0",
 		"specialmobs:spitfirewitherskeleton 1.0",
 		"specialmobs:strayskeleton 1.0",
-		"specialmobs:thiefenderman 1.0",
-		"specialmobs:undeadwitch 1.0",
 		"specialmobs:vampirezombifiedpiglin 1.0",
 		"specialmobs:weatheredskeleton 1.0",
-		"specialmobs:wildswitch 1.0",
-		"specialmobs:windwitch 1.0",
 		"specialmobs:abyssaldrowned 1.0",
-		"specialmobs:blindingenderman 1.0",
 		"specialmobs:brutedrowned 1.0",
 		"specialmobs:bruteskeleton 1.0",
 		"specialmobs:brutewitherskeleton 1.0",
 		"specialmobs:brutezombie 1.0",
 		"specialmobs:brutezombifiedpiglin 1.0",
-		"specialmobs:dominationwitch 1.0",
 		"specialmobs:drowned 1.0",
-		"specialmobs:enderman 1.0",
 		"specialmobs:fishingdrowned 1.0",
 		"specialmobs:fishingzombie 1.0",
 		"specialmobs:fishingzombifiedpiglin 1.0",
-		"specialmobs:flameenderman 1.0",
 		"specialmobs:frozendrowned 1.0",
 		"specialmobs:frozenzombie 1.0",
-		"specialmobs:minienderman 1.0",
-		"specialmobs:mirageenderman 1.0",
 		"specialmobs:plaguedrowned 1.0",
 		"specialmobs:plaguezombie 1.0",
 		"specialmobs:plaguezombifiedpiglin 1.0",
 		"specialmobs:poisonskeleton 1.0",
-		"specialmobs:runicenderman 1.0",
-		"specialmobs:shadowswitch 1.0",
 		"specialmobs:skeleton 1.0",
 		"specialmobs:sniperskeleton 1.0",
 		"specialmobs:sniperwitherskeleton 1.0"

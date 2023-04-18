@@ -21,8 +21,8 @@ ItemStages.restrict(<item:iceandfire:dragonforge_lightning_core_disabled>, "bann
 ItemStages.restrict(<item:iceandfire:dragonforge_lightning_core>, "banned");
 
 //remove mending and flame
-ItemStages.restrict(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "minecraft:mending" as string}]}), "banned");
-ItemStages.restrict(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 0 as short, id: "minecraft:flame" as string}]}), "banned");
+//ItemStages.restrict(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "minecraft:mending" as string}]}), "banned");
+//ItemStages.restrict(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 0 as short, id: "minecraft:flame" as string}]}), "banned");
 
 //wildupdate BAN
 //ItemStages.restrict(<item:wildupdate:sculk_smithing_table>, "banned");

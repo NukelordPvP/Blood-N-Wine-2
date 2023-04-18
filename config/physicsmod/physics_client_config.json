@@ -2,9 +2,9 @@
   "mobPhysicsType": 4,
   "blockPhysicsNew": 1,
   "maxPhysicsObjects": 2008,
-  "blockPhysicsScale": 1.0,
+  "blockPhysicsScale": 0.7400000095367432,
   "particleLifetimeMobs": 4.0,
-  "particleLifetimeBlocks": 0.5,
+  "particleLifetimeBlocks": 0.30000001192092896,
   "particleLifetimeVines": 4.0,
   "particleLifetimeItems": 0.5,
   "particleLifetimeParticles": 0.1,
@@ -64,6 +64,10 @@
     "wildupdate:deep_dark_dimension",
     0.0,
     -9.81,
+    0.0,
+    "bloodnwine2resources:developer_dimension",
+    0.0,
+    -9.81,
     0.0
   ],
   "customizedBuoyancies": [
@@ -84,6 +88,10 @@
     2.0,
     0.0,
     "wildupdate:deep_dark_dimension",
+    0.0,
+    2.0,
+    0.0,
+    "bloodnwine2resources:developer_dimension",
     0.0,
     2.0,
     0.0

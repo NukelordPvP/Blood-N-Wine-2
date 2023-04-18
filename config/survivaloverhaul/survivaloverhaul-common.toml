@@ -23,7 +23,7 @@
 	# How much of an effect being on fire has on a player's temperature.
 	"Player On Fire Modifier" = 12.5
 	# How much of an effect sprinting has on a player's temperature.
-	"Player Sprint Modifier" = 1.5
+	"Player Sprint Modifier" = 1.0
 	# Increases/decreases the effect that cooling/heating enchantments have on a player's temperature.
 	"Enchantment Modifier" = 1.0
 
@@ -35,7 +35,7 @@
 		# Any other value will default to DISABLE.
 		"Wetness Mode" = "DYNAMIC"
 		# How much being wet influences the player's temperature.
-		"Wetness Modifier" = -7.0
+		"Wetness Modifier" = -1.0
 
 	[temperature.huddling]
 		# How much nearby players increase the ambient temperature by.
@@ -52,15 +52,15 @@
 		[temperature.environment.biomes]
 			# How much a biome's temperature effects are multiplied.
 			#Range: 0.0 ~ Infinity
-			"Biome Temperature Multiplier" = 16.0
+			"Biome Temperature Multiplier" = 1.5
 			# Whether or not biomes will have an effect on a player's temperature.
 			"Biomes affect Temperature" = true
 
 		[temperature.environment.weather]
 			# How much of an effect rain has on temperature.
-			"Rain Temperature Modifier" = -2.0
+			"Rain Temperature Modifier" = -1.0
 			# How much of an effect snow has on temperature.
-			"Snow Temperature Modifier" = -6.0
+			"Snow Temperature Modifier" = -2.0
 
 		[temperature.environment.time]
 			# Staying in the shade will reduce a player's temperature by this amount.
@@ -73,7 +73,7 @@
 				"Time Multiplier" = 2.0
 				# How strongly different biomes affect temperature, based on time.
 				#Range: 1.0 ~ Infinity
-				"Biome Time Multiplier" = 1.75
+				"Biome Time Multiplier" = 1.0
 
 	[temperature.advanced]
 		# Maximum horizontal distance, in blocks, where heat sources will have an effect on temperature.
@@ -117,22 +117,22 @@
 					"Late Autumn Modifier" = -3
 
 				[temperature.compat.seasons.temperate.winter]
-					"Early Winter Modifier" = -7
-					"Mid Winter Modifier" = -12
-					"Late Winter Modifier" = -7
+					"Early Winter Modifier" = -5
+					"Mid Winter Modifier" = -8
+					"Late Winter Modifier" = -5
 
 			#Temperature modifiers per season in tropical biomes.
 			[temperature.compat.seasons.tropical]
 
 				[temperature.compat.seasons.tropical.wet-season]
 					"Early Wet Season Modifier" = -1
-					"Mid Wet Season Modifier" = -5
+					"Mid Wet Season Modifier" = -2
 					"Late Wet Season Modifier" = -1
 
 				[temperature.compat.seasons.tropical.dry-season]
-					"Early Dry Season Modifier" = 3
-					"Mid Dry Season Modifier" = 7
-					"Late Dry Season Modifier" = 3
+					"Early Dry Season Modifier" = 1
+					"Mid Dry Season Modifier" = 2
+					"Late Dry Season Modifier" = 1
 
 	# Options relating to heart fruits
 	[temperature.heart-fruits]

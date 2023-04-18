@@ -1,0 +1,84 @@
+[
+  {
+    "id": 0,
+    "anchorPos": {
+      "field_177962_a": -1098,
+      "field_177960_b": 114,
+      "field_177961_c": 1665
+    },
+    "name": "Curing",
+    "dimension": {
+      "field_110626_a": "minecraft",
+      "field_110625_b": "overworld"
+    },
+    "Radius": 32,
+    "muffledSounds": {}
+  },
+  {
+    "id": 1,
+    "anchorPos": {
+      "field_177962_a": -1074,
+      "field_177960_b": 115,
+      "field_177961_c": 1627
+    },
+    "name": "RailCarpet",
+    "dimension": {
+      "field_110626_a": "minecraft",
+      "field_110625_b": "overworld"
+    },
+    "Radius": 32,
+    "muffledSounds": {
+      "minecraft:block.piston.contract": 0.0,
+      "minecraft:block.piston.extend": 0.0,
+      "minecraft:block.wool.break": 0.0
+    }
+  },
+  {
+    "id": 2,
+    "name": "Anchor 2",
+    "Radius": 0,
+    "muffledSounds": {}
+  },
+  {
+    "id": 3,
+    "name": "Anchor 3",
+    "Radius": 0,
+    "muffledSounds": {}
+  },
+  {
+    "id": 4,
+    "name": "Anchor 4",
+    "Radius": 0,
+    "muffledSounds": {}
+  },
+  {
+    "id": 5,
+    "name": "Anchor 5",
+    "Radius": 0,
+    "muffledSounds": {}
+  },
+  {
+    "id": 6,
+    "name": "Anchor 6",
+    "Radius": 0,
+    "muffledSounds": {}
+  },
+  {
+    "id": 7,
+    "name": "Anchor 7",
+    "Radius": 0,
+    "muffledSounds": {}
+  },
+  {
+    "id": 8,
+    "name": "Anchor 8",
+    "Radius": 0,
+    "muffledSounds": {}
+  },
+  {
+    "id": 9,
+    "name": "Anchor 9",
+    "Radius": 0,
+    "muffledSounds": {}
+  }
+]

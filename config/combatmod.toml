@@ -4,6 +4,15 @@
 	HoldAttack = true
 	#Hold attack delay between each attack
 	HoldAttackInterval = 6
+	#Affects attack delay globally for all items that use vanilla attack cooldown system. (for example 0.5 halves the delay)
+	#Range: 0.0 ~ 10.0
+	AttackCooldownModifier = 0.5
+	#Delay in ticks for enabling/disabling health effects when holding (or not holding) a totem of undying
+	HeldTotemEffectDelayTicks = 10
+	#Extra hearts effect duration when holding a totem of undying. After each duration, Your new hearts will be reset and your saturation will be drained to refill those hearts.
+	HeldTotemHeartsDurationTicks = 12000
+	#Extra absorption effect duration when when holding two totems of undying. After each duration, you regain your lost absorption points. Basically acts like a timer that recharges absorption hearts.
+	HeldTotemAbsorptionDurationTicks = 5000
 
 [Projectiles]
 

@@ -21,9 +21,9 @@
 	# Currently non-functional.
 	"Secondary Temperature Effects" = true
 	# How much of an effect being on fire has on a player's temperature.
-	"Player On Fire Modifier" = 6.0
+	"Player On Fire Modifier" = 12.5
 	# How much of an effect sprinting has on a player's temperature.
-	"Player Sprint Modifier" = 1.25
+	"Player Sprint Modifier" = 1.5
 	# Increases/decreases the effect that cooling/heating enchantments have on a player's temperature.
 	"Enchantment Modifier" = 1.0
 
@@ -35,7 +35,7 @@
 		# Any other value will default to DISABLE.
 		"Wetness Mode" = "DYNAMIC"
 		# How much being wet influences the player's temperature.
-		"Wetness Modifier" = -3.5
+		"Wetness Modifier" = -7.0
 
 	[temperature.huddling]
 		# How much nearby players increase the ambient temperature by.
@@ -43,7 +43,7 @@
 		"Player Huddling Modifier" = 0.5
 		# The radius, in blocks, around which players will add to each other's temperature.
 		#Range: 0 ~ 10
-		"Player Huddling Radius" = 3
+		"Player Huddling Radius" = 1
 
 	[temperature.environment]
 		# How much the effects of the player's altitude on temperature are multiplied.
@@ -52,20 +52,20 @@
 		[temperature.environment.biomes]
 			# How much a biome's temperature effects are multiplied.
 			#Range: 0.0 ~ Infinity
-			"Biome Temperature Multiplier" = 8.0
+			"Biome Temperature Multiplier" = 16.0
 			# Whether or not biomes will have an effect on a player's temperature.
 			"Biomes affect Temperature" = true
 
 		[temperature.environment.weather]
 			# How much of an effect rain has on temperature.
-			"Rain Temperature Modifier" = -0.5
+			"Rain Temperature Modifier" = -2.0
 			# How much of an effect snow has on temperature.
-			"Snow Temperature Modifier" = -1.0
+			"Snow Temperature Modifier" = -6.0
 
 		[temperature.environment.time]
 			# Staying in the shade will reduce a player's temperature by this amount.
 			# Only effective in hot biomes!
-			"Time Shade Modifier" = -2
+			"Time Shade Modifier" = -3
 
 			[temperature.environment.time.multipliers]
 				# How strongly the effects of time on temperature are multiplied.
@@ -102,37 +102,37 @@
 			[temperature.compat.seasons.temperate]
 
 				[temperature.compat.seasons.temperate.spring]
-					"Early Spring Modifier" = -2
+					"Early Spring Modifier" = -3
 					"Mid Spring Modifier" = 0
-					"Late Spring Modifier" = 2
+					"Late Spring Modifier" = 3
 
 				[temperature.compat.seasons.temperate.summer]
-					"Early Summer Modifier" = 4
-					"Mid Summer Modifier" = 7
-					"Late Summer Modifier" = 4
+					"Early Summer Modifier" = 5
+					"Mid Summer Modifier" = 8
+					"Late Summer Modifier" = 5
 
 				[temperature.compat.seasons.temperate.autumn]
-					"Early Autumn Modifier" = 2
+					"Early Autumn Modifier" = 3
 					"Mid Autumn Modifier" = 0
-					"Late Autumn Modifier" = -2
+					"Late Autumn Modifier" = -3
 
 				[temperature.compat.seasons.temperate.winter]
-					"Early Winter Modifier" = -4
-					"Mid Winter Modifier" = -7
-					"Late Winter Modifier" = -4
+					"Early Winter Modifier" = -7
+					"Mid Winter Modifier" = -12
+					"Late Winter Modifier" = -7
 
 			#Temperature modifiers per season in tropical biomes.
 			[temperature.compat.seasons.tropical]
 
 				[temperature.compat.seasons.tropical.wet-season]
 					"Early Wet Season Modifier" = -1
-					"Mid Wet Season Modifier" = -4
+					"Mid Wet Season Modifier" = -5
 					"Late Wet Season Modifier" = -1
 
 				[temperature.compat.seasons.tropical.dry-season]
-					"Early Dry Season Modifier" = 2
-					"Mid Dry Season Modifier" = 6
-					"Late Dry Season Modifier" = 2
+					"Early Dry Season Modifier" = 3
+					"Mid Dry Season Modifier" = 7
+					"Late Dry Season Modifier" = 3
 
 	# Options relating to heart fruits
 	[temperature.heart-fruits]

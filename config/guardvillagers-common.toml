@@ -1,5 +1,5 @@
 #Illagers In Raids Attack Animals?
-"Illagers in raids attack animals?" = false
+"Illagers in raids attack animals?" = true
 #Witches Attack Villagers?
 "Witches attack villagers?" = true
 #This will make Illusioners get involved in raids
@@ -28,13 +28,13 @@
 "Have it so clerics heal guards and players with hero of the village?" = true
 #This is the range in which the guards will be aggroed to mobs that are attacking villagers. Higher values are more resource intensive, and setting this to zero will disable the goal.
 #Range: -500.0 ~ 500.0
-Range = 50.0
+Range = 128.0
 #Range: -500.0 ~ 500.0
 "Guard Health" = 20.0
 #Range: -500.0 ~ 500.0
 "Guard speed" = 0.5
 #Range: -500.0 ~ 500.0
-"Guard follow range" = 25.0
+"Guard follow range" = 64.0
 #How much health a guard regenerates.
 #Range: -500.0 ~ 500.0
 "Guard health regeneration amount" = 1.0

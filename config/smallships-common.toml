@@ -99,7 +99,7 @@ Version = 9
 	#	(takes effect after restart)
 	#	default: 0.2
 	#Range: 1.0 ~ 20.0
-	ShipZoom = 6.0
+	ShipZoom = 7.0
 	#
 	#----Should the player enter ships in third person?----
 	#	(takes effect after restart)
