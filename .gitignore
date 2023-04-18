@@ -4,19 +4,18 @@ XaeroWaypoints_BACKUP032021
 XaeroWorldMap
 capes
 downloads
-dumps
 fancymenu_data
 fancymenu_setups
 
 replay_recordings_nukelord420_reviewed_dud
 
 #logs
-logs
+logs/
 crash-reports
+dumps
 
-#worlds (all ignored except dev world)
-saves/*
-!saves/Dev World 
+#worlds
+saves/
 
 screenshots
 simple-rpc
