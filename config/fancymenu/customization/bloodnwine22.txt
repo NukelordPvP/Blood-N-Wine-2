@@ -1,0 +1,332 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = true
+}
+
+customization {
+  name = bloodnwine2_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 157
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Me, My Friends and Herobrine
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen\bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen\bloodnwine2bynukelord420bg2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 152
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = Illegal Mods (210 Loaded)
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen\bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen\bloodnwine2bynukelord420bg2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 130
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Me, Myself and Herobrine
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen\bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen\bloodnwine2bynukelord420bg2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-left
+  x = -12
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 83
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = You're Options...
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen\bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen\bloodnwine2bynukelord420bg2.png
+}
+
+customization {
+  identifier = %id=3763941%
+  orientation = mid-left
+  x = 156
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=3763941%
+  width = 19
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=3763941%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen\bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen\bloodnwine2bynukelord420bg2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 87
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 104
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Delete Herobrine...
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen\bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen\bloodnwine2bynukelord420bg2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 439
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 7bcff184-d4b8-4cfd-8f40-6c6248a71b931657919253435
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = b72e6ab8-068a-47d8-9b8b-ad5fc03ce66f1657919253435
+  y = 458
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 918
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 6d805685-3c5e-47fa-b960-1c4f35a7e37b1657919253435
+  y = 460
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 676
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = bb1e5e5f-2143-49c5-ae2c-4240f04016ef1657919253435
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 436
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 1dc264fe-8551-4ec5-896c-b02c7241966a1657919253435
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-left
+  splash_color = #ffff00
+  hidden = false
+  x = 208
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = f0fd0a5d-c52d-4eb2-a1ed-4b1b38f87e9a1657919253435
+  y = 50
+  height = 30
+}
+
+customization {
+  path = drippyloadingscreen/bloodnwine2logoonly.png
+  orientation = top-centered
+  x = -259
+  width = 518
+  action = addtexture
+  actionid = 96605783-c669-43f2-b477-d280a69a9b0c1643086175654
+  y = 0
+  height = 100
+}
+
+customization {
+  path = drippyloadingscreen/bloodnwine2bynukelord420bg.png
+  orientation = bottom-right
+  x = -235
+  width = 261
+  action = addtexture
+  actionid = 757b26fc-13f0-4a81-ae1c-afa7b84578c31643091047936
+  y = -34
+  height = 35
+}
+
+customization {
+  path = drippyloadingscreen/bloodnwine2bynukelord420.png
+  orientation = bottom-right
+  x = -195
+  width = 187
+  action = addtexture
+  actionid = 3039fcd7-1f35-421e-b801-ece68ce3b41a1643090072634
+  y = -28
+  height = 25
+}
+
+customization {
+  showname = true
+  orientation = mid-left
+  skinpath = drippyloadingscreen/herobrine.png
+  crouching = false
+  x = 68
+  slim = false
+  actionid = 20e6bb22-0e7f-49f8-9a9a-130fa360452f1643100062021
+  action = addentity
+  y = -53
+  scale = 30
+  parrot = false
+}
+
