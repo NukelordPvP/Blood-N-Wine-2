@@ -209,7 +209,7 @@
 	#Range: > 0
 	destroyerEquipmentDamage = 50
 	#Useful if you want your players to be unable to just skip through full moons by disconnecting.
-	pauseDaylightCycle = true
+	pauseDaylightCycle = false
 
 [compat]
 	#(Option for TheOneProbe) If enabled, difficulty can only be seen when the probe is in extended mode.
@@ -218,7 +218,7 @@
 [acid_rain]
 	#The chance of triggering an Acid Rain event when it starts raining. 1 = 100% chance, 0.5 = 50% etc. Defaults to 0.33 (roughly 1/3 chance).
 	#Range: 0.0 ~ 1.0
-	acidRainChance = 0.33
+	acidRainChance = 0.0
 	#Determines the interval in which acid rain damage should be dealt in seconds. A value of 2 will inflict acid rain damage on players every 2 seconds.
 	#Range: 1 ~ 1000
 	rainTickRate = 3
@@ -226,39 +226,39 @@
 	#Range: 1 ~ 10000
 	rainDamage = 1
 	#Set to false to disable acid rain damage, or to true to turn it on.
-	enableRainDamage = true
+	enableRainDamage = false
 
 [equipment]
 	#A list of entity types that can be given weapons.
 	canHaveWeapons = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:drowned", "minecraft:husk", "minecraft:wither_skeleton", "minecraft:piglin", "minecraft:zombified_piglin", "minecraft:piglin_brute", "minecraft:vindicator"]
 	#The difficulty value for each application of weapon related values.
 	#Range: 0.0 ~ 10000.0
-	weaponsTimeSpan = 30.0
+	weaponsTimeSpan = 0.0
 	#The chance that a mob will be given a weapon when it spawns. This value increases in accordance to weaponsTimeSpan.
 	#Range: 0.0 ~ 1.0
-	weaponsChance = 0.05
+	weaponsChance = 0.0
 	#The additional chance gained from a full moon. Default is 0.2 (+20% chance on full moon).
 	#Range: 0.0 ~ 1.0
-	weaponsLunarChance = 0.2
+	weaponsLunarChance = 0.0
 	#The maximum weapon chance that can be given over time. Default is 0.95 (95% chance).
 	#Range: 0.0 ~ 1.0
-	weaponsMaxChance = 0.95
+	weaponsMaxChance = 0.0
 	#If enabled, only weapons from the most recently unlocked weapon tier will be given to mobs. When disabled, a random weapon will be picked from all unlocked tiers.
 	useCurrentWeaponTierOnly = false
 	#A list of entity types that can be given armor.
 	canHaveArmor = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:drowned", "minecraft:husk", "minecraft:stray", "minecraft:wither_skeleton", "minecraft:piglin", "minecraft:zombified_piglin", "minecraft:piglin_brute"]
 	#The difficulty value for each application of armor related values.
 	#Range: 0.0 ~ 10000.0
-	armorTimeSpan = 30.0
+	armorTimeSpan = 0.0
 	#The chance that a mob will be given armor when it spawns. This value increases in accordance to armorTimeSpan.
 	#Range: 0.0 ~ 1.0
-	armorChance = 0.05
+	armorChance = 0.0
 	#The additional chance gained from a full moon. Default is 0.2 (+20% chance on full moon).
 	#Range: 0.0 ~ 1.0
-	armorLunarChance = 0.2
+	armorLunarChance = 0.0
 	#The maximum armor chance that can be given over time. Default is 0.95 (95% chance).
 	#Range: 0.0 ~ 1.0
-	armorMaxChance = 0.95
+	armorMaxChance = 0.0
 	#If enabled, only armor from the most recently unlocked armor tier will be given to mobs. When disabled, random armor pieces will be picked from all unlocked tiers.
 	useCurrentArmorTierOnly = false
 

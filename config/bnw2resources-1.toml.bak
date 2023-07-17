@@ -1,0 +1,118 @@
+
+[Modules]
+
+	[Modules.Freecam]
+		#Enable or disable Freecam
+		enableFreecam = true
+		#Freecam movement speed
+		#Range: 0.0 ~ 10.0
+		speed = 1.5
+		#control speed with mouse wheel. use 0 to disable
+		#Range: 0.0 ~ 2.0
+		speed-scroll-sensitivity = 1.0
+		#Disable when you take damage
+		disable-on-damage = true
+		#Nausea
+		nausea = false
+
+	[Modules.PacketStats]
+		#Enable or disable PacketStats
+		enablePacketStats = false
+
+[Ghast]
+
+	[Ghast."Ghast's Fireball"]
+		#Ghast's fireball explosion multiplier
+		#Range: 0 ~ 100
+		ExplosionMultiplier = 2
+		#Ghast's fireball speed multiplier
+		Speed = 6.0
+		#Ghast's fireball cooldown ticks (40 in vanilla)
+		#Range: 0 ~ 500
+		CooldownTicks = 15
+
+["Installer/Setup"]
+	#Is installer enabled
+	EnableInstaller = true
+	#mod ids to be removed
+	ModIDsToBeRemoved = ["kleeslabs", "roadrunner", "snowrealmagic", "kiwi"]
+	#mod jars to be removed
+	ModJarsToBeRemoved = ["magnesium-1.5.jar", "dragonfight-1.8.jar"]
+
+["Ender Dragon"]
+	#custom exit portal generation height (use 0 for vanilla behavior)
+	#Range: 0 ~ 255
+	customExitPortalHeight = 100
+	#custom dragon landing height (use 0 for vanilla behavior)
+	#Range: 0 ~ 255
+	customDragonLandingHeight = 105
+
+["Snow Golem"]
+
+	["Snow Golem"."Snow Golem's Ranged Attack Mode"]
+		#Snowman's attack interval (lower is faster, 0 disables attack, 20 in vanilla)
+		#Range: 0 ~ 1000
+		AttackInterval = 3
+		#Snowman's attack radius (0 disables attack, 10 in vanilla, should be less than or equal to follow range attribute)
+		#Range: 0.0 ~ 300.0
+		AttackRadius = 70.0
+		#Snowman's walk speed multiplier when in attack mode (1.25 in vanilla)
+		#Range: 1.0 ~ 30.0
+		AttackWalkSpeedModifier = 2.0
+
+[Wither]
+	#Wither's initial explosion strength. (7 in vanilla)
+	#Range: 1.0 ~ 100.0
+	ExplosionRadius = 14.0
+
+["Mob Attribute Modifiers"]
+	#Mob list to control their speed attribute using ratios 
+	# 1.0 means 100% speed boost (2x speed) 
+	# -0.5 means 50% speed reduction (half speed) 
+	# -1.0 means mob won't move 
+	#- format: value:modname:mobname
+	MobSpeedModifier = ["1.2:minecraft:horse", "1.05:minecraft:mule", "0.65:minecraft:donkey", "0.70:minecraft:zombie_horse", "0.75:minecraft:skeleton_horse", "0.3:minecraft:zombie", "0.3:minecraft:husk", "0.33:minecraft:zombie_villager", "0.3:minecraft:drowned", "0.5:dead_guys_untitled_deep_dark_:zombie_of_the_sculk", "0.3:minecraft:zombified_piglin", "0.3:minecraft:piglin", "0.2:minecraft:piglin_brute", "0.3:minecraft:skeleton", "0.21:minecraft:wither_skeleton", "0.2:minecraft:stray", "0.5:tinyskeletons:baby_skeleton", "0.5:tinyskeletons:baby_stray", "0.45:tinyskeletons:baby_wither_skeleton", "0.5:betternether:jungle_skeleton", "0.4:minecraft:ghast", "0.4:minecraft:iron_golem", "0.3:minecraft:snow_golem", "0.45:minecraft:enderman", "0.31:minecraft:witch", "0.41:minecraft:pillager", "0.31:minecraft:vindicator", "0.35:minecraft:evoker", "0.4:minecraft:illusioner", "0.5:quark:wrapped", "0.5:quark:forgotten", "0.5:dead_guys_untitled_deep_dark_:sculk_villager", "0.5:betterendforge:shadow_walker", "0.5:lycanitesmobs:frostweaver", "0.5:illagers_plus:frostmancer", "0.5:illagers_plus:furantur", "0.5:illagers_plus:miner", "0.5:illagers_plus:necromancer", "0.5:illagers_plus:archer", "0.5:illagers_plus:berserker", "0.5:illagers_plus:enchanter", "0.5:workshopofdoom:excavator", "0.5:desolation:blackend", "0.5:infernalexp:blackstone_dwarf", "0.5:infernalexp:embody", "1.0:iceandfire:dread_horse", "0.5:iceandfire:dread_ghoul", "0.5:iceandfire:dread_knight", "0.5:iceandfire:dread_lich", "0.5:iceandfire:dread_thrall", "-0.5:iceandfire:stymphalian_bird"]
+	#Mob list to control their max health attribute using ratios 
+	# 1.0 means 100% more health (2x health) 
+	# -0.5 means 50% health reduction (half health) 
+	# -1.0 means mob will be dead or something because no health
+	#- format: value:modname:mobname
+	MobHealthModifier = ["1.0:minecraft:ghast", "1.0:minecraft:iron_golem", "3.0:minecraft:snow_golem"]
+	#Mob list to control their max follow range attribute using ratios 
+	# 1.0 means 100% more range (2x range) 
+	# -0.5 means 50% range reduction (half range) 
+	# -1.0 means mob won't target anyone
+	#- format: value:modname:mobname
+	MobFollowRangeModifier = ["4.0:minecraft:snow_golem", "1.1:minecraft:ghast", "1.0:minecraft:skeleton"]
+	#Mob list to control their attack damage attribute using ratios 
+	# 1.0 means 100% more damage (2x damage) 
+	# -0.5 means 50% damage reduction (half damage) 
+	# -1.0 means mob won't deal damage
+	#- format: value:modname:mobname
+	MobDamageModifier = ["0.2:minecraft:iron_golem"]
+
+[GamePlay]
+	#wether to disable night skips while sleeping or not
+	NoNightSkip = true
+	#Lock max game brightness to this value (makes slider above this value useless, use -1 to disable lock)
+	#Range: -1.0 ~ 1.0
+	MaxGamma = 0.3
+	#at which day should halloween end in November? (default=3)
+	HalloweenNovemberEndDay = 10
+	#Limit max mending repair in % (100 means no limit and 0 disables Mending repair)
+	#Range: 66.0 ~ 100.0
+	PlayerHeadDropChance = 66.0
+
+[TerraForged]
+	#The range that terraforged generates terrain. chunks outside this range will be generated using vanilla code.
+	TfMaxGenerationRange = 100000
+
+[Ravager]
+	#Ravager's attack reach (4 in vanilla)
+	#Range: 0.0 ~ 8.0
+	RavagerAttackReach = 2.0
+
+[Villager]
+	#Initial player reputation for villager pricing (0 in vanilla)
+	VillagerStartReputation = -20
+

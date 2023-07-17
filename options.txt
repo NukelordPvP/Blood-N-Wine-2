@@ -23,7 +23,7 @@ fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.0
-renderDistance:2
+renderDistance:8
 entityDistanceScaling:5.0
 guiScale:3
 particles:0
@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","mod_resources","bbor","openloader/resources/7OOF.zip","openloader/resources/contenttweaker","quark:emote_resources","songs","file/Infernal Resources.zip","file/Wolfrest\u0027s Better Mineralogy.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/Default-Dark-Mode-1.16.2+-(v1.3.1).zip"]
+resourcePacks:["vanilla","mod_resources","bbor","openloader/resources/7OOF.zip","openloader/resources/contenttweaker","quark:emote_resources","file/Infernal Resources.zip","file/Wolfrest\u0027s Better Mineralogy.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/Default-Dark-Mode-1.16.2+-(v1.3.1).zip"]
 incompatibleResourcePacks:["quark:emote_resources","file/xali-s-Enchanted-Books-16x-v0.10.1.zip"]
 lastServer:
 lang:en_us
@@ -113,9 +113,9 @@ key_key.dragon_down:key.keyboard.v
 key_key.dragon_change_view:key.keyboard.f7
 key_key.enchdesc.show:key.keyboard.left.shift
 key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_key.dead_guys_untitled_deep_dark_.help:key.keyboard.menu
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
-key_key.dead_guys_untitled_deep_dark_.help:key.keyboard.menu
 key_key.entityculling.toggle:key.keyboard.unknown
 key_Strip World:key.keyboard.unknown
 key_Dress World:key.keyboard.unknown
@@ -123,15 +123,15 @@ key_Open Config:key.keyboard.unknown
 key_Add Block:key.keyboard.delete
 key_Remove Block:key.keyboard.end
 key_Cycle Profile:key.keyboard.unknown
-key_key.musictriggers.menu:key.keyboard.unknown
+key_key.musictriggers.menu:key.keyboard.right
 key_nicephore.keybinds.copy:key.keyboard.c:CONTROL
 key_nicephore.keybinds.screenshots.gui:key.keyboard.s:CONTROL
 key_nicephore.keybinds.gallery.gui:key.keyboard.g:CONTROL
 key_key.solpotato.open_food_book:key.keyboard.unknown
+key_key.solpotato.open_food_book:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_key.solpotato.open_food_book:key.keyboard.unknown
 key_key.dungeons_libraries.curiosintegration.description_slot1:key.keyboard.v
 key_key.dungeons_libraries.curiosintegration.description_slot2:key.keyboard.b
 key_key.dungeons_libraries.curiosintegration.description_slot3:key.keyboard.n
@@ -171,6 +171,41 @@ key_key.effortlessbuilding.altplacement.desc:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.toastcontrol.clear:key.keyboard.t:ALT
+key_key.tconstruct.helmet_interact:key.keyboard.p
+key_key.tconstruct.leggings_interact:key.keyboard.l
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.keypad.1
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.caps.lock
+key_quark.keybind.change_hotbar:key.keyboard.x
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.emote.no:key.keyboard.unknown
+key_quark.emote.yes:key.keyboard.unknown
+key_quark.emote.wave:key.keyboard.unknown
+key_quark.emote.salute:key.keyboard.unknown
+key_quark.emote.cheer:key.keyboard.unknown
+key_quark.emote.clap:key.keyboard.unknown
+key_quark.emote.think:key.keyboard.unknown
+key_quark.emote.point:key.keyboard.unknown
+key_quark.emote.shrug:key.keyboard.unknown
+key_quark.emote.headbang:key.keyboard.unknown
+key_quark.emote.weep:key.keyboard.unknown
+key_quark.emote.facepalm:key.keyboard.unknown
+key_quark.keybind.patreon_emote.dance:key.keyboard.unknown
+key_quark.keybind.patreon_emote.tpose:key.keyboard.unknown
+key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
+key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
+key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
+key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_key.curios.open.desc:key.keyboard.g
+key_Clear Follower List:key.keyboard.backslash
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.j
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -190,46 +225,11 @@ key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
 key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
 key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
-key_key.tconstruct.helmet_interact:key.keyboard.p
-key_key.tconstruct.leggings_interact:key.keyboard.l
-key_key.waila.config:key.keyboard.keypad.0
-key_key.waila.show_overlay:key.keyboard.keypad.1
-key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.caps.lock
-key_quark.keybind.back:key.mouse.4
-key_key.curios.open.desc:key.keyboard.g
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.emote.no:key.keyboard.unknown
-key_quark.emote.yes:key.keyboard.unknown
-key_quark.emote.wave:key.keyboard.unknown
-key_quark.emote.salute:key.keyboard.unknown
-key_quark.emote.cheer:key.keyboard.unknown
-key_quark.emote.clap:key.keyboard.unknown
-key_quark.emote.think:key.keyboard.unknown
-key_quark.emote.point:key.keyboard.unknown
-key_quark.emote.shrug:key.keyboard.unknown
-key_quark.emote.headbang:key.keyboard.unknown
-key_quark.emote.weep:key.keyboard.unknown
-key_quark.emote.facepalm:key.keyboard.unknown
-key_quark.keybind.patreon_emote.dance:key.keyboard.unknown
-key_quark.keybind.patreon_emote.tpose:key.keyboard.unknown
-key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
-key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
-key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
-key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.x
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.i
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_Clear Follower List:key.keyboard.backslash
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
@@ -256,7 +256,7 @@ key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
 soundCategory_master:0.0
-soundCategory_music:0.07199604
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
