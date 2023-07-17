@@ -1,4 +1,4 @@
-#Mon Jul 17 11:19:49 PDT 2023
+#Sat Jun 03 22:58:55 PDT 2023
 shadowDistance=128.0
 BLOCK_ENTITY_SHADOWS=false
 shadowMapResolution=1024
