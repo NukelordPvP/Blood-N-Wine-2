@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -112,7 +112,7 @@ key_key.dragon_strike:key.keyboard.g
 key_key.dragon_down:key.keyboard.v
 key_key.dragon_change_view:key.keyboard.f7
 key_key.enchdesc.show:key.keyboard.left.shift
-key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.l
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.dead_guys_untitled_deep_dark_.help:key.keyboard.menu
@@ -135,15 +135,15 @@ key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.dungeons_libraries.curiosintegration.description_slot1:key.keyboard.v
 key_key.dungeons_libraries.curiosintegration.description_slot2:key.keyboard.b
 key_key.dungeons_libraries.curiosintegration.description_slot3:key.keyboard.n
-key_key.astikorcarts.desc:key.keyboard.h
 key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.caps.lock
+key_key.astikorcarts.desc:key.keyboard.h
+key_key.open_menu:key.keyboard.z
+key_Open sound muffler screen:key.keyboard.unknown
 key_worldeditcuife3.key.cui.options:key.keyboard.unknown
 key_worldeditcuife3.key.cui.toggle.visibility:key.keyboard.unknown
 key_worldeditcuife3.key.cui.clear.selection:key.keyboard.unknown
 key_worldeditcuife3.key.chunk.toggle.visibility:key.keyboard.unknown
 key_worldeditcuife3.key.distance.toggle.visibility:key.keyboard.unknown
-key_Open sound muffler screen:key.keyboard.unknown
-key_key.open_menu:key.keyboard.z
 key_placebo.toggleWings:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
 key_Piston Pushcart Up:key.keyboard.space
@@ -170,47 +170,6 @@ key_key.effortlessbuilding.redo.desc:key.keyboard.unknown
 key_key.effortlessbuilding.altplacement.desc:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
-key_key.toastcontrol.clear:key.keyboard.t:ALT
-key_key.tconstruct.helmet_interact:key.keyboard.p
-key_key.tconstruct.leggings_interact:key.keyboard.l
-key_key.waila.config:key.keyboard.keypad.0
-key_key.waila.show_overlay:key.keyboard.keypad.1
-key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.g
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.back:key.mouse.4
-key_quark.emote.no:key.keyboard.unknown
-key_quark.emote.yes:key.keyboard.unknown
-key_quark.emote.wave:key.keyboard.unknown
-key_quark.emote.salute:key.keyboard.unknown
-key_quark.emote.cheer:key.keyboard.unknown
-key_quark.emote.clap:key.keyboard.unknown
-key_quark.emote.think:key.keyboard.unknown
-key_quark.emote.point:key.keyboard.unknown
-key_quark.emote.shrug:key.keyboard.unknown
-key_quark.emote.headbang:key.keyboard.unknown
-key_quark.emote.weep:key.keyboard.unknown
-key_quark.emote.facepalm:key.keyboard.unknown
-key_quark.keybind.patreon_emote.dance:key.keyboard.unknown
-key_quark.keybind.patreon_emote.tpose:key.keyboard.unknown
-key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
-key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
-key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
-key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.x
-key_key.inventoryhud.toggle:key.keyboard.unknown
-key_key.inventoryhud.openconfig:key.keyboard.i
-key_key.inventoryhud.togglepot:key.keyboard.unknown
-key_key.inventoryhud.togglearm:key.keyboard.unknown
-key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.caps.lock
-key_Clear Follower List:key.keyboard.backslash
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.j
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -230,6 +189,47 @@ key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
 key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
 key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
+key_key.toastcontrol.clear:key.keyboard.t:ALT
+key_key.tconstruct.helmet_interact:key.keyboard.p
+key_key.tconstruct.leggings_interact:key.keyboard.l
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.keypad.1
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
+key_quark.keybind.autorun:key.keyboard.caps.lock
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_key.curios.open.desc:key.keyboard.g
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.i
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.x
+key_quark.keybind.back:key.mouse.4
+key_quark.emote.no:key.keyboard.unknown
+key_quark.emote.yes:key.keyboard.unknown
+key_quark.emote.wave:key.keyboard.unknown
+key_quark.emote.salute:key.keyboard.unknown
+key_quark.emote.cheer:key.keyboard.unknown
+key_quark.emote.clap:key.keyboard.unknown
+key_quark.emote.think:key.keyboard.unknown
+key_quark.emote.point:key.keyboard.unknown
+key_quark.emote.shrug:key.keyboard.unknown
+key_quark.emote.headbang:key.keyboard.unknown
+key_quark.emote.weep:key.keyboard.unknown
+key_quark.emote.facepalm:key.keyboard.unknown
+key_quark.keybind.patreon_emote.dance:key.keyboard.unknown
+key_quark.keybind.patreon_emote.tpose:key.keyboard.unknown
+key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
+key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
+key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
+key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_Clear Follower List:key.keyboard.backslash
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
