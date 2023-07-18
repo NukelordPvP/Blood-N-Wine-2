@@ -3,7 +3,7 @@
 
 	[Modules.Freecam]
 		#Enable or disable Freecam
-		enableFreecam = true
+		enableFreecam = false
 		#Freecam movement speed
 		#Range: 0.0 ~ 10.0
 		speed = 1.5
