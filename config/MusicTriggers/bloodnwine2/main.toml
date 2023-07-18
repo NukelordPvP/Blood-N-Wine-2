@@ -4,6 +4,9 @@
 
 [triggers]
 	[triggers.dead]
+		start_delay = "0"
+		priority = "69"
+
 	[triggers.gamestage]
 	[triggers.menu]
 		song_delay = "600"
@@ -76,21 +79,21 @@
 		song_delay = "3600"
 
 		#Stronghold
-	[[triggers.structure]]
-		identifier = "stronghold"
-		resource_name = [ "stronghold" ]
-		priority = "9"
-		trigger_delay = "300"
-		song_delay = "3600"
+	#[[triggers.structure]]
+	#	identifier = "stronghold"
+	#	resource_name = [ "stronghold" ]
+	#	priority = "9"
+	#	trigger_delay = "300"
+	#	song_delay = "3600"
 
 		#Village
-	[[triggers.structure]]
-		fade_out = "00"
-		identifier = "villages"
-		resource_name = [ "village" ]
-		priority = "5"
-		trigger_delay = "300"
-		song_delay = "3600"
+	#[[triggers.structure]]
+	#	fade_out = "00"
+	#	identifier = "villages"
+	#	resource_name = [ "village" ]
+	#	priority = "5"
+	#	trigger_delay = "300"
+	#	song_delay = "3600"
 
 		#Dragons
 	[[triggers.mob]]
@@ -137,78 +140,68 @@
 		#	priority = "9"
 
 [songs]
-	# Unused
-	# [songs.azure]
-	# [songs.dontletgo]
-
 	# Death
-	# 60s of Blank Audio
+	# 60s of Blank Audio x3
 	[songs.60]
 		triggers = [ "dead" ]
+	[songs.601]
+		triggers = [ "dead" ]
+	[songs.602]
+		triggers = [ "dead" ]
+
 		# Yoda Death Easter Egg
 	[songs.yodadeath]
 		triggers = [ "dead" ]
 		fade_out = "0"
 		fade_in = "0"
+		passive_persistence = true
+		toggle_inactive_playable = false
+		play_once = true
+
 		# witcher3 death
 	[songs.death]
 		triggers = [ "dead" ]
 		fade_out = "0"
 		fade_in = "0"
+		passive_persistence = true
+		toggle_inactive_playable = true
+		play_once = true
+
 		# 8bit death
 	[songs.death8bit]
 		triggers = [ "dead" ]
 		fade_out = "0"
 		fade_in = "0"
+		passive_persistence = true
+		toggle_inactive_playable = true
+		play_once = true
+
 		# oof
 	[songs.oof]
 		triggers = [ "dead" ]
 		fade_out = "0"
 		fade_in = "0"
+		passive_persistence = true
+		toggle_inactive_playable = true
+		play_once = true
+
+		#itsjustaburningmemory
+	[songs.itsjustaburningmemory]
+		triggers = [ "dead" ]
+		fade_out = "0"
+		fade_in = "0"
+		passive_persistence = true
+		toggle_inactive_playable = true
+		play_once = true
 
 		# Main Menu
-	#[songs.darkwood]
-	#	triggers = [ "menu" ]
-	#	fade_out = "100"
-	#	fade_in = "100"
-
-	[songs.mirages]
+	[songs.frozenintime]
 		triggers = [ "menu" ]
 		fade_out = "100"
 		fade_in = "100"
 		volume = "0.5"
 
-	[songs.oracle]
-		triggers = [ "menu" ]
-		fade_out = "100"
-		fade_in = "100"
-		volume = "0.5"
-
-	[songs.source]
-		triggers = [ "menu" ]
-		fade_out = "100"
-		fade_in = "100"
-		volume = "0.5"
-
-	[songs.syntesia]
-		triggers = [ "menu" ]
-		fade_out = "100"
-		fade_in = "100"
-		volume = "0.5"
-
-	[songs.acquaalta]
-		triggers = [ "menu" ]
-		fade_out = "100"
-		fade_in = "100"
-		volume = "0.5"
-
-	[songs.gamma]
-		triggers = [ "menu" ]
-		fade_out = "100"
-		fade_in = "100"
-		volume = "0.5"
-
-	[songs.monolake]
+	[songs.rememberingtheworldasitusedtobe]
 		triggers = [ "menu" ]
 		fade_out = "100"
 		fade_in = "100"
@@ -223,27 +216,19 @@
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.chaliceofeternity]
 		triggers = [ "time-day" "dimension-overworld" ]
-	[songs.ecclesiauniversalis]
-		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.ecstaticparadigm]
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.heosphoros]
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.illuminatio]
 		triggers = [ "time-day" "dimension-overworld" ]
-	[songs.journeytothecelestialrivers]
-		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.marchofthepriests]
-		triggers = [ "time-day" "dimension-overworld" ]
-	[songs.mysteriisdesanguine]
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.nekrosis]
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.passing]
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.sacrumnoctis]
-		triggers = [ "time-day" "dimension-overworld" ]
-	[songs.templeofabandon]
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.thehermit]
 		triggers = [ "time-day" "dimension-overworld" ]
@@ -312,99 +297,99 @@
 		moon_phase = "0"
 		time_bundle = "sunrise"
 
-		#Stronghold
-	[songs.qkthr]
-		triggers = [ "stronghold" ]
-		fade_out = "100"
-		fade_in = "100"
+	#	#Stronghold
+	#[songs.qkthr]
+	#	triggers = [ "stronghold" ]
+	#	fade_out = "100"
+	#	fade_in = "100"
 
 		#Nether
 	[songs.whattheearthbore]
-		triggers = [ "time-not_set" "dimension-nether" ]
+		triggers = ["dimension-nether" "dimension-deep_darky"]
 	[songs.thedeadfire]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.burrows]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.echo]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.inanarchedworld]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.omission]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.eschatology]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.drawnlikeamoth]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.alldreamsmined]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.immemorial]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.onesatoptheunknown]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.nightsoclosetothetongue]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.alonelystrain]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.aphotic]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.cavernofigneousflame]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.onyx]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.apalesignrevealed]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.avenoir]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.ancientamulet]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.unveilingthescript]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.deepspacesignals]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.consternation]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.activating]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.iridescenceshimmer]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.theplanet]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.induction]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.nascency]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.roadtonowhere]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.solarhalos]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.beyondtheedge]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.echosphere]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.brokenworlds]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.losthorizon]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.overland]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.oceangrooves]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.reverseechoes]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.deltazero]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.spellbound]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.intothevoid]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.paralleldestiny]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.ancientpillars]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.particlestorm]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 	[songs.floatingspheres]
-		triggers = [ "dimension-nether" ]
+		triggers = [ "dimension-nether" "dimension-deep_darky"]
 
 		#Enderdragon
 	[[songs.moonlightsonata]]
@@ -413,7 +398,3 @@
 		#Dragon
 	[[songs.moonlightsonata]]
 		triggers = [ "mob-dragon" ]
-		
-		#Deep Dark
-	[songs.frozenintime]
-		triggers = [ "dimension-deep_darky" ]
