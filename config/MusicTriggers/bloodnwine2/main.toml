@@ -237,6 +237,7 @@
 		triggers = [ "time-day" "dimension-overworld" ]
 	[songs.sacrumnoctis]
 		triggers = [ "time-day" "dimension-overworld" ]
+		volume = "0.5"
 	[songs.chaliceofeternity]
 		triggers = [ "time-day" "dimension-overworld" ]
 
@@ -298,9 +299,6 @@
 		moon_phase = "0"
 
 	# Criers Bane [night]
-	[songs.amomentaryrefuge]
-		triggers = [ "time-night" "dimension-overworld" ]
-		moon_phase = "0"
 	[songs.atheatreofshadows]
 		triggers = [ "time-night" "dimension-overworld" ]
 		moon_phase = "0"
