@@ -1,0 +1,646 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffd25023716, pid=10808, tid=50196
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_51-b16) (build 1.8.0_51-b16)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.51-b03 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [PhysXJniBindings_64.dll+0x53716]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000033f4000):  JavaThread "Render thread" [_thread_in_native, id=50196, stack(0x00000000032f0000,0x00000000033f0000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x0000000000000000
+
+Registers:
+RAX=0x0000000000000000, RBX=0x0000000000000018, RCX=0x0000000000000000, RDX=0x0000000000000000
+RSP=0x00000000033ed8c0, RBP=0x00000000033ed970, RSI=0x0000000000000003, RDI=0x0000000000000000
+R8 =0x0000000000000003, R9 =0x0000000024b0b7d0, R10=0x00000000035057c8, R11=0x00000000744b7bb0
+R12=0x0000000000000000, R13=0x0000000044a1f7e0, R14=0x00000000033ed990, R15=0x00000000033f4000
+RIP=0x00007ffd25023716, EFLAGS=0x0000000000010206
+
+Top of Stack: (sp=0x00000000033ed8c0)
+0x00000000033ed8c0:   00000000bbc4254b 0000000000000000
+0x00000000033ed8d0:   0000000042fff335 0000000000000000
+0x00000000033ed8e0:   00000000bbc4254b 0000000000000000
+0x00000000033ed8f0:   00000000034f7ced 00000000035057f4
+0x00000000033ed900:   0000000044a1f7e0 0000000695e61ff0
+0x00000000033ed910:   0000000000000000 00000000033ed980
+0x00000000033ed920:   000000016591f458 0000000000000000
+0x00000000033ed930:   00000000033ed930 0000000000000000
+0x00000000033ed940:   00000000033ed990 0000000044a21b10
+0x00000000033ed950:   0000000000000000 0000000044a1f7e0
+0x00000000033ed960:   0000000000000000 00000000033ed990
+0x00000000033ed970:   00000000033ed9d8 00000000034f7800
+0x00000000033ed980:   0000000695e2eda0 00000000034ff977
+0x00000000033ed990:   0000000000000003 00000000033ed998
+0x00000000033ed9a0:   0000000044a1f739 00000000033ed9e8
+0x00000000033ed9b0:   0000000044a21b10 0000000000000000 
+
+Instructions: (pc=0x00007ffd25023716)
+0x00007ffd250236f6:   89 74 24 10 57 48 83 ec 30 48 8b fa 8b f1 ff 15
+0x00007ffd25023706:   86 3c 19 00 48 8b d8 ff 15 35 3c 19 00 48 8b c8
+0x00007ffd25023716:   4c 8b 00 41 ff 50 28 84 c0 75 09 48 8d 05 a0 5e
+0x00007ffd25023726:   12 00 eb 13 48 8d 15 8f 3f 19 00 48 8d 0d 20 2d 
+
+
+Register to memory mapping:
+
+RAX=0x0000000000000000 is an unknown value
+RBX=0x0000000000000018 is an unknown value
+RCX=0x0000000000000000 is an unknown value
+RDX=0x0000000000000000 is an unknown value
+RSP=0x00000000033ed8c0 is pointing into the stack for thread: 0x00000000033f4000
+RBP=0x00000000033ed970 is pointing into the stack for thread: 0x00000000033f4000
+RSI=0x0000000000000003 is an unknown value
+RDI=0x0000000000000000 is an unknown value
+R8 =0x0000000000000003 is an unknown value
+R9 =0x0000000024b0b7d0 is an unknown value
+R10=0x00000000035057c8 is at code_begin+840 in an Interpreter codelet
+method entry point (kind = native)  [0x0000000003505480, 0x0000000003505de0]  2400 bytes
+R11=0x00000000744b7bb0 is an unknown value
+R12=0x0000000000000000 is an unknown value
+R13={method} {0x0000000044a1f7e8} '_DefaultCpuDispatcherCreate' '(I)J' in 'physx/PxTopLevelFunctions'
+R14=0x00000000033ed990 is pointing into the stack for thread: 0x00000000033f4000
+R15=0x00000000033f4000 is a thread
+
+
+Stack: [0x00000000032f0000,0x00000000033f0000],  sp=0x00000000033ed8c0,  free space=1014k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [PhysXJniBindings_64.dll+0x53716]
+C  0x00000000035057f4
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  physx.PxTopLevelFunctions._DefaultCpuDispatcherCreate(I)J+0
+j  physx.PxTopLevelFunctions.DefaultCpuDispatcherCreate(I)Lphysx/extensions/PxDefaultCpuDispatcher;+1
+J 68785 C2 net.minecraft.client.renderer.WorldRenderer.handler$bjd000$renderChunkLayerSolid(Lnet/minecraft/client/renderer/RenderType;Lcom/mojang/blaze3d/matrix/MatrixStack;DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V (721 bytes) @ 0x000000000b19c7b4 [0x000000000b1994c0+0x32f4]
+J 67153 C2 net.minecraft.client.renderer.WorldRenderer.func_228441_a_(Lnet/minecraft/client/renderer/RenderType;Lcom/mojang/blaze3d/matrix/MatrixStack;DDD)V (186 bytes) @ 0x000000000ddc5930 [0x000000000ddc5080+0x8b0]
+J 65347 C2 net.coderbot.iris.pipeline.ShadowRenderer.renderShadows(Lnet/coderbot/iris/mixin/LevelRendererAccessor;Lnet/minecraft/client/renderer/ActiveRenderInfo;)V (808 bytes) @ 0x000000000ab915f4 [0x000000000ab90a60+0xb94]
+J 67893 C2 net.minecraft.client.renderer.WorldRenderer.handler$zpb000$iris$renderTerrainShadows(Lcom/mojang/blaze3d/matrix/MatrixStack;FJZLnet/minecraft/client/renderer/ActiveRenderInfo;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lnet/minecraft/util/math/vector/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V (16 bytes) @ 0x00000000099047c0 [0x0000000009904740+0x80]
+j  net.minecraft.client.renderer.WorldRenderer.func_228426_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;FJZLnet/minecraft/client/renderer/ActiveRenderInfo;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lnet/minecraft/util/math/vector/Matrix4f;)V+880
+j  net.minecraft.client.renderer.GameRenderer.func_228378_a_(FJLcom/mojang/blaze3d/matrix/MatrixStack;)V+620
+j  net.minecraft.client.renderer.GameRenderer.func_195458_a(FJZ)V+250
+J 66066 C2 net.minecraft.client.Minecraft.func_195542_b(Z)V (1013 bytes) @ 0x000000000de73cb8 [0x000000000de71fe0+0x1cd8]
+j  net.minecraft.client.Minecraft.handler$cdh000$unloadWorldScreenshot(Lnet/minecraft/client/gui/screen/Screen;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V+21
+j  net.minecraft.client.Minecraft.func_213231_b(Lnet/minecraft/client/gui/screen/Screen;)V+49
+j  net.minecraft.client.Minecraft.func_213254_o()V+8
+j  net.minecraft.client.Minecraft.func_71405_e()V+66
+j  net.minecraft.client.main.Main.main([Ljava/lang/String;)V+1445
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+100
+J 2396 C1 sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (10 bytes) @ 0x0000000003e38c0c [0x0000000003e38b00+0x10c]
+J 2395 C1 java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (62 bytes) @ 0x0000000003e3862c [0x0000000003e38240+0x3ec]
+j  net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(Lcpw/mods/modlauncher/api/ITransformingClassLoader;[Ljava/lang/String;)Ljava/lang/Void;+50
+j  net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$502.call()Ljava/lang/Object;+12
+j  cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch([Ljava/lang/String;Lcpw/mods/modlauncher/api/ITransformingClassLoader;)V+11
+j  cpw.mods.modlauncher.LaunchServiceHandler.launch(Ljava/lang/String;[Ljava/lang/String;Lcpw/mods/modlauncher/TransformingClassLoader;Lcpw/mods/modlauncher/LaunchPluginHandler;)V+57
+j  cpw.mods.modlauncher.LaunchServiceHandler.launch(Lcpw/mods/modlauncher/ArgumentHandler;Lcpw/mods/modlauncher/TransformingClassLoader;Lcpw/mods/modlauncher/LaunchPluginHandler;)V+19
+j  cpw.mods.modlauncher.Launcher.run([Ljava/lang/String;)V+116
+j  cpw.mods.modlauncher.Launcher.main([Ljava/lang/String;)V+37
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000032dce800 JavaThread "Worker-Main-33" daemon [_thread_blocked, id=10936, stack(0x0000000053900000,0x0000000053a00000)]
+  0x0000000032dce000 JavaThread "Worker-Main-32" daemon [_thread_blocked, id=27112, stack(0x0000000053800000,0x0000000053900000)]
+  0x0000000032dcc800 JavaThread "Worker-Main-35" daemon [_thread_blocked, id=47852, stack(0x0000000042920000,0x0000000042a20000)]
+  0x0000000032dc9800 JavaThread "Worker-Main-31" daemon [_thread_blocked, id=8920, stack(0x000000003f680000,0x000000003f780000)]
+  0x0000000032dc1000 JavaThread "Worker-Main-30" daemon [_thread_blocked, id=51652, stack(0x0000000027e50000,0x0000000027f50000)]
+  0x0000000171a14000 JavaThread "ForkJoinPool.commonPool-worker-9" daemon [_thread_blocked, id=17256, stack(0x00000000ea930000,0x00000000eaa30000)]
+  0x0000000171a15000 JavaThread "Netty Server IO #2" daemon [_thread_in_native, id=60312, stack(0x00000000274f0000,0x00000000275f0000)]
+  0x0000000171a0b800 JavaThread "Narrator" [_thread_blocked, id=13620, stack(0x0000000042a90000,0x0000000042b90000)]
+  0x0000000171a0d000 JavaThread "ForkJoinPool.commonPool-worker-0" daemon [_thread_blocked, id=46268, stack(0x000000017ac20000,0x000000017ad20000)]
+  0x0000000171a0a000 JavaThread "ForkJoinPool.commonPool-worker-7" daemon [_thread_blocked, id=27588, stack(0x000000017ab20000,0x000000017ac20000)]
+  0x0000000171a05000 JavaThread "ForkJoinPool.commonPool-worker-14" daemon [_thread_blocked, id=8072, stack(0x00000001760d0000,0x00000001761d0000)]
+  0x0000000171a08800 JavaThread "ForkJoinPool.commonPool-worker-5" daemon [_thread_blocked, id=49460, stack(0x0000000175fd0000,0x00000001760d0000)]
+  0x0000000171a06800 JavaThread "ForkJoinPool.commonPool-worker-12" daemon [_thread_blocked, id=18044, stack(0x0000000173fc0000,0x00000001740c0000)]
+  0x0000000171a05800 JavaThread "ForkJoinPool.commonPool-worker-8" daemon [_thread_blocked, id=44564, stack(0x0000000173150000,0x0000000173250000)]
+  0x0000000171a04000 JavaThread "ForkJoinPool.commonPool-worker-1" daemon [_thread_blocked, id=9000, stack(0x000000016e9b0000,0x000000016eab0000)]
+  0x0000000171a08000 JavaThread "ForkJoinPool.commonPool-worker-10" daemon [_thread_blocked, id=19532, stack(0x000000016e8b0000,0x000000016e9b0000)]
+  0x00000000379d1000 JavaThread "ForkJoinPool.commonPool-worker-3" daemon [_thread_blocked, id=1884, stack(0x000000016b260000,0x000000016b360000)]
+  0x00000000384a0800 JavaThread "ForkJoinPool.commonPool-worker-6" daemon [_thread_blocked, id=50856, stack(0x00000000ee9d0000,0x00000000eead0000)]
+  0x000000002468f000 JavaThread "ForkJoinPool.commonPool-worker-13" daemon [_thread_blocked, id=33464, stack(0x0000000173050000,0x0000000173150000)]
+  0x0000000037a90000 JavaThread "ForkJoinPool.commonPool-worker-4" daemon [_thread_blocked, id=32976, stack(0x0000000144050000,0x0000000144150000)]
+  0x0000000075d02800 JavaThread "Chunk Render Task Executor #9" [_thread_blocked, id=59216, stack(0x0000000161930000,0x0000000161a30000)]
+  0x0000000075d02000 JavaThread "Chunk Render Task Executor #8" [_thread_blocked, id=27852, stack(0x00000000e79d0000,0x00000000e7ad0000)]
+  0x0000000075cfe000 JavaThread "Chunk Render Task Executor #7" [_thread_blocked, id=35420, stack(0x00000000e78d0000,0x00000000e79d0000)]
+  0x0000000075cff800 JavaThread "Chunk Render Task Executor #6" [_thread_blocked, id=38820, stack(0x0000000147f60000,0x0000000148060000)]
+  0x0000000075d00800 JavaThread "Chunk Render Task Executor #5" [_thread_blocked, id=37492, stack(0x00000000eaa50000,0x00000000eab50000)]
+  0x0000000075cfc000 JavaThread "Chunk Render Task Executor #4" [_thread_blocked, id=45932, stack(0x00000000e77d0000,0x00000000e78d0000)]
+  0x0000000075d01000 JavaThread "Chunk Render Task Executor #3" [_thread_blocked, id=40168, stack(0x00000000e76d0000,0x00000000e77d0000)]
+  0x0000000075cf5000 JavaThread "Chunk Render Task Executor #2" [_thread_blocked, id=57932, stack(0x00000000ddf40000,0x00000000de040000)]
+  0x0000000075cf9000 JavaThread "Chunk Render Task Executor #1" [_thread_blocked, id=34372, stack(0x00000000dde40000,0x00000000ddf40000)]
+  0x0000000035570800 JavaThread "Chunk Render Task Executor #0" [_thread_blocked, id=46728, stack(0x00000000c8eb0000,0x00000000c8fb0000)]
+  0x0000000075cfa800 JavaThread "ForkJoinPool.commonPool-worker-11" daemon [_thread_blocked, id=21660, stack(0x0000000053700000,0x0000000053800000)]
+  0x000000003557c800 JavaThread "ForkJoinPool.commonPool-worker-2" daemon [_thread_blocked, id=46636, stack(0x0000000042b90000,0x0000000042c90000)]
+  0x0000000035561800 JavaThread "Litematica Chunk Batcher 15" daemon [_thread_blocked, id=49316, stack(0x00000000e89d0000,0x00000000e8ad0000)]
+  0x0000000035561000 JavaThread "Litematica Chunk Batcher 14" daemon [_thread_blocked, id=56064, stack(0x00000000e88d0000,0x00000000e89d0000)]
+  0x0000000035560000 JavaThread "Litematica Chunk Batcher 13" daemon [_thread_blocked, id=13240, stack(0x00000000e87d0000,0x00000000e88d0000)]
+  0x0000000035567000 JavaThread "Litematica Chunk Batcher 12" daemon [_thread_blocked, id=2720, stack(0x00000000e86d0000,0x00000000e87d0000)]
+  0x0000000035566000 JavaThread "Litematica Chunk Batcher 11" daemon [_thread_blocked, id=30636, stack(0x00000000e85d0000,0x00000000e86d0000)]
+  0x0000000035565800 JavaThread "Litematica Chunk Batcher 10" daemon [_thread_blocked, id=57372, stack(0x00000000e84d0000,0x00000000e85d0000)]
+  0x000000003555e000 JavaThread "Litematica Chunk Batcher 9" daemon [_thread_blocked, id=28880, stack(0x00000000e83d0000,0x00000000e84d0000)]
+  0x000000003555e800 JavaThread "Litematica Chunk Batcher 8" daemon [_thread_blocked, id=15892, stack(0x00000000e82d0000,0x00000000e83d0000)]
+  0x000000003555f800 JavaThread "Litematica Chunk Batcher 7" daemon [_thread_blocked, id=11744, stack(0x00000000e81d0000,0x00000000e82d0000)]
+  0x0000000035564800 JavaThread "Litematica Chunk Batcher 6" daemon [_thread_blocked, id=42884, stack(0x00000000e80d0000,0x00000000e81d0000)]
+  0x0000000035564000 JavaThread "Litematica Chunk Batcher 5" daemon [_thread_blocked, id=17300, stack(0x00000000e7fd0000,0x00000000e80d0000)]
+  0x0000000024692000 JavaThread "Litematica Chunk Batcher 4" daemon [_thread_blocked, id=47764, stack(0x00000000e7ed0000,0x00000000e7fd0000)]
+  0x00000000379d5000 JavaThread "Litematica Chunk Batcher 3" daemon [_thread_blocked, id=26096, stack(0x00000000e7dd0000,0x00000000e7ed0000)]
+  0x00000000384a9000 JavaThread "Litematica Chunk Batcher 2" daemon [_thread_blocked, id=46260, stack(0x00000000e7cd0000,0x00000000e7dd0000)]
+  0x00000000384ad800 JavaThread "Litematica Chunk Batcher 1" daemon [_thread_blocked, id=32724, stack(0x00000000e7bd0000,0x00000000e7cd0000)]
+  0x0000000032dcf800 JavaThread "Litematica Chunk Batcher 0" daemon [_thread_blocked, id=39260, stack(0x00000000e7ad0000,0x00000000e7bd0000)]
+  0x0000000075ce7800 JavaThread "Sound engine" daemon [_thread_blocked, id=39636, stack(0x0000000042490000,0x0000000042590000)]
+  0x0000000075cf6800 JavaThread "Netty Server IO #1" daemon [_thread_in_native, id=24500, stack(0x0000000092440000,0x0000000092540000)]
+  0x0000000075cfd800 JavaThread "Netty Local Client IO #0" daemon [_thread_blocked, id=31208, stack(0x0000000092340000,0x0000000092440000)]
+  0x0000000075cf4800 JavaThread "Netty Server IO #0" daemon [_thread_in_native, id=26756, stack(0x0000000060890000,0x0000000060990000)]
+  0x0000000075cf7800 JavaThread "ObjectCleanerThread" daemon [_thread_blocked, id=39832, stack(0x000000005ff70000,0x0000000060070000)]
+  0x0000000075cee800 JavaThread "TF-Task-Worker-8" daemon [_thread_blocked, id=19000, stack(0x00000000aef20000,0x00000000af020000)]
+  0x0000000075ce4800 JavaThread "TF-Task-Worker-7" daemon [_thread_blocked, id=39528, stack(0x00000000aee20000,0x00000000aef20000)]
+  0x0000000075ce6000 JavaThread "TF-Task-Worker-6" daemon [_thread_blocked, id=45916, stack(0x00000000aed20000,0x00000000aee20000)]
+  0x0000000075ce5800 JavaThread "TF-Task-Worker-5" daemon [_thread_blocked, id=11612, stack(0x00000000aec20000,0x00000000aed20000)]
+  0x0000000075ceb800 JavaThread "TF-Task-Worker-4" daemon [_thread_blocked, id=27968, stack(0x00000000aeb20000,0x00000000aec20000)]
+  0x0000000075ce8800 JavaThread "TF-Task-Worker-3" daemon [_thread_blocked, id=20612, stack(0x00000000aea20000,0x00000000aeb20000)]
+  0x0000000075cea000 JavaThread "TF-Task-Worker-2" daemon [_thread_blocked, id=55848, stack(0x00000000ad860000,0x00000000ad960000)]
+  0x0000000075ce7000 JavaThread "TF-Batch-Worker-16" daemon [_thread_blocked, id=51696, stack(0x00000000ad760000,0x00000000ad860000)]
+  0x0000000039bad800 JavaThread "TF-Batch-Worker-15" daemon [_thread_blocked, id=1804, stack(0x00000000ad660000,0x00000000ad760000)]
+  0x0000000021488800 JavaThread "TF-Batch-Worker-14" daemon [_thread_blocked, id=55012, stack(0x00000000ad560000,0x00000000ad660000)]
+  0x0000000021485800 JavaThread "TF-Batch-Worker-13" daemon [_thread_blocked, id=54172, stack(0x00000000ad460000,0x00000000ad560000)]
+  0x000000003b125000 JavaThread "TF-Batch-Worker-12" daemon [_thread_blocked, id=6572, stack(0x00000000ad360000,0x00000000ad460000)]
+  0x000000003b11d800 JavaThread "TF-Batch-Worker-11" daemon [_thread_blocked, id=1680, stack(0x00000000ad260000,0x00000000ad360000)]
+  0x000000003b124000 JavaThread "TF-Batch-Worker-10" daemon [_thread_blocked, id=43556, stack(0x00000000ad160000,0x00000000ad260000)]
+  0x000000003b120800 JavaThread "TF-Batch-Worker-9" daemon [_thread_blocked, id=5724, stack(0x00000000ad060000,0x00000000ad160000)]
+  0x000000003b122000 JavaThread "TF-Batch-Worker-8" daemon [_thread_blocked, id=57464, stack(0x00000000acf60000,0x00000000ad060000)]
+  0x000000003b122800 JavaThread "TF-Batch-Worker-7" daemon [_thread_blocked, id=26880, stack(0x00000000ace60000,0x00000000acf60000)]
+  0x000000003b11f000 JavaThread "TF-Batch-Worker-6" daemon [_thread_blocked, id=18900, stack(0x00000000aa820000,0x00000000aa920000)]
+  0x000000003b11f800 JavaThread "TF-Batch-Worker-5" daemon [_thread_blocked, id=43080, stack(0x00000000a7820000,0x00000000a7920000)]
+  0x000000003b121000 JavaThread "TF-Batch-Worker-4" daemon [_thread_blocked, id=44856, stack(0x0000000062b70000,0x0000000062c70000)]
+  0x000000003b123800 JavaThread "TF-Batch-Worker-3" daemon [_thread_blocked, id=40984, stack(0x0000000062800000,0x0000000062900000)]
+  0x000000003b11e000 JavaThread "TF-Batch-Worker-2" daemon [_thread_blocked, id=47836, stack(0x0000000061cf0000,0x0000000061df0000)]
+  0x000000003b116000 JavaThread "TF-Batch-Worker-1" daemon [_thread_blocked, id=9448, stack(0x0000000060b90000,0x0000000060c90000)]
+  0x000000003b11c000 JavaThread "TF-Task-Worker-1" daemon [_thread_blocked, id=45736, stack(0x0000000060380000,0x0000000060480000)]
+  0x000000003b119800 JavaThread "IO-Worker-18" [_thread_blocked, id=49112, stack(0x0000000060280000,0x0000000060380000)]
+  0x000000003b11b000 JavaThread "IO-Worker-16" [_thread_blocked, id=6540, stack(0x0000000060080000,0x0000000060180000)]
+  0x0000000021489000 JavaThread "IO-Worker-15" [_thread_blocked, id=37776, stack(0x000000005bf10000,0x000000005c010000)]
+  0x00000000365cb800 JavaThread "Worker-Main-13" daemon [_thread_blocked, id=52064, stack(0x0000000059840000,0x0000000059940000)]
+  0x0000000032dca000 JavaThread "Thread-68" daemon [_thread_in_native, id=44428, stack(0x0000000053500000,0x0000000053600000)]
+  0x00000000269e5000 JavaThread "Server thread" [_thread_in_Java, id=60048, stack(0x000000004d620000,0x000000004d720000)]
+  0x00000000269e9800 JavaThread "Snooper Timer" daemon [_thread_blocked, id=19560, stack(0x0000000042e90000,0x0000000042f90000)]
+  0x00000000384a9800 JavaThread "TF-Scheduler" [_thread_blocked, id=46096, stack(0x0000000001770000,0x0000000001870000)]
+  0x000000002468f800 JavaThread "spark-worker-pool-1-thread-4" daemon [_thread_blocked, id=36200, stack(0x000000009aac0000,0x000000009abc0000)]
+  0x00000000384ac000 JavaThread "lava-daemon-pool-playback-4-thread-1" daemon [_thread_blocked, id=21120, stack(0x0000000045380000,0x0000000045480000)]
+  0x00000000384a8000 JavaThread "spark-worker-pool-1-thread-3" daemon [_thread_blocked, id=11024, stack(0x0000000077620000,0x0000000077720000)]
+  0x00000000384a7800 JavaThread "Thread-62" daemon [_thread_blocked, id=38744, stack(0x0000000025dc0000,0x0000000025ec0000)]
+  0x00000000384a6000 JavaThread "Thread-61" daemon [_thread_blocked, id=43888, stack(0x0000000060cb0000,0x0000000060db0000)]
+  0x000000003849f000 JavaThread "spark-worker-pool-1-thread-2" daemon [_thread_blocked, id=15660, stack(0x0000000072140000,0x0000000072240000)]
+  0x00000000384a0000 JavaThread "spark-worker-pool-1-thread-1" daemon [_thread_blocked, id=38100, stack(0x0000000072040000,0x0000000072140000)]
+  0x000000003849e800 JavaThread "spark-monitor" daemon [_thread_blocked, id=31236, stack(0x000000006ff10000,0x0000000070010000)]
+  0x0000000032dc8800 JavaThread "pool-5-thread-1" [_thread_blocked, id=39720, stack(0x000000006fa60000,0x000000006fb60000)]
+  0x0000000039bac000 JavaThread "Thread-57" daemon [_thread_in_native, id=14968, stack(0x000000006acd0000,0x000000006add0000)]
+  0x0000000039bac800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=20308, stack(0x000000005f530000,0x000000005f630000)]
+  0x0000000039ba7800 JavaThread "Thread-55" daemon [_thread_in_native, id=51648, stack(0x000000005b670000,0x000000005b770000)]
+  0x0000000039ba9000 JavaThread "Thread-54" daemon [_thread_in_native, id=48812, stack(0x00000000565b0000,0x00000000566b0000)]
+  0x0000000039ba3800 JavaThread "Thread-53" daemon [_thread_in_native, id=13420, stack(0x0000000055020000,0x0000000055120000)]
+  0x0000000039ba6800 JavaThread "Thread-52" daemon [_thread_in_native, id=28356, stack(0x0000000054000000,0x0000000054100000)]
+  0x0000000039ba2000 JavaThread "Thread-51" daemon [_thread_in_native, id=41016, stack(0x0000000053f00000,0x0000000054000000)]
+  0x0000000039ba0800 JavaThread "Thread-50" daemon [_thread_in_native, id=51372, stack(0x0000000053e00000,0x0000000053f00000)]
+  0x00000000379d5800 JavaThread "Narrator" [_thread_blocked, id=18568, stack(0x0000000052b00000,0x0000000052c00000)]
+  0x00000000379d3800 JavaThread "Config Lib config file watcher" daemon [_thread_blocked, id=49196, stack(0x000000004d820000,0x000000004d920000)]
+  0x00000000379d4000 JavaThread "Thread-47" daemon [_thread_in_native, id=15748, stack(0x000000004d720000,0x000000004d820000)]
+  0x0000000024689800 JavaThread "pool-4-thread-16" [_thread_blocked, id=22952, stack(0x000000004cf20000,0x000000004d020000)]
+  0x00000000365cc000 JavaThread "pool-4-thread-15" [_thread_blocked, id=23288, stack(0x0000000042d90000,0x0000000042e90000)]
+  0x00000000269ec800 JavaThread "pool-4-thread-14" [_thread_blocked, id=12128, stack(0x000000004b950000,0x000000004ba50000)]
+  0x00000000269eb000 JavaThread "pool-4-thread-13" [_thread_blocked, id=11272, stack(0x000000004b0b0000,0x000000004b1b0000)]
+  0x00000000269ea000 JavaThread "pool-4-thread-12" [_thread_blocked, id=26440, stack(0x000000004ca20000,0x000000004cb20000)]
+  0x00000000269e6800 JavaThread "pool-4-thread-11" [_thread_blocked, id=41640, stack(0x000000004b250000,0x000000004b350000)]
+  0x00000000269e8000 JavaThread "pool-4-thread-10" [_thread_blocked, id=39404, stack(0x000000004afb0000,0x000000004b0b0000)]
+  0x00000000269eb800 JavaThread "Thread-45" daemon [_thread_in_native, id=46220, stack(0x000000004acb0000,0x000000004adb0000)]
+  0x00000000269de000 JavaThread "pool-4-thread-9" [_thread_blocked, id=12740, stack(0x000000004abb0000,0x000000004acb0000)]
+  0x00000000269e3800 JavaThread "Thread-44" daemon [_thread_in_native, id=34696, stack(0x000000004aab0000,0x000000004abb0000)]
+  0x00000000269e2000 JavaThread "Thread-43" daemon [_thread_in_native, id=46884, stack(0x000000004a9b0000,0x000000004aab0000)]
+  0x00000000269e1000 JavaThread "Thread-42" daemon [_thread_in_native, id=29368, stack(0x000000004a6b0000,0x000000004a7b0000)]
+  0x00000000269e0800 JavaThread "Thread-41" daemon [_thread_in_native, id=5748, stack(0x000000004a5b0000,0x000000004a6b0000)]
+  0x00000000269e4000 JavaThread "Thread-40" daemon [_thread_in_native, id=4408, stack(0x0000000048890000,0x0000000048990000)]
+  0x00000000269e2800 JavaThread "Thread-39" daemon [_thread_in_native, id=19356, stack(0x000000004a4b0000,0x000000004a5b0000)]
+  0x00000000269de800 JavaThread "pool-4-thread-8" [_thread_blocked, id=28088, stack(0x000000004a050000,0x000000004a150000)]
+  0x000000002148b800 JavaThread "Thread-38" daemon [_thread_in_native, id=51464, stack(0x0000000049da0000,0x0000000049ea0000)]
+  0x0000000037a91800 JavaThread "Thread-37" daemon [_thread_in_native, id=38600, stack(0x000000004a1b0000,0x000000004a2b0000)]
+  0x00000000365d8000 JavaThread "Thread-36" daemon [_thread_in_native, id=57004, stack(0x0000000049f50000,0x000000004a050000)]
+  0x00000000365d7800 JavaThread "pool-4-thread-7" [_thread_blocked, id=24756, stack(0x0000000049ca0000,0x0000000049da0000)]
+  0x00000000365d6800 JavaThread "pool-4-thread-6" [_thread_blocked, id=26960, stack(0x0000000049ba0000,0x0000000049ca0000)]
+  0x00000000365d6000 JavaThread "pool-4-thread-5" [_thread_blocked, id=32556, stack(0x0000000049aa0000,0x0000000049ba0000)]
+  0x00000000365d5000 JavaThread "Thread-35" daemon [_thread_in_native, id=19064, stack(0x0000000049280000,0x0000000049380000)]
+  0x00000000365ce800 JavaThread "Thread-34" daemon [_thread_in_native, id=49288, stack(0x0000000048ce0000,0x0000000048de0000)]
+  0x00000000365d4800 JavaThread "Thread-33" daemon [_thread_in_native, id=56636, stack(0x0000000048be0000,0x0000000048ce0000)]
+  0x00000000365d3800 JavaThread "pool-4-thread-4" [_thread_blocked, id=15712, stack(0x0000000048ae0000,0x0000000048be0000)]
+  0x00000000365d0800 JavaThread "Thread-31" daemon [_thread_in_native, id=12756, stack(0x0000000047810000,0x0000000047910000)]
+  0x00000000365cd000 JavaThread "pool-4-thread-3" [_thread_blocked, id=36396, stack(0x0000000048060000,0x0000000048160000)]
+  0x00000000365d2000 JavaThread "pool-4-thread-2" [_thread_blocked, id=20500, stack(0x00000000489e0000,0x0000000048ae0000)]
+  0x00000000365d3000 JavaThread "pool-4-thread-1" [_thread_blocked, id=58456, stack(0x0000000048790000,0x0000000048890000)]
+  0x00000000365d1800 JavaThread "Thread-30" daemon [_thread_in_native, id=51364, stack(0x0000000048590000,0x0000000048690000)]
+  0x00000000365ca000 JavaThread "Thread-29" daemon [_thread_in_native, id=34948, stack(0x00000000456c0000,0x00000000457c0000)]
+  0x00000000365c8800 JavaThread "Thread-28" daemon [_thread_in_native, id=55680, stack(0x0000000047960000,0x0000000047a60000)]
+  0x00000000365cd800 JavaThread "Thread-27" daemon [_thread_blocked, id=30096, stack(0x0000000047710000,0x0000000047810000)]
+  0x00000000365c9000 JavaThread "Java Sound Event Dispatcher" daemon [_thread_blocked, id=50036, stack(0x0000000044ec0000,0x0000000044fc0000)]
+  0x00000000365ca800 JavaThread "Thread-25" daemon [_thread_blocked, id=36976, stack(0x0000000044b40000,0x0000000044c40000)]
+  0x000000002468d800 JavaThread "lava-daemon-pool-info-loader-5-thread-2" daemon [_thread_blocked, id=32028, stack(0x0000000045800000,0x0000000045900000)]
+  0x000000002468b000 JavaThread "LavaPlayer Audio Thread" daemon [_thread_blocked, id=25364, stack(0x0000000044dc0000,0x0000000044ec0000)]
+  0x0000000024689000 JavaThread "lava-daemon-pool-manager-6-thread-1" daemon [_thread_blocked, id=33524, stack(0x0000000044cc0000,0x0000000044dc0000)]
+  0x0000000024685000 JavaThread "LavaPlayer Audio Thread" daemon [_thread_blocked, id=46888, stack(0x0000000044080000,0x0000000044180000)]
+  0x0000000024688000 JavaThread "Thread-24" daemon [_thread_in_native, id=42368, stack(0x0000000043390000,0x0000000043490000)]
+  0x0000000024686800 JavaThread "lava-daemon-pool-manager-3-thread-1" daemon [_thread_blocked, id=22248, stack(0x0000000043b80000,0x0000000043c80000)]
+  0x0000000032dc8000 JavaThread "Snooper Timer" daemon [_thread_blocked, id=17464, stack(0x000000002f240000,0x000000002f340000)]
+  0x0000000032dc0800 JavaThread "Timer hack thread" daemon [_thread_blocked, id=25692, stack(0x000000002e770000,0x000000002e870000)]
+  0x0000000037a93000 JavaThread "Thread-20" daemon [_thread_in_native, id=23492, stack(0x000000003afb0000,0x000000003b0b0000)]
+  0x0000000037a96000 JavaThread "Thread-19" daemon [_thread_in_native, id=27548, stack(0x0000000038e30000,0x0000000038f30000)]
+  0x0000000037a8c000 JavaThread "Thread-18" daemon [_thread_in_native, id=51596, stack(0x0000000038d30000,0x0000000038e30000)]
+  0x0000000037a92000 JavaThread "Thread-17" daemon [_thread_in_native, id=36064, stack(0x0000000038c30000,0x0000000038d30000)]
+  0x0000000037a88800 JavaThread "Thread-16" daemon [_thread_in_native, id=22580, stack(0x00000000388a0000,0x00000000389a0000)]
+  0x0000000037a8f000 JavaThread "Thread-15" daemon [_thread_in_native, id=35388, stack(0x00000000387a0000,0x00000000388a0000)]
+  0x0000000037a8e800 JavaThread "Thread-14" daemon [_thread_in_native, id=13060, stack(0x00000000386a0000,0x00000000387a0000)]
+  0x0000000037a8d800 JavaThread "Thread-13" daemon [_thread_in_native, id=44464, stack(0x0000000037590000,0x0000000037690000)]
+  0x0000000037a8b800 JavaThread "Thread-12" daemon [_thread_in_native, id=53708, stack(0x0000000037490000,0x0000000037590000)]
+  0x0000000037a8a800 JavaThread "Thread-11" daemon [_thread_in_native, id=45512, stack(0x0000000037390000,0x0000000037490000)]
+  0x0000000037a8a000 JavaThread "Thread-10" daemon [_thread_in_native, id=32404, stack(0x0000000036240000,0x0000000036340000)]
+  0x0000000037a89000 JavaThread "Thread-9" daemon [_thread_in_native, id=49816, stack(0x0000000036140000,0x0000000036240000)]
+  0x00000000248a1800 JavaThread "Thread-8" daemon [_thread_in_native, id=19964, stack(0x0000000035040000,0x0000000035140000)]
+  0x00000000266e1800 JavaThread "Thread-7" daemon [_thread_in_native, id=24592, stack(0x0000000034f40000,0x0000000035040000)]
+  0x000000002567e800 JavaThread "Thread-6" daemon [_thread_in_native, id=28752, stack(0x0000000033d70000,0x0000000033e70000)]
+  0x000000002404a000 JavaThread "Thread-5" daemon [_thread_in_native, id=4592, stack(0x000000002f4b0000,0x000000002f5b0000)]
+  0x0000000024760800 JavaThread "Thread-4" daemon [_thread_in_native, id=42520, stack(0x000000002e670000,0x000000002e770000)]
+  0x0000000025380000 JavaThread "Thread-2" daemon [_thread_in_native, id=57904, stack(0x0000000027390000,0x0000000027490000)]
+  0x0000000024a57800 JavaThread "Thread-1" daemon [_thread_blocked, id=8568, stack(0x0000000027290000,0x0000000027390000)]
+  0x000000002155a000 JavaThread "Service Thread" daemon [_thread_blocked, id=47484, stack(0x0000000023cb0000,0x0000000023db0000)]
+  0x000000002148a800 JavaThread "C1 CompilerThread11" daemon [_thread_blocked, id=56672, stack(0x0000000023bb0000,0x0000000023cb0000)]
+  0x0000000021487800 JavaThread "C1 CompilerThread10" daemon [_thread_blocked, id=28228, stack(0x0000000023ab0000,0x0000000023bb0000)]
+  0x0000000021487000 JavaThread "C1 CompilerThread9" daemon [_thread_blocked, id=1712, stack(0x00000000239b0000,0x0000000023ab0000)]
+  0x0000000021486000 JavaThread "C1 CompilerThread8" daemon [_thread_blocked, id=30652, stack(0x00000000237b0000,0x00000000238b0000)]
+  0x000000002148a000 JavaThread "C2 CompilerThread7" daemon [_thread_blocked, id=39124, stack(0x00000000236b0000,0x00000000237b0000)]
+  0x0000000021480000 JavaThread "C2 CompilerThread6" daemon [_thread_blocked, id=28920, stack(0x00000000235b0000,0x00000000236b0000)]
+  0x0000000021477000 JavaThread "C2 CompilerThread5" daemon [_thread_blocked, id=58184, stack(0x00000000234b0000,0x00000000235b0000)]
+  0x0000000021472000 JavaThread "C2 CompilerThread4" daemon [_thread_blocked, id=35976, stack(0x00000000233b0000,0x00000000234b0000)]
+  0x0000000021469000 JavaThread "C2 CompilerThread3" daemon [_thread_blocked, id=39524, stack(0x00000000232b0000,0x00000000233b0000)]
+  0x0000000021466000 JavaThread "C2 CompilerThread2" daemon [_thread_blocked, id=32924, stack(0x00000000231b0000,0x00000000232b0000)]
+  0x0000000021462000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=2600, stack(0x00000000230b0000,0x00000000231b0000)]
+  0x0000000021460000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=3648, stack(0x0000000022fb0000,0x00000000230b0000)]
+  0x000000002145f800 JavaThread "Attach Listener" daemon [_thread_blocked, id=12232, stack(0x0000000022eb0000,0x0000000022fb0000)]
+  0x000000002145c000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=11428, stack(0x0000000022db0000,0x0000000022eb0000)]
+  0x000000001f9a5000 JavaThread "Finalizer" daemon [_thread_blocked, id=26248, stack(0x0000000022cb0000,0x0000000022db0000)]
+  0x000000001f99a000 JavaThread "Reference Handler" daemon [_thread_blocked, id=32384, stack(0x0000000022bb0000,0x0000000022cb0000)]
+=>0x00000000033f4000 JavaThread "Render thread" [_thread_in_native, id=50196, stack(0x00000000032f0000,0x00000000033f0000)]
+
+Other Threads:
+  0x0000000021424000 VMThread [stack: 0x0000000022ab0000,0x0000000022bb0000] [id=41196]
+  0x000000002153e000 WatcherThread [stack: 0x0000000023db0000,0x0000000023eb0000] [id=34144]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 1405952K, used 905873K [0x0000000756000000, 0x00000007b0d00000, 0x00000007c0000000)
+  eden space 1342976K, 66% used [0x0000000756000000,0x000000078c902758,0x00000007a7f80000)
+  from space 62976K, 18% used [0x00000007a7f80000,0x00000007a8b21cd0,0x00000007abd00000)
+  to   space 66048K, 0% used [0x00000007acc80000,0x00000007acc80000,0x00000007b0d00000)
+ ParOldGen       total 2974720K, used 2316347K [0x0000000682000000, 0x0000000737900000, 0x0000000756000000)
+  object space 2974720K, 77% used [0x0000000682000000,0x000000070f60ef18,0x0000000737900000)
+ Metaspace       used 286463K, capacity 331671K, committed 331744K, reserved 1320960K
+  class space    used 48613K, capacity 59833K, committed 59872K, reserved 1048576K
+
+Card table byte_map: [0x00000000128b0000,0x00000000132b0000] byte_map_base: 0x000000000f4a0000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000074a94040
+ Begin Bits: [0x0000000014650000, 0x00000000195d0000)
+ End Bits:   [0x00000000195d0000, 0x000000001e550000)
+
+Polling page: 0x0000000003190000
+
+CodeCache: size=245760Kb used=177311Kb max_used=179482Kb free=68448Kb
+ bounds [0x00000000034f0000, 0x000000000e5d0000, 0x00000000124f0000]
+ total_blobs=48712 nmethods=45914 adapters=2698
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 372.290 Thread 0x000000002148a000 68794       4       net.minecraftforge.fml.loading.moddiscovery.ModFile::getModInfos (10 bytes)
+Event: 372.291 Thread 0x0000000021480000 68795       4       net.minecraftforge.fml.ModList::getModContainerById (14 bytes)
+Event: 372.291 Thread 0x000000002148a000 nmethod 68794 0x000000000c6a4490 code [0x000000000c6a45e0, 0x000000000c6a4678]
+Event: 372.299 Thread 0x0000000021486000 68796       3       fudge.notenoughcrashes.platform.ModsByLocation::removeSuffix (27 bytes)
+Event: 372.300 Thread 0x0000000021486000 nmethod 68796 0x0000000006a64590 code [0x0000000006a64720, 0x0000000006a64d18]
+Event: 372.300 Thread 0x0000000021480000 nmethod 68795 0x000000000e428d50 code [0x000000000e428ee0, 0x000000000e4296e8]
+Event: 372.301 Thread 0x0000000021487800 68797       3       java.lang.StackTraceElement::toString (140 bytes)
+Event: 372.301 Thread 0x0000000021466000 68798   !   4       java.io.PrintWriter::write (58 bytes)
+Event: 372.302 Thread 0x0000000021487800 nmethod 68797 0x000000000cb26610 code [0x000000000cb26940, 0x000000000cb285c8]
+Event: 372.303 Thread 0x0000000021466000 nmethod 68798 0x0000000004106610 code [0x0000000004106760, 0x0000000004106b38]
+
+GC Heap History (10 events):
+Event: 359.888 GC heap before
+{Heap before GC invocations=203 (full 9):
+ PSYoungGen      total 1392640K, used 1367604K [0x0000000756000000, 0x00000007afc80000, 0x00000007c0000000)
+  eden space 1322496K, 100% used [0x0000000756000000,0x00000007a6b80000,0x00000007a6b80000)
+  from space 70144K, 64% used [0x00000007a6b80000,0x00000007a978d2b0,0x00000007ab000000)
+  to   space 69120K, 0% used [0x00000007ab900000,0x00000007ab900000,0x00000007afc80000)
+ ParOldGen       total 2822656K, used 2810942K [0x0000000682000000, 0x000000072e480000, 0x0000000756000000)
+  object space 2822656K, 99% used [0x0000000682000000,0x000000072d90f958,0x000000072e480000)
+ Metaspace       used 286217K, capacity 331265K, committed 331488K, reserved 1320960K
+  class space    used 48558K, capacity 59758K, committed 59872K, reserved 1048576K
+Event: 359.909 GC heap after
+Heap after GC invocations=203 (full 9):
+ PSYoungGen      total 1396736K, used 43460K [0x0000000756000000, 0x00000007af800000, 0x00000007c0000000)
+  eden space 1332224K, 0% used [0x0000000756000000,0x0000000756000000,0x00000007a7500000)
+  from space 64512K, 67% used [0x00000007ab900000,0x00000007ae371288,0x00000007af800000)
+  to   space 67072K, 0% used [0x00000007a7500000,0x00000007a7500000,0x00000007ab680000)
+ ParOldGen       total 2822656K, used 2813058K [0x0000000682000000, 0x000000072e480000, 0x0000000756000000)
+  object space 2822656K, 99% used [0x0000000682000000,0x000000072db20bf8,0x000000072e480000)
+ Metaspace       used 286217K, capacity 331265K, committed 331488K, reserved 1320960K
+  class space    used 48558K, capacity 59758K, committed 59872K, reserved 1048576K
+}
+Event: 364.232 GC heap before
+{Heap before GC invocations=204 (full 9):
+ PSYoungGen      total 1396736K, used 1375684K [0x0000000756000000, 0x00000007af800000, 0x00000007c0000000)
+  eden space 1332224K, 100% used [0x0000000756000000,0x00000007a7500000,0x00000007a7500000)
+  from space 64512K, 67% used [0x00000007ab900000,0x00000007ae371288,0x00000007af800000)
+  to   space 67072K, 0% used [0x00000007a7500000,0x00000007a7500000,0x00000007ab680000)
+ ParOldGen       total 2822656K, used 2813058K [0x0000000682000000, 0x000000072e480000, 0x0000000756000000)
+  object space 2822656K, 99% used [0x0000000682000000,0x000000072db20bf8,0x000000072e480000)
+ Metaspace       used 286222K, capacity 331265K, committed 331488K, reserved 1320960K
+  class space    used 48558K, capacity 59758K, committed 59872K, reserved 1048576K
+Event: 364.252 GC heap after
+Heap after GC invocations=204 (full 9):
+ PSYoungGen      total 1399296K, used 41620K [0x0000000756000000, 0x00000007afc80000, 0x00000007c0000000)
+  eden space 1332224K, 0% used [0x0000000756000000,0x0000000756000000,0x00000007a7500000)
+  from space 67072K, 62% used [0x00000007a7500000,0x00000007a9da5270,0x00000007ab680000)
+  to   space 64512K, 0% used [0x00000007abd80000,0x00000007abd80000,0x00000007afc80000)
+ ParOldGen       total 2822656K, used 2815106K [0x0000000682000000, 0x000000072e480000, 0x0000000756000000)
+  object space 2822656K, 99% used [0x0000000682000000,0x000000072dd209c8,0x000000072e480000)
+ Metaspace       used 286222K, capacity 331265K, committed 331488K, reserved 1320960K
+  class space    used 48558K, capacity 59758K, committed 59872K, reserved 1048576K
+}
+Event: 367.208 GC heap before
+{Heap before GC invocations=205 (full 9):
+ PSYoungGen      total 1399296K, used 1373844K [0x0000000756000000, 0x00000007afc80000, 0x00000007c0000000)
+  eden space 1332224K, 100% used [0x0000000756000000,0x00000007a7500000,0x00000007a7500000)
+  from space 67072K, 62% used [0x00000007a7500000,0x00000007a9da5270,0x00000007ab680000)
+  to   space 64512K, 0% used [0x00000007abd80000,0x00000007abd80000,0x00000007afc80000)
+ ParOldGen       total 2822656K, used 2815106K [0x0000000682000000, 0x000000072e480000, 0x0000000756000000)
+  object space 2822656K, 99% used [0x0000000682000000,0x000000072dd209c8,0x000000072e480000)
+ Metaspace       used 286225K, capacity 331265K, committed 331488K, reserved 1320960K
+  class space    used 48558K, capacity 59758K, committed 59872K, reserved 1048576K
+Event: 367.227 GC heap after
+Heap after GC invocations=205 (full 9):
+ PSYoungGen      total 1405440K, used 37076K [0x0000000756000000, 0x00000007afa80000, 0x00000007c0000000)
+  eden space 1342976K, 0% used [0x0000000756000000,0x0000000756000000,0x00000007a7f80000)
+  from space 62464K, 59% used [0x00000007abd80000,0x00000007ae1b5290,0x00000007afa80000)
+  to   space 62976K, 0% used [0x00000007a7f80000,0x00000007a7f80000,0x00000007abd00000)
+ ParOldGen       total 2822656K, used 2819890K [0x0000000682000000, 0x000000072e480000, 0x0000000756000000)
+  object space 2822656K, 99% used [0x0000000682000000,0x000000072e1ccae0,0x000000072e480000)
+ Metaspace       used 286225K, capacity 331265K, committed 331488K, reserved 1320960K
+  class space    used 48558K, capacity 59758K, committed 59872K, reserved 1048576K
+}
+Event: 367.227 GC heap before
+{Heap before GC invocations=206 (full 10):
+ PSYoungGen      total 1405440K, used 37076K [0x0000000756000000, 0x00000007afa80000, 0x00000007c0000000)
+  eden space 1342976K, 0% used [0x0000000756000000,0x0000000756000000,0x00000007a7f80000)
+  from space 62464K, 59% used [0x00000007abd80000,0x00000007ae1b5290,0x00000007afa80000)
+  to   space 62976K, 0% used [0x00000007a7f80000,0x00000007a7f80000,0x00000007abd00000)
+ ParOldGen       total 2822656K, used 2819890K [0x0000000682000000, 0x000000072e480000, 0x0000000756000000)
+  object space 2822656K, 99% used [0x0000000682000000,0x000000072e1ccae0,0x000000072e480000)
+ Metaspace       used 286225K, capacity 331265K, committed 331488K, reserved 1320960K
+  class space    used 48558K, capacity 59758K, committed 59872K, reserved 1048576K
+Event: 368.801 GC heap after
+Heap after GC invocations=206 (full 10):
+ PSYoungGen      total 1405440K, used 0K [0x0000000756000000, 0x00000007afa80000, 0x00000007c0000000)
+  eden space 1342976K, 0% used [0x0000000756000000,0x0000000756000000,0x00000007a7f80000)
+  from space 62464K, 0% used [0x00000007abd80000,0x00000007abd80000,0x00000007afa80000)
+  to   space 62976K, 0% used [0x00000007a7f80000,0x00000007a7f80000,0x00000007abd00000)
+ ParOldGen       total 2974720K, used 2316339K [0x0000000682000000, 0x0000000737900000, 0x0000000756000000)
+  object space 2974720K, 77% used [0x0000000682000000,0x000000070f60cf18,0x0000000737900000)
+ Metaspace       used 286221K, capacity 331259K, committed 331488K, reserved 1320960K
+  class space    used 48556K, capacity 59755K, committed 59872K, reserved 1048576K
+}
+Event: 371.345 GC heap before
+{Heap before GC invocations=207 (full 10):
+ PSYoungGen      total 1405440K, used 1342976K [0x0000000756000000, 0x00000007afa80000, 0x00000007c0000000)
+  eden space 1342976K, 100% used [0x0000000756000000,0x00000007a7f80000,0x00000007a7f80000)
+  from space 62464K, 0% used [0x00000007abd80000,0x00000007abd80000,0x00000007afa80000)
+  to   space 62976K, 0% used [0x00000007a7f80000,0x00000007a7f80000,0x00000007abd00000)
+ ParOldGen       total 2974720K, used 2316339K [0x0000000682000000, 0x0000000737900000, 0x0000000756000000)
+  object space 2974720K, 77% used [0x0000000682000000,0x000000070f60cf18,0x0000000737900000)
+ Metaspace       used 286448K, capacity 331659K, committed 331744K, reserved 1320960K
+  class space    used 48613K, capacity 59833K, committed 59872K, reserved 1048576K
+Event: 371.360 GC heap after
+Heap after GC invocations=207 (full 10):
+ PSYoungGen      total 1405952K, used 11911K [0x0000000756000000, 0x00000007b0d00000, 0x00000007c0000000)
+  eden space 1342976K, 0% used [0x0000000756000000,0x0000000756000000,0x00000007a7f80000)
+  from space 62976K, 18% used [0x00000007a7f80000,0x00000007a8b21cd0,0x00000007abd00000)
+  to   space 66048K, 0% used [0x00000007acc80000,0x00000007acc80000,0x00000007b0d00000)
+ ParOldGen       total 2974720K, used 2316347K [0x0000000682000000, 0x0000000737900000, 0x0000000756000000)
+  object space 2974720K, 77% used [0x0000000682000000,0x000000070f60ef18,0x0000000737900000)
+ Metaspace       used 286448K, capacity 331659K, committed 331744K, reserved 1320960K
+  class space    used 48613K, capacity 59833K, committed 59872K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 371.308 Thread 0x00000000033f4000 Uncommon trap: reason=uninitialized action=reinterpret pc=0x0000000009a87908 method=net.minecraft.client.gui.screen.Screen.func_231153_a_(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V @ 33
+Event: 371.340 Thread 0x00000000033f4000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000e35f5c8 method=net.minecraft.client.renderer.GameRenderer.func_175070_n()Z @ 34
+Event: 371.343 Thread 0x00000000033f4000 Uncommon trap: reason=null_check action=make_not_entrant pc=0x000000000daecdd8 method=net.diebuddies.physics.PhysicsMod.getInstance(Lnet/minecraft/world/World;)Lnet/diebuddies/physics/PhysicsMod; @ 9
+Event: 371.361 Thread 0x00000000033f4000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000095b3e90 method=net.coderbot.iris.pipeline.HandRenderer.canRender(Lnet/minecraft/client/renderer/ActiveRenderInfo;Lnet/minecraft/client/renderer/GameRenderer;)Z @ 50
+Event: 371.387 Thread 0x00000000033f4000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000005c2b920 method=net.minecraft.client.renderer.texture.NativeImage.func_195717_a(IZ)V @ 73
+Event: 372.211 Thread 0x00000000033f4000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000008636eb8 method=java.nio.Bits.copyFromArray(Ljava/lang/Object;JJJJ)V @ 18
+Event: 372.301 Thread 0x00000000033f4000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000be0741c method=java.lang.StackTraceElement.toString()Ljava/lang/String; @ 49
+Event: 372.302 Thread 0x00000000033f4000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000be56a50 method=org.apache.logging.log4j.core.impl.ExtendedStackTraceElement.render(Ljava/lang/StackTraceElement;Ljava/lang/StringBuilder;Lorg/apache/logging/log4j/core/pattern/TextRenderer;Òùò’Dw@
+Event: 372.302 Thread 0x00000000033f4000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000be29fec method=org.apache.logging.log4j.core.impl.ExtendedStackTraceElement.render(Ljava/lang/StackTraceElement;Ljava/lang/StringBuilder;Lorg/apache/logging/log4j/core/pattern/TextRenderer;†@é‹Dw@
+Event: 372.304 Thread 0x0000000037a8d000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000da74c1c method=dev.tr7zw.entityculling.CullTask.run()V @ 7
+
+Internal exceptions (10 events):
+Event: 370.906 Thread 0x00000000269e5000 Exception <a 'java/lang/IncompatibleClassChangeError': Found class java.lang.Object, but interface was expected> (0x00000007927473d8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\interpreter\linkResolver.cpp, tëÁüÂ4w@
+Event: 371.306 Thread 0x00000000033f4000 Exception <a 'java/lang/ClassNotFoundException': net.minecraft.client.gui.screen.IngameMenuScreen$$Lambda$23729/1252592441> (0x00000007a45f5ed8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\prims\jni.cpp, line
+Event: 371.306 Thread 0x00000000033f4000 Exception <a 'java/lang/ClassNotFoundException': net.minecraft.client.MouseHelper$$Lambda$18281/392097693> (0x00000007a45f64a8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\prims\jni.cpp, line 735]
+Event: 371.306 Thread 0x00000000033f4000 Exception <a 'java/lang/ClassNotFoundException': net.minecraft.client.MouseHelper$$Lambda$18279/328241245> (0x00000007a45f6a38) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\prims\jni.cpp, line 735]
+Event: 371.306 Thread 0x00000000033f4000 Exception <a 'java/lang/ClassNotFoundException': net.minecraft.client.MouseHelper$$Lambda$13781/742120844> (0x00000007a45f6fc8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\prims\jni.cpp, line 735]
+Event: 371.307 Thread 0x00000000033f4000 Exception <a 'java/lang/ClassNotFoundException': net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$502/599203108> (0x00000007a45fbff0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\prims\jni.cpp, lwı*2˙4w@
+Event: 371.311 Thread 0x00000000033f4000 Exception <a 'java/lang/NoSuchMethodError': java.lang.Object.func_210211_Z()Ljava/lang/String;> (0x00000007a4646eb0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\interpreter\linkResolver.cpp, line 582]
+Event: 371.311 Thread 0x00000000033f4000 Exception <a 'java/lang/NoSuchMethodError': java.lang.Object.func_210215_Y()Ljava/lang/String;> (0x00000007a464df70) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\interpreter\linkResolver.cpp, line 582]
+Event: 371.343 Thread 0x00000000033f4000 Implicit null exception at 0x000000000daecc47 to 0x000000000daecdc9
+Event: 372.301 Thread 0x00000000033f4000 Exception <a 'java/lang/ClassNotFoundException': net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$502/599203108> (0x00000007879531e8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u51\3951\hotspot\src\share\vm\prims\jni.cpp, lcxëÆ~.w@
+
+Events (10 events):
+Event: 372.302 Thread 0x00000000033f4000 Uncommon trap: trap_request=0xffffff65 fr.pc=0x000000000be56a50
+Event: 372.302 Thread 0x00000000033f4000 DEOPT PACKING pc=0x000000000be56a50 sp=0x00000000033edd10
+Event: 372.302 Thread 0x00000000033f4000 DEOPT UNPACKING pc=0x000000000353582a sp=0x00000000033edc40 mode 2
+Event: 372.302 Thread 0x00000000033f4000 Uncommon trap: trap_request=0xffffff65 fr.pc=0x000000000be29fec
+Event: 372.302 Thread 0x00000000033f4000 DEOPT PACKING pc=0x000000000be29fec sp=0x00000000033edc20
+Event: 372.302 Thread 0x00000000033f4000 DEOPT UNPACKING pc=0x000000000353582a sp=0x00000000033edc18 mode 2
+Event: 372.304 Thread 0x0000000037a8d000 Uncommon trap: trap_request=0xffffff65 fr.pc=0x000000000da74c1c
+Event: 372.304 Thread 0x0000000037a8d000 DEOPT PACKING pc=0x000000000da74c1c sp=0x000000006cedf160
+Event: 372.304 Thread 0x0000000037a8d000 DEOPT UNPACKING pc=0x000000000353582a sp=0x000000006cedf188 mode 2
+Event: 372.304 Thread 0x0000000037a8d000 Thread exited: 0x0000000037a8d000
+
+
+Dynamic libraries:
+0x00007ff626220000 - 0x00007ff626257000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\javaw.exe
+0x00007ffde14b0000 - 0x00007ffde16a8000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffddfe50000 - 0x00007ffddff0d000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffddee80000 - 0x00007ffddf14e000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffddffd0000 - 0x00007ffde007e000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffde02b0000 - 0x00007ffde034e000 	C:\Windows\System32\msvcrt.dll
+0x00007ffde07c0000 - 0x00007ffde085c000 	C:\Windows\System32\sechost.dll
+0x00007ffde10e0000 - 0x00007ffde1205000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffde0110000 - 0x00007ffde02b0000 	C:\Windows\System32\USER32.dll
+0x00007ffddf3e0000 - 0x00007ffddf402000 	C:\Windows\System32\win32u.dll
+0x00007ffde0790000 - 0x00007ffde07ba000 	C:\Windows\System32\GDI32.dll
+0x00007ffddec80000 - 0x00007ffdded8b000 	C:\Windows\System32\gdi32full.dll
+0x00007ffddf340000 - 0x00007ffddf3dd000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffddf410000 - 0x00007ffddf510000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffdce800000 - 0x00007ffdcea9a000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ffde1430000 - 0x00007ffde1460000 	C:\Windows\System32\IMM32.DLL
+0x0000000075120000 - 0x00000000751f2000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\msvcr100.dll
+0x0000000074290000 - 0x0000000074b13000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\server\jvm.dll
+0x00007ffddf5f0000 - 0x00007ffddf5f8000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffdd2500000 - 0x00007ffdd250a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffdb0ca0000 - 0x00007ffdb0ca9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffde13c0000 - 0x00007ffde142b000 	C:\Windows\System32\WS2_32.dll
+0x00007ffdd0120000 - 0x00007ffdd0147000 	C:\Windows\SYSTEM32\WINMM.dll
+0x0000000075110000 - 0x000000007511f000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\verify.dll
+0x00000000750e0000 - 0x0000000075109000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\java.dll
+0x00000000750c0000 - 0x00000000750d6000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\zip.dll
+0x00007ffde0990000 - 0x00007ffde10d4000 	C:\Windows\System32\SHELL32.dll
+0x00007ffddca10000 - 0x00007ffddd1a4000 	C:\Windows\SYSTEM32\windows.storage.dll
+0x00007ffde0430000 - 0x00007ffde0784000 	C:\Windows\System32\combase.dll
+0x00007ffdde630000 - 0x00007ffdde660000 	C:\Windows\SYSTEM32\Wldp.dll
+0x00007ffde08c0000 - 0x00007ffde096d000 	C:\Windows\System32\SHCORE.dll
+0x00007ffde0860000 - 0x00007ffde08b5000 	C:\Windows\System32\shlwapi.dll
+0x00007ffddeb10000 - 0x00007ffddeb2f000 	C:\Windows\SYSTEM32\profapi.dll
+0x00000000750b0000 - 0x00000000750bd000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\management.dll
+0x0000000075090000 - 0x00000000750aa000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\net.dll
+0x00007ffdde390000 - 0x00007ffdde3fa000 	C:\Windows\system32\mswsock.dll
+0x00007ffdbabb0000 - 0x00007ffdbabc7000 	C:\Windows\system32\napinsp.dll
+0x00007ffdb7bc0000 - 0x00007ffdb7bdb000 	C:\Windows\system32\pnrpnsp.dll
+0x00007ffdd9c80000 - 0x00007ffdd9c95000 	C:\Windows\system32\wshbth.dll
+0x00007ffdd9e30000 - 0x00007ffdd9e4d000 	C:\Windows\system32\NLAapi.dll
+0x00007ffdde030000 - 0x00007ffdde06b000 	C:\Windows\SYSTEM32\IPHLPAPI.DLL
+0x00007ffdde070000 - 0x00007ffdde13b000 	C:\Windows\SYSTEM32\DNSAPI.dll
+0x00007ffde1460000 - 0x00007ffde1468000 	C:\Windows\System32\NSI.dll
+0x00007ffdb6290000 - 0x00007ffdb62a2000 	C:\Windows\System32\winrnr.dll
+0x00007ffdd7940000 - 0x00007ffdd794a000 	C:\Windows\System32\rasadhlp.dll
+0x00007ffdcfd90000 - 0x00007ffdcfe10000 	C:\Windows\System32\fwpuclnt.dll
+0x00007ffddee00000 - 0x00007ffddee27000 	C:\Windows\System32\bcrypt.dll
+0x0000000075070000 - 0x0000000075081000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\nio.dll
+0x0000000075040000 - 0x0000000075064000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\sunec.dll
+0x00007ffdde580000 - 0x00007ffdde598000 	C:\Windows\SYSTEM32\CRYPTSP.dll
+0x00007ffdddca0000 - 0x00007ffdddcd4000 	C:\Windows\system32\rsaenh.dll
+0x00007ffddead0000 - 0x00007ffddeafe000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ffddf150000 - 0x00007ffddf1d2000 	C:\Windows\System32\bcryptprimitives.dll
+0x00007ffdde5a0000 - 0x00007ffdde5ac000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x00007ffdd3e90000 - 0x00007ffdd3ea7000 	C:\Windows\SYSTEM32\dhcpcsvc6.DLL
+0x00007ffdd4200000 - 0x00007ffdd421d000 	C:\Windows\SYSTEM32\dhcpcsvc.DLL
+0x00007ffdd08e0000 - 0x00007ffdd0952000 	C:\Games\CurseForge\Minecraft\Install\bin\400bfa34b81004aabb21f7dd792d5eb2eb8d7b12\lwjgl.dll
+0x00007ffd492c0000 - 0x00007ffd49511000 	C:\Games\CurseForge\Minecraft\Install\bin\400bfa34b81004aabb21f7dd792d5eb2eb8d7b12\jemalloc.dll
+0x00007ffdd4a60000 - 0x00007ffdd4abe000 	C:\Games\CurseForge\Minecraft\Install\bin\400bfa34b81004aabb21f7dd792d5eb2eb8d7b12\glfw.dll
+0x00007ffddb510000 - 0x00007ffddb5ae000 	C:\Windows\system32\uxtheme.dll
+0x00007ffdaebf0000 - 0x00007ffdaec35000 	C:\Windows\SYSTEM32\dinput8.dll
+0x00007ffdad800000 - 0x00007ffdad811000 	C:\Windows\SYSTEM32\xinput1_4.dll
+0x00007ffddee30000 - 0x00007ffddee7e000 	C:\Windows\System32\cfgmgr32.dll
+0x00007ffdde980000 - 0x00007ffdde9ac000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x00007ffddbac0000 - 0x00007ffddbaef000 	C:\Windows\SYSTEM32\dwmapi.dll
+0x00007ffdc9870000 - 0x00007ffdc99c2000 	C:\Windows\SYSTEM32\inputhost.dll
+0x00007ffde0350000 - 0x00007ffde041d000 	C:\Windows\System32\OLEAUT32.dll
+0x00007ffdd9f50000 - 0x00007ffdda046000 	C:\Windows\SYSTEM32\PROPSYS.dll
+0x00007ffddb1f0000 - 0x00007ffddb2e2000 	C:\Windows\SYSTEM32\CoreMessaging.dll
+0x00007ffdda360000 - 0x00007ffdda4b4000 	C:\Windows\SYSTEM32\wintypes.dll
+0x00007ffddae90000 - 0x00007ffddb1ee000 	C:\Windows\SYSTEM32\CoreUIComponents.dll
+0x00007ffddd8c0000 - 0x00007ffddd8f3000 	C:\Windows\SYSTEM32\ntmarta.dll
+0x00007ffddd450000 - 0x00007ffddd462000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007ffda9d60000 - 0x00007ffda9e99000 	C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\AudioDevProps2.dll
+0x00007ffddf600000 - 0x00007ffddf72a000 	C:\Windows\System32\ole32.dll
+0x00007ffd82750000 - 0x00007ffd828a3000 	C:\Program Files (x86)\Stardock\Fences\FencesMenu64.dll
+0x00007ffdd96b0000 - 0x00007ffdd96c4000 	C:\Windows\SYSTEM32\WTSAPI32.dll
+0x00007ffdceaa0000 - 0x00007ffdcec45000 	C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.1706_none_919e8e54cc8d4ca1\gdiplus.dll
+0x00007ffdce180000 - 0x00007ffdce298000 	C:\Program Files (x86)\Stardock\Groupy\groupy_64.dll
+0x00007ffddf810000 - 0x00007ffddf925000 	C:\Windows\System32\MSCTF.dll
+0x00007ffddd420000 - 0x00007ffddd42d000 	C:\Windows\SYSTEM32\HID.DLL
+0x00007ffddf9e0000 - 0x00007ffddfe4f000 	C:\Windows\System32\SETUPAPI.DLL
+0x00007ffdded90000 - 0x00007ffddedf7000 	C:\Windows\System32\WINTRUST.dll
+0x00007ffddf1e0000 - 0x00007ffddf336000 	C:\Windows\System32\CRYPT32.dll
+0x00007ffdde7c0000 - 0x00007ffdde7d2000 	C:\Windows\SYSTEM32\MSASN1.dll
+0x00007ffd78a10000 - 0x00007ffd78b37000 	C:\Windows\SYSTEM32\opengl32.dll
+0x00007ffd79170000 - 0x00007ffd7919c000 	C:\Windows\SYSTEM32\GLU32.dll
+0x00007ffddf930000 - 0x00007ffddf9d9000 	C:\Windows\System32\clbcatq.dll
+0x00007ffd426f0000 - 0x00007ffd4697a000 	C:\Windows\System32\DriverStore\FileRepository\nvlti.inf_amd64_f313b6b92f428254\nvoglv64.dll
+0x00007ffdd24c0000 - 0x00007ffdd24f1000 	C:\Windows\SYSTEM32\cryptnet.dll
+0x00007ffdd21b0000 - 0x00007ffdd22f8000 	C:\Windows\SYSTEM32\drvstore.dll
+0x00007ffdd2560000 - 0x00007ffdd259b000 	C:\Windows\SYSTEM32\dxcore.dll
+0x00007ffd99bc0000 - 0x00007ffd99e91000 	C:\Windows\system32\nvspcap64.dll
+0x00007ffdde1a0000 - 0x00007ffdde1eb000 	C:\Windows\SYSTEM32\powrprof.dll
+0x00007ffdde010000 - 0x00007ffdde022000 	C:\Windows\SYSTEM32\UMPDC.dll
+0x00007ffddd970000 - 0x00007ffddd9ca000 	C:\Windows\SYSTEM32\WINSTA.dll
+0x00007ffdd0620000 - 0x00007ffdd069f000 	C:\Games\CurseForge\Minecraft\Install\bin\400bfa34b81004aabb21f7dd792d5eb2eb8d7b12\lwjgl_stb.dll
+0x00007ffdd8ad0000 - 0x00007ffdd8b7e000 	C:\Windows\SYSTEM32\mscms.dll
+0x00007ffdd8a50000 - 0x00007ffdd8a61000 	C:\Windows\SYSTEM32\ColorAdapterClient.dll
+0x00007ffdda310000 - 0x00007ffdda353000 	C:\Windows\SYSTEM32\icm32.dll
+0x00007ffdc9770000 - 0x00007ffdc9869000 	C:\Windows\SYSTEM32\textinputframework.dll
+0x00007ffdd7060000 - 0x00007ffdd70c6000 	C:\Windows\system32\Oleacc.dll
+0x00007ffdd0530000 - 0x00007ffdd0588000 	C:\Games\CurseForge\Minecraft\Install\bin\400bfa34b81004aabb21f7dd792d5eb2eb8d7b12\lwjgl_opengl.dll
+0x00007ffd4d4f0000 - 0x00007ffd4d532000 	C:\Users\NukelordBrown\AppData\Local\Temp\jna--1590639904\jna2957596846195212471.dll
+0x0000000075030000 - 0x000000007503c000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\jsound.dll
+0x0000000075020000 - 0x000000007502b000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\jsoundds.dll
+0x00007ffdcb300000 - 0x00007ffdcb39c000 	C:\Windows\SYSTEM32\DSOUND.dll
+0x00007ffdcb200000 - 0x00007ffdcb226000 	C:\Windows\SYSTEM32\winmmbase.dll
+0x00007ffdd81f0000 - 0x00007ffdd8275000 	C:\Windows\SYSTEM32\MMDevAPI.DLL
+0x00007ffd05eb0000 - 0x00007ffd05ef6000 	C:\Windows\SYSTEM32\wdmaud.drv
+0x00007ffdd7c80000 - 0x00007ffdd7c89000 	C:\Windows\SYSTEM32\ksuser.dll
+0x00007ffddd430000 - 0x00007ffddd43a000 	C:\Windows\SYSTEM32\AVRT.dll
+0x00007ffdd8550000 - 0x00007ffdd86d2000 	C:\Windows\SYSTEM32\AUDIOSES.DLL
+0x00007ffd25ae0000 - 0x00007ffd25d46000 	C:\Users\NukelordBrown\AppData\Local\Temp\de.fabmax.physx-jni\0.4.15\PhysX_64.dll
+0x00007ffd268e0000 - 0x00007ffd26ab7000 	C:\Users\NukelordBrown\AppData\Local\Temp\de.fabmax.physx-jni\0.4.15\PhysXCommon_64.dll
+0x00007ffd47c80000 - 0x00007ffd47d2a000 	C:\Users\NukelordBrown\AppData\Local\Temp\de.fabmax.physx-jni\0.4.15\PhysXCooking_64.dll
+0x00007ffd46a70000 - 0x00007ffd46b01000 	C:\Users\NukelordBrown\AppData\Local\Temp\de.fabmax.physx-jni\0.4.15\PhysXFoundation_64.dll
+0x00007ffd24fd0000 - 0x00007ffd251d4000 	C:\Users\NukelordBrown\AppData\Local\Temp\de.fabmax.physx-jni\0.4.15\PhysXJniBindings_64.dll
+0x00007ffdd0820000 - 0x00007ffdd082d000 	C:\Windows\SYSTEM32\msacm32.drv
+0x00007ffda9d10000 - 0x00007ffda9d2e000 	C:\Windows\SYSTEM32\MSACM32.dll
+0x00007ffdb1850000 - 0x00007ffdb185b000 	C:\Windows\SYSTEM32\midimap.dll
+0x00007ffd68960000 - 0x00007ffd689c7000 	C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ProductInfo.dll
+0x00007ffd66e40000 - 0x00007ffd66e83000 	C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ASM.Plugin.AudioDevProps2.dll
+0x0000000074e80000 - 0x0000000075018000 	C:\Games\CurseForge\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy\bin\awt.dll
+0x00007ffddb420000 - 0x00007ffddb4b0000 	C:\Windows\SYSTEM32\apphelp.dll
+0x00007ffddb870000 - 0x00007ffddb884000 	C:\Windows\SYSTEM32\resourcepolicyclient.dll
+0x00007ffd25810000 - 0x00007ffd258ac000 	C:\Users\NUKELO~1\AppData\Local\Temp\jna--1590639904\jna4274615129761725491.dll
+0x00007ffdc99d0000 - 0x00007ffdc9b11000 	C:\Windows\System32\Windows.UI.dll
+
+VM Arguments:
+jvm_args: -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Dos.name=Windows 10 -Dos.version=10.0 -Xss1M -Djava.library.path=C:\Games\CurseForge\Minecraft\Install\bin\400bfa34b81004aabb21f7dd792d5eb2eb8d7b12 -Dminecraft.launcher.brand=minecraft-launcher -Dminecraft.launcher.version=2.5.9 -Xmx5088m -Xms256m -Dminecraft.applet.TargetDirectory=C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -Dlog4j.configurationFile=C:\Games\CurseForge\Minecraft\Install\assets\log_configs\client-1.12.xml 
+java_command: cpw.mods.modlauncher.Launcher --username Nukelord420 --version forge-36.2.35 --gameDir C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2 --assetsDir C:\Games\CurseForge\Minecraft\Install\assets --assetIndex 1.16 --uuid 29e423c126c942d89e776772bd06df02 --accessToken eyJraWQiOiJhYzg0YSIsImFsZyI6IkhTMjU2In0.eyJ4dWlkIjoiMjUzNTQyODE5MjM2MjEyNiIsImFnZyI6IkFkdWx0Iiwic3ViIjoiZmNhNGVlNjItYzI4Zi00NzI0LWJkZTktNGU3ZDBiYWQ0ODBjIiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsidHdvZmFjdG9yYXV0aCIsIm9yZGVyc18yMDIyIl0sInBsYXRmb3JtIjoiUENfTEFVTkNIRVIiLCJ5dWlkIjoiN2E0ZDMwMTk4Mjc4NDZjY2I2Y2Q3Y2Y4ODY3NDljMGUiLCJuYmYiOjE2ODk4MjM1ODEsImV4cCI6MTY4OTkwOTk4MSwiaWF0IjoxNjg5ODIzNTgxfQ.bliVncKCpMnRVLUMzmLTfXuqsjPO97OgDlT2g4V_uXI --userType msa --versionType release --width 1024 --height 768 --launchTarget fmlclient --fml.forgeVersion 36.2.35 --fml.mcVersion 1.16.5 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210115.111550
+java_class_path (initial): C:\Games\CurseForge\Minecraft\Install\libraries\net\minecraftforge\forge\1.16.5-36.2.35\forge-1.16.5-36.2.35.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\ow2\asm\asm-commons\9.1\asm-commons-9.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\ow2\asm\asm-tree\9.1\asm-tree-9.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\ow2\asm\asm-util\9.1\asm-util-9.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\ow2\asm\asm-analysis\9.1\asm-analysis-9.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\cpw\mods\modlauncher\8.1.3\modlauncher-8.1.3.jar;C:\Games\CurseForge\Minecraft\Install\libraries\cpw\mods\grossjava9hacks\1.3.3\grossjava9hacks-1.3.3.jar;C:\Games\CurseForge\Minecraft\Install\libraries\net\minecraftforge\accesstransformers\3.0.1\accesstransformers-3.0.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\net\minecraftforge\eventbus\4.0.0\eventbus-4.0.0.jar;C:\Games\CurseForge\Minecraft\Install\libraries\net\minecraftforge\forgespi\3.2.0\forgespi-3.2.0.jar;C:\Games\CurseForge\Minecraft\Install\libraries\net\minecraftforge\coremods\4.0.6\coremods-4.0.6.jar;C:\Games\CurseForge\Minecraft\Install\libraries\net\minecraftforge\unsafe\0.2.0\unsafe-0.2.0.jar;C:\Games\CurseForge\Minecraft\Install\libraries\com\electronwill\night-config\core\3.6.3\core-3.6.3.jar;C:\Games\CurseForge\Minecraft\Install\libraries\com\electronwill\night-config\toml\3.6.3\toml-3.6.3.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\jline\jline\3.12.1\jline-3.12.1.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;C:\Games\CurseForge\Minecraft\Install\libraries\net\jodah\typetools\0.8.3\typetools-0.8.3.jar;C:\Games\CurseForge\Minecraft\Install\libraries\org\apache\logging\log4j\log
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\VulkanSDK\1.3.236.0\Bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\dotnet\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;G:\Bethesda-Game-Modding-Tools\Ruby26-x64\bin;C:\Users\NukelordBrown\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\NukelordBrown\AppData\Local\Programs\Python\Python310\;C:\Users\NukelordBrown\AppData\Local\Microsoft\WindowsApps;C:\Users\NukelordBrown\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NukelordBrown\.dotnet\tools;C:\Users\NukelordBrown\AppData\Local\GitHubDesktop\bin;C:\Program Files\Perforce\;C:\Program Files\Git\cmd;G:\Bethesda-Game-Modding-Tools\Ruby26-x64\bin;C:\Users\NukelordBrown\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\NukelordBrown\AppData\Local\Programs\Python\Python310\;C:\Users\NukelordBrown\AppData\Local\Microsoft\WindowsApps;C:\Users\NukelordBrown\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NukelordBrown\.dotnet\tools;C:\Users\NukelordBrown\AppData\Local\GitHubDesktop\bin
+USERNAME=NukelordBrown
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 19041 (10.0.19041.1806)
+
+CPU:total 16 (16 cores per cpu, 1 threads per core) family 25 model 80 stepping 0, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, mmxext, 3dnowpref, lzcnt, sse4a, tsc, tscinvbit, tscinv, bmi1
+
+Memory: 4k page, physical 33402940k(10636832k free), swap 40400432k(4214768k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.51-b03) for windows-amd64 JRE (1.8.0_51-b16), built on Jun  8 2015 18:03:07 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Wed Jul 19 20:32:42 2023
+elapsed time: 372 seconds (0d 0h 6m 12s)
+

@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "gases:gas_finine",
+      "filler": "minecraft:end_stone",
+      "minY": 40,
+      "maxY": 128,
+      "maxVeinSize": 20,
+      "spawnRate": 0.24,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

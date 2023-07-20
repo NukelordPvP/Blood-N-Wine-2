@@ -1,0 +1,48 @@
+{
+  "oreConfig": [
+    {
+      "ore": "gases:gas_red",
+      "filler": "minecraft:stone",
+      "minY": 4,
+      "maxY": 40,
+      "maxVeinSize": 32,
+      "spawnRate": 0.50,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "gases:gas_red",
+      "filler": "minecraft:stone",
+      "minY": 4,
+      "maxY": 40,
+      "maxVeinSize": 32,
+      "spawnRate": 0.50,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    },
+	{
+      "ore": "gases:gas_red",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 4,
+      "maxY": 40,
+      "maxVeinSize": 32,
+      "spawnRate": 0.50,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "gases:gas_red",
+      "filler": "cavesandcliffs:deepslate",
+      "minY": 4,
+      "maxY": 40,
+      "maxVeinSize": 32,
+      "spawnRate": 0.50,
+      "biomeBlacklist": [],
+      "biomeWhitelist": [
+		"dead_guys_untitled_deep_dark_:the_deep_dark"
+		]
+    }
+  ]
+}
