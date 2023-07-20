@@ -113,9 +113,9 @@ key_key.dragon_down:key.keyboard.v
 key_key.dragon_change_view:key.keyboard.f7
 key_key.enchdesc.show:key.keyboard.left.shift
 key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.l
-key_key.dead_guys_untitled_deep_dark_.help:key.keyboard.menu
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_key.dead_guys_untitled_deep_dark_.help:key.keyboard.menu
 key_key.entityculling.toggle:key.keyboard.unknown
 key_Strip World:key.keyboard.unknown
 key_Dress World:key.keyboard.unknown
@@ -127,16 +127,16 @@ key_key.musictriggers.menu:key.keyboard.right
 key_nicephore.keybinds.copy:key.keyboard.c:CONTROL
 key_nicephore.keybinds.screenshots.gui:key.keyboard.s:CONTROL
 key_nicephore.keybinds.gallery.gui:key.keyboard.g:CONTROL
-key_key.solpotato.open_food_book:key.keyboard.unknown
-key_key.solpotato.open_food_book:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_key.solpotato.open_food_book:key.keyboard.unknown
+key_key.solpotato.open_food_book:key.keyboard.unknown
 key_key.dungeons_libraries.curiosintegration.description_slot1:key.keyboard.v
 key_key.dungeons_libraries.curiosintegration.description_slot2:key.keyboard.b
 key_key.dungeons_libraries.curiosintegration.description_slot3:key.keyboard.n
-key_key.astikorcarts.desc:key.keyboard.h
 key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.caps.lock
+key_key.astikorcarts.desc:key.keyboard.h
 key_key.open_menu:key.keyboard.z
 key_Open sound muffler screen:key.keyboard.unknown
 key_worldeditcuife3.key.cui.options:key.keyboard.unknown
@@ -176,19 +176,11 @@ key_key.tconstruct.leggings_interact:key.keyboard.l
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.autorun:key.keyboard.caps.lock
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_key.curios.open.desc:key.keyboard.g
 key_quark.keybind.lock_rotation:key.keyboard.k
-key_key.inventoryhud.toggle:key.keyboard.unknown
-key_key.inventoryhud.openconfig:key.keyboard.i
-key_key.inventoryhud.togglepot:key.keyboard.unknown
-key_key.inventoryhud.togglearm:key.keyboard.unknown
-key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.caps.lock
+key_key.curios.open.desc:key.keyboard.g
 key_quark.keybind.change_hotbar:key.keyboard.x
+key_quark.keybind.back:key.mouse.4
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -210,6 +202,14 @@ key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.i
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_Clear Follower List:key.keyboard.backslash
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.j
@@ -255,16 +255,16 @@ key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
-soundCategory_master:1.0
+soundCategory_master:0.3232616
 soundCategory_music:1.0
-soundCategory_record:1.0
-soundCategory_weather:1.0
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
-soundCategory_player:1.0
-soundCategory_ambient:1.0
-soundCategory_voice:1.0
+soundCategory_record:0.0
+soundCategory_weather:0.0
+soundCategory_block:0.0
+soundCategory_hostile:0.0
+soundCategory_neutral:0.0
+soundCategory_player:0.0
+soundCategory_ambient:0.0
+soundCategory_voice:0.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
