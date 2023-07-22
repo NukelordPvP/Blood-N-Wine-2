@@ -1,0 +1,754 @@
+# deadlyworld:blocks.toml
+# This config contains options to control the physical properties of the blocks added by this mod.
+
+
+# Category: spawner.simple
+# Options to customize the physical properties of the simple spawner block.
+
+	# Influences the time it takes to break simple spawner blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	spawner.simple.hardness = 5.0
+	# How resistant simple spawner blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	spawner.simple.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break simple spawner blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	spawner.simple.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 2
+	spawner.simple.harvest_level = 2
+	# If true, simple spawner blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	spawner.simple.requires_tool = false
+
+	# How slippery simple spawner blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	spawner.simple.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on simple spawner blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.simple.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on simple spawner blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.simple.jump_factor = 1.0
+
+	# The level of light emitted by simple spawner blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	spawner.simple.light_level = 0
+
+
+# Category: spawner.stream
+# Options to customize the physical properties of the stream spawner block.
+
+	# Influences the time it takes to break stream spawner blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	spawner.stream.hardness = 5.0
+	# How resistant stream spawner blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	spawner.stream.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break stream spawner blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	spawner.stream.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 2
+	spawner.stream.harvest_level = 2
+	# If true, stream spawner blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	spawner.stream.requires_tool = false
+
+	# How slippery stream spawner blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	spawner.stream.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on stream spawner blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.stream.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on stream spawner blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.stream.jump_factor = 1.0
+
+	# The level of light emitted by stream spawner blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	spawner.stream.light_level = 0
+
+
+# Category: spawner.swarm
+# Options to customize the physical properties of the swarm spawner block.
+
+	# Influences the time it takes to break swarm spawner blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	spawner.swarm.hardness = 5.0
+	# How resistant swarm spawner blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	spawner.swarm.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break swarm spawner blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	spawner.swarm.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 2
+	spawner.swarm.harvest_level = 2
+	# If true, swarm spawner blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	spawner.swarm.requires_tool = false
+
+	# How slippery swarm spawner blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	spawner.swarm.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on swarm spawner blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.swarm.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on swarm spawner blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.swarm.jump_factor = 1.0
+
+	# The level of light emitted by swarm spawner blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	spawner.swarm.light_level = 0
+
+
+# Category: spawner.brutal
+# Options to customize the physical properties of the brutal spawner block.
+
+	# Influences the time it takes to break brutal spawner blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	spawner.brutal.hardness = 5.0
+	# How resistant brutal spawner blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	spawner.brutal.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break brutal spawner blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	spawner.brutal.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 2
+	spawner.brutal.harvest_level = 2
+	# If true, brutal spawner blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	spawner.brutal.requires_tool = false
+
+	# How slippery brutal spawner blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	spawner.brutal.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on brutal spawner blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.brutal.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on brutal spawner blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.brutal.jump_factor = 1.0
+
+	# The level of light emitted by brutal spawner blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	spawner.brutal.light_level = 0
+
+
+# Category: spawner.nest
+# Options to customize the physical properties of the nest spawner block.
+
+	# Influences the time it takes to break nest spawner blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	spawner.nest.hardness = 5.0
+	# How resistant nest spawner blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	spawner.nest.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break nest spawner blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	spawner.nest.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 2
+	spawner.nest.harvest_level = 2
+	# If true, nest spawner blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	spawner.nest.requires_tool = false
+
+	# How slippery nest spawner blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	spawner.nest.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on nest spawner blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.nest.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on nest spawner blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.nest.jump_factor = 1.0
+
+	# The level of light emitted by nest spawner blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	spawner.nest.light_level = 0
+
+
+# Category: spawner.mini
+# Options to customize the physical properties of the mini spawner block.
+
+	# Influences the time it takes to break mini spawner blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	spawner.mini.hardness = 5.0
+	# How resistant mini spawner blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	spawner.mini.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break mini spawner blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	spawner.mini.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 2
+	spawner.mini.harvest_level = 2
+	# If true, mini spawner blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	spawner.mini.requires_tool = false
+
+	# How slippery mini spawner blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	spawner.mini.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on mini spawner blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.mini.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on mini spawner blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.mini.jump_factor = 1.0
+
+	# The level of light emitted by mini spawner blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	spawner.mini.light_level = 0
+
+
+# Category: spawner.dungeon
+# Options to customize the physical properties of the dungeon spawner block.
+
+	# Influences the time it takes to break dungeon spawner blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	spawner.dungeon.hardness = 5.0
+	# How resistant dungeon spawner blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	spawner.dungeon.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break dungeon spawner blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	spawner.dungeon.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 2
+	spawner.dungeon.harvest_level = 2
+	# If true, dungeon spawner blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	spawner.dungeon.requires_tool = false
+
+	# How slippery dungeon spawner blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	spawner.dungeon.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on dungeon spawner blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.dungeon.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on dungeon spawner blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	spawner.dungeon.jump_factor = 1.0
+
+	# The level of light emitted by dungeon spawner blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	spawner.dungeon.light_level = 0
+
+
+# Category: floor_trap.tnt
+# Options to customize the physical properties of the tnt floor_trap block.
+
+	# Influences the time it takes to break tnt floor_trap blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	floor_trap.tnt.hardness = 5.0
+	# How resistant tnt floor_trap blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	floor_trap.tnt.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break tnt floor_trap blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	floor_trap.tnt.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	floor_trap.tnt.harvest_level = 1
+	# If true, tnt floor_trap blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	floor_trap.tnt.requires_tool = false
+
+	# How slippery tnt floor_trap blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	floor_trap.tnt.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on tnt floor_trap blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.tnt.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on tnt floor_trap blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.tnt.jump_factor = 1.0
+
+	# The level of light emitted by tnt floor_trap blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	floor_trap.tnt.light_level = 0
+
+
+# Category: floor_trap.tnt_mob
+# Options to customize the physical properties of the tnt_mob floor_trap block.
+
+	# Influences the time it takes to break tnt_mob floor_trap blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	floor_trap.tnt_mob.hardness = 5.0
+	# How resistant tnt_mob floor_trap blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	floor_trap.tnt_mob.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break tnt_mob floor_trap blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	floor_trap.tnt_mob.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	floor_trap.tnt_mob.harvest_level = 1
+	# If true, tnt_mob floor_trap blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	floor_trap.tnt_mob.requires_tool = false
+
+	# How slippery tnt_mob floor_trap blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	floor_trap.tnt_mob.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on tnt_mob floor_trap blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.tnt_mob.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on tnt_mob floor_trap blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.tnt_mob.jump_factor = 1.0
+
+	# The level of light emitted by tnt_mob floor_trap blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	floor_trap.tnt_mob.light_level = 0
+
+
+# Category: floor_trap.potion
+# Options to customize the physical properties of the potion floor_trap block.
+
+	# Influences the time it takes to break potion floor_trap blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	floor_trap.potion.hardness = 5.0
+	# How resistant potion floor_trap blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	floor_trap.potion.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break potion floor_trap blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	floor_trap.potion.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	floor_trap.potion.harvest_level = 1
+	# If true, potion floor_trap blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	floor_trap.potion.requires_tool = false
+
+	# How slippery potion floor_trap blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	floor_trap.potion.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on potion floor_trap blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.potion.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on potion floor_trap blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.potion.jump_factor = 1.0
+
+	# The level of light emitted by potion floor_trap blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	floor_trap.potion.light_level = 0
+
+
+# Category: floor_trap.lava
+# Options to customize the physical properties of the lava floor_trap block.
+
+	# Influences the time it takes to break lava floor_trap blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	floor_trap.lava.hardness = 5.0
+	# How resistant lava floor_trap blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	floor_trap.lava.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break lava floor_trap blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	floor_trap.lava.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	floor_trap.lava.harvest_level = 1
+	# If true, lava floor_trap blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	floor_trap.lava.requires_tool = false
+
+	# How slippery lava floor_trap blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	floor_trap.lava.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on lava floor_trap blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.lava.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on lava floor_trap blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	floor_trap.lava.jump_factor = 1.0
+
+	# The level of light emitted by lava floor_trap blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	floor_trap.lava.light_level = 0
+
+
+# Category: tower_dispensers.simple
+# Options to customize the physical properties of the simple tower_dispensers block.
+
+	# Influences the time it takes to break simple tower_dispensers blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	tower_dispensers.simple.hardness = 5.0
+	# How resistant simple tower_dispensers blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	tower_dispensers.simple.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break simple tower_dispensers blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	tower_dispensers.simple.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	tower_dispensers.simple.harvest_level = 1
+	# If true, simple tower_dispensers blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	tower_dispensers.simple.requires_tool = false
+
+	# How slippery simple tower_dispensers blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	tower_dispensers.simple.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on simple tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.simple.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on simple tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.simple.jump_factor = 1.0
+
+	# The level of light emitted by simple tower_dispensers blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	tower_dispensers.simple.light_level = 0
+
+
+# Category: tower_dispensers.fire
+# Options to customize the physical properties of the fire tower_dispensers block.
+
+	# Influences the time it takes to break fire tower_dispensers blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	tower_dispensers.fire.hardness = 5.0
+	# How resistant fire tower_dispensers blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	tower_dispensers.fire.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break fire tower_dispensers blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	tower_dispensers.fire.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	tower_dispensers.fire.harvest_level = 1
+	# If true, fire tower_dispensers blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	tower_dispensers.fire.requires_tool = false
+
+	# How slippery fire tower_dispensers blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	tower_dispensers.fire.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on fire tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.fire.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on fire tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.fire.jump_factor = 1.0
+
+	# The level of light emitted by fire tower_dispensers blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	tower_dispensers.fire.light_level = 0
+
+
+# Category: tower_dispensers.potion
+# Options to customize the physical properties of the potion tower_dispensers block.
+
+	# Influences the time it takes to break potion tower_dispensers blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	tower_dispensers.potion.hardness = 5.0
+	# How resistant potion tower_dispensers blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	tower_dispensers.potion.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break potion tower_dispensers blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	tower_dispensers.potion.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	tower_dispensers.potion.harvest_level = 1
+	# If true, potion tower_dispensers blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	tower_dispensers.potion.requires_tool = false
+
+	# How slippery potion tower_dispensers blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	tower_dispensers.potion.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on potion tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.potion.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on potion tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.potion.jump_factor = 1.0
+
+	# The level of light emitted by potion tower_dispensers blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	tower_dispensers.potion.light_level = 0
+
+
+# Category: tower_dispensers.gatling
+# Options to customize the physical properties of the gatling tower_dispensers block.
+
+	# Influences the time it takes to break gatling tower_dispensers blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	tower_dispensers.gatling.hardness = 5.0
+	# How resistant gatling tower_dispensers blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	tower_dispensers.gatling.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break gatling tower_dispensers blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	tower_dispensers.gatling.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	tower_dispensers.gatling.harvest_level = 1
+	# If true, gatling tower_dispensers blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	tower_dispensers.gatling.requires_tool = false
+
+	# How slippery gatling tower_dispensers blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	tower_dispensers.gatling.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on gatling tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.gatling.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on gatling tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.gatling.jump_factor = 1.0
+
+	# The level of light emitted by gatling tower_dispensers blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	tower_dispensers.gatling.light_level = 0
+
+
+# Category: tower_dispensers.fireball
+# Options to customize the physical properties of the fireball tower_dispensers block.
+
+	# Influences the time it takes to break fireball tower_dispensers blocks. Actual time in seconds is 1.5 times
+	# this value when using a valid tool (ignoring any tool speed modifiers), and 5 times this value when
+	# using an invalid tool. A negative hardness value makes it impossible to break by hand, like bedrock.
+	# For reference: 1.5 = stone, 5 = vanilla spawner, 50 = obsidian, -1 = bedrock
+	# <Number> Range: ≥ -1.0, Default: 5.0
+	tower_dispensers.fireball.hardness = 5.0
+	# How resistant fireball tower_dispensers blocks are to being destroyed by explosions. This is usually equal
+	# to the hardness value, but frequently higher for stone/metal materials.
+	# For reference: 6 = stone, 5 = vanilla spawner, 1200 = obsidian, 3600000 = bedrock
+	# <Number> Range: ≥ 0.0, Default: 1200.0
+	tower_dispensers.fireball.explosion_resistance = 5.0
+
+	# If a harvest tool is specified, then players attempting to break fireball tower_dispensers blocks
+	# will suffer a severe dig speed penalty unless they are using the proper tool.
+	# <Tool Type> Valid Values: { "none", "axe", "hoe", "pickaxe", "shovel", "<mod_added_tool_type>" }, Default: "pickaxe"
+	tower_dispensers.fireball.harvest_tool = "pickaxe"
+	# The minimum tool material level required for the harvest tool to work. Mods may add their own tiers.
+	# Vanilla material levels: 0 = wood/gold, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite
+	# <Integer> Range: Any Value, Default: 1
+	tower_dispensers.fireball.harvest_level = 1
+	# If true, fireball tower_dispensers blocks will not drop any loot unless broken by the harvest tool.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	tower_dispensers.fireball.requires_tool = false
+
+	# How slippery fireball tower_dispensers blocks are to move on.  The game physics start to make no sense
+	# if this is set outside the range of 0 to 1, but I guess you can do that if you want.
+	# For reference: 0.6 = most things, 0.8 = slime, 0.98 = ice, 0.989 = blue ice
+	# <Number> Range: Any Value, Default: 0.6
+	tower_dispensers.fireball.slipperiness = 0.6
+	# A speed multiplier applied to entities actively moving on fireball tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.4 = soul sand
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.fireball.speed_factor = 1.0
+	# A jump power multiplier applied to entities jumping on fireball tower_dispensers blocks.
+	# For reference: 1.0 = most things, 0.5 = honey
+	# <Number> Range: Any Value, Default: 1.0
+	tower_dispensers.fireball.jump_factor = 1.0
+
+	# The level of light emitted by fireball tower_dispensers blocks.
+	# For reference: 0 = most things, 7 = glow lichen, 14 = torch, 15 = glowstone
+	# <Integer> Range: 0 ~ 15, Default: 0
+	tower_dispensers.fireball.light_level = 0

@@ -1,0 +1,32 @@
+# deadlyworld:_main.toml
+# This config contains general options that apply to the entire
+# 'overworld' dimension from 'minecraft'.
+# This includes a master on/off setting for world gen in this dimension.
+
+	# Entity List fields: General format = [ "namespace:entity_type value1 value2 ...", ... ]
+	#   Entity lists are arrays of entity types. Some entity lists specify a number of values linked to each entity type.
+	#   Entity types are defined by their key in the entity registry, usually following the pattern 'namespace:entity_name'.
+	#   'default' can be used instead of an entity type registry key to provide default values for all entities.
+	#   An asterisk '*' can be used to match multiple entity types. For example, 'minecraft:*' will match all vanilla entities.
+	#   List entries by default match any entity type derived from (i.e. based on) their entity type. A tilde '~' prefix
+	#     disables that extra matching. For example, '~minecraft:zombie'.
+	#   There is no real rule for deriving, even in vanilla, but the hope is that mod-added mobs will derive from their base mob.
+
+	# Block List fields: General format = [ "namespace:block_name[property1=value1,...]", ... ]
+	#   Block lists are arrays of blocks and partial block states.
+	#   Blocks are defined by their key in the block registry, usually following the pattern 'namespace:block_name'.
+	#   An asterisk '*' can be used to match multiple blocks. For example, 'minecraft:*' will match all vanilla blocks.
+	#   List entries by default match any block state. The block states to match can be narrowed down by specifying properties.
+	#     The syntax for block state properties is the same as for commands. Any properties not specified will match any value.
+	#     For example, 'minecraft:beehive[honey_level=5]' will match any full beehives, regardless of the direction they face.
+
+
+# Category: general
+# Options that apply to all world generation in the 'overworld' dimension.
+
+	# If true, the mod's world generation will be enabled for the 'overworld' dimension.
+	# Set this to false to prevent Deadly World from doing anything at all in this dimension.
+	# The other configs for this dimension will still apply for Deadly World objects placed in this dimension by,
+	# other means, such as creative mode players, commands, other mods, etc.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	general.enabled_for_dimension = true

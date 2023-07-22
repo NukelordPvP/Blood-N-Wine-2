@@ -1,0 +1,666 @@
+# deadlyworld:feature_spawners.toml
+# This config contains options for all spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# Entity List fields: General format = [ "namespace:entity_type value1 value2 ...", ... ]
+	#   Entity lists are arrays of entity types. Some entity lists specify a number of values linked to each entity type.
+	#   Entity types are defined by their key in the entity registry, usually following the pattern 'namespace:entity_name'.
+	#   'default' can be used instead of an entity type registry key to provide default values for all entities.
+	#   An asterisk '*' can be used to match multiple entity types. For example, 'minecraft:*' will match all vanilla entities.
+	#   List entries by default match any entity type derived from (i.e. based on) their entity type. A tilde '~' prefix
+	#     disables that extra matching. For example, '~minecraft:zombie'.
+	#   There is no real rule for deriving, even in vanilla, but the hope is that mod-added mobs will derive from their base mob.
+
+	# Progressive Spawn Delay:
+	#   By default, spawners added by this mod use a mechanic called 'progressive spawn delay'. Unlike vanilla
+	#     spawners that have a completely random delay chosen anywhere from 10 to 40 seconds (what awful variance!),
+	#     Deadly World spawners will start from a 10 second delay and slowly increase up to 40 seconds delay as you
+	#     continue to stand close to them (with the same vanilla delay limits of 200-800 ticks).
+	#   A spawner's 'delay buildup' starts at its minimum delay and increases by its delay progression (±10%)
+	#     with each successful spawn, up to its maximum delay.
+	#   When no players are within the spawner's activation range, its 'delay buildup' is continuously decreased by
+	#     its delay recovery, back down to its minimum delay.
+	#   The delay, delay progression, and delay recovery for each spawner type are determined by these configs when
+	#     generated and can then be overwritten for individual spawners by nbt editing.
+
+
+# Category: simple_spawner_features
+# Options to customize simple spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated simple spawner feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	simple_spawner_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for simple spawner feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.16
+	simple_spawner_features.placements = 0.16
+
+	# The minimum and maximum (inclusive) heights/y-values simple spawner features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	simple_spawner_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 52
+	simple_spawner_features.height.max = 52
+
+	# The chance for a chest to generate beneath simple spawner feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/deadly_spawners/simple'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.3
+	simple_spawner_features.chest_chance = 0.3
+
+	# The spawner is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 16.0
+	simple_spawner_features.activation_range = 16.0
+	# When the sight check is enabled, simple spawner feature will only spawn when they have direct
+	# line-of-sight to a player within activation range. The spawner's delay will continue to tick down,
+	# but it will wait to actually spawn until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	simple_spawner_features.activation_sight_check = false
+
+	# The minimum and maximum (inclusive) delay between spawns, in ticks. (20 ticks = 1 second)
+	# <Integer> Range: ≥ 0, Default: 200
+	simple_spawner_features.delay.min = 200
+	# <Integer> Range: ≥ 0, Default: 800
+	simple_spawner_features.delay.max = 800
+	# Each spawn increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to
+	# revert to the vanilla spawner behavior (simple random between min and max).
+	# See above for a more in-depth description of progressive spawn delay.
+	# <Integer> Range: ≥ 0, Default: 40
+	simple_spawner_features.delay.progression = 40
+	# The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+	# Inactive spawners' delay are reduced by this value each tick (20 times per second).
+	# <Number> Range: ≥ 0.0, Default: 0.1
+	simple_spawner_features.delay.recovery_rate = 0.1
+
+	# The number of mobs to attempt creating with each spawn. May spawn fewer depending on nearby obstructions.
+	# <Integer> Range: ≥ 0, Default: 4
+	simple_spawner_features.spawn_count = 4
+	# The maximum horizontal range to spawn mobs in.
+	# <Number> Range: ≥ 0.0, Default: 4.0
+	simple_spawner_features.spawn_range = 4.0
+
+	# The chance for a simple spawner feature to generate as 'dynamic'.
+	# Dynamic spawners pick a new mob to spawn after each spawn.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.1
+	simple_spawner_features.dynamic_chance = 0.1
+	# Weighted list of mobs that can be spawned by simple spawner features. One of these is chosen
+	# at random when the spawner is generated. Spawners that are generated as 'dynamic' will pick again
+	# between each spawn.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200", "minecraft:skeleton 100", "minecraft:spider 100", "minecraft:cave_spider 10", "minecraft:creeper 10", "minecraft:silverfish 10" ]
+	#    Range for Values: ≥ 0
+	simple_spawner_features.spawn_list = [
+		"minecraft:zombie 200",
+		"minecraft:skeleton 100",
+		"minecraft:spider 100",
+		"minecraft:cave_spider 10",
+		"minecraft:creeper 10",
+		"minecraft:silverfish 10"
+	]
+
+	# Attribute modifiers applied to entities spawned by simple spawner features, if applicable.
+	# Modifiers are disabled if their value is set to 0.
+	# Added modifiers use the 'addition' operation and increased modifiers use the 'multiply base' operation.
+	# <Number> Range: Any Value
+	simple_spawner_features.modifier.added_follow_range = 0.0
+	simple_spawner_features.modifier.added_max_health = 0.0
+	simple_spawner_features.modifier.increased_max_health = 0.0
+	simple_spawner_features.modifier.added_knockback_resistance = 0.0
+	simple_spawner_features.modifier.added_armor = 0.0
+	simple_spawner_features.modifier.added_armor_toughness = 0.0
+	simple_spawner_features.modifier.added_damage = 0.0
+	simple_spawner_features.modifier.increased_damage = 0.0
+	simple_spawner_features.modifier.added_knockback = 0.0
+	simple_spawner_features.modifier.increased_speed = 0.0
+
+
+# Category: stream_spawner_features
+# Options to customize stream spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated stream spawner feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	stream_spawner_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for stream spawner feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.04
+	stream_spawner_features.placements = 0.04
+
+	# The minimum and maximum (inclusive) heights/y-values stream spawner features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	stream_spawner_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 42
+	stream_spawner_features.height.max = 42
+
+	# The chance for a chest to generate beneath stream spawner feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/deadly_spawners/stream'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 1.0
+	stream_spawner_features.chest_chance = 1.0
+
+	# The spawner is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 16.0
+	stream_spawner_features.activation_range = 16.0
+	# When the sight check is enabled, stream spawner feature will only spawn when they have direct
+	# line-of-sight to a player within activation range. The spawner's delay will continue to tick down,
+	# but it will wait to actually spawn until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	stream_spawner_features.activation_sight_check = true
+
+	# The minimum and maximum (inclusive) delay between spawns, in ticks. (20 ticks = 1 second)
+	# <Integer> Range: ≥ 0, Default: 0
+	stream_spawner_features.delay.min = 0
+	# <Integer> Range: ≥ 0, Default: 400
+	stream_spawner_features.delay.max = 400
+	# Each spawn increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to
+	# revert to the vanilla spawner behavior (simple random between min and max).
+	# See above for a more in-depth description of progressive spawn delay.
+	# <Integer> Range: ≥ 0, Default: 10
+	stream_spawner_features.delay.progression = 10
+	# The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+	# Inactive spawners' delay are reduced by this value each tick (20 times per second).
+	# <Number> Range: ≥ 0.0, Default: 0.025
+	stream_spawner_features.delay.recovery_rate = 0.025
+
+	# The number of mobs to attempt creating with each spawn. May spawn fewer depending on nearby obstructions.
+	# <Integer> Range: ≥ 0, Default: 1
+	stream_spawner_features.spawn_count = 1
+	# The maximum horizontal range to spawn mobs in.
+	# <Number> Range: ≥ 0.0, Default: 2.0
+	stream_spawner_features.spawn_range = 2.0
+
+	# The chance for a stream spawner feature to generate as 'dynamic'.
+	# Dynamic spawners pick a new mob to spawn after each spawn.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.95
+	stream_spawner_features.dynamic_chance = 0.95
+	# Weighted list of mobs that can be spawned by stream spawner features. One of these is chosen
+	# at random when the spawner is generated. Spawners that are generated as 'dynamic' will pick again
+	# between each spawn.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200", "minecraft:skeleton 100", "minecraft:spider 100", "minecraft:cave_spider 10", "minecraft:creeper 10", "minecraft:silverfish 10" ]
+	#    Range for Values: ≥ 0
+	stream_spawner_features.spawn_list = [
+		"minecraft:zombie 200",
+		"minecraft:skeleton 100",
+		"minecraft:spider 100",
+		"minecraft:cave_spider 10",
+		"minecraft:creeper 10",
+		"minecraft:silverfish 10"
+	]
+
+	# Attribute modifiers applied to entities spawned by stream spawner features, if applicable.
+	# Modifiers are disabled if their value is set to 0.
+	# Added modifiers use the 'addition' operation and increased modifiers use the 'multiply base' operation.
+	# <Number> Range: Any Value
+	stream_spawner_features.modifier.added_follow_range = 0.0
+	stream_spawner_features.modifier.added_max_health = 0.0
+	stream_spawner_features.modifier.increased_max_health = 0.0
+	stream_spawner_features.modifier.added_knockback_resistance = 0.0
+	stream_spawner_features.modifier.added_armor = 0.0
+	stream_spawner_features.modifier.added_armor_toughness = 0.0
+	stream_spawner_features.modifier.added_damage = 0.0
+	stream_spawner_features.modifier.increased_damage = 0.0
+	stream_spawner_features.modifier.added_knockback = 0.0
+	stream_spawner_features.modifier.increased_speed = 0.0
+
+
+# Category: swarm_spawner_features
+# Options to customize swarm spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated swarm spawner feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	swarm_spawner_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for swarm spawner feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.04
+	swarm_spawner_features.placements = 0.04
+
+	# The minimum and maximum (inclusive) heights/y-values swarm spawner features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	swarm_spawner_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 32
+	swarm_spawner_features.height.max = 32
+
+	# The chance for a chest to generate beneath swarm spawner feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/deadly_spawners/swarm'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 1.0
+	swarm_spawner_features.chest_chance = 1.0
+
+	# The spawner is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 20.0
+	swarm_spawner_features.activation_range = 20.0
+	# When the sight check is enabled, swarm spawner feature will only spawn when they have direct
+	# line-of-sight to a player within activation range. The spawner's delay will continue to tick down,
+	# but it will wait to actually spawn until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	swarm_spawner_features.activation_sight_check = true
+
+	# The minimum and maximum (inclusive) delay between spawns, in ticks. (20 ticks = 1 second)
+	# <Integer> Range: ≥ 0, Default: 400
+	swarm_spawner_features.delay.min = 400
+	# <Integer> Range: ≥ 0, Default: 2400
+	swarm_spawner_features.delay.max = 2400
+	# Each spawn increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to
+	# revert to the vanilla spawner behavior (simple random between min and max).
+	# See above for a more in-depth description of progressive spawn delay.
+	# <Integer> Range: ≥ 0, Default: 100
+	swarm_spawner_features.delay.progression = 100
+	# The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+	# Inactive spawners' delay are reduced by this value each tick (20 times per second).
+	# <Number> Range: ≥ 0.0, Default: 0.25
+	swarm_spawner_features.delay.recovery_rate = 0.25
+
+	# The number of mobs to attempt creating with each spawn. May spawn fewer depending on nearby obstructions.
+	# <Integer> Range: ≥ 0, Default: 12
+	swarm_spawner_features.spawn_count = 12
+	# The maximum horizontal range to spawn mobs in.
+	# <Number> Range: ≥ 0.0, Default: 8.0
+	swarm_spawner_features.spawn_range = 8.0
+
+	# The chance for a swarm spawner feature to generate as 'dynamic'.
+	# Dynamic spawners pick a new mob to spawn after each spawn.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.05
+	swarm_spawner_features.dynamic_chance = 0.05
+	# Weighted list of mobs that can be spawned by swarm spawner features. One of these is chosen
+	# at random when the spawner is generated. Spawners that are generated as 'dynamic' will pick again
+	# between each spawn.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200", "minecraft:skeleton 100", "minecraft:spider 100", "minecraft:cave_spider 10", "minecraft:creeper 10", "minecraft:silverfish 10" ]
+	#    Range for Values: ≥ 0
+	swarm_spawner_features.spawn_list = [
+		"minecraft:zombie 200",
+		"minecraft:skeleton 100",
+		"minecraft:spider 100",
+		"minecraft:cave_spider 10",
+		"minecraft:creeper 10",
+		"minecraft:silverfish 10"
+	]
+
+	# Attribute modifiers applied to entities spawned by swarm spawner features, if applicable.
+	# Modifiers are disabled if their value is set to 0.
+	# Added modifiers use the 'addition' operation and increased modifiers use the 'multiply base' operation.
+	# <Number> Range: Any Value
+	swarm_spawner_features.modifier.added_follow_range = 0.0
+	swarm_spawner_features.modifier.added_max_health = 0.0
+	swarm_spawner_features.modifier.increased_max_health = 0.0
+	swarm_spawner_features.modifier.added_knockback_resistance = 0.0
+	swarm_spawner_features.modifier.added_armor = 0.0
+	swarm_spawner_features.modifier.added_armor_toughness = 0.0
+	swarm_spawner_features.modifier.added_damage = 0.0
+	swarm_spawner_features.modifier.increased_damage = 0.0
+	swarm_spawner_features.modifier.added_knockback = 0.0
+	swarm_spawner_features.modifier.increased_speed = 0.0
+
+
+# Category: brutal_spawner_features
+# Options to customize brutal spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated brutal spawner feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	brutal_spawner_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for brutal spawner feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.04
+	brutal_spawner_features.placements = 0.04
+
+	# The minimum and maximum (inclusive) heights/y-values brutal spawner features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	brutal_spawner_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 32
+	brutal_spawner_features.height.max = 32
+
+	# The chance for a chest to generate beneath brutal spawner feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/deadly_spawners/brutal'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 1.0
+	brutal_spawner_features.chest_chance = 1.0
+
+	# The spawner is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 16.0
+	brutal_spawner_features.activation_range = 16.0
+	# When the sight check is enabled, brutal spawner feature will only spawn when they have direct
+	# line-of-sight to a player within activation range. The spawner's delay will continue to tick down,
+	# but it will wait to actually spawn until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	brutal_spawner_features.activation_sight_check = true
+
+	# The minimum and maximum (inclusive) delay between spawns, in ticks. (20 ticks = 1 second)
+	# <Integer> Range: ≥ 0, Default: 200
+	brutal_spawner_features.delay.min = 200
+	# <Integer> Range: ≥ 0, Default: 800
+	brutal_spawner_features.delay.max = 800
+	# Each spawn increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to
+	# revert to the vanilla spawner behavior (simple random between min and max).
+	# See above for a more in-depth description of progressive spawn delay.
+	# <Integer> Range: ≥ 0, Default: 100
+	brutal_spawner_features.delay.progression = 100
+	# The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+	# Inactive spawners' delay are reduced by this value each tick (20 times per second).
+	# <Number> Range: ≥ 0.0, Default: 0.25
+	brutal_spawner_features.delay.recovery_rate = 0.25
+
+	# The number of mobs to attempt creating with each spawn. May spawn fewer depending on nearby obstructions.
+	# <Integer> Range: ≥ 0, Default: 2
+	brutal_spawner_features.spawn_count = 2
+	# The maximum horizontal range to spawn mobs in.
+	# <Number> Range: ≥ 0.0, Default: 3.0
+	brutal_spawner_features.spawn_range = 3.0
+
+	# The chance for a brutal spawner feature to generate as 'dynamic'.
+	# Dynamic spawners pick a new mob to spawn after each spawn.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.05
+	brutal_spawner_features.dynamic_chance = 0.05
+	# Weighted list of mobs that can be spawned by brutal spawner features. One of these is chosen
+	# at random when the spawner is generated. Spawners that are generated as 'dynamic' will pick again
+	# between each spawn.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200", "minecraft:skeleton 100", "minecraft:spider 100", "minecraft:cave_spider 10", "minecraft:creeper 10", "minecraft:silverfish 10" ]
+	#    Range for Values: ≥ 0
+	brutal_spawner_features.spawn_list = [
+		"minecraft:zombie 200",
+		"minecraft:skeleton 100",
+		"minecraft:spider 100",
+		"minecraft:cave_spider 10",
+		"minecraft:creeper 10",
+		"minecraft:silverfish 10"
+	]
+
+	# Attribute modifiers applied to entities spawned by brutal spawner features, if applicable.
+	# Modifiers are disabled if their value is set to 0.
+	# Added modifiers use the 'addition' operation and increased modifiers use the 'multiply base' operation.
+	# <Number> Range: Any Value
+	brutal_spawner_features.modifier.added_follow_range = 0.0
+	brutal_spawner_features.modifier.added_max_health = 5.0
+	brutal_spawner_features.modifier.increased_max_health = 0.2
+	brutal_spawner_features.modifier.added_knockback_resistance = 0.5
+	brutal_spawner_features.modifier.added_armor = 12.0
+	brutal_spawner_features.modifier.added_armor_toughness = 8.0
+	brutal_spawner_features.modifier.added_damage = 1.0
+	brutal_spawner_features.modifier.increased_damage = 0.2
+	brutal_spawner_features.modifier.added_knockback = 2.0
+	brutal_spawner_features.modifier.increased_speed = 0.1
+
+	# If true, the potion effects below will not display potion effects particles.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	brutal_spawner_features.brutal_ambient_fx = false
+	# If true, non-creeper mobs spawned by brutal spawner features will have the
+	# 'fire resistance' potion effect.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	brutal_spawner_features.brutal_fire_resistance = true
+	# If true, non-creeper mobs spawned by brutal spawner features will have the
+	# 'water breathing' potion effect.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	brutal_spawner_features.brutal_water_breathing = true
+
+
+# Category: nest_spawner_features
+# Options to customize nest spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated nest spawner feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	nest_spawner_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for nest spawner feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.16
+	nest_spawner_features.placements = 0.16
+
+	# The minimum and maximum (inclusive) heights/y-values nest spawner features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	nest_spawner_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 62
+	nest_spawner_features.height.max = 62
+
+	# The chance for a chest to generate beneath nest spawner feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/deadly_spawners/nest'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.3
+	nest_spawner_features.chest_chance = 0.3
+
+	# The spawner is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 16.0
+	nest_spawner_features.activation_range = 16.0
+	# When the sight check is enabled, nest spawner feature will only spawn when they have direct
+	# line-of-sight to a player within activation range. The spawner's delay will continue to tick down,
+	# but it will wait to actually spawn until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	nest_spawner_features.activation_sight_check = false
+
+	# The minimum and maximum (inclusive) delay between spawns, in ticks. (20 ticks = 1 second)
+	# <Integer> Range: ≥ 0, Default: 100
+	nest_spawner_features.delay.min = 100
+	# <Integer> Range: ≥ 0, Default: 400
+	nest_spawner_features.delay.max = 400
+	# Each spawn increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to
+	# revert to the vanilla spawner behavior (simple random between min and max).
+	# See above for a more in-depth description of progressive spawn delay.
+	# <Integer> Range: ≥ 0, Default: 20
+	nest_spawner_features.delay.progression = 20
+	# The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+	# Inactive spawners' delay are reduced by this value each tick (20 times per second).
+	# <Number> Range: ≥ 0.0, Default: 0.05
+	nest_spawner_features.delay.recovery_rate = 0.05
+
+	# The number of mobs to attempt creating with each spawn. May spawn fewer depending on nearby obstructions.
+	# <Integer> Range: ≥ 0, Default: 6
+	nest_spawner_features.spawn_count = 6
+	# The maximum horizontal range to spawn mobs in.
+	# <Number> Range: ≥ 0.0, Default: 6.0
+	nest_spawner_features.spawn_range = 6.0
+
+	# The chance for a nest spawner feature to generate as 'dynamic'.
+	# Dynamic spawners pick a new mob to spawn after each spawn.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.0
+	nest_spawner_features.dynamic_chance = 0.0
+	# Weighted list of mobs that can be spawned by nest spawner features. One of these is chosen
+	# at random when the spawner is generated. Spawners that are generated as 'dynamic' will pick again
+	# between each spawn.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:silverfish 100" ]
+	#    Range for Values: ≥ 0
+	nest_spawner_features.spawn_list = [
+		"minecraft:silverfish 100"
+	]
+
+	# Attribute modifiers applied to entities spawned by nest spawner features, if applicable.
+	# Modifiers are disabled if their value is set to 0.
+	# Added modifiers use the 'addition' operation and increased modifiers use the 'multiply base' operation.
+	# <Number> Range: Any Value
+	nest_spawner_features.modifier.added_follow_range = 0.0
+	nest_spawner_features.modifier.added_max_health = 0.0
+	nest_spawner_features.modifier.increased_max_health = 0.0
+	nest_spawner_features.modifier.added_knockback_resistance = 0.0
+	nest_spawner_features.modifier.added_armor = 0.0
+	nest_spawner_features.modifier.added_armor_toughness = 0.0
+	nest_spawner_features.modifier.added_damage = 0.0
+	nest_spawner_features.modifier.increased_damage = 0.0
+	nest_spawner_features.modifier.added_knockback = 0.0
+	nest_spawner_features.modifier.increased_speed = 0.0
+
+
+# Category: mini_spawner_features
+# Options to customize mini spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated mini spawner feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	mini_spawner_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for mini spawner feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.01
+	mini_spawner_features.placements = 0.01
+
+	# The minimum and maximum (inclusive) heights/y-values mini spawner features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	mini_spawner_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 52
+	mini_spawner_features.height.max = 52
+
+	# The chance for a chest to generate beneath mini spawner feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/deadly_spawners/mini'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.3
+	mini_spawner_features.chest_chance = 0.3
+
+	# The spawner is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 16.0
+	mini_spawner_features.activation_range = 16.0
+	# When the sight check is enabled, mini spawner feature will only spawn when they have direct
+	# line-of-sight to a player within activation range. The spawner's delay will continue to tick down,
+	# but it will wait to actually spawn until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	mini_spawner_features.activation_sight_check = false
+
+	# The minimum and maximum (inclusive) delay between spawns, in ticks. (20 ticks = 1 second)
+	# <Integer> Range: ≥ 0, Default: 100
+	mini_spawner_features.delay.min = 100
+	# <Integer> Range: ≥ 0, Default: 400
+	mini_spawner_features.delay.max = 400
+	# Each spawn increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to
+	# revert to the vanilla spawner behavior (simple random between min and max).
+	# See above for a more in-depth description of progressive spawn delay.
+	# <Integer> Range: ≥ 0, Default: 20
+	mini_spawner_features.delay.progression = 20
+	# The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+	# Inactive spawners' delay are reduced by this value each tick (20 times per second).
+	# <Number> Range: ≥ 0.0, Default: 0.05
+	mini_spawner_features.delay.recovery_rate = 0.05
+
+	# The number of mobs to attempt creating with each spawn. May spawn fewer depending on nearby obstructions.
+	# <Integer> Range: ≥ 0, Default: 6
+	mini_spawner_features.spawn_count = 6
+	# The maximum horizontal range to spawn mobs in.
+	# <Number> Range: ≥ 0.0, Default: 4.0
+	mini_spawner_features.spawn_range = 4.0
+
+	# The chance for a mini spawner feature to generate as 'dynamic'.
+	# Dynamic spawners pick a new mob to spawn after each spawn.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.1
+	mini_spawner_features.dynamic_chance = 0.1
+	# Weighted list of mobs that can be spawned by mini spawner features. One of these is chosen
+	# at random when the spawner is generated. Spawners that are generated as 'dynamic' will pick again
+	# between each spawn.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "deadlyworld:mini_zombie 200", "deadlyworld:mini_skeleton 100", "deadlyworld:mini_creeper 100", "deadlyworld:mini_spider 100" ]
+	#    Range for Values: ≥ 0
+	mini_spawner_features.spawn_list = [
+		"deadlyworld:mini_zombie 200",
+		"deadlyworld:mini_skeleton 100",
+		"deadlyworld:mini_creeper 100",
+		"deadlyworld:mini_spider 100"
+	]
+
+	# Attribute modifiers applied to entities spawned by mini spawner features, if applicable.
+	# Modifiers are disabled if their value is set to 0.
+	# Added modifiers use the 'addition' operation and increased modifiers use the 'multiply base' operation.
+	# <Number> Range: Any Value
+	mini_spawner_features.modifier.added_follow_range = 0.0
+	mini_spawner_features.modifier.added_max_health = 0.0
+	mini_spawner_features.modifier.increased_max_health = 0.0
+	mini_spawner_features.modifier.added_knockback_resistance = 0.0
+	mini_spawner_features.modifier.added_armor = 0.0
+	mini_spawner_features.modifier.added_armor_toughness = 0.0
+	mini_spawner_features.modifier.added_damage = 0.0
+	mini_spawner_features.modifier.increased_damage = 0.0
+	mini_spawner_features.modifier.added_knockback = 0.0
+	mini_spawner_features.modifier.increased_speed = 0.0
+
+
+# Category: dungeon_spawner_features
+# Options to customize dungeon spawner features specific to the
+# 'sewers' dimension from 'deadlyworld'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated dungeon spawner feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	dungeon_spawner_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for dungeon spawner feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.0
+	dungeon_spawner_features.placements = 0.0
+
+	# The minimum and maximum (inclusive) heights/y-values dungeon spawner features can generate at.
+	# <Integer> Range: ≥ 0, Default: 0
+	dungeon_spawner_features.height.min = 0
+	# <Integer> Range: ≥ 0, Default: 0
+	dungeon_spawner_features.height.max = 0
+
+	# The chance for a chest to generate beneath dungeon spawner feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/deadly_spawners/dungeon'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.0
+	dungeon_spawner_features.chest_chance = 0.0
+
+	# The spawner is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 16.0
+	dungeon_spawner_features.activation_range = 16.0
+	# When the sight check is enabled, dungeon spawner feature will only spawn when they have direct
+	# line-of-sight to a player within activation range. The spawner's delay will continue to tick down,
+	# but it will wait to actually spawn until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	dungeon_spawner_features.activation_sight_check = false
+
+	# The minimum and maximum (inclusive) delay between spawns, in ticks. (20 ticks = 1 second)
+	# <Integer> Range: ≥ 0, Default: 200
+	dungeon_spawner_features.delay.min = 200
+	# <Integer> Range: ≥ 0, Default: 800
+	dungeon_spawner_features.delay.max = 800
+	# Each spawn increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to
+	# revert to the vanilla spawner behavior (simple random between min and max).
+	# See above for a more in-depth description of progressive spawn delay.
+	# <Integer> Range: ≥ 0, Default: 40
+	dungeon_spawner_features.delay.progression = 40
+	# The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+	# Inactive spawners' delay are reduced by this value each tick (20 times per second).
+	# <Number> Range: ≥ 0.0, Default: 0.1
+	dungeon_spawner_features.delay.recovery_rate = 0.1
+
+	# The number of mobs to attempt creating with each spawn. May spawn fewer depending on nearby obstructions.
+	# <Integer> Range: ≥ 0, Default: 4
+	dungeon_spawner_features.spawn_count = 4
+	# The maximum horizontal range to spawn mobs in.
+	# <Number> Range: ≥ 0.0, Default: 4.0
+	dungeon_spawner_features.spawn_range = 4.0
+
+	# The chance for a dungeon spawner feature to generate as 'dynamic'.
+	# Dynamic spawners pick a new mob to spawn after each spawn.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.1
+	dungeon_spawner_features.dynamic_chance = 0.1
+	# Weighted list of mobs that can be spawned by dungeon spawner features. One of these is chosen
+	# at random when the spawner is generated. Spawners that are generated as 'dynamic' will pick again
+	# between each spawn.
+	# <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200", "minecraft:skeleton 100", "minecraft:spider 100", "minecraft:cave_spider 10", "minecraft:creeper 10", "minecraft:silverfish 10" ]
+	#    Range for Values: ≥ 0
+	dungeon_spawner_features.spawn_list = [
+		"minecraft:zombie 200",
+		"minecraft:skeleton 100",
+		"minecraft:spider 100",
+		"minecraft:cave_spider 10",
+		"minecraft:creeper 10",
+		"minecraft:silverfish 10"
+	]
+
+	# Attribute modifiers applied to entities spawned by dungeon spawner features, if applicable.
+	# Modifiers are disabled if their value is set to 0.
+	# Added modifiers use the 'addition' operation and increased modifiers use the 'multiply base' operation.
+	# <Number> Range: Any Value
+	dungeon_spawner_features.modifier.added_follow_range = 0.0
+	dungeon_spawner_features.modifier.added_max_health = 0.0
+	dungeon_spawner_features.modifier.increased_max_health = 0.0
+	dungeon_spawner_features.modifier.added_knockback_resistance = 0.0
+	dungeon_spawner_features.modifier.added_armor = 0.0
+	dungeon_spawner_features.modifier.added_armor_toughness = 0.0
+	dungeon_spawner_features.modifier.added_damage = 0.0
+	dungeon_spawner_features.modifier.increased_damage = 0.0
+	dungeon_spawner_features.modifier.added_knockback = 0.0
+	dungeon_spawner_features.modifier.increased_speed = 0.0

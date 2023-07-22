@@ -1,0 +1,144 @@
+# deadlyworld:feature_tower_dispensers.toml
+# This config contains options for all tower_dispenser features specific to the
+# 'developer_dimension' dimension from 'bloodnwine2resources'.
+
+	# Entity List fields: General format = [ "namespace:entity_type value1 value2 ...", ... ]
+	#   Entity lists are arrays of entity types. Some entity lists specify a number of values linked to each entity type.
+	#   Entity types are defined by their key in the entity registry, usually following the pattern 'namespace:entity_name'.
+	#   'default' can be used instead of an entity type registry key to provide default values for all entities.
+	#   An asterisk '*' can be used to match multiple entity types. For example, 'minecraft:*' will match all vanilla entities.
+	#   List entries by default match any entity type derived from (i.e. based on) their entity type. A tilde '~' prefix
+	#     disables that extra matching. For example, '~minecraft:zombie'.
+	#   There is no real rule for deriving, even in vanilla, but the hope is that mod-added mobs will derive from their base mob.
+
+	# Potion List fields: General format = [ "namespace:effect weight duration amplifier ...", ... ]
+	#   Potion lists are arrays of potion effect types. Some potion lists specify a number of values linked to each potion effect.
+	#   Potion effects are defined by their key in the effect registry, usually following the pattern 'namespace:effect_name'.
+	#   'default' can be used instead of a potion effect registry key to provide default values for all entities.
+	#   An asterisk '*' can be used to match multiple potion effects. For example, 'minecraft:*' will match all vanilla effects.
+	#   List entries by default match any potion effect derived from (i.e. based on) their potion effect. A tilde '~' prefix
+	#     disables that extra matching. For example, '~minecraft:regeneration'.
+	#   There is no real rule for deriving, even in vanilla, but the hope is that mod-added mobs will derive from their base mob.
+
+
+# Category: simple_tower_dispenser_features
+# Options to customize simple tower_dispenser features specific to the
+# 'developer_dimension' dimension from 'bloodnwine2resources'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated simple tower_dispenser feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	simple_tower_dispenser_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for simple tower_dispenser feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.16
+	simple_tower_dispenser_features.placements = 0.16
+
+	# The minimum and maximum (inclusive) heights/y-values simple tower_dispenser features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	simple_tower_dispenser_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 52
+	simple_tower_dispenser_features.height.max = 52
+
+	# The chance for a chest to generate beneath simple tower_dispenser feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/tower_dispensers/simple'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.3
+	simple_tower_dispenser_features.chest_chance = 0.3
+
+	# The simple tower_dispenser feature is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 9.0
+	simple_tower_dispenser_features.activation_range = 9.0
+	# When the sight check is enabled, simple tower_dispenser feature will only activate when they have direct
+	# line-of-sight to a player within activation range. The simple tower_dispenser feature's delay will continue to tick down,
+	# but it will wait to actually activate until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	simple_tower_dispenser_features.activation_sight_check = true
+
+	# The minimum amount of ticks that must pass before this simple tower_dispenser feature can
+	# trigger again.
+	# <Integer> Range: ≥ 1, Default: 20
+	simple_tower_dispenser_features.min_attack_delay = 20
+	# The maximum amount of ticks that must pass before this simple tower_dispenser feature can
+	# trigger again.
+	# <Integer> Range: ≥ 1, Default: 40
+	simple_tower_dispenser_features.max_attack_delay = 40
+	# The base damage of the projectile fired.
+	# <Number> Range: ≥ 0.0, Default: 2.0
+	simple_tower_dispenser_features.attack_damage = 2.0
+
+	# The speed of the projectile fired.
+	# <Number> Range: ≥ 0.0, Default: 1.0
+	simple_tower_dispenser_features.projectile_speed = 1.0
+	# The inaccuracy of the projectiles this simple tower_dispenser feature fires.
+	# <Number> Range: ≥ 0.0, Default: 0.08
+	simple_tower_dispenser_features.projectile_variance = 0.08
+
+
+# Category: potion_tower_dispenser_features
+# Options to customize potion tower_dispenser features specific to the
+# 'developer_dimension' dimension from 'bloodnwine2resources'.
+
+	# When set to true, places a 1x1 column of glass to the height limit from a few blocks above each
+	# generated potion tower_dispenser feature. This is game-breaking and laggy. Also prints a message to the console.
+	# Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+	# <Boolean> Valid Values: { true, false }, Default: false
+	potion_tower_dispenser_features.testing_markers = false
+
+	# The number of placement attempts per chunk (16x16 blocks) for potion tower_dispenser feature
+	# A decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+	# <Number> Range: ≥ 0.0, Default: 0.16
+	potion_tower_dispenser_features.placements = 0.16
+
+	# The minimum and maximum (inclusive) heights/y-values potion tower_dispenser features can generate at.
+	# <Integer> Range: ≥ 0, Default: 12
+	potion_tower_dispenser_features.height.min = 12
+	# <Integer> Range: ≥ 0, Default: 52
+	potion_tower_dispenser_features.height.max = 52
+
+	# The chance for a chest to generate beneath potion tower_dispenser feature.
+	# For reference, the loot table for these chests is 'deadlyworld:loot_tables/chests/tower_dispensers/potion'.
+	# <Number> Range: 0.0 ~ 1.0, Default: 0.3
+	potion_tower_dispenser_features.chest_chance = 0.3
+
+	# The potion tower_dispenser feature is active as long as a player is within this distance (spherical distance).
+	# <Number> Range: ≥ 0.0, Default: 9.0
+	potion_tower_dispenser_features.activation_range = 9.0
+	# When the sight check is enabled, potion tower_dispenser feature will only activate when they have direct
+	# line-of-sight to a player within activation range. The potion tower_dispenser feature's delay will continue to tick down,
+	# but it will wait to actually activate until it has line-of-sight.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	potion_tower_dispenser_features.activation_sight_check = true
+
+	# The minimum amount of ticks that must pass before this potion tower_dispenser feature can
+	# trigger again.
+	# <Integer> Range: ≥ 1, Default: 20
+	potion_tower_dispenser_features.min_attack_delay = 20
+	# The maximum amount of ticks that must pass before this potion tower_dispenser feature can
+	# trigger again.
+	# <Integer> Range: ≥ 1, Default: 40
+	potion_tower_dispenser_features.max_attack_delay = 40
+	# The base damage of the projectile fired.
+	# <Number> Range: ≥ 0.0, Default: 1.0
+	potion_tower_dispenser_features.attack_damage = 1.0
+
+	# The speed of the projectile fired.
+	# <Number> Range: ≥ 0.0, Default: 1.0
+	potion_tower_dispenser_features.projectile_speed = 1.0
+	# The inaccuracy of the projectiles this potion tower_dispenser feature fires.
+	# <Number> Range: ≥ 0.0, Default: 0.2
+	potion_tower_dispenser_features.projectile_variance = 0.2
+
+	# A weighted list
+	# <Potion List> Format: [ "namespace:effect value1 value2 value3", ... ], Default: [ "minecraft:poison 30 280 0", "minecraft:slowness 20 300 1", "minecraft:weakness 20 250 1", "minecraft:instant_damage 20 1 1", "minecraft:hunger 20 500 1", "minecraft:blindness 20 250", "minecraft:unluck 5 9000" ]
+	#    Range for Values: ≥ 0
+	potion_tower_dispenser_features.potion_list = [
+		"minecraft:poison 30 280 0",
+		"minecraft:slowness 20 300 1",
+		"minecraft:weakness 20 250 1",
+		"minecraft:instant_damage 20 1 1",
+		"minecraft:hunger 20 500 1",
+		"minecraft:blindness 20 250",
+		"minecraft:unluck 5 9000"
+	]
