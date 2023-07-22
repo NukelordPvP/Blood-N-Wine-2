@@ -53,6 +53,3 @@ furnace.removeRecipe(<item:tconstruct:copper_ingot>);
 <recipetype:tconstruct:melting>.addMeltingRecipe("maglev_rail", <item:moreminecarts:maglev_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
 <recipetype:tconstruct:melting>.addMeltingRecipe("piston_lifter_rail", <item:moreminecarts:piston_lifter_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
 <recipetype:tconstruct:melting>.addMeltingRecipe("arithmetic_rail", <item:moreminecarts:arithmetic_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
-
-//remove electrum alloy as it is useless
-<recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_electrum");

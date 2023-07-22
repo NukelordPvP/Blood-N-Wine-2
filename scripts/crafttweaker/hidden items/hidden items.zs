@@ -585,5 +585,3 @@ val removeRecipes = [
 	for item in removeRecipes {
 		mods.jei.JEI.hideItem(item);
 	}
-	
-JEI.hideMod("silents_mechanisms");

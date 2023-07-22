@@ -60,8 +60,5 @@ ItemStages.restrict(<item:iceandfire:dragonforge_lightning_core>, "banned");
 // ItemStages.restrict(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: "pedestals:upgradeadvanced" as string}]}), "banned");
 // ItemStages.restrict(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "pedestals:upgrademagnet" as string}]}), "banned");
 
-//remove silents mechanisms items
-//ItemStages.createModRestriction("silents_mechanisms", s => <tag:items:silents_mechanisms:drying_racks>.matches(s), "banned");
-
 //remove piggybackpack
 ItemStages.restrict(<item:tconstruct:piggy_backpack>, "banned");
