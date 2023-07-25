@@ -139,6 +139,6 @@
 		"minecraft:weakness 20 250 1",
 		"minecraft:instant_damage 20 1 1",
 		"minecraft:hunger 20 500 1",
-		"minecraft:blindness 20 250",
-		"minecraft:unluck 5 9000"
+		"minecraft:blindness 20 250 0",
+		"minecraft:unluck 5 9000 0"
 	]

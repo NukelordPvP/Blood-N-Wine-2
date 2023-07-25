@@ -6,10 +6,13 @@ capes
 downloads
 fancymenu_data
 fancymenu_setups
+Blood-N-Wine-2-Server
+*.launch
 
 replay_recordings_nukelord420_reviewed_dud
 
 #logs
+*.log
 logs/
 crash-reports
 dumps
@@ -24,3 +27,12 @@ tconplanner
 reauth.toml
 usercache.json
 usernamecache.json
+
+#hs_err_pid larp
+hs_err_pid*.log
+
+#servers
+servers.dat_old
+
+#.bak files
+*.bak
