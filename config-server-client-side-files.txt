@@ -26,19 +26,20 @@ GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Blood-N-Wine-2-Server
 USE_CUSTOM_OUTPUT_DIR:false
 
 # Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
+# This Is Confirmed Working
 SOURCE_FOLDERS:
 
-  - SOURCE=./config
-    CUSTOM_OUTPUT_DIR=./config
+  - SOURCE=/config
+    CUSTOM_OUTPUT_DIR=/config
 
-  - SOURCE=./mods
-    CUSTOM_OUTPUT_DIR=./mods
+  - SOURCE=/mods
+    CUSTOM_OUTPUT_DIR=/mods
 
-  - SOURCE=./config/null
-    CUSTOM_OUTPUT_DIR=./config/null
+  - SOURCE=/config/null
+    CUSTOM_OUTPUT_DIR=/config/null
 
-  - SOURCE=./config/null
-    CUSTOM_OUTPUT_DIR=./0_Serverside-Only-Files/config/null
+  - SOURCE=/config/null
+    CUSTOM_OUTPUT_DIR=/0_Serverside-Only-Files/config/null
 
 # Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FILES:
@@ -56,12 +57,12 @@ SOURCE_FILES:
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
 
-  - "null.toml"
-  - "null2.toml"
+  null.toml
+  null2.toml
 
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
 
-  - "MusicTriggers"
-  - "fancymenu"
+  MusicTriggers
+  fancymenu

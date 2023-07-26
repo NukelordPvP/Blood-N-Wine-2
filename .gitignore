@@ -36,3 +36,6 @@ servers.dat_old
 
 #.bak files
 *.bak
+
+#ignore backup mods folder
+mods_backup
