@@ -27,21 +27,41 @@ USE_CUSTOM_OUTPUT_DIR:false
 
 # Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FOLDERS:
+
   - SOURCE=./config
     CUSTOM_OUTPUT_DIR=./config
 
   - SOURCE=./mods
     CUSTOM_OUTPUT_DIR=./mods
 
+  - SOURCE=./config/null
+    CUSTOM_OUTPUT_DIR=./config/null
+
+  - SOURCE=./config/null
+    CUSTOM_OUTPUT_DIR=./0_Serverside-Only-Files/config/null
+
+# Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
+SOURCE_FILES:
+
+  - SOURCE=./ا_bnw2 forge-1.16.5-36.2.35
+    CUSTOM_OUTPUT_DIR=./ا_bnw2 version 2.1
+
+  - SOURCE=./ا_bnw2 forge-1.16.5-36.2.35
+    CUSTOM_OUTPUT_DIR=./ا_bnw2 forge-1.16.5-36.2.35
+
+  - SOURCE=./ا_bnw2 forge-1.16.5-36.2.35
+    CUSTOM_OUTPUT_DIR=./الله اکبر
+
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
-  - "abnormals_core-client.toml"
-  - "abnormals_core-common.toml"
-  - "aiimprovements-common.toml"
+
+  - "null.toml"
+  - "null2.toml"
 
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
-  - "alexsmobs"
-  - "other_mod_folder"
+
+  - "MusicTriggers"
+  - "fancymenu"
