@@ -1,8 +1,11 @@
 
-//sets the armor value of 34 unique armors
+//sets the armor value of 36+ unique armors
 
 //outvoted
 "outvoted:wildfire_helmet;1",
+"
+//gauntlet_of_guard
+"cataclysm:gauntlet_of_guard;2",
 "
 //create
 "create:diving_boots;1",
@@ -234,6 +237,13 @@
 "herobrine:cursed_diamond_leggings;6",
 "herobrine:cursed_diamond_chestplate;6",
 "herobrine:cursed_diamond_helmet;5",
+"
+//ignitium
+"cataclysm:ignitium_helmet;5",
+"cataclysm:ignitium_chestplate;6",
+"cataclysm:ignitium_elytra_chestplate;4",
+"cataclysm:ignitium_leggings;6",
+"cataclysm:ignitium_boots;5",
 "
 //dragonscale
 "iceandfire:armor_sapphire_boots;6",

@@ -152,3 +152,5 @@ var d = 1 as int;
 //<item:wildupdate:sculk_shovel>.maxDamage = d;
 //<item:wildupdate:sculk_hoe>.maxDamage = d;
 //<item:rats:plague_scythe>.maxDamage = d;
+<item:cataclysm:the_incinerator>.maxDamage = d;
+<item:cataclysm:infernal_forge>.maxDamage = d;

@@ -6,6 +6,9 @@ import crafttweaker.api.item.IIngredient;
 //outvoted
 <item:outvoted:wildfire_helmet>.maxDamage = 20;
 
+//cataclysm
+<item:cataclysm:gauntlet_of_guard>.maxDamage = 150;
+
 //create
 //<item:create:diving_boots>.maxDamage = 40;
 //<item:create:diving_helmet>.maxDamage = 30;
@@ -286,7 +289,12 @@ var tb = 230 as int;
 //<item:herobrine:cursed_diamond_chestplate>.maxDamage = 255;
 //<item:herobrine:cursed_diamond_helmet>.maxDamage = 230;
 
-
+//ignitium
+<item:cataclysm:ignitium_helmet>.maxDamage = 240;
+<item:cataclysm:ignitium_chestplate>.maxDamage = 240;
+<item:cataclysm:ignitium_elytra_chestplate>.maxDamage = 240;
+<item:cataclysm:ignitium_leggings>.maxDamage = 240;
+<item:cataclysm:ignitium_boots>.maxDamage = 240;
 
 //dragonscale
 var dsh = 240 as int;

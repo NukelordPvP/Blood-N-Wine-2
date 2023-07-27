@@ -11,6 +11,12 @@
       "player": false,
       "item": "minecraft:sand",
       "itemcount": "0-3"
+    },
+    {
+      "mob": "cataclysm:netherite_monstrosity",
+      "player": false,
+      "item": "cataclysm:infernal_forge",
+      "itemcount": "0"
     }
   ]
   

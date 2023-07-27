@@ -576,7 +576,12 @@ val removeRecipes = [
 		//<item:wildupdate:allay_spawn_egg>,
 
 		//whatdidyouvotefor
-		<item:whatareyouvotingfor:allay_spawn_egg>
+		<item:whatareyouvotingfor:allay_spawn_egg>,
+
+		//cataclysm
+		<item:cataclysm:the_incinerator>,
+		//temp enabled for testing
+		//<item:cataclysm:infernal_forge>
 
 		//rats
 		//<item:rats:plague_scythe>
