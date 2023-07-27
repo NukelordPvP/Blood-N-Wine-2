@@ -60,17 +60,21 @@ SOURCE_FILES:
     CUSTOM_OUTPUT_DIR=/!_copyright.txt
 
 #Deletes? confirmed!
-# List of client-side config files to be removed from the copied folder.
+# List of client-side config files to be removed from ANY copied folders.
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
 
-  - "null.toml"
-  - "null2.toml"
+  null.toml
+  null2.toml
+  7OOF.zip
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
 
-  - "MusicTriggers"
-  - "fancymenu"
+  MusicTriggers
+  fancymenu
+  better_loading_screen
+  drippyloadingscreen
+  litematica
