@@ -1,3 +1,6 @@
+#JPG image quality percentage for screenshots
+#Range: 0 ~ 100
+ScreenshotJPGQuality = 80
 
 [Modules]
 
@@ -12,8 +15,6 @@
 		speed-scroll-sensitivity = 1.0
 		#Disable when you take damage
 		disable-on-damage = true
-		#Nausea
-		nausea = false
 
 	[Modules.PacketStats]
 		#Enable or disable PacketStats
@@ -92,7 +93,7 @@
 	MobDamageModifier = ["0.2:minecraft:iron_golem"]
 
 [GamePlay]
-	#wether to disable night skips while sleeping or not
+	#Whether to disable night skips while sleeping or not
 	NoNightSkip = true
 	#Lock max game brightness to this value (makes slider above this value useless, use -1 to disable lock)
 	#Range: -1.0 ~ 1.0

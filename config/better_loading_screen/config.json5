@@ -19,32 +19,32 @@
 	   Renders the logo on the loading screen.
 	   Default: true
 	*/
-	rendersLogo: true,
+	rendersLogo: false,
 	/* 
 	   Declares the background color of the loading screen.
 	   Default: #EF323D
 	*/
-	backgroundColor: "#EF323D",
+	backgroundColor: "#9a0403",
 	/* 
 	   Declares the bar color of the loading screen.
 	   Default: #FFFFFF
 	*/
-	barColor: "#FFFFFF",
+	barColor: "#9a0403",
 	/* 
 	   Declares the bar frame color of the loading screen.
 	   Default: #FFFFFF
 	*/
-	barFrameColor: "#FFFFFF",
+	barFrameColor: "#433e40",
 	/* 
 	   Declares the text color of the loading screen.
 	   Default: #FFFFFF
 	*/
-	textColor: "#FFFFFF",
+	textColor: "#433e40",
 	/* 
 	   Declares the logo color of the loading screen.
 	   Default: #FFFFFF
 	*/
-	logoColor: "#FFFFFF",
+	logoColor: "#433e40",
 	/* 
 	   Detects KubeJS to grab the color from the KubeJS config.
 	   Default: true
