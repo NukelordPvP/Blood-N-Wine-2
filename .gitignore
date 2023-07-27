@@ -6,8 +6,15 @@ capes
 downloads
 fancymenu_data
 fancymenu_setups
-Blood-N-Wine-2-Server
 *.launch
+
+#Ignore [Platform]-Export folders
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export/*
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/*
+
+#Ignore Blood-N-Wine-2-Server-Export but keep the 0_Serverside-Only-Files folder
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/*
+!Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/0_Serverside-Only-Files
 
 replay_recordings_nukelord420_reviewed_dud
 

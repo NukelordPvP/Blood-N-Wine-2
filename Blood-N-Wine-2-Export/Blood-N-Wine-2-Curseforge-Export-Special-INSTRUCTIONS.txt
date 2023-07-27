@@ -1,0 +1,1 @@
+Blood-N-Wine-2-Curseforge-Export needs to be placed in Curseforge/Minecraft/Instances/ then in the curseforge program you must export the new modpack
