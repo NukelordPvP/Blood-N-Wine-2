@@ -1,5 +1,6 @@
 "outvoted:wildfire_helmet;1",
-"cataclysm:gauntlet_of_guard;2",
+"cataclysm:gauntlet_of_guard;3",
+"cataclysm:monstrous_helm;3",
 "create:diving_boots;1",
 "create:diving_helmet;1",
 "woodarmor:bigoak_boots;1",

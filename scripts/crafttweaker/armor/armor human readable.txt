@@ -4,8 +4,9 @@
 //outvoted
 "outvoted:wildfire_helmet;1",
 "
-//gauntlet_of_guard
-"cataclysm:gauntlet_of_guard;2",
+//cataclysm
+"cataclysm:gauntlet_of_guard;3",
+"cataclysm:monstrous_helm;3",
 "
 //create
 "create:diving_boots;1",
