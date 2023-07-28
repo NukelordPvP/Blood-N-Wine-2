@@ -9,7 +9,7 @@
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
 	#BossMusic(on/off)
-	"BossMusic(on/off)" = true
+	"BossMusic(on/off)" = false
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
