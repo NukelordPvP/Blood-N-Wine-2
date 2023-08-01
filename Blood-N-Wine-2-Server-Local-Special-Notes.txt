@@ -1,0 +1,2 @@
+Blood-N-Wine-2-Server-Local is for testing server locally. 
+Useful for keeping Blood-N-Wine-2-Server-Export clear of junk auto generated files like /logs/, /dump/, ect.

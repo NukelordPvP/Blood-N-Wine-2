@@ -4,5 +4,9 @@ GLOBAL_DELAY:20
 # Jar list and ;num = override GLOBAL_DELAY and use jar specific delay and if ;empty then it will use GLOBAL_DELAY.
 JARS:
 Blood-N-Wine-2-Curseforge-Export.jar;10
-Blood-N-Wine-2-Server-Export.jar;10
-Blood-N-Wine-2-Technic-Export.jar;10
+Blood-N-Wine-2-Server-Export-Part-I.jar;10
+Blood-N-Wine-2-Server-Export-Part-II.jar;5
+Blood-N-Wine-2-Server-Local-Part-I.jar;10
+Blood-N-Wine-2-Server-Local-Part-II.jar;5
+Blood-N-Wine-2-Technic-Export-Part-I.jar;10
+Blood-N-Wine-2-Technic-Export-Part-II.jar;5

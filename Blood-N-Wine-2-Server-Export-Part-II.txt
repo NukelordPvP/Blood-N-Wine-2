@@ -1,0 +1,71 @@
+
+# command line argument to rename the config CopyAndModifyFolder uses
+# java com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder my_custom_config.txt
+
+# Configuration file for CopyAndModifyFolder
+
+# Set the level of the main directory in relation to the current directory.
+# Positive value: Main directory is one or more levels above the current directory.
+# Negative value: Main directory is one or more levels below the current directory.
+# 0: Main directory is the same as the current directory (default).
+MAIN_DIRECTORY_LEVEL:-1
+
+# Set whether to run the program from the 'mods' folder.
+# If set to true, the main directory will be one level above the 'mods' folder.
+# If set to false (default), the program runs from the current directory.
+RUN_FROM_MODS:false
+
+# Set the destination folder for copied files and modified folders.
+# If USE_CUSTOM_OUTPUT_DIR is set to false, this option will be used as the destination folder. // this is now inverted
+# If USE_CUSTOM_OUTPUT_DIR is set to true, the default destination folder will be 'config-Server'.
+GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export
+
+# Set whether to use a custom output directory for each source folder.
+# If set to true, each source folder will have its own output directory specified in CUSTOM_OUTPUT_DIR.
+# If set to false (default), all source folders will use the destination folder specified above.
+USE_CUSTOM_OUTPUT_DIR:false
+
+#Copys? confirmed!
+#Checks for deletions? confirmed!
+# Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
+SOURCE_FOLDERS:
+
+  - SOURCE=/0_Serverside-Only-Files/libraries
+    CUSTOM_OUTPUT_DIR=/libraries
+
+#Copys? confirmed!
+#Checks for deletions? NO
+# Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
+SOURCE_FILES:
+
+  - SOURCE=/0_Serverside-Only-Files/custom.jar
+    CUSTOM_OUTPUT_DIR=/custom.jar
+
+  - SOURCE=/0_Serverside-Only-Files/eula.txt
+    CUSTOM_OUTPUT_DIR=/eula.txt
+
+  - SOURCE=/0_Serverside-Only-Files/INFO ABOUT Blood-N-Wine-2-Server.txt
+    CUSTOM_OUTPUT_DIR=/INFO ABOUT Blood-N-Wine-2-Server.txt
+
+  - SOURCE=/0_Serverside-Only-Files/minecraft_server.1.16.5.jar
+    CUSTOM_OUTPUT_DIR=/minecraft_server.1.16.5.jar
+
+  - SOURCE=/0_Serverside-Only-Files/Run Server.bat
+    CUSTOM_OUTPUT_DIR=/Run Server.bat
+
+  - SOURCE=/0_Serverside-Only-Files/server.properties
+    CUSTOM_OUTPUT_DIR=/server.properties
+
+
+  - SOURCE=/0_Serverside-Only-Files/server-icon.png
+    CUSTOM_OUTPUT_DIR=/server-icon.png
+
+#Deletes? confirmed!
+# List of client-side config files to be removed from ANY copied folders.
+# Files should be specified relative to the destination folder.
+CONFIG_LIST:
+
+#Deletes? confirmed!
+# List of folders to be deleted from the copied folder.
+# Folders should be specified relative to the destination folder.
+FOLDER_LIST:

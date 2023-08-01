@@ -36,14 +36,29 @@ SOURCE_FOLDERS:
   - SOURCE=./defaultconfigs
     CUSTOM_OUTPUT_DIR=./defaultconfigs
 
+  - SOURCE=./drippyloadingscreen
+    CUSTOM_OUTPUT_DIR=./drippyloadingscreen
+
+  - SOURCE=./minemenu
+    CUSTOM_OUTPUT_DIR=./minemenu
+
+  - SOURCE=./resourcepacks
+    CUSTOM_OUTPUT_DIR=./resourcepacks
+
   - SOURCE=./mods
     CUSTOM_OUTPUT_DIR=./mods
 
   - SOURCE=./openloader
     CUSTOM_OUTPUT_DIR=./openloader
 
+  - SOURCE=./schematics
+    CUSTOM_OUTPUT_DIR=./schematics
+
   - SOURCE=./scripts
     CUSTOM_OUTPUT_DIR=./scripts
+
+  - SOURCE=./shaderpacks
+    CUSTOM_OUTPUT_DIR=./shaderpacks
 
 #Copys? confirmed!
 #Checks for deletions? NO
@@ -59,6 +74,12 @@ SOURCE_FILES:
   - SOURCE=/!_copyright.txt
     CUSTOM_OUTPUT_DIR=/!_copyright.txt
 
+  - SOURCE=/HOW TO ADD OPTIFINE.txt
+    CUSTOM_OUTPUT_DIR=/HOW TO ADD OPTIFINE.txt
+
+  - SOURCE=/servers.dat
+    CUSTOM_OUTPUT_DIR=/servers.dat
+    
 #Deletes? confirmed!
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.

@@ -1,1 +1,0 @@
-Do not include any saves, banned-ips.json, banned-players.json

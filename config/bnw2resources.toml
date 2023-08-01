@@ -78,7 +78,7 @@ ScreenshotJPGQuality = 80
 	# -0.5 means 50% health reduction (half health) 
 	# -1.0 means mob will be dead or something because no health
 	#- format: value:modname:mobname
-	MobHealthModifier = ["1.0:minecraft:ghast", "1.0:minecraft:iron_golem", "3.0:minecraft:snow_golem"]
+	MobHealthModifier = ["1.0:minecraft:ghast", "1.0:minecraft:iron_golem", "3.0:minecraft:snow_golem", "2.0:minecraft:wither"]
 	#Mob list to control their max follow range attribute using ratios 
 	# 1.0 means 100% more range (2x range) 
 	# -0.5 means 50% range reduction (half range) 
