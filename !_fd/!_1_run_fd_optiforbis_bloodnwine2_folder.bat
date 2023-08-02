@@ -1,0 +1,1 @@
+fd . --type file --extension ogg "..\config\MusicTriggers\songs\bloodnwine2" -x optivorbis {} {.}_.ogg

@@ -55,5 +55,23 @@ servers.dat_old
 #.bak files
 *.bak
 
-#ignore backup mods folder
+#ignore temp files
+*.ogg_
+*_.ogg
+*_converted.ogg
+*-converted.ogg
+
+#ignore backup mods and audio folder
 mods_backup
+bloodnwine2_backup
+
+#ignore modrinth pack
+Blood N Wine 2 2.1.mrpack
+
+#ignore sound compression presets
+bloodnwine2-128kbs-48khz-5-Reduc
+bloodnwine2-128kbs-48khz-5-Reduc.7z
+bloodnwine2-96kbs-48khz-25-Reduc
+bloodnwine2-96kbs-48khz-25-Reduc.7z
+bloodnwine2-64kbs-48khz-50-Reduc
+bloodnwine2-64kbs-48khz-50-Reduc.7z

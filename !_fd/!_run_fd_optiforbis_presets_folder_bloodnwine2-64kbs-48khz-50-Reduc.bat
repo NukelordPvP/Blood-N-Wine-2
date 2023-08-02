@@ -1,0 +1,1 @@
+fd . --type file --extension ogg "..\0_MusicTriggers_Comp_Pre\bloodnwine2-64kbs-48khz-50-Reduc" -x optivorbis {} {.}_.ogg

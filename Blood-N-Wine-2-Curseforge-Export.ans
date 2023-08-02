@@ -8,7 +8,7 @@
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config
 to
@@ -933,36 +933,6 @@ to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\blur-client.toml
 Destination file is up-to-date. Skipping file copy:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\blur-client.toml
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bnw2resources-1.toml.bak
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-1.toml.bak
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-1.toml.bak
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bnw2resources-2.toml.bak
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-2.toml.bak
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-2.toml.bak
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bnw2resources-3.toml.bak
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-3.toml.bak
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-3.toml.bak
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bnw2resources-4.toml.bak
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-4.toml.bak
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-4.toml.bak
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bnw2resources-5.toml.bak
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-5.toml.bak
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-5.toml.bak
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bnw2resources.toml
 to
@@ -10144,7 +10114,13 @@ Checking relativePath: zombievillagersfromspawner-common.toml
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config
-No deletions detected in the source folder.
+WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
+Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-1.toml.bak
+Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-2.toml.bak
+Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-3.toml.bak
+Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-4.toml.bak
+Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bnw2resources-5.toml.bak
+Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.
 [33m[33mProcessing complete for this entry.[0m[0m
 [33mProcessing entry:[0m
@@ -10152,7 +10128,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\defaultconfigs[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\defaultconfigs
 to
@@ -10210,7 +10186,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\drippyloadingscreen[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\drippyloadingscreen
 to
@@ -10282,7 +10258,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\minemenu[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\minemenu
 to
@@ -10312,7 +10288,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\resourcepacks[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\resourcepacks
 to
@@ -10377,7 +10353,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods
 to
@@ -10524,8 +10500,9 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bettercombat-1.4.5.3+1.16.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\bettercombat-1.4.5.3+1.16.jar
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\bettercombat-1.4.5.3+1.16.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\bettercombat-1.4.5.3+1.16.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\bettercombat-1.4.5.3+1.16.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bettercompat-0.4.2-1.16.5-36.2.34.jar
 to
@@ -10812,8 +10789,9 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\curtain-mc1.16.5-1.2.2.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\curtain-mc1.16.5-1.2.2.jar
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\curtain-mc1.16.5-1.2.2.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\curtain-mc1.16.5-1.2.2.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\curtain-mc1.16.5-1.2.2.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\cyclepaintings_1.16.5-2.7.jar
 to
@@ -10824,8 +10802,9 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\DeadlyWorld-1.16.5-1.0.0.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\DeadlyWorld-1.16.5-1.0.0.jar
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\DeadlyWorld-1.16.5-1.0.0.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\DeadlyWorld-1.16.5-1.0.0.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\DeadlyWorld-1.16.5-1.0.0.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\deathbackup_1.16.5-1.5.jar
 to
@@ -10872,8 +10851,9 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\dragonfight-1.8-patched.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\dragonfight-1.8-patched.jar
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\dragonfight-1.8-patched.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\dragonfight-1.8-patched.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\dragonfight-1.8-patched.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\drippyloadingscreen_forge_1.6.6_MC_1.16.2-1.16.5.jar
 to
@@ -11124,8 +11104,9 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\glennsGasesPort1.16-1.0.6.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\glennsGasesPort1.16-1.0.6.jar
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\glennsGasesPort1.16-1.0.6.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\glennsGasesPort1.16-1.0.6.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\glennsGasesPort1.16-1.0.6.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\GlobalGameRules-1.16.5-5.1.0.4.jar
 to
@@ -11568,8 +11549,9 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\physics-mod-pro-v36b-forge-1.16.5.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\Placebo-1.16.5-4.7.1.jar
 to
@@ -11844,8 +11826,9 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\TerraForged-1.16.5-0.2.16.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\TerraForged-1.16.5-0.2.16.jar
-Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\TerraForged-1.16.5-0.2.16.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\TerraForged-1.16.5-0.2.16.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\TerraForged-1.16.5-0.2.16.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\the-conjurer-1.16.4-1.0.13.jar
 to
@@ -12321,7 +12304,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader
 to
@@ -14726,7 +14709,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\schematics[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\schematics
 to
@@ -15303,7 +15286,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\scripts[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\scripts
 to
@@ -15479,7 +15462,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\shaderpacks[0m
 [33mCONFIG_LIST: [- "TerraForged-1.16.5-0.2.16.jar", - "physics-mod-pro-v36b-forge-1.16.5.jar", - "glennsGasesPort1.16-1.0.6.jar", - "dragonfight-1.8-patched.jar", - "DeadlyWorld-1.16.5-1.0.0.jar", - "curtain-mc1.16.5-1.2.2.jar", - "bettercombat-1.4.5.3+1.16.jar"][0m
 [33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\shaderpacks
 to

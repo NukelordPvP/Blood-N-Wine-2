@@ -1,0 +1,2 @@
+fd -h
+pause

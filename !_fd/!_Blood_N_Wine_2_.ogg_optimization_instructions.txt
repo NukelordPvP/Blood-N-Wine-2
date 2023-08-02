@@ -1,0 +1,14 @@
+#to optimize and replace old files automatically follow these steps:
+#FILE1
+!_1_run_fd_optiforbis.bat
+#FILE2
+!_2_delete_files_without_underscore.bat
+#FILE3
+!_3_remove_underscores_from_files.bat
+
+#Compression Guide (WARNING reduces audio quality)
+#Open VLC Media Player -> Media -> Convert/Save -> +Add -> bloodnwine2 -> Ctrl+A -> Convert/Save
+#In profile Tab press the clipboard icon next to the red X to create a new profile
+#Profile Name Audio - Vorbis (OGG) BNW Compressed
+#[Encapsulation] tab, MPEG-TS -> Ogg/Ogm
+#[Audio codec] tab, Audio [Check], Codec [Vorbis], Bitrate [128kb/s to 96kb/s], Channels [2], Sample Rate [44100hz - default -> 22050hz]
