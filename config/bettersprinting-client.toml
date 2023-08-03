@@ -3,7 +3,7 @@
 	#Range: > -2147483648
 	keyCodeSprintHold = -1
 	#Range: > -2147483648
-	keyCodeSprintToggle = 82
+	keyCodeSprintToggle = 341
 	#Range: > -2147483648
 	keyCodeSneakToggle = -1
 	#Range: > -2147483648

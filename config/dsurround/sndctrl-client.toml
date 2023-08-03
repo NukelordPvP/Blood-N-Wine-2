@@ -1,0 +1,40 @@
+
+#General options for defining sound effects
+["Sound Options"]
+	#Enable sound reverb and filtering
+	"Enable Enhanced Sounds" = true
+	#Enable conversion of stereo sounds to mono format for spacial play
+	"Enable Stereo to Mono Conversion" = true
+	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)
+	"Enable Sound Occlusion Calculations" = true
+	#Occlude WEATHER sounds
+	"Occlude WEATHER Sounds" = false
+	#Occlude RECORDS sounds
+	"Occlude RECORDS Sounds" = false
+	#Options to configure sounds on an individual basis
+	"Individual Sound Config" = ["create:contraption_assemble 52", "create:contraption_assemble_compounded_1 52", "create:contraption_disassemble 52", "create:crafter_click_compounded_1 52", "minecraft:block.iron_door.close 52", "minecraft:block.iron_door.open 52", "minecraft:block.iron_trapdoor.close 52", "minecraft:block.iron_trapdoor.open 52", "minecraft:block.wooden_door.close 52", "minecraft:block.wooden_door.open 52", "minecraft:block.wooden_trapdoor.close 52", "minecraft:block.wooden_trapdoor.open 52", "minecraft:entity.cat.ambient 26", "minecraft:entity.cat.hiss 96", "minecraft:entity.chicken.ambient cull", "minecraft:entity.cow.ambient cull", "minecraft:entity.dragon.death cull 10", "minecraft:entity.dragon.spawn cull 10", "minecraft:entity.dragon_fireball.explode 52", "minecraft:entity.egg.throw 26", "minecraft:entity.ender_pearl.throw 26", "minecraft:entity.experience_bottle.throw 26", "minecraft:entity.generic.explode 52", "minecraft:entity.lingering_potion.throw 26", "minecraft:entity.llama.ambient cull", "minecraft:entity.parrot.imitate.vindicator 52", "minecraft:entity.pig.ambient cull", "minecraft:entity.sheep.ambient cull", "minecraft:entity.snowball.throw 26", "minecraft:entity.splash_potion.throw 26", "minecraft:entity.vindicator.ambient 52", "minecraft:entity.vindicator.celebrate 52", "minecraft:entity.vindicator.death 52", "minecraft:entity.vindicator.hurt 52", "minecraft:entity.wither.death cull 10", "minecraft:entity.wither.spawn cull 10", "minecraft:entity.zombie.attack_iron_door 39", "minecraft:entity.zombie.attack_wooden_door 39", "minecraft:entity.zombie.break_wooden_door 39", "minecraft:item.crossbow.shoot 39", "minecraft:weather.rain 9", "mobeffects:bow.equip 22", "mobeffects:bow.loose 39", "mobeffects:bow.pull 39", "mobeffects:water.water_through 0", "mobeffects:water.water_wander 0", "mobeffects:water_stereofix.water_through 0", "mobeffects:water_stereofix.water_wander 0", "tconstruct:throw.throwball 26"]
+	#Possible sounds to play when client reaches main game menu
+	"Startup Sound List" = ["minecraft:entity.experience_orb.pickup", "minecraft:entity.chicken.egg", "minecraft:ambient.underwater.exit"]
+	#Ticks between culled sound events (0 to disable culling)
+	#Range: 0 ~ 6000
+	"Sound Culling Interval" = 20
+	#Number of background threads to handle sound effect calculations (0 is default)
+	#Range: 0 ~ 8
+	"Background Workers" = 0
+
+#Defines parameters for special effects
+["Effect Options"]
+	#Replace client side Randomizers with faster versions
+	"Replace Randoms" = true
+	#Block range of entity special effect handling
+	#Range: 16 ~ 64
+	"Block Range" = 24
+
+#Defines how Sound Control logging will behave
+["Logging Options"]
+	#Enables/disables debug logging of the mod
+	"Debug Logging" = false
+	#Bitmask for toggling various debug traces
+	#Range: > 0
+	"Debug Flag Mask" = 0
+
