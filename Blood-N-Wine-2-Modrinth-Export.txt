@@ -18,7 +18,7 @@ RUN_FROM_MODS:false
 # Set the destination folder for copied files and modified folders.
 # If USE_CUSTOM_OUTPUT_DIR is set to false, this option will be used as the destination folder. // this is now inverted
 # If USE_CUSTOM_OUTPUT_DIR is set to true, the default destination folder will be 'config-Server'.
-GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export
+GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Blood-N-Wine-2-Export/Blood-N-Wine-2-Modrinth-Export
 
 # Set whether to use a custom output directory for each source folder.
 # If set to true, each source folder will have its own output directory specified in CUSTOM_OUTPUT_DIR.
@@ -30,8 +30,8 @@ USE_CUSTOM_OUTPUT_DIR:false
 # Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FOLDERS:
 
-  - SOURCE=/0_Technic-Only-Files/bin
-    CUSTOM_OUTPUT_DIR=/bin
+  - SOURCE=/0_Modrinth-Only-Files/Blood_N_Wine_2_x_x_mrpk_Str_Hr
+    CUSTOM_OUTPUT_DIR=/Blood_N_Wine_2_x_x_mrpk_Str_Hr
 
 #Copys? confirmed!
 #Checks for deletions? NO
@@ -47,6 +47,3 @@ CONFIG_LIST:
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
-
-  extraction_cache
-  songs

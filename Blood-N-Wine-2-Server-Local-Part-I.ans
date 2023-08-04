@@ -6,8 +6,8 @@
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config[0m
-[33mCONFIG_LIST: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config
@@ -4637,13 +4637,20 @@ Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\bloodnwine2resources
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache.bomb
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\bloodnwine2resources\extraction_cache.bomb
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\bloodnwine2resources\extraction_cache
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\bloodnwine2resources\extraction_cache.bomb
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\bloodnwine2resources\extraction_cache.bomb
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+[32mFolder copy complete.
+Source folder: /config
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/config[0m
 [32mFolder copy complete.
 Source folder: /config
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/config[0m
@@ -11774,6 +11781,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\notenoughcrashes.json
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\notenoughcrashes.json
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\oculus.properties
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\oculus.properties
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\oculus.properties
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\oculus.properties
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\openloader-common.toml
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\openloader-common.toml
@@ -15024,7 +15038,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: /config
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/config[0m
-[33mRemoving config files: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config[0m
 Checking relativePath: abnormals_core-client.toml
 Checking relativePath: abnormals_core-common.toml
@@ -15227,6 +15241,9 @@ Checking relativePath: naturescompass-common.toml
 Checking relativePath: nicephore-client.toml
 Checking relativePath: notenoughanimations.json
 Checking relativePath: notenoughcrashes.json
+Checking relativePath: oculus.properties
+Found match in configList: oculus.properties
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\oculus.properties
 Checking relativePath: openloader-common.toml
 Checking relativePath: oreberriesreplanted-common.toml
 Checking relativePath: oreconfig-common.toml
@@ -15319,8 +15336,10 @@ Checking relativePath: zombieawareness
 Checking relativePath: zombiehorsespawn-common.toml
 Checking relativePath: zombievillagersfromspawner-common.toml
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\extraction_cache[0m
 [35mDeleted:[0m
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\!_01_delete_files_missing_-.bat[0m
 [35mDeleted:[0m
@@ -16117,8 +16136,8 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\defaultconfigs[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs[0m
-[33mCONFIG_LIST: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\defaultconfigs
@@ -16162,7 +16181,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: /defaultconfigs
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/defaultconfigs[0m
-[33mRemoving config files: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs[0m
 Checking relativePath: ceramicbucket-server.toml
 Checking relativePath: farsightedmobs-server.toml
@@ -16170,8 +16189,10 @@ Checking relativePath: gravestone-server.toml
 Checking relativePath: solpotato-server.toml
 Checking relativePath: workshopsofdoom-server.toml
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs\extraction_cache[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs\MusicTriggers[0m
 [33mFolder not found:[0m
@@ -16190,8 +16211,8 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods[0m
-[33mCONFIG_LIST: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods
@@ -18006,7 +18027,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: /mods
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/mods[0m
-[33mRemoving config files: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods[0m
 Checking relativePath: 3dSkinLayers-forge-1.1.0.jar
 Checking relativePath: abnormals_core-1.16.5-3.3.1.jar
@@ -18267,8 +18288,10 @@ Checking relativePath: zombieawareness-1.16.5-1.12.jar
 Checking relativePath: zombiehorsespawn_1.16.5-3.0.jar
 Checking relativePath: zombievillagersfromspawner_1.16.5-1.5.jar
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\extraction_cache[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\MusicTriggers[0m
 [33mFolder not found:[0m
@@ -18287,8 +18310,8 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader[0m
-[33mCONFIG_LIST: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader
@@ -21020,14 +21043,16 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/openloader
 [32mFolder copy complete.
 Source folder: /openloader
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/openloader[0m
-[33mRemoving config files: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader[0m
 Checking relativePath: .cache
 Checking relativePath: data
 Checking relativePath: resources
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\extraction_cache[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\MusicTriggers[0m
 [33mFolder not found:[0m
@@ -21046,8 +21071,8 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\scripts[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts[0m
-[33mCONFIG_LIST: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\scripts
@@ -21224,12 +21249,14 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/scripts[0
 [32mFolder copy complete.
 Source folder: /scripts
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/scripts[0m
-[33mRemoving config files: [oculus.properties, extraction_cache.bomb, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts[0m
 Checking relativePath: crafttweaker
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [extraction_cache, MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts\extraction_cache[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts\MusicTriggers[0m
 [33mFolder not found:[0m

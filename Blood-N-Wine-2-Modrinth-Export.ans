@@ -1,0 +1,37 @@
+[33mMAIN_DIRECTORY_LEVEL:-1[0m
+[33mRUN_FROM_MODS:false[0m
+[33mGLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:"Blood-N-Wine-2-Export/Blood-N-Wine-2-Modrinth-Export"[0m
+[33mUSE_CUSTOM_OUTPUT_DIR:true[0m
+[33m[0m
+[33mProcessing entry:[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\0_Modrinth-Only-Files\Blood_N_Wine_2_x_x_mrpk_Str_Hr[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Modrinth-Export\Blood_N_Wine_2_x_x_mrpk_Str_Hr[0m
+[33mCONFIG_LIST: [][0m
+[33mFOLDER_LIST: [][0m
+[33mSOURCE_FILES: [][0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\0_Modrinth-Only-Files\Blood_N_Wine_2_x_x_mrpk_Str_Hr
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Modrinth-Export\Blood_N_Wine_2_x_x_mrpk_Str_Hr
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\0_Modrinth-Only-Files\Blood_N_Wine_2_x_x_mrpk_Str_Hr\Blood_N_Wine_2_x_x_mrpk_Str_Hr.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Modrinth-Export\Blood_N_Wine_2_x_x_mrpk_Str_Hr\Blood_N_Wine_2_x_x_mrpk_Str_Hr.txt
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\0_Modrinth-Only-Files\Blood_N_Wine_2_x_x_mrpk_Str_Hr\Blood_N_Wine_2_x_x_mrpk_Str_Hr.txt
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Modrinth-Export\Blood_N_Wine_2_x_x_mrpk_Str_Hr\Blood_N_Wine_2_x_x_mrpk_Str_Hr.txt
+[32mFolder copy complete.
+Source folder: /0_Modrinth-Only-Files/Blood_N_Wine_2_x_x_mrpk_Str_Hr
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Modrinth-Export/Blood_N_Wine_2_x_x_mrpk_Str_Hr[0m
+[33mRemoving config files: [] from [0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Modrinth-Export\Blood_N_Wine_2_x_x_mrpk_Str_Hr[0m
+Checking relativePath: Blood_N_Wine_2_x_x_mrpk_Str_Hr.txt
+[33mConfig file removal complete.[0m
+[33mDeleting folders: [] from [0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Modrinth-Export\Blood_N_Wine_2_x_x_mrpk_Str_Hr[0m
+[33mFolder deletion complete.[0m
+Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Modrinth-Export\Blood_N_Wine_2_x_x_mrpk_Str_Hr
+No deletions detected in the source folder.
+Deletion check complete.
+[33m[33mProcessing complete for this entry.[0m[0m
+[33m[33mTask completed successfully.[0m[0m

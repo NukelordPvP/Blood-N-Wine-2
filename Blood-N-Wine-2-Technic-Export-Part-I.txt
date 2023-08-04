@@ -97,6 +97,3 @@ CONFIG_LIST:
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
-
-  extraction_cache
-  songs
