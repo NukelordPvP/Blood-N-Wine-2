@@ -91,3 +91,6 @@ oculus.properties
 #ignore bloodnwine2resources extraction_cache.bomb to prevent sound files from not extracting
 #due to the program thinking the songs folder is already installed
 extraction_cache.bomb
+
+#ignore options.txt
+options.txt

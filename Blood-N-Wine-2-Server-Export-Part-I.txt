@@ -64,7 +64,6 @@ SOURCE_FILES:
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
   oculus.properties
-  extraction_cache.bomb
   7OOF.zip
   aas-1.16.4-1.1.0.jar
   BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar
@@ -94,6 +93,7 @@ CONFIG_LIST:
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
 
+  extraction_cache
   MusicTriggers
   fancymenu
   better_loading_screen
