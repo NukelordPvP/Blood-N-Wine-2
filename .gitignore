@@ -84,3 +84,10 @@ Blood-N-Wine-2-Music.zip
 
 #ignore cache
 lightspeed-cache
+
+#ignore oculus.properties to fix users getting shaders force enabled
+oculus.properties
+
+#ignore bloodnwine2resources extraction_cache.bomb to prevent sound files from not extracting
+#due to the program thinking the songs folder is already installed
+extraction_cache.bomb

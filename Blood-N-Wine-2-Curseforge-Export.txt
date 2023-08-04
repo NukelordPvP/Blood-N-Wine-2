@@ -84,16 +84,19 @@ SOURCE_FILES:
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
-
-  - "TerraForged-1.16.5-0.2.16.jar"
-  - "physics-mod-pro-v36b-forge-1.16.5.jar"
-  - "glennsGasesPort1.16-1.0.6.jar"
-  - "dragonfight-1.8-patched.jar"
-  - "DeadlyWorld-1.16.5-1.0.0.jar"
-  - "curtain-mc1.16.5-1.2.2.jar"
-  - "bettercombat-1.4.5.3+1.16.jar"
+  oculus.properties
+  extraction_cache.bomb
+  TerraForged-1.16.5-0.2.16.jar
+  physics-mod-pro-v36b-forge-1.16.5.jar
+  glennsGasesPort1.16-1.0.6.jar
+  dragonfight-1.8-patched.jar
+  DeadlyWorld-1.16.5-1.0.0.jar
+  curtain-mc1.16.5-1.2.2.jar
+  bettercombat-1.4.5.3+1.16.jar
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
+
+  songs
