@@ -241,17 +241,7 @@
 		"tconstruct:crafting_station",
 		"tconstruct:tinker_station",
 		"tconstruct:part_builder",
-		"betternether:farmland",
-		"biomesoplenty:hellbark_door",
-		"biomesoplenty:fir_door",
-		"biomesoplenty:redwood_door",
-		"biomesoplenty:cherry_door",
-		"biomesoplenty:mahogany_door",
-		"biomesoplenty:jacaranda_door",
-		"biomesoplenty:palm_door",
-		"biomesoplenty:willow_door",
-		"biomesoplenty:dead_door",
-		"biomesoplenty:umbran_door"
+		"betternether:farmland"
 	]
 	# Like "grief_targets.whitelist", but these blocks will not be targeted if they have a loot table tag.
 	# For example, unopened dungeon chests will not be targeted.
@@ -612,27 +602,7 @@
 		"betternether:anchor_tree_gate",
 		"betternether:anchor_tree_trapdoor",
 		"betternether:nether_sakura_gate",
-		"nourished_end:stalk_trapdoor",
-		"biomesoplenty:hellbark_fence_gate",
-		"biomesoplenty:hellbark_trapdoor",
-		"biomesoplenty:fir_fence_gate",
-		"biomesoplenty:fir_trapdoor",
-		"biomesoplenty:redwood_fence_gate",
-		"biomesoplenty:redwood_trapdoor",
-		"biomesoplenty:cherry_fence_gate",
-		"biomesoplenty:cherry_trapdoor",
-		"biomesoplenty:mahogany_fence_gate",
-		"biomesoplenty:mahogany_trapdoor",
-		"biomesoplenty:jacaranda_fence_gate",
-		"biomesoplenty:jacaranda_trapdoor",
-		"biomesoplenty:palm_fence_gate",
-		"biomesoplenty:palm_trapdoor",
-		"biomesoplenty:willow_fence_gate",
-		"biomesoplenty:willow_trapdoor",
-		"biomesoplenty:dead_fence_gate",
-		"biomesoplenty:dead_trapdoor",
-		"biomesoplenty:umbran_fence_gate",
-		"biomesoplenty:umbran_trapdoor"
+		"nourished_end:stalk_trapdoor"
 	]
 	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: []
 	idle_fiddling.targets.blacklist = []

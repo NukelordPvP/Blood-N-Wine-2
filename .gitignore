@@ -79,6 +79,9 @@ bloodnwine2-64kbs-48khz-50-Reduc.7z
 #ignore closed perms list for exporting to Modrinth
 mods_-_closed_perms_list_for_exporting_to_Modrinth.7z
 
+#ignore required by closed perms list
+mods_-_required_by_closed_perms_list.7z
+
 #ignore Blood-N-Wine-2-Music Test Folders
 0_Blood-N-Wine-2-Assets/resourcepacks/Blood-N-Wine-2-Music
 

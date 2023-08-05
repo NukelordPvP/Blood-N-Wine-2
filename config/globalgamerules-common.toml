@@ -72,8 +72,6 @@
 	#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 	universal_anger = false
 	#No comment
-	do_season_cycle = true
-	#No comment
 	#Range: > 0
 	pursuer_chance_multiplier = 5
 	#No comment
