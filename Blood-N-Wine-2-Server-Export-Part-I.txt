@@ -51,7 +51,7 @@ SOURCE_FOLDERS:
 SOURCE_FILES:
 
   - SOURCE=/!_bnw2-version-2.2
-    CUSTOM_OUTPUT_DIR=/!_bnw2-version-2.1
+    CUSTOM_OUTPUT_DIR=/!_bnw2-version-2.2
 
   - SOURCE=/!_bnw2-forge-1.16.5-36.2.35
     CUSTOM_OUTPUT_DIR=/!_bnw2-forge-1.16.5-36.2.35
@@ -64,6 +64,7 @@ SOURCE_FILES:
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
   oculus.properties
+# mods clientside only
   aas-1.16.4-1.1.0.jar
   BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar
   betterfoliage-1.2.0.jar
