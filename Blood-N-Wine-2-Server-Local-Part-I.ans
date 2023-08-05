@@ -21511,9 +21511,8 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\!_bnw2-version-2.1
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-File copied successfully.
-Source file: /!_bnw2-version-2.1
-Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/!_bnw2-version-2.1
+ERROR: Source file not found:
+/!_bnw2-version-2.1
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 No deletions detected in the source folder.
 Deletion check complete.

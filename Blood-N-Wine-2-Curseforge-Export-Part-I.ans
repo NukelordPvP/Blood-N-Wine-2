@@ -6,7 +6,7 @@
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -15038,7 +15038,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./config
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config[0m
 Checking relativePath: abnormals_core-client.toml
 Checking relativePath: abnormals_core-common.toml
@@ -15346,7 +15346,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\defaultconfigs[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\defaultconfigs[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -15391,7 +15391,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./defaultconfigs
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./defaultconfigs[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\defaultconfigs[0m
 Checking relativePath: ceramicbucket-server.toml
 Checking relativePath: farsightedmobs-server.toml
@@ -15409,7 +15409,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\drippyloadingscreen[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\drippyloadingscreen[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -15468,7 +15468,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./drippyloadingscreen
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./drippyloadingscreen[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\drippyloadingscreen[0m
 Checking relativePath: bloodnwine2bynukelord420.png
 Checking relativePath: bloodnwine2bynukelord420bg.png
@@ -15488,7 +15488,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\minemenu[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\minemenu[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -15505,7 +15505,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./minemenu
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./minemenu[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\minemenu[0m
 Checking relativePath: menu.json
 [33mConfig file removal complete.[0m
@@ -15519,7 +15519,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\resourcepacks[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -15599,7 +15599,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./resourcepacks
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./resourcepacks[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\resourcepacks[0m
 Checking relativePath: Better-Potr.zip
 Checking relativePath: Blood-N-Wine-2-Music md5 = CB52DEDDCCE17B925EDC31A198F884A5.txt
@@ -15624,7 +15624,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -17601,7 +17601,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./mods
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./mods[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods[0m
 Checking relativePath: 3dSkinLayers-forge-1.1.0.jar
 Checking relativePath: aas-1.16.4-1.1.0.jar
@@ -17610,6 +17610,8 @@ Checking relativePath: AdPother-1.16.5-4.2.1.1-build.0351.jar
 Checking relativePath: AI-Improvements-1.16.5-0.5.0.jar
 Checking relativePath: alexsmobs-1.12.1.jar
 Checking relativePath: allay-forge-1.16.5-4.2.0.jar
+Found match in configList: allay-forge-1.16.5-4.2.0.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\allay-forge-1.16.5-4.2.0.jar
 Checking relativePath: altereddamage_1.16.5-1.5.jar
 Checking relativePath: Apocalypse-Rebooted-1.16.5-1.0.0-r.jar
 Checking relativePath: appleskin-forge-mc1.16.x-2.4.0.jar
@@ -17632,6 +17634,8 @@ Found match in configList: bettercombat-1.4.5.3+1.16.jar
 Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\bettercombat-1.4.5.3+1.16.jar
 Checking relativePath: bettercompat-0.4.2-1.16.5-36.2.34.jar
 Checking relativePath: BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar
+Found match in configList: BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar
 Checking relativePath: BetterDungeons-1.16.4-1.2.1.jar
 Checking relativePath: betterendforge-1.16.5-2.5.jar
 Checking relativePath: BetterF3-1.5.0-Forge-1.16.5.jar
@@ -17640,13 +17644,19 @@ Checking relativePath: BetterMineshafts-Forge-1.16.4-2.0.4.jar
 Checking relativePath: BetterModsButton-v1.0.5-1.16.5-Forge.jar
 Checking relativePath: betternether_reforged-1.2.jar
 Checking relativePath: BetterSprinting-1.16.3-v3.2.0.jar
+Found match in configList: BetterSprinting-1.16.3-v3.2.0.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\BetterSprinting-1.16.3-v3.2.0.jar
 Checking relativePath: BetterStrongholds-1.16.4-1.2.1.jar
 Checking relativePath: BetterThirdPerson-Forge-1.16.4-1.9.0.jar
 Checking relativePath: BetterTitleScreen-1.16.4-1.10.2.jar
 Checking relativePath: betterweather-2.0.1.jar
 Checking relativePath: biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
+Found match in configList: biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
 Checking relativePath: biggerspongeabsorptionradius_1.16.5-2.4.jar
 Checking relativePath: BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
+Found match in configList: BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
 Checking relativePath: BlockySiege-3.0.4-1.16.5.jar
 Checking relativePath: bloodnwine2resources-0.6.6.4.jar
 Checking relativePath: Blur-1.1.0-1.jar
@@ -17654,12 +17664,16 @@ Checking relativePath: Bookshelf-Forge-1.16.5-10.4.33.jar
 Checking relativePath: bottleyourxp_1.16.5-1.6.jar
 Checking relativePath: breedablekillerrabbit_1.16.5-1.6.jar
 Checking relativePath: brutalbosses-4.7.jar
+Found match in configList: brutalbosses-4.7.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\brutalbosses-4.7.jar
 Checking relativePath: bwncr-1.16.5-3.10.16.jar
 Checking relativePath: Camels-1.16.5-1.0.0.jar
 Checking relativePath: camoucreeper-2.0.0.jar
 Checking relativePath: cavebiomeapi-1.16.5-1.4.2.jar
 Checking relativePath: cavesandcliffs-1.16.5-7.2.0.jar
 Checking relativePath: CavesCliffsBackportAdditions-3.4.1jar.jar
+Found match in configList: CavesCliffsBackportAdditions-3.4.1jar.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\CavesCliffsBackportAdditions-3.4.1jar.jar
 Checking relativePath: ceramicbucket-1.16.5-2.7.0.1.jar
 Checking relativePath: citadel-1.8.1-1.16.5.jar
 Checking relativePath: cleancut-mc1.16-2.2-forge.jar
@@ -17668,10 +17682,14 @@ Checking relativePath: collective-1.16.5-5.49.jar
 Checking relativePath: compacthelpcommand_1.16.5-1.1.jar
 Checking relativePath: configured-1.5.4-1.16.5.jar
 Checking relativePath: connectivity-2.4-1.16.5.jar
+Found match in configList: connectivity-2.4-1.16.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\connectivity-2.4-1.16.5.jar
 Checking relativePath: ContentTweaker-1.16-1.0.0.develop.36.jar
 Checking relativePath: Controlling-7.0.0.29.jar
 Checking relativePath: CoroUtil-1.16.5-1.2.37.jar
 Checking relativePath: CraftableDebugStick.jar
+Found match in configList: CraftableDebugStick.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\CraftableDebugStick.jar
 Checking relativePath: CraftTweaker-1.16.5-7.1.2.521.jar
 Checking relativePath: create-mc1.16.5_v0.3.2g.jar
 Checking relativePath: creativeblockreplacer_1.16.5-1.5.jar
@@ -17692,6 +17710,8 @@ Checking relativePath: difficultylock_1.16.5-1.3.jar
 Checking relativePath: DimensionStages-1.16.5-3.0.3.jar
 Checking relativePath: dismountentity_1.16.5-1.5.jar
 Checking relativePath: DontClearChatHistory-1.jar
+Found match in configList: DontClearChatHistory-1.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\DontClearChatHistory-1.jar
 Checking relativePath: DoubleSlabs-1.16-3.7.3.jar
 Checking relativePath: dragonfight-1.8-patched.jar
 Found match in configList: dragonfight-1.8-patched.jar
@@ -17713,6 +17733,8 @@ Checking relativePath: enhancedcelestials-2.0.9-1.16.5.jar
 Checking relativePath: entityculling-forge-mc1.16.5-1.5.2.jar
 Checking relativePath: EquipmentCompare-1.16.5-1.3.2.jar
 Checking relativePath: Exlosive Arrows 1_16_x.jar
+Found match in configList: Exlosive Arrows 1_16_x.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\Exlosive Arrows 1_16_x.jar
 Checking relativePath: expanvils-2.0.0.jar
 Checking relativePath: extendedmushrooms-1.16.5-1.7.0.5.jar
 Checking relativePath: extractpoison_1.16.5-1.6.jar
@@ -17721,6 +17743,8 @@ Checking relativePath: fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar
 Checking relativePath: FarLandsForge-1.2.jar
 Checking relativePath: farmable-shulkers-1.1-1.16.5-forge.jar
 Checking relativePath: farsight-1.7.jar
+Found match in configList: farsight-1.7.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\farsight-1.7.jar
 Checking relativePath: farsightedmobs-forge-1.16-1.1.jar
 Checking relativePath: FastLeafDecay-v25.2.jar
 Checking relativePath: FastSuite-1.16.4-1.1.1.jar
@@ -17733,8 +17757,14 @@ Checking relativePath: flywheel-1.16-0.2.5.jar
 Checking relativePath: forgedfabric-0.0.7+1.16.jar
 Checking relativePath: ForgeEndertech-1.16.5-7.3.0.0-build.0330.jar
 Checking relativePath: ftb-library-forge-1605.3.4-build.90.jar
+Found match in configList: ftb-library-forge-1605.3.4-build.90.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\ftb-library-forge-1605.3.4-build.90.jar
 Checking relativePath: ftb-quests-forge-1605.3.7-build.165.jar
+Found match in configList: ftb-quests-forge-1605.3.7-build.165.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\ftb-quests-forge-1605.3.7-build.165.jar
 Checking relativePath: ftb-teams-forge-1605.2.3-build.40.jar
+Found match in configList: ftb-teams-forge-1605.2.3-build.40.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\ftb-teams-forge-1605.2.3-build.40.jar
 Checking relativePath: GameMenuRemoveGFARB-1.16.4-1.1.1.jar
 Checking relativePath: GameStages-Forge-1.16.5-7.3.14.jar
 Checking relativePath: geckolib-forge-1.16.5-3.0.106.jar
@@ -17754,12 +17784,16 @@ Checking relativePath: IceAndFireTweaker-1.1.0.7.jar
 Checking relativePath: Iceberg-1.16.5-1.0.45.jar
 Checking relativePath: icepreventscropgrowth_1.16.5-1.3.jar
 Checking relativePath: IguanaTweaksReborn-2.8.5-mc1.16.5.jar
+Found match in configList: IguanaTweaksReborn-2.8.5-mc1.16.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\IguanaTweaksReborn-2.8.5-mc1.16.5.jar
 Checking relativePath: IKnowWhatImDoing-3.2.0-forge.jar
 Checking relativePath: illagersweararmor-1.0.5.jar
 Checking relativePath: illagers_plus-1.16.5v1.0.2.jar
 Checking relativePath: incontrol-1.16-5.2.12.jar
 Checking relativePath: infernal-expansion-1.16.5-2.5.0.jar
 Checking relativePath: InsaneLib-1.4.2-mc1.16.5.jar
+Found match in configList: InsaneLib-1.4.2-mc1.16.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\InsaneLib-1.4.2-mc1.16.5.jar
 Checking relativePath: InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar
 Checking relativePath: item-filters-forge-1605.2.5-build.9.jar
 Checking relativePath: ItemStages-Forge-1.16.5-3.0.9.jar
@@ -17785,6 +17819,8 @@ Checking relativePath: litematica-forge-1.16.5-0.0.0-dev.20210917.jar
 Checking relativePath: litewolfcore-1.16.5v1.0.1.jar
 Checking relativePath: logprot-1.16-1.6.jar
 Checking relativePath: LongerDays-2.0.0-mc1.16.4.jar
+Found match in configList: LongerDays-2.0.0-mc1.16.4.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\LongerDays-2.0.0-mc1.16.4.jar
 Checking relativePath: looot-1.16.4-1.0.0.3.jar
 Checking relativePath: lowtechcrafting-1.16.3-0.2.0.jar
 Checking relativePath: L_Enders+Cataclysm-0.48+Changed+Theme+-1.16.5.jar
@@ -17801,6 +17837,8 @@ Checking relativePath: MouseTweaks-2.14-mc1.16.2.jar
 Checking relativePath: musictriggers-1.16.5-6.2.jar
 Checking relativePath: naturalabsorption-1.16.5-2.2.1.jar
 Checking relativePath: NatureExpansion1.5.jar
+Found match in configList: NatureExpansion1.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\NatureExpansion1.5.jar
 Checking relativePath: NaturesCompass-1.16.5-1.9.1-forge.jar
 Checking relativePath: notenoughanimations-1.2.4.jar
 Checking relativePath: notenoughcrashes-4.1.4+1.16.5-forge.jar
@@ -17824,6 +17862,8 @@ Checking relativePath: player-animation-lib-forge-0.4.0+1.16.5.jar
 Checking relativePath: polymorph-forge-1.16.5-0.41.jar
 Checking relativePath: Prism-1.16.5-1.0.1.jar
 Checking relativePath: propertymodifier-1.16.5-0.6.4.jar
+Found match in configList: propertymodifier-1.16.5-0.6.4.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\propertymodifier-1.16.5-0.6.4.jar
 Checking relativePath: PuzzlesLib-v1.0.15-1.16.5-Forge.jar
 Checking relativePath: Quark-r2.4-322.jar
 Checking relativePath: rad-1.16-4.1.1.jar
@@ -17839,11 +17879,17 @@ Checking relativePath: scarecrowsterritory-1.1.9-forge-mc1.16.jar
 Checking relativePath: seamless_loading_screen-1.16.5-1.1.7.jar
 Checking relativePath: selene-1.16.5-1.9.0.jar
 Checking relativePath: SereneSeasons-1.16.5-4.0.1.130-universal.jar
+Found match in configList: SereneSeasons-1.16.5-4.0.1.130-universal.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\SereneSeasons-1.16.5-4.0.1.130-universal.jar
 Checking relativePath: sereneseasonsphc2crops-1.16.5-1.0.1.jar
+Found match in configList: sereneseasonsphc2crops-1.16.5-1.0.1.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\sereneseasonsphc2crops-1.16.5-1.0.1.jar
 Checking relativePath: serverconfigupdater-1.3.2.jar
 Checking relativePath: silent-lib-1.16.5-4.10.0.jar
 Checking relativePath: simple-rpc-1.16.5-3.2.2.jar
 Checking relativePath: simpleshops-1.1.3.jar
+Found match in configList: simpleshops-1.1.3.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\simpleshops-1.1.3.jar
 Checking relativePath: skeletonhorsespawn_1.16.5-1.9.jar
 Checking relativePath: SlabMachines-1.16.5-1.1.jar
 Checking relativePath: smallships-1.16.5-1.10.1.jar
@@ -17872,6 +17918,8 @@ Checking relativePath: the-conjurer-1.16.4-1.0.13.jar
 Checking relativePath: theimpossiblelibrary-1.16.5-0.2.4.jar
 Checking relativePath: ThePursuer_1.16.5-1.2.1.jar
 Checking relativePath: ThrowableExplosives-1.16.5-1.2.0.jar
+Found match in configList: ThrowableExplosives-1.16.5-1.2.0.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\ThrowableExplosives-1.16.5-1.2.0.jar
 Checking relativePath: tinker_rapier-1.1.4-1.16.5.jar
 Checking relativePath: TinySkeletons-v1.0.1-1.16.5-Forge.jar
 Checking relativePath: Tips-1.16.5-4.0.18.jar
@@ -17879,16 +17927,22 @@ Checking relativePath: ToastControl-1.16.5-4.4.0.jar
 Checking relativePath: toughnessbar-6.1.jar
 Checking relativePath: TRansliterationLib-1.0.4.jar
 Checking relativePath: upsizer-mc1.16.4-6.1.1.jar
+Found match in configList: upsizer-mc1.16.4-6.1.1.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\upsizer-mc1.16.4-6.1.1.jar
 Checking relativePath: VisualWorkbench-v1.1.0-1.16.5.jar
 Checking relativePath: WailaHarvestability-mc1.16.x-forge-1.1.15.jar
 Checking relativePath: welcomemessage_1.16.5-1.7.jar
 Checking relativePath: what_did_you_vote_for-1.16.5-1.0.5.jar
 Checking relativePath: woodarmor-1.16.5.jar
+Found match in configList: woodarmor-1.16.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\woodarmor-1.16.5.jar
 Checking relativePath: workshopsofdoom-1.16.4-1.1.0.1.jar
 Checking relativePath: World Stripper-1.16.5-2.1.0.jar
 Checking relativePath: worldborder_1.16.5-2.4.jar
 Checking relativePath: WorldEdit-CUI-FE3-1.16.5-3.0.9.jar
 Checking relativePath: worldedit-mod-7.2.5-dist.jar
+Found match in configList: worldedit-mod-7.2.5-dist.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\mods\worldedit-mod-7.2.5-dist.jar
 Checking relativePath: WorldPreGenerator-1.16.5-2.0.0.jar
 Checking relativePath: XaerosWorldMap_1.30.5_Forge_1.16.5.jar
 Checking relativePath: Xaeros_Minimap_23.5.0_Forge_1.16.5.jar
@@ -17909,7 +17963,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -20656,7 +20710,7 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./open
 [32mFolder copy complete.
 Source folder: ./openloader
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./openloader[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader[0m
 Checking relativePath: .cache
 Checking relativePath: data
@@ -20672,7 +20726,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\schematics[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\schematics[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -21305,7 +21359,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./schematics
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./schematics[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\schematics[0m
 Checking relativePath: Bedrock Breakers
 Checking relativePath: Dupers
@@ -21326,7 +21380,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\scripts[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\scripts[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -21504,7 +21558,7 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./scri
 [32mFolder copy complete.
 Source folder: ./scripts
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./scripts[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\scripts[0m
 Checking relativePath: crafttweaker
 [33mConfig file removal complete.[0m
@@ -21518,7 +21572,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\shaderpacks[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\shaderpacks[0m
-[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip][0m
+[33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar][0m
 [33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
@@ -21556,7 +21610,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./shaderpacks
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./shaderpacks[0m
-[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip] from [0m
+[33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar, Quark Programmer Art.zip, allay-forge-1.16.5-4.2.0.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, BetterSprinting-1.16.3-v3.2.0.jar, biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, brutalbosses-4.7.jar, CavesCliffsBackportAdditions-3.4.1jar.jar, connectivity-2.4-1.16.5.jar, CraftableDebugStick.jar, DontClearChatHistory-1.jar, Exlosive Arrows 1_16_x.jar, farsight-1.7.jar, ftb-library-forge-1605.3.4-build.90.jar, ftb-quests-forge-1605.3.7-build.165.jar, ftb-teams-forge-1605.2.3-build.40.jar, IguanaTweaksReborn-2.8.5-mc1.16.5.jar, InsaneLib-1.4.2-mc1.16.5.jar, LongerDays-2.0.0-mc1.16.4.jar, NatureExpansion1.5.jar, propertymodifier-1.16.5-0.6.4.jar, SereneSeasons-1.16.5-4.0.1.130-universal.jar, simpleshops-1.1.3.jar, ThrowableExplosives-1.16.5-1.2.0.jar, upsizer-mc1.16.4-6.1.1.jar, woodarmor-1.16.5.jar, worldedit-mod-7.2.5-dist.jar, sereneseasonsphc2crops-1.16.5-1.0.1.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\shaderpacks[0m
 Checking relativePath: ComplementaryReimagined_r2.2.1.zip
 Checking relativePath: ComplementaryReimagined_r2.2.1.zip.txt
@@ -21577,9 +21631,8 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\!_bnw2-version-2.1
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1
-File copied successfully.
-Source file: /!_bnw2-version-2.1
-Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/!_bnw2-version-2.1
+ERROR: Source file not found:
+/!_bnw2-version-2.1
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export
 No deletions detected in the source folder.
 Deletion check complete.

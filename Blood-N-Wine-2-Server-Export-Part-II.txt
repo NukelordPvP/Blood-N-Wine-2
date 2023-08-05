@@ -36,6 +36,10 @@ SOURCE_FOLDERS:
   - SOURCE=./config/bloodnwine2resources
     CUSTOM_OUTPUT_DIR=./config/bloodnwine2resources
 
+  - SOURCE=./config/MusicTriggers
+    CUSTOM_OUTPUT_DIR=./config/MusicTriggers
+
+
 #Copys? confirmed!
 #Checks for deletions? NO
 # Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
@@ -71,4 +75,5 @@ CONFIG_LIST:
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
+  songs
   extraction_cache
