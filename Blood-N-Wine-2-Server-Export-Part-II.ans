@@ -8,7 +8,7 @@
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\libraries[0m
 [33mCONFIG_LIST: [][0m
 [33mFOLDER_LIST: [extraction_cache][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\0_Serverside-Only-Files\libraries
 to
@@ -1639,7 +1639,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources[0m
 [33mCONFIG_LIST: [][0m
 [33mFOLDER_LIST: [extraction_cache][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources
 to
