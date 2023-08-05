@@ -64,7 +64,6 @@ SOURCE_FILES:
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
   oculus.properties
-  7OOF.zip
   aas-1.16.4-1.1.0.jar
   BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar
   betterfoliage-1.2.0.jar
