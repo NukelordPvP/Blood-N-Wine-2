@@ -81,6 +81,8 @@
 	#No comment
 	#Range: > 0
 	pursuer_rest_time = 36000
+	#No comment
+	do_season_cycle = true
 
 #Configs related to difficult changes
 [difficulty]
