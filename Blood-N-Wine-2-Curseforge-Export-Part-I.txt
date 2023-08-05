@@ -85,6 +85,9 @@ SOURCE_FILES:
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
   oculus.properties
+  Blood-N-Wine-2-Music.zip-link.txt
+  Blood-N-Wine-2-Music-md5-=-CB52DEDDCCE17B925EDC31A198F884A5.txt
+  Delete-Quark-Programmer-Art.zip-when-exporting-modpack.txt
   TerraForged-1.16.5-0.2.16.jar
   physics-mod-pro-v36b-forge-1.16.5.jar
   glennsGasesPort1.16-1.0.6.jar
