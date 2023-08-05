@@ -36,6 +36,9 @@ SOURCE_FOLDERS:
   - SOURCE=./config/MusicTriggers
     CUSTOM_OUTPUT_DIR=./config/MusicTriggers
 
+  - SOURCE=./config/fancymenu
+    CUSTOM_OUTPUT_DIR=./config/fancymenu
+
   - SOURCE=./openloader/resources
     CUSTOM_OUTPUT_DIR=./openloader/resources
 
@@ -53,10 +56,11 @@ CONFIG_LIST:
   !_02_delete_-converted_from_files.bat
   !_2_delete_files_without_underscore.bat
   !_3_remove_underscores_from_files.bat
-
+  
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
 FOLDER_LIST:
   songs
   extraction_cache
+  slideshows

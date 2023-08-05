@@ -6,7 +6,7 @@
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\0_Serverside-Only-Files\libraries[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries[0m
-[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip][0m
+[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
 [33mFOLDER_LIST: [songs, extraction_cache][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@179d3b25, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@254989ff, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@5d099f62, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37f8bb67][0m
 Copying folder from:
@@ -1612,7 +1612,7 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/libraries
 [32mFolder copy complete.
 Source folder: /0_Serverside-Only-Files/libraries
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/libraries[0m
-[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip] from [0m
+[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries[0m
 Checking relativePath: com
 Checking relativePath: commons-beanutils
@@ -1639,7 +1639,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\bloodnwine2resources[0m
-[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip][0m
+[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
 [33mFOLDER_LIST: [songs, extraction_cache][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@179d3b25, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@254989ff, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@5d099f62, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37f8bb67][0m
 Copying folder from:
@@ -1662,7 +1662,7 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local./config/bl
 [32mFolder copy complete.
 Source folder: ./config/bloodnwine2resources
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local./config/bloodnwine2resources[0m
-[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip] from [0m
+[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\bloodnwine2resources[0m
 Checking relativePath: extraction_cache
 [33mConfig file removal complete.[0m
@@ -1682,7 +1682,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\MusicTriggers[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\MusicTriggers[0m
-[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip][0m
+[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
 [33mFOLDER_LIST: [songs, extraction_cache][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@179d3b25, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@254989ff, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@5d099f62, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37f8bb67][0m
 Copying folder from:
@@ -2859,12 +2859,20 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\B
 [32mFolder copy complete.
 Source folder: ./config/MusicTriggers
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local./config/MusicTriggers[0m
-[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip] from [0m
+[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\MusicTriggers[0m
 Checking relativePath: !_01_delete_files_missing_-.bat
+Found match in configList: !_01_delete_files_missing_-.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\MusicTriggers\!_01_delete_files_missing_-.bat
 Checking relativePath: !_02_delete_-converted_from_files.bat
+Found match in configList: !_02_delete_-converted_from_files.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\MusicTriggers\!_02_delete_-converted_from_files.bat
 Checking relativePath: !_2_delete_files_without_underscore.bat
+Found match in configList: !_2_delete_files_without_underscore.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\MusicTriggers\!_2_delete_files_without_underscore.bat
 Checking relativePath: !_3_remove_underscores_from_files.bat
+Found match in configList: !_3_remove_underscores_from_files.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\config\MusicTriggers\!_3_remove_underscores_from_files.bat
 Checking relativePath: bloodnwine2
 Checking relativePath: channels.toml
 Checking relativePath: debug.toml
@@ -3240,7 +3248,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader\resources[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\openloader\resources[0m
-[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip][0m
+[33mCONFIG_LIST: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
 [33mFOLDER_LIST: [songs, extraction_cache][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@179d3b25, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@254989ff, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@5d099f62, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37f8bb67][0m
 Copying folder from:
@@ -3281,7 +3289,7 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local./openloade
 [32mFolder copy complete.
 Source folder: ./openloader/resources
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local./openloader/resources[0m
-[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip] from [0m
+[33mRemoving config files: [7OOF.zip, Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, Bloody_Minerals.zip, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local.\openloader\resources[0m
 Checking relativePath: 7OOF.zip
 Found match in configList: 7OOF.zip

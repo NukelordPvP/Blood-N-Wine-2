@@ -6,7 +6,7 @@
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources[0m
-[33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt][0m
+[33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
 [33mFOLDER_LIST: [songs, extraction_cache][0m
 [33mSOURCE_FILES: [][0m
 Copying folder from:
@@ -29,7 +29,7 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./conf
 [32mFolder copy complete.
 Source folder: ./config/bloodnwine2resources
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/bloodnwine2resources[0m
-[33mRemoving config files: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt] from [0m
+[33mRemoving config files: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources[0m
 Checking relativePath: extraction_cache
 [33mConfig file removal complete.[0m
@@ -49,7 +49,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\MusicTriggers[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers[0m
-[33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt][0m
+[33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
 [33mFOLDER_LIST: [songs, extraction_cache][0m
 [33mSOURCE_FILES: [][0m
 Copying folder from:
@@ -1226,12 +1226,20 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\B
 [32mFolder copy complete.
 Source folder: ./config/MusicTriggers
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/MusicTriggers[0m
-[33mRemoving config files: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt] from [0m
+[33mRemoving config files: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers[0m
 Checking relativePath: !_01_delete_files_missing_-.bat
+Found match in configList: !_01_delete_files_missing_-.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\!_01_delete_files_missing_-.bat
 Checking relativePath: !_02_delete_-converted_from_files.bat
+Found match in configList: !_02_delete_-converted_from_files.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\!_02_delete_-converted_from_files.bat
 Checking relativePath: !_2_delete_files_without_underscore.bat
+Found match in configList: !_2_delete_files_without_underscore.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\!_2_delete_files_without_underscore.bat
 Checking relativePath: !_3_remove_underscores_from_files.bat
+Found match in configList: !_3_remove_underscores_from_files.bat
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\!_3_remove_underscores_from_files.bat
 Checking relativePath: bloodnwine2
 Checking relativePath: channels.toml
 Checking relativePath: debug.toml
@@ -1607,7 +1615,7 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader\resources[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources[0m
-[33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt][0m
+[33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
 [33mFOLDER_LIST: [songs, extraction_cache][0m
 [33mSOURCE_FILES: [][0m
 Copying folder from:
@@ -1648,7 +1656,7 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./open
 [32mFolder copy complete.
 Source folder: ./openloader/resources
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./openloader/resources[0m
-[33mRemoving config files: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt] from [0m
+[33mRemoving config files: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources[0m
 Checking relativePath: 7OOF.zip
 Checking relativePath: Bloody_Minerals.zip

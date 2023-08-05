@@ -39,6 +39,9 @@ SOURCE_FOLDERS:
   - SOURCE=./config/MusicTriggers
     CUSTOM_OUTPUT_DIR=./config/MusicTriggers
 
+  - SOURCE=./config/fancymenu
+    CUSTOM_OUTPUT_DIR=./config/fancymenu
+
   - SOURCE=./openloader/resources
     CUSTOM_OUTPUT_DIR=./openloader/resources
 
@@ -64,3 +67,4 @@ FOLDER_LIST:
 
   extraction_cache
   songs
+  slideshows

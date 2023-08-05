@@ -10279,6 +10279,20 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\litematica\litematica_bnw2_dim_minecraft_overworld.json
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_bnw2_dim_minecraft_overworld.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\litematica\litematica_Cobtopia.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_Cobtopia.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\litematica\litematica_Cobtopia.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_Cobtopia.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\litematica\litematica_Cobtopia_dim_minecraft_overworld.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_Cobtopia_dim_minecraft_overworld.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\litematica\litematica_Cobtopia_dim_minecraft_overworld.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_Cobtopia_dim_minecraft_overworld.json
 [32mFolder copy complete.
 Source folder: /config
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/config[0m
@@ -15726,6 +15740,10 @@ Checking relativePath: zombievillagersfromspawner-common.toml
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_bnw2_dim_bloodnwine2resources_developer_dimension.json[0m
 [35mDeleted:[0m
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_bnw2_dim_minecraft_overworld.json[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_Cobtopia.json[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica\litematica_Cobtopia_dim_minecraft_overworld.json[0m
 [35mDeleted folder:[0m
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\config\litematica[0m
 [33mFolder deletion complete.[0m
@@ -16116,12 +16134,12 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods\BlockySiege-3.0.4-1.16.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\mods\BlockySiege-3.0.4-1.16.5.jar
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bloodnwine2resources-0.6.6.5.jar
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bloodnwine2resources-0.6.6.6.jar
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\mods\bloodnwine2resources-0.6.6.5.jar
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\mods\bloodnwine2resources-0.6.6.6.jar
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods\bloodnwine2resources-0.6.6.5.jar
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\mods\bloodnwine2resources-0.6.6.5.jar
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods\bloodnwine2resources-0.6.6.6.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\mods\bloodnwine2resources-0.6.6.6.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\Blur-1.1.0-1.jar
 to
@@ -17839,7 +17857,7 @@ Checking relativePath: biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
 Checking relativePath: biggerspongeabsorptionradius_1.16.5-2.4.jar
 Checking relativePath: BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
 Checking relativePath: BlockySiege-3.0.4-1.16.5.jar
-Checking relativePath: bloodnwine2resources-0.6.6.5.jar
+Checking relativePath: bloodnwine2resources-0.6.6.6.jar
 Checking relativePath: Blur-1.1.0-1.jar
 Checking relativePath: Bookshelf-Forge-1.16.5-10.4.33.jar
 Checking relativePath: bottleyourxp_1.16.5-1.6.jar
@@ -20822,13 +20840,1154 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: /openloader
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_entrance.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_entrance.json
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_entrance.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_entrance.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_map.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_map.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_map.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_map.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_top.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_top.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_top.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\abandoned_temple\abandoned_temple_top.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\aviary\aviary_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_gardens.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_gardens.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_gardens.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_gardens.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_rooms.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_rooms.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_rooms.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_rooms.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_towers\bandit_towers_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_tents.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_tents.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_tents.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\bandit_village\bandit_village_tents.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian_hind_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian_hind_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian_hind_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian_hind_treasure.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian__hind_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian__hind_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian__hind_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\ceryneian_hind\ceryneian__hind_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\coliseum
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\coliseum
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\fishing_hut
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\fishing_hut
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\fishing_hut\fishing_hut_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\fishing_hut\fishing_hut_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\fishing_hut\fishing_hut_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\fishing_hut\fishing_hut_barrels.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_chains.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_chains.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_chains.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_chains.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_lava_pit.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_lava_pit.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_lava_pit.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_lava_pit.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_exterior.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_exterior.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_exterior.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_exterior.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_passage_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\foundry\foundry_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\red_giant_mushroom.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\red_giant_mushroom.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\red_giant_mushroom.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\red_giant_mushroom.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\twin_giant_mushroom.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\twin_giant_mushroom.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\twin_giant_mushroom.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\giant_mushroom\twin_giant_mushroom.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_theater.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_theater.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_theater.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_theater.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_challenger\heavenly_challenger_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_conqueror\heavenly_conqueror_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\heavenly_rider\heavenly_rider_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_map.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_map.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_map.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_map.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_tent.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_tent.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_tent.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_campsite\illager_campsite_tent.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_corsair\illager_corsair_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_fort\illager_fort_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_galley\illager_galley_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\illager_windmill\illager_windmill_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_bookshelf.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_bookshelf.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_bookshelf.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_bookshelf.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_forge.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_forge.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_forge.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_forge.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_garden.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_garden.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_garden.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_garden.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_table.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_table.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_table.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_room_table.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_top_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_top_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_top_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\infested_temple\infested_temple_top_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\jungle_tree_house\jungle_tree_house_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_garden_treasure.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_library_treasure.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\keep_kayra\keep_kayra_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\lighthouse
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\lighthouse
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\lighthouse\lighthouse_top.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\lighthouse\lighthouse_top.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\lighthouse\lighthouse_top.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\lighthouse\lighthouse_top.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_map.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_map.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_map.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_map.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_tent.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_tent.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_tent.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\merchant_campsite\merchant_campsite_tent.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_big.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_big.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_big.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_big.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_medium.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_medium.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_medium.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_medium.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_small.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_small.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_small.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mines_treasure_small.json
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mining_system\mining_system_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_bridges.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_bridges.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_bridges.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_bridges.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_map.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_map.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_map.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\monastery\monastery_map.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_house\mushroom_house_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_ores.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_ores.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_ores.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_ores.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_tools.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_tools.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_tools.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_tools.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_mines\mushroom_mines_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\mushroom_village\mushroom_village_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_cells.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_cells.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_cells.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_cells.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_potions.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_potions.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_potions.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_potions.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_storage.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_storage.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_storage.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_storage.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\plague_asylum\plague_asylum_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_housing.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_housing.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_housing.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_housing.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_hub.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_hub.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_hub.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_hub.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\scorched_mines\scorched_mines_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_elite.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_elite.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_elite.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_elite.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_gardens.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_gardens.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_gardens.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_gardens.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_library.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_library.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_library.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_library.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_rooms.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_rooms.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_rooms.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_rooms.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_towers.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_towers.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_towers.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_towers.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\shiraz_palace\shiraz_palace_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_coal_storage.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_coal_storage.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_coal_storage.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_coal_storage.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_redstone_chamber.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_redstone_chamber.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_redstone_chamber.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_redstone_chamber.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_blimp\small_blimp_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_normal.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_normal.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_normal.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_normal.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_ruined.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_ruined.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_ruined.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\small_prairie_house\small_prairie_house_ruined.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_rooms.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_rooms.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_rooms.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_rooms.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_rooms.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_rooms.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_rooms.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_rooms.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\thornborn_towers\thornborn_towers_top_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\typhon
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\typhon
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\typhon\typhon_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\typhon\typhon_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\typhon\typhon_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\typhon\typhon_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_barrels.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_barrels.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_barrels.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_barrels.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_enchants.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_enchants.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_enchants.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_enchants.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_supply.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_supply.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_supply.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_supply.json
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_treasure.json
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_treasure.json
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_treasure.json
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\undead_pirate_ship\undead_pirate_ship_treasure.json
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\wishing_well
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\data\dungeons_arise\loot_tables\chests\wishing_well
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\pack.mcmeta
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\pack.mcmeta
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\pack.mcmeta
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\pack.mcmeta
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\wda_logo.png
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\wda_logo.png
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\wda_logo.png
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\openloader\data\WDA-VanillaLoot-1.18.2-1.19.2-0.0.1\wda_logo.png
+[32mFolder copy complete.
+Source folder: /openloader
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
 [32mFolder copy complete.
 Source folder: /openloader
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/openloader[0m
