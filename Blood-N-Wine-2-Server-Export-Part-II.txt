@@ -33,6 +33,9 @@ SOURCE_FOLDERS:
   - SOURCE=/0_Serverside-Only-Files/libraries
     CUSTOM_OUTPUT_DIR=/libraries
 
+  - SOURCE=./config/bloodnwine2resources
+    CUSTOM_OUTPUT_DIR=./config/bloodnwine2resources
+
 #Copys? confirmed!
 #Checks for deletions? NO
 # Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).

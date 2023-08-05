@@ -92,6 +92,7 @@ CONFIG_LIST:
   DeadlyWorld-1.16.5-1.0.0.jar
   curtain-mc1.16.5-1.2.2.jar
   bettercombat-1.4.5.3+1.16.jar
+  Quark Programmer Art.zip
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.

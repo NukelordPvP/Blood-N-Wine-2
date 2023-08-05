@@ -4,20 +4,20 @@
 0_Server_Saves_Backups/*.rar
 0_Server_Saves_Backups/*.tar
 
-#Ignore Blood-N-Wine-2-Server-Export but keep the 0_Serverside-Only-Files folder
+#Ignore Blood-N-Wine-2-Server-Export-Local
 Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/*
-!Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/0_Serverside-Only-Files
 
-#Ignore Blood-N-Wine-2-Server-Export but keep the 0_Serverside-Only-Files folder
+#Ignore Blood-N-Wine-2-Server-Export
 Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/*
-!Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/0_Serverside-Only-Files
 
-#Ignore Blood-N-Wine-2-Technic-Export but keep the 0_Technic-Only-Files folder
+#Ignore Blood-N-Wine-2-Technic-Export
 Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export/*
-!Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export/0_Technic-Only-Files
 
-#Ignore [Platform]-Export folders
+#Ignore Blood-N-Wine-2-Curseforge-Export
 Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/*
+
+#Ignore Blood-N-Wine-2-Modrinth-Export
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Modrinth-Export/*
 
 #Ignore folders
 XaeroWaypoints

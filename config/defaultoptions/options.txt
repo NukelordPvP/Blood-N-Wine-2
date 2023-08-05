@@ -33,8 +33,8 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","mod_resources","bbor","openloader/resources/7OOF.zip","openloader/resources/contenttweaker","quark:emote_resources","file/Default-Dark-Mode-1.16.2+-(v1.3.1).zip","file/Infernal Resources.zip","file/Wolfrest\u0027s Better Mineralogy.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/Better-Potr.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/Better-Potr.zip"]
+resourcePacks:["vanilla","mod_resources","bbor","openloader/resources/7OOF.zip","openloader/resources/contenttweaker","quark:emote_resources","file/Better-Potr.zip","file/Default-Dark-Mode-1.16.2+-(v1.3.1).zip","file/Wolfrest\u0027s Better Mineralogy.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","file/Infernal Resources.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/Better-Potr.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0

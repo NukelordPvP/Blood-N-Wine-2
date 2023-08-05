@@ -7,8 +7,8 @@
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\0_Serverside-Only-Files\libraries[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\libraries[0m
 [33mCONFIG_LIST: [][0m
-[33mFOLDER_LIST: [][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400][0m
+[33mFOLDER_LIST: [extraction_cache][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\0_Serverside-Only-Files\libraries
 to
@@ -1625,10 +1625,53 @@ Checking relativePath: net
 Checking relativePath: org
 Checking relativePath: trove
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [] from [0m
+[33mDeleting folders: [extraction_cache] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\libraries[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\libraries\extraction_cache[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export\libraries
+No deletions detected in the source folder.
+Deletion check complete.
+[33m[33mProcessing complete for this entry.[0m[0m
+[33mProcessing entry:[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources[0m
+[33mCONFIG_LIST: [][0m
+[33mFOLDER_LIST: [extraction_cache][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources\extraction_cache
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+[32mFolder copy complete.
+Source folder: ./config/bloodnwine2resources
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export./config/bloodnwine2resources[0m
+[32mFolder copy complete.
+Source folder: ./config/bloodnwine2resources
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export./config/bloodnwine2resources[0m
+[33mRemoving config files: [] from [0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources[0m
+Checking relativePath: extraction_cache
+[33mConfig file removal complete.[0m
+[33mDeleting folders: [extraction_cache] from [0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources\extraction_cache[0m
+[33mFolder deletion complete.[0m
+Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Export.\config\bloodnwine2resources
 No deletions detected in the source folder.
 Deletion check complete.
 [33m[33mProcessing complete for this entry.[0m[0m

@@ -7,7 +7,7 @@
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\0_Serverside-Only-Files\libraries[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries[0m
 [33mCONFIG_LIST: [][0m
-[33mFOLDER_LIST: [][0m
+[33mFOLDER_LIST: [extraction_cache][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1a6c5a9e, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37bba400, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@179d3b25, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@254989ff, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@5d099f62, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@37f8bb67, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@49c2faae, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@20ad9418][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\0_Serverside-Only-Files\libraries
@@ -1625,8 +1625,10 @@ Checking relativePath: net
 Checking relativePath: org
 Checking relativePath: trove
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [] from [0m
+[33mDeleting folders: [extraction_cache] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries\extraction_cache[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 No deletions detected in the source folder.
@@ -1643,16 +1645,7 @@ File copied successfully.
 Source file: /0_Serverside-Only-Files/custom.jar
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/custom.jar
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -1666,16 +1659,7 @@ File copied successfully.
 Source file: /0_Serverside-Only-Files/eula.txt
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/eula.txt
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -1689,16 +1673,7 @@ File copied successfully.
 Source file: /0_Serverside-Only-Files/INFO ABOUT Blood-N-Wine-2-Server.txt
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/INFO ABOUT Blood-N-Wine-2-Server.txt
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -1712,16 +1687,7 @@ File copied successfully.
 Source file: /0_Serverside-Only-Files/minecraft_server.1.16.5.jar
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/minecraft_server.1.16.5.jar
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -1735,16 +1701,7 @@ File copied successfully.
 Source file: /0_Serverside-Only-Files/Run Server.bat
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/Run Server.bat
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -1758,16 +1715,7 @@ File copied successfully.
 Source file: /0_Serverside-Only-Files/server-icon.png
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/server-icon.png
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -1782,20 +1730,12 @@ Source file: 0_Serverside-Only-Files-Local/banned-ips.json
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/banned-ips.json
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\custom.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\eula.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\INFO ABOUT Blood-N-Wine-2-Server.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\minecraft_server.1.16.5.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\Run Server.bat
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\server-icon.png
 Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.
@@ -1812,20 +1752,12 @@ Source file: 0_Serverside-Only-Files-Local/banned-players.json
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/banned-players.json
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\custom.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\eula.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\INFO ABOUT Blood-N-Wine-2-Server.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\minecraft_server.1.16.5.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\Run Server.bat
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\server-icon.png
 Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.
@@ -1842,20 +1774,12 @@ Source file: 0_Serverside-Only-Files-Local/ops.json
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/ops.json
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\custom.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\eula.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\INFO ABOUT Blood-N-Wine-2-Server.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\minecraft_server.1.16.5.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\Run Server.bat
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\server-icon.png
 Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.
@@ -1872,20 +1796,12 @@ Source file: 0_Serverside-Only-Files-Local/server.properties
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/server.properties
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\custom.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\eula.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\INFO ABOUT Blood-N-Wine-2-Server.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\minecraft_server.1.16.5.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\Run Server.bat
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\server-icon.png
 Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.
@@ -1902,20 +1818,12 @@ Source file: 0_Serverside-Only-Files-Local/usercache.json
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/usercache.json
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\custom.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\eula.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\INFO ABOUT Blood-N-Wine-2-Server.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\minecraft_server.1.16.5.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\Run Server.bat
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\server-icon.png
 Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.
@@ -1932,20 +1840,12 @@ Source file: 0_Serverside-Only-Files-Local/usernamecache.json
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/usernamecache.json
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\custom.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\eula.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\INFO ABOUT Blood-N-Wine-2-Server.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\minecraft_server.1.16.5.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\Run Server.bat
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\server-icon.png
 Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.
@@ -1962,20 +1862,12 @@ Source file: 0_Serverside-Only-Files-Local/whitelist.json
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/whitelist.json
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-forge-1.16.5-36.2.35
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_copyright.txt
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\custom.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\eula.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\INFO ABOUT Blood-N-Wine-2-Server.txt
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\libraries
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\minecraft_server.1.16.5.jar
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\Run Server.bat
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts
 Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\server-icon.png
 Please verify your configuration and program logic to prevent unintended deletions.
 Deletion check complete.

@@ -7,7 +7,7 @@
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config
@@ -10468,27 +10468,6 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: ./config
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export./config[0m
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\MusicTriggers\channels.toml
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\MusicTriggers\channels.toml
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\MusicTriggers\channels.toml
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\MusicTriggers\channels.toml
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\MusicTriggers\debug.toml
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\MusicTriggers\debug.toml
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\MusicTriggers\debug.toml
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\MusicTriggers\debug.toml
-Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\MusicTriggers\registration.toml
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\MusicTriggers\registration.toml
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\MusicTriggers\registration.toml
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\MusicTriggers\registration.toml
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\MusicTriggers\songs
 to
@@ -15336,12 +15315,8 @@ Checking relativePath: zombieawareness
 Checking relativePath: zombiehorsespawn-common.toml
 Checking relativePath: zombievillagersfromspawner-common.toml
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config
 No deletions detected in the source folder.
@@ -15351,7 +15326,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\defaultconfigs[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\defaultconfigs[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\defaultconfigs
@@ -15403,12 +15378,8 @@ Checking relativePath: gravestone-server.toml
 Checking relativePath: solpotato-server.toml
 Checking relativePath: workshopsofdoom-server.toml
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\defaultconfigs[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\defaultconfigs\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\defaultconfigs\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\defaultconfigs
 No deletions detected in the source folder.
@@ -15418,7 +15389,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\drippyloadingscreen[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\drippyloadingscreen[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\drippyloadingscreen
@@ -15486,12 +15457,8 @@ Checking relativePath: bloodnwine2logoonly.png
 Checking relativePath: cursedmineshaft.png
 Checking relativePath: herobrine.png
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\drippyloadingscreen[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\drippyloadingscreen\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\drippyloadingscreen\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\drippyloadingscreen
 No deletions detected in the source folder.
@@ -15501,7 +15468,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\minemenu[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\minemenu[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\minemenu
@@ -15521,12 +15488,8 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export./minemen
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\minemenu[0m
 Checking relativePath: menu.json
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\minemenu[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\minemenu\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\minemenu\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\minemenu
 No deletions detected in the source folder.
@@ -15536,7 +15499,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\resourcepacks
@@ -15628,12 +15591,8 @@ Checking relativePath: Wolfrest's Better Mineralogy.zip
 Checking relativePath: Xaero's Minimap - Mod Icons.zip
 Checking relativePath: xali-s-Enchanted-Books-16x-v0.10.1.zip
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks
 No deletions detected in the source folder.
@@ -15643,7 +15602,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods
@@ -15656,6 +15615,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\3dSkinLayers-forge-1.1.0.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\3dSkinLayers-forge-1.1.0.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\aas-1.16.4-1.1.0.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\aas-1.16.4-1.1.0.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\aas-1.16.4-1.1.0.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\aas-1.16.4-1.1.0.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\abnormals_core-1.16.5-3.3.1.jar
 to
@@ -15790,6 +15756,20 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\beautifiedchatserver_1.16.5-1.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\beautifiedchatserver_1.16.5-1.5.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\better-loading-screen-1.4.0.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\better-loading-screen-1.4.0.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\better-loading-screen-1.4.0.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\better-loading-screen-1.4.0.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\BetterCaves-Forge-1.16.4-1.1.2.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterCaves-Forge-1.16.4-1.1.2.jar
@@ -15839,6 +15819,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\BetterF3-1.5.0-Forge-1.16.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterF3-1.5.0-Forge-1.16.5.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\betterfoliage-1.2.0.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\betterfoliage-1.2.0.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\betterfoliage-1.2.0.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\betterfoliage-1.2.0.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\BetterMineshafts-Forge-1.16.4-2.0.4.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterMineshafts-Forge-1.16.4-2.0.4.jar
@@ -15880,6 +15867,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\BetterThirdPerson-Forge-1.16.4-1.9.0.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterThirdPerson-Forge-1.16.4-1.9.0.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\BetterTitleScreen-1.16.4-1.10.2.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterTitleScreen-1.16.4-1.10.2.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\BetterTitleScreen-1.16.4-1.10.2.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BetterTitleScreen-1.16.4-1.10.2.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\betterweather-2.0.1.jar
 to
@@ -15971,6 +15965,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\Camels-1.16.5-1.0.0.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\Camels-1.16.5-1.0.0.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\camoucreeper-2.0.0.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\camoucreeper-2.0.0.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\camoucreeper-2.0.0.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\camoucreeper-2.0.0.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\cavebiomeapi-1.16.5-1.4.2.jar
 to
@@ -16161,6 +16162,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\DefaultOptions_1.16.5-12.2.1.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\DefaultOptions_1.16.5-12.2.1.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\difficultylock_1.16.5-1.3.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\difficultylock_1.16.5-1.3.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\difficultylock_1.16.5-1.3.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\difficultylock_1.16.5-1.3.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\DimensionStages-1.16.5-3.0.3.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\DimensionStages-1.16.5-3.0.3.jar
@@ -16174,6 +16182,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\dismountentity_1.16.5-1.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\dismountentity_1.16.5-1.5.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\DontClearChatHistory-1.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\DontClearChatHistory-1.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\DontClearChatHistory-1.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\DontClearChatHistory-1.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\DoubleSlabs-1.16-3.7.3.jar
 to
@@ -16231,6 +16246,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\dungeons_mobs-1.16.5-2.2.3.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\dungeons_mobs-1.16.5-2.2.3.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\dynamiclightsreforged-mc1.16.5_v1.0.1.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\dynamiclightsreforged-mc1.16.5_v1.0.1.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\dynamiclightsreforged-mc1.16.5_v1.0.1.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\dynamiclightsreforged-mc1.16.5_v1.0.1.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\DynamicSurroundings-1.16.4-4.0.3.10.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\DynamicSurroundings-1.16.4-4.0.3.10.jar
@@ -16280,6 +16302,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\enhancedcelestials-2.0.9-1.16.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\enhancedcelestials-2.0.9-1.16.5.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\entityculling-forge-mc1.16.5-1.5.2.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\entityculling-forge-mc1.16.5-1.5.2.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\entityculling-forge-mc1.16.5-1.5.2.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\entityculling-forge-mc1.16.5-1.5.2.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\EquipmentCompare-1.16.5-1.3.2.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\EquipmentCompare-1.16.5-1.3.2.jar
@@ -16322,6 +16351,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\extremeSoundMuffler-3.18_1.16.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\extremeSoundMuffler-3.18_1.16.5.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\FarLandsForge-1.2.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\FarLandsForge-1.2.jar
@@ -16335,6 +16371,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\farmable-shulkers-1.1-1.16.5-forge.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\farmable-shulkers-1.1-1.16.5-forge.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\farsight-1.7.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\farsight-1.7.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\farsight-1.7.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\farsight-1.7.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\farsightedmobs-forge-1.16-1.1.jar
 to
@@ -16444,13 +16487,13 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\GameStages-Forge-1.16.5-7.3.14.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\GameStages-Forge-1.16.5-7.3.14.jar
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\GameStages-Forge-1.16.5-7.3.14.jar
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\GameStages-Forge-1.16.5-7.3.14.jar
+ERROR: Error copying file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\GameStages-Forge-1.16.5-7.3.14.jar - .\.\mods\GameStages-Forge-1.16.5-7.3.14.jar -> .\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\GameStages-Forge-1.16.5-7.3.14.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\geckolib-forge-1.16.5-3.0.106.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\geckolib-forge-1.16.5-3.0.106.jar
+Overwriting older file in destination folder:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\geckolib-forge-1.16.5-3.0.106.jar
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\geckolib-forge-1.16.5-3.0.106.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\geckolib-forge-1.16.5-3.0.106.jar
@@ -16728,6 +16771,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\lazydfu-0.1.3.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\lazydfu-0.1.3.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\LegendaryTooltips-1.16.5-1.3.1.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\LegendaryTooltips-1.16.5-1.3.1.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\LegendaryTooltips-1.16.5-1.3.1.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\LegendaryTooltips-1.16.5-1.3.1.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\lightspeed-1.16.5-1.0.5.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\lightspeed-1.16.5-1.0.5.jar
@@ -16783,6 +16833,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\L_Enders+Cataclysm-0.48+Changed+Theme+-1.16.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\L_Enders+Cataclysm-0.48+Changed+Theme+-1.16.5.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\magnesium_extras-mc1.16.5_v1.4.0.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\magnesium_extras-mc1.16.5_v1.4.0.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\magnesium_extras-mc1.16.5_v1.4.0.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\magnesium_extras-mc1.16.5_v1.4.0.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\malilib-forge-1.16.5-0.10.0-dev.21+beta.1.jar
 to
@@ -16875,6 +16932,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\NaturesCompass-1.16.5-1.9.1-forge.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\NaturesCompass-1.16.5-1.9.1-forge.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\notenoughanimations-1.2.4.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\notenoughanimations-1.2.4.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\notenoughanimations-1.2.4.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\notenoughanimations-1.2.4.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\notenoughcrashes-4.1.4+1.16.5-forge.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\notenoughcrashes-4.1.4+1.16.5-forge.jar
@@ -16888,6 +16952,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\NourishedEndV9-1.16.5Backport.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\NourishedEndV9-1.16.5Backport.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\oculus-1.4.5.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\oculus-1.4.5.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\oculus-1.4.5.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\oculus-1.4.5.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\OpenLoader-1.16.5-9.0.3.jar
 to
@@ -16959,6 +17030,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\pamhc2trees-1.16.3-1.0.1.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\pamhc2trees-1.16.3-1.0.1.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\physics-mod-pro-v36b-forge-1.16.5.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\Placebo-1.16.5-4.7.1.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\Placebo-1.16.5-4.7.1.jar
@@ -17022,6 +17100,20 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\randompatches-2.4.4-forge.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\randompatches-2.4.4-forge.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\ReAuth-1.16-Forge-4.0.7.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\ReAuth-1.16-Forge-4.0.7.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\ReAuth-1.16-Forge-4.0.7.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\ReAuth-1.16-Forge-4.0.7.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\recast_1.16.5-1.5.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\recast_1.16.5-1.5.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\recast_1.16.5-1.5.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\recast_1.16.5-1.5.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\RecipeStages-2.0.0.21.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\RecipeStages-2.0.0.21.jar
@@ -17043,6 +17135,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\RevampedWolf-1.16.4-0.7.1.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\RevampedWolf-1.16.4-0.7.1.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\rubidium-0.2.12.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\rubidium-0.2.12.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\rubidium-0.2.12.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\rubidium-0.2.12.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\scarecrows-1.16.2-v1.0.8.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\scarecrows-1.16.2-v1.0.8.jar
@@ -17056,6 +17155,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\scarecrowsterritory-1.1.9-forge-mc1.16.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\scarecrowsterritory-1.1.9-forge-mc1.16.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\seamless_loading_screen-1.16.5-1.1.7.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\seamless_loading_screen-1.16.5-1.1.7.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\seamless_loading_screen-1.16.5-1.1.7.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\seamless_loading_screen-1.16.5-1.1.7.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\selene-1.16.5-1.9.0.jar
 to
@@ -17253,6 +17359,13 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\tellme-forge-1.16.4-0.9.1.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\tellme-forge-1.16.4-0.9.1.jar
 Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\TerraForged-1.16.5-0.2.16.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\TerraForged-1.16.5-0.2.16.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\TerraForged-1.16.5-0.2.16.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\TerraForged-1.16.5-0.2.16.jar
+Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\the-conjurer-1.16.4-1.0.13.jar
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\the-conjurer-1.16.4-1.0.13.jar
@@ -17315,6 +17428,13 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blo
 File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\toughnessbar-6.1.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\toughnessbar-6.1.jar
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\TRansliterationLib-1.0.4.jar
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\TRansliterationLib-1.0.4.jar
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\TRansliterationLib-1.0.4.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\TRansliterationLib-1.0.4.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\upsizer-mc1.16.4-6.1.1.jar
 to
@@ -17460,128 +17580,6 @@ Source folder: ./mods
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export./mods[0m
 [33mRemoving config files: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods[0m
-Checking relativePath: 3dSkinLayers-forge-1.1.0.jar
-Checking relativePath: abnormals_core-1.16.5-3.3.1.jar
-Checking relativePath: AdPother-1.16.5-4.2.1.1-build.0351.jar
-Checking relativePath: AI-Improvements-1.16.5-0.5.0.jar
-Checking relativePath: alexsmobs-1.12.1.jar
-Checking relativePath: allay-forge-1.16.5-4.2.0.jar
-Checking relativePath: altereddamage_1.16.5-1.5.jar
-Checking relativePath: Apocalypse-Rebooted-1.16.5-1.0.0-r.jar
-Checking relativePath: appleskin-forge-mc1.16.x-2.4.0.jar
-Checking relativePath: Aquaculture-1.16.5-2.1.23.jar
-Checking relativePath: architectury-1.32.68.jar
-Checking relativePath: armorcurve-2.4.jar
-Checking relativePath: astikorcarts-1.16.5-1.1.1.jar
-Checking relativePath: AttributeFix-1.16.5-10.1.4.jar
-Checking relativePath: AutoRegLib-1.6-49.jar
-Checking relativePath: auudio_forge_1.0.3-1_MC_1.16.2-1.16.5.jar
-Checking relativePath: Babel-1.0.5.jar
-Checking relativePath: BadMobs-1.16.5-9.1.9.jar
-Checking relativePath: BBOutlineReloaded-2.4-1.16.3-forge.jar
-Checking relativePath: beautifiedchatserver_1.16.5-1.5.jar
-Checking relativePath: BetterCaves-Forge-1.16.4-1.1.2.jar
-Checking relativePath: bettercombat-1.4.5.3+1.16.jar
-Found match in configList: bettercombat-1.4.5.3+1.16.jar
-Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\bettercombat-1.4.5.3+1.16.jar
-Checking relativePath: bettercompat-0.4.2-1.16.5-36.2.34.jar
-Checking relativePath: BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar
-Checking relativePath: BetterDungeons-1.16.4-1.2.1.jar
-Checking relativePath: betterendforge-1.16.5-2.5.jar
-Checking relativePath: BetterF3-1.5.0-Forge-1.16.5.jar
-Checking relativePath: BetterMineshafts-Forge-1.16.4-2.0.4.jar
-Checking relativePath: BetterModsButton-v1.0.5-1.16.5-Forge.jar
-Checking relativePath: betternether_reforged-1.2.jar
-Checking relativePath: BetterSprinting-1.16.3-v3.2.0.jar
-Checking relativePath: BetterStrongholds-1.16.4-1.2.1.jar
-Checking relativePath: BetterThirdPerson-Forge-1.16.4-1.9.0.jar
-Checking relativePath: betterweather-2.0.1.jar
-Checking relativePath: biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
-Checking relativePath: biggerspongeabsorptionradius_1.16.5-2.4.jar
-Checking relativePath: BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
-Checking relativePath: BlockySiege-3.0.4-1.16.5.jar
-Checking relativePath: bloodnwine2resources-0.6.6.4.jar
-Checking relativePath: Blur-1.1.0-1.jar
-Checking relativePath: Bookshelf-Forge-1.16.5-10.4.33.jar
-Checking relativePath: bottleyourxp_1.16.5-1.6.jar
-Checking relativePath: breedablekillerrabbit_1.16.5-1.6.jar
-Checking relativePath: brutalbosses-4.7.jar
-Checking relativePath: bwncr-1.16.5-3.10.16.jar
-Checking relativePath: Camels-1.16.5-1.0.0.jar
-Checking relativePath: cavebiomeapi-1.16.5-1.4.2.jar
-Checking relativePath: cavesandcliffs-1.16.5-7.2.0.jar
-Checking relativePath: CavesCliffsBackportAdditions-3.4.1jar.jar
-Checking relativePath: ceramicbucket-1.16.5-2.7.0.1.jar
-Checking relativePath: citadel-1.8.1-1.16.5.jar
-Checking relativePath: cleancut-mc1.16-2.2-forge.jar
-Checking relativePath: cloth-config-4.17.101-forge.jar
-Checking relativePath: collective-1.16.5-5.49.jar
-Checking relativePath: compacthelpcommand_1.16.5-1.1.jar
-Checking relativePath: configured-1.5.4-1.16.5.jar
-Checking relativePath: connectivity-2.4-1.16.5.jar
-Checking relativePath: ContentTweaker-1.16-1.0.0.develop.36.jar
-Checking relativePath: Controlling-7.0.0.29.jar
-Checking relativePath: CoroUtil-1.16.5-1.2.37.jar
-Checking relativePath: CraftableDebugStick.jar
-Checking relativePath: CraftTweaker-1.16.5-7.1.2.521.jar
-Checking relativePath: create-mc1.16.5_v0.3.2g.jar
-Checking relativePath: creativeblockreplacer_1.16.5-1.5.jar
-Checking relativePath: CreativeCore_v2.2.1_mc1.16.5.jar
-Checking relativePath: creeperaiupdated-forge-1.3.1.jar
-Checking relativePath: curios-forge-1.16.5-4.1.0.0.jar
-Checking relativePath: curtain-mc1.16.5-1.2.2.jar
-Found match in configList: curtain-mc1.16.5-1.2.2.jar
-Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\curtain-mc1.16.5-1.2.2.jar
-Checking relativePath: cyclepaintings_1.16.5-2.7.jar
-Checking relativePath: DeadlyWorld-1.16.5-1.0.0.jar
-Found match in configList: DeadlyWorld-1.16.5-1.0.0.jar
-Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\DeadlyWorld-1.16.5-1.0.0.jar
-Checking relativePath: deathbackup_1.16.5-1.5.jar
-Checking relativePath: deepdark_4.2.jar
-Checking relativePath: DefaultOptions_1.16.5-12.2.1.jar
-Checking relativePath: DimensionStages-1.16.5-3.0.3.jar
-Checking relativePath: dismountentity_1.16.5-1.5.jar
-Checking relativePath: DoubleSlabs-1.16-3.7.3.jar
-Checking relativePath: dragonfight-1.8-patched.jar
-Found match in configList: dragonfight-1.8-patched.jar
-Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\dragonfight-1.8-patched.jar
-Checking relativePath: drippyloadingscreen_forge_1.6.6_MC_1.16.2-1.16.5.jar
-Checking relativePath: dummmmmmy-1.16.5-1.3.3.jar
-Checking relativePath: DungeonCrawl-1.16.5-2.3.12.jar
-Checking relativePath: DungeonsArise-1.16.5-2.1.49-beta.jar
-Checking relativePath: dungeons_libraries-1.16.5-1.0.6.jar
-Checking relativePath: dungeons_mobs-1.16.5-2.2.3.jar
-Checking relativePath: DynamicSurroundings-1.16.4-4.0.3.10.jar
-Checking relativePath: edibles_1.16.5-2.4.jar
-Checking relativePath: effortlessbuilding-1.16.3-2.32.jar
-Checking relativePath: EnchantmentDescriptions-1.16.5-7.1.20.jar
-Checking relativePath: endportalrecipe_1.16.5-4.0.jar
-Checking relativePath: Enhanced-Mushrooms-1.16.5-3.0.9.jar
-Checking relativePath: enhancedcelestials-2.0.9-1.16.5.jar
-Checking relativePath: EquipmentCompare-1.16.5-1.3.2.jar
-Checking relativePath: Exlosive Arrows 1_16_x.jar
-Checking relativePath: expanvils-2.0.0.jar
-Checking relativePath: extendedmushrooms-1.16.5-1.7.0.5.jar
-Checking relativePath: extractpoison_1.16.5-1.6.jar
-Checking relativePath: extremeSoundMuffler-3.18_1.16.5.jar
-Checking relativePath: FarLandsForge-1.2.jar
-Checking relativePath: farmable-shulkers-1.1-1.16.5-forge.jar
-Checking relativePath: farsightedmobs-forge-1.16-1.1.jar
-Checking relativePath: FastLeafDecay-v25.2.jar
-Checking relativePath: FastSuite-1.16.4-1.1.1.jar
-Checking relativePath: ferritecore-2.1.1-forge.jar
-Checking relativePath: firstjoinmessage_1.16.5-1.3.jar
-Checking relativePath: fixedanvilrepaircost_1.16.5-1.6.jar
-Checking relativePath: FlamingArrowsMC1.16.3-1.0.1.jar
-Checking relativePath: flatbedrock-1.2.0-build.2+mc1.16.5.jar
-Checking relativePath: flywheel-1.16-0.2.5.jar
-Checking relativePath: forgedfabric-0.0.7+1.16.jar
-Checking relativePath: ForgeEndertech-1.16.5-7.3.0.0-build.0330.jar
-Checking relativePath: ftb-library-forge-1605.3.4-build.90.jar
-Checking relativePath: ftb-quests-forge-1605.3.7-build.165.jar
-Checking relativePath: ftb-teams-forge-1605.2.3-build.40.jar
-Checking relativePath: GameMenuRemoveGFARB-1.16.4-1.1.1.jar
-Checking relativePath: GameStages-Forge-1.16.5-7.3.14.jar
 Checking relativePath: geckolib-forge-1.16.5-3.0.106.jar
 Checking relativePath: giantspawn_1.16.5-2.7.jar
 Checking relativePath: glennsGasesPort1.16-1.0.6.jar
@@ -17624,6 +17622,7 @@ Checking relativePath: konkrete_forge_1.6.1_MC_1.16.2-1.16.5.jar
 Checking relativePath: kotlinforforge-1.17.0-obf.jar
 Checking relativePath: kryptonreforged-mc1.16.5_v1.0.0.jar
 Checking relativePath: lazydfu-0.1.3.jar
+Checking relativePath: LegendaryTooltips-1.16.5-1.3.1.jar
 Checking relativePath: lightspeed-1.16.5-1.0.5.jar
 Checking relativePath: litematica-forge-1.16.5-0.0.0-dev.20210917.jar
 Checking relativePath: litewolfcore-1.16.5v1.0.1.jar
@@ -17632,6 +17631,7 @@ Checking relativePath: LongerDays-2.0.0-mc1.16.4.jar
 Checking relativePath: looot-1.16.4-1.0.0.3.jar
 Checking relativePath: lowtechcrafting-1.16.3-0.2.0.jar
 Checking relativePath: L_Enders+Cataclysm-0.48+Changed+Theme+-1.16.5.jar
+Checking relativePath: magnesium_extras-mc1.16.5_v1.4.0.jar
 Checking relativePath: malilib-forge-1.16.5-0.10.0-dev.21+beta.1.jar
 Checking relativePath: Mantle-1.16.5-1.6.157.jar
 Checking relativePath: memoryleakfix-forge-pre1.17-1.0.0.jar
@@ -17645,8 +17645,10 @@ Checking relativePath: musictriggers-1.16.5-6.2.jar
 Checking relativePath: naturalabsorption-1.16.5-2.2.1.jar
 Checking relativePath: NatureExpansion1.5.jar
 Checking relativePath: NaturesCompass-1.16.5-1.9.1-forge.jar
+Checking relativePath: notenoughanimations-1.2.4.jar
 Checking relativePath: notenoughcrashes-4.1.4+1.16.5-forge.jar
 Checking relativePath: NourishedEndV9-1.16.5Backport.jar
+Checking relativePath: oculus-1.4.5.jar
 Checking relativePath: OpenLoader-1.16.5-9.0.3.jar
 Checking relativePath: OreBerries-Replanted-1.16.5-0.1.4.1.jar
 Checking relativePath: oreconfig-1.2.0.jar
@@ -17657,6 +17659,9 @@ Checking relativePath: pamhc2crops-1.16.3-1.0.2.jar
 Checking relativePath: pamhc2foodcore-1.16.3-1.0.2.jar
 Checking relativePath: pamhc2foodextended-1.16.3-1.0.4.jar
 Checking relativePath: pamhc2trees-1.16.3-1.0.1.jar
+Checking relativePath: physics-mod-pro-v36b-forge-1.16.5.jar
+Found match in configList: physics-mod-pro-v36b-forge-1.16.5.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\physics-mod-pro-v36b-forge-1.16.5.jar
 Checking relativePath: Placebo-1.16.5-4.7.1.jar
 Checking relativePath: player-animation-lib-forge-0.4.0+1.16.5.jar
 Checking relativePath: polymorph-forge-1.16.5-0.41.jar
@@ -17666,11 +17671,15 @@ Checking relativePath: PuzzlesLib-v1.0.15-1.16.5-Forge.jar
 Checking relativePath: Quark-r2.4-322.jar
 Checking relativePath: rad-1.16-4.1.1.jar
 Checking relativePath: randompatches-2.4.4-forge.jar
+Checking relativePath: ReAuth-1.16-Forge-4.0.7.jar
+Checking relativePath: recast_1.16.5-1.5.jar
 Checking relativePath: RecipeStages-2.0.0.21.jar
 Checking relativePath: ResourcePackOverrides-v1.0.1-1.16.5-Forge.jar
 Checking relativePath: RevampedWolf-1.16.4-0.7.1.jar
+Checking relativePath: rubidium-0.2.12.jar
 Checking relativePath: scarecrows-1.16.2-v1.0.8.jar
 Checking relativePath: scarecrowsterritory-1.1.9-forge-mc1.16.jar
+Checking relativePath: seamless_loading_screen-1.16.5-1.1.7.jar
 Checking relativePath: selene-1.16.5-1.9.0.jar
 Checking relativePath: SereneSeasons-1.16.5-4.0.1.130-universal.jar
 Checking relativePath: sereneseasonsphc2crops-1.16.5-1.0.1.jar
@@ -17699,6 +17708,9 @@ Checking relativePath: swingthroughgrass-1.16.4-1.5.3.jar
 Checking relativePath: tconplanner-1.16.5-1.2.0.jar
 Checking relativePath: TConstruct-1.16.5-3.3.4.335.jar
 Checking relativePath: tellme-forge-1.16.4-0.9.1.jar
+Checking relativePath: TerraForged-1.16.5-0.2.16.jar
+Found match in configList: TerraForged-1.16.5-0.2.16.jar
+Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\TerraForged-1.16.5-0.2.16.jar
 Checking relativePath: the-conjurer-1.16.4-1.0.13.jar
 Checking relativePath: theimpossiblelibrary-1.16.5-0.2.4.jar
 Checking relativePath: ThePursuer_1.16.5-1.2.1.jar
@@ -17708,6 +17720,7 @@ Checking relativePath: TinySkeletons-v1.0.1-1.16.5-Forge.jar
 Checking relativePath: Tips-1.16.5-4.0.18.jar
 Checking relativePath: ToastControl-1.16.5-4.4.0.jar
 Checking relativePath: toughnessbar-6.1.jar
+Checking relativePath: TRansliterationLib-1.0.4.jar
 Checking relativePath: upsizer-mc1.16.4-6.1.1.jar
 Checking relativePath: VisualWorkbench-v1.1.0-1.16.5.jar
 Checking relativePath: WailaHarvestability-mc1.16.x-forge-1.1.15.jar
@@ -17729,12 +17742,8 @@ Checking relativePath: zombieawareness-1.16.5-1.12.jar
 Checking relativePath: zombiehorsespawn_1.16.5-3.0.jar
 Checking relativePath: zombievillagersfromspawner_1.16.5-1.5.jar
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods
 No deletions detected in the source folder.
@@ -17744,7 +17753,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\openloader[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader
@@ -20482,12 +20491,8 @@ Checking relativePath: .cache
 Checking relativePath: data
 Checking relativePath: resources
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\openloader[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\openloader\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\openloader\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\openloader
 No deletions detected in the source folder.
@@ -20497,7 +20502,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\schematics[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\schematics[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\schematics
@@ -21140,12 +21145,8 @@ Checking relativePath: Mob Grinders
 Checking relativePath: Structures
 Checking relativePath: _qnT's Tunnel Bore for Tinkers Construct and Quark.litematic
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\schematics[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\schematics\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\schematics\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\schematics
 No deletions detected in the source folder.
@@ -21155,7 +21156,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\scripts[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\scripts[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\scripts
@@ -21336,12 +21337,8 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export./scripts
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\scripts[0m
 Checking relativePath: crafttweaker
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\scripts[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\scripts\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\scripts\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\scripts
 No deletions detected in the source folder.
@@ -21351,7 +21348,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\shaderpacks[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\shaderpacks[0m
 [33mCONFIG_LIST: [oculus.properties, TerraForged-1.16.5-0.2.16.jar, physics-mod-pro-v36b-forge-1.16.5.jar, glennsGasesPort1.16-1.0.6.jar, dragonfight-1.8-patched.jar, DeadlyWorld-1.16.5-1.0.0.jar, curtain-mc1.16.5-1.2.2.jar, bettercombat-1.4.5.3+1.16.jar][0m
-[33mFOLDER_LIST: [extraction_cache, songs][0m
+[33mFOLDER_LIST: [][0m
 [33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@433c675d, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@3f91beef][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\shaderpacks
@@ -21395,12 +21392,8 @@ Checking relativePath: ComplementaryReimagined_r2.2.1.zip.txt
 Checking relativePath: ComplementaryShaders_v4.7.2.zip
 Checking relativePath: ComplementaryShaders_v4.7.2.zip.txt
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [extraction_cache, songs] from [0m
+[33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\shaderpacks[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\shaderpacks\extraction_cache[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\shaderpacks\songs[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\shaderpacks
 No deletions detected in the source folder.
