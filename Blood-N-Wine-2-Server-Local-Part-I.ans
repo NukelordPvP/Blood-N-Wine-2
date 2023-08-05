@@ -6,9 +6,9 @@
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config[0m
-[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mCONFIG_LIST: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config
 to
@@ -10157,13 +10157,6 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\jeresources.toml
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\jeresources.toml
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\jew.txt
-to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\jew.txt
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\config\jew.txt
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\jew.txt
-Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\justplayerheads-common.toml
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\justplayerheads-common.toml
@@ -15038,7 +15031,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: /config
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/config[0m
-[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config[0m
 Checking relativePath: abnormals_core-client.toml
 Checking relativePath: abnormals_core-common.toml
@@ -15215,7 +15208,6 @@ Checking relativePath: jei-client.toml
 Checking relativePath: jeiintegration-client.toml
 Checking relativePath: jeresources-common.toml
 Checking relativePath: jeresources.toml
-Checking relativePath: jew.txt
 Checking relativePath: justplayerheads-common.toml
 Checking relativePath: kiwi-client.toml
 Checking relativePath: kleeslabs-common.toml
@@ -15336,398 +15328,8 @@ Checking relativePath: zombieawareness
 Checking relativePath: zombiehorsespawn-common.toml
 Checking relativePath: zombievillagersfromspawner-common.toml
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\!_01_delete_files_missing_-.bat[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\!_02_delete_-converted_from_files.bat[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\!_2_delete_files_without_underscore.bat[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\!_3_remove_underscores_from_files.bat[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2\commands.toml[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2\jukebox.txt[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2\main - backup.toml[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2\main.toml[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2\redirect.txt[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2\toggles.toml[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2\transitions.toml[0m
-[35mDeleted folder:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\bloodnwine2[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\channels.toml[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\debug.toml[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\registration.toml[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\60.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\601.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\6010.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\6011.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\602.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\604.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\605.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\606.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\607.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\608.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\609.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\abedofashes.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\activating.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\adoorbeyondperception.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\aesthetic.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\afaintlightonthesurface.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\alldreamsmined.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\alonelystrain.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\ancientamulet.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\ancientpillars.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\apalesignrevealed.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\aphotic.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\aphoticblack.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\apokatastasisi.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\apokatastasisii.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\aseductionofmalice.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\atheatreofshadows.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\atransientshelter.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\avenoir.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\azure.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\baba.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\becomingonewithdarkness.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\beyondtheedge.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\beyondthelimit.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\boundtomemory.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\brokenworlds.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\burrows.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\cavernofigneousflame.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\chaliceofeternity.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\chiaroscuro.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\coldsleuthing.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\consternation.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\cursedridersofthenight.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\darkwood.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\death.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\death8bit.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\deceivedbyshelter.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\deepspacesignals.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\deltazero.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\desiresarealreadymemories.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\despairdialogue.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\dontletgo.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\drawnlikeamoth.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\dream.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\echo.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\echosphere.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\ecstaticparadigm.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\endofthenight.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\entangledinmortar.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\eschatology.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\eternaldrift.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\everysolsticeequinox.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\exodus.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\eyesofblack.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\falseidols.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\firstvisit.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\floatingspheres.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\frozenintime.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\ghostsmarchinghome.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\greenpeople.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\hauntedbywhispers.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\heartbeat.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\heosphoros.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\herebutnothere.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\illuminatio.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\immemorial.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\inanarchedworld.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\induction.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\inthecompanyofruin.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\intothevoid.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\intro.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\iridescenceshimmer.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\itsjustaburningmemory.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\journeytothecelestialrivers.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\lastcall.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\lasthideout.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\latenightatthelastresort.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\lightsout.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\livesinreverse.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\lonesomehallsofruin.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\losthorizon.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\marchofthepriests.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\memoriesofanoldcity.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\mindlesswanderftzenjungle.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\nascency.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\nebulousbeings.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\nekrosis.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\nightsoclosetothetongue.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\nothingbutdustftkimguy.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\nothingofthecitytouchestheearth.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\nowayoutofthismaze.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\obscuration.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\oceangrooves.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\omission.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\onesatoptheunknown.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\onlystringsandtheirsupportsremain.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\onyx.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\oof.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\opiateddreams.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\overland.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\paleconquerors.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\paralleldestiny.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\parlourofignorance.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\particlestorm.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\passageintooblivion.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\passing.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\piotrek.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\quicksand.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\quietus.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\redcurtains.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\relics.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\rememberingtheworldasitusedtobe.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\remnantsofthemissing.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\reverseechoes.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\roadtohome.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\roadtonowhere.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\sacrumnoctis.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\slowmotiondownfall.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\smokeandmirrors.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\solarhalos.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\sothatthecitycanbegintoexist.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\spectralparade.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\spellbound.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\strangersreflection.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\sundown.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\surrender.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\suspendedconsciousness.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\taintedcity.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thecelestialcity.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thecollectorsharvest.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thecrossing.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thedarkestnightever.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thedarknessbeforemyeyes.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thedaywhenyoulostyoursmile.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thedeadfire.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thedeadoutnumbertheliving.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thedesolationage.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thedividedcity.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\theeternalveil.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thehermit.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\themanifestation.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\themerchantsofsevennations.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\theperilsofdawn.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\theplanet.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thesadnessofallthings.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\theslowagonyofsolitude.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\theunforgivingtolloffame.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thirteenthcenturytravelogue.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\threadbare.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\threnody.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\thylight.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\totalperspectivevortex.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\twilightreverie.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\twistoftime.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\untitled1.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\untitled2.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\untitled3.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\unveilingthescript.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\vagrantsouls.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\voice.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\voices.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\wedding.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\whattheearthbore.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\wolf.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\yodadeath.ogg[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2\youdisappeared.ogg[0m
-[35mDeleted folder:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs\bloodnwine2[0m
-[35mDeleted folder:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\songs[0m
-[35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers\[USING]-128kbs-48khz-for-audio.txt[0m
-[35mDeleted folder:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\MusicTriggers[0m
 [35mDeleted folder:[0m
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\config\fancymenu\animations[0m
 [35mDeleted folder:[0m
@@ -16134,9 +15736,9 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\defaultconfigs[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs[0m
-[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mCONFIG_LIST: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\defaultconfigs
 to
@@ -16179,7 +15781,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: /defaultconfigs
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/defaultconfigs[0m
-[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs[0m
 Checking relativePath: ceramicbucket-server.toml
 Checking relativePath: farsightedmobs-server.toml
@@ -16187,10 +15789,8 @@ Checking relativePath: gravestone-server.toml
 Checking relativePath: solpotato-server.toml
 Checking relativePath: workshopsofdoom-server.toml
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs\MusicTriggers[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\defaultconfigs\fancymenu[0m
 [33mFolder not found:[0m
@@ -16207,9 +15807,9 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods[0m
-[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mCONFIG_LIST: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods
 to
@@ -16516,12 +16116,12 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods\BlockySiege-3.0.4-1.16.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\BlockySiege-3.0.4-1.16.5.jar
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bloodnwine2resources-0.6.6.4.jar
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bloodnwine2resources-0.6.6.5.jar
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\bloodnwine2resources-0.6.6.4.jar
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\bloodnwine2resources-0.6.6.5.jar
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods\bloodnwine2resources-0.6.6.4.jar
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\bloodnwine2resources-0.6.6.4.jar
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\mods\bloodnwine2resources-0.6.6.5.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\bloodnwine2resources-0.6.6.5.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\Blur-1.1.0-1.jar
 to
@@ -18184,7 +17784,7 @@ Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood
 [32mFolder copy complete.
 Source folder: /mods
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/mods[0m
-[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods[0m
 Checking relativePath: 3dSkinLayers-forge-1.1.0.jar
 Checking relativePath: aas-1.16.4-1.1.0.jar
@@ -18239,7 +17839,7 @@ Checking relativePath: biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
 Checking relativePath: biggerspongeabsorptionradius_1.16.5-2.4.jar
 Checking relativePath: BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
 Checking relativePath: BlockySiege-3.0.4-1.16.5.jar
-Checking relativePath: bloodnwine2resources-0.6.6.4.jar
+Checking relativePath: bloodnwine2resources-0.6.6.5.jar
 Checking relativePath: Blur-1.1.0-1.jar
 Checking relativePath: Bookshelf-Forge-1.16.5-10.4.33.jar
 Checking relativePath: bottleyourxp_1.16.5-1.6.jar
@@ -18512,10 +18112,8 @@ Checking relativePath: zombieawareness-1.16.5-1.12.jar
 Checking relativePath: zombiehorsespawn_1.16.5-3.0.jar
 Checking relativePath: zombievillagersfromspawner_1.16.5-1.5.jar
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\MusicTriggers[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\mods\fancymenu[0m
 [33mFolder not found:[0m
@@ -18532,9 +18130,9 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader[0m
-[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mCONFIG_LIST: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader
 to
@@ -21246,19 +20844,19 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\resources\7OOF.zip
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\7OOF.zip
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\Bloody Minerals = Wolfrest's Better Minerology 1.3.txt
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\Bloody_Minerals.zip
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody Minerals = Wolfrest's Better Minerology 1.3.txt
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody_Minerals.zip
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\resources\Bloody Minerals = Wolfrest's Better Minerology 1.3.txt
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody Minerals = Wolfrest's Better Minerology 1.3.txt
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\resources\Bloody_Minerals.zip
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody_Minerals.zip
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\Bloody Minerals.zip
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody Minerals.zip
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\resources\Bloody Minerals.zip
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody Minerals.zip
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\contenttweaker
 to
@@ -21279,16 +20877,14 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/openloader
 [32mFolder copy complete.
 Source folder: /openloader
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/openloader[0m
-[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader[0m
 Checking relativePath: .cache
 Checking relativePath: data
 Checking relativePath: resources
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\MusicTriggers[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\openloader\fancymenu[0m
 [33mFolder not found:[0m
@@ -21305,9 +20901,9 @@ Deletion check complete.
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\scripts[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts[0m
-[33mCONFIG_LIST: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
-[33mFOLDER_LIST: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
-[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@2e817b38, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@c4437c4][0m
+[33mCONFIG_LIST: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar][0m
+[33mFOLDER_LIST: [fancymenu, better_loading_screen, drippyloadingscreen, litematica][0m
+[33mSOURCE_FILES: [com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@1f17ae12, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@4d405ef7, com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder$SourceFilesConfig@6193b845][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\scripts
 to
@@ -21483,14 +21079,12 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/scripts[0
 [32mFolder copy complete.
 Source folder: /scripts
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/scripts[0m
-[33mRemoving config files: [oculus.properties, 7OOF.zip, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
+[33mRemoving config files: [oculus.properties, aas-1.16.4-1.1.0.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, betterfoliage-1.2.0.jar, better-loading-screen-1.4.0.jar, BetterTitleScreen-1.16.4-1.10.2.jar, camoucreeper-2.0.0.jar, difficultylock_1.16.5-1.3.jar, DontClearChatHistory-1.jar, dynamiclightsreforged-mc1.16.5_v1.0.1.jar, entityculling-forge-mc1.16.5-1.5.2.jar, fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar, farsight-1.7.jar, LegendaryTooltips-1.16.5-1.3.1.jar, magnesium_extras-mc1.16.5_v1.4.0.jar, notenoughanimations-1.2.4.jar, oculus-1.4.5.jar, physics-mod-pro-v36b-forge-1.16.5.jar, ReAuth-1.16-Forge-4.0.7.jar, recast_1.16.5-1.5.jar, rubidium-0.2.12.jar, seamless_loading_screen-1.16.5-1.1.7.jar, TRansliterationLib-1.0.4.jar] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts[0m
 Checking relativePath: crafttweaker
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [MusicTriggers, fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
+[33mDeleting folders: [fancymenu, better_loading_screen, drippyloadingscreen, litematica] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts[0m
-[33mFolder not found:[0m
-[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts\MusicTriggers[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\scripts\fancymenu[0m
 [33mFolder not found:[0m
@@ -21505,14 +21099,15 @@ No deletions detected in the source folder.
 Deletion check complete.
 [33m[33mProcessing complete for this entry.[0m[0m
 [33mProcessing entry:[0m
-[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\!_bnw2-version-2.1[0m
-[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\!_bnw2-version-2.2[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.2[0m
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\!_bnw2-version-2.1
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\!_bnw2-version-2.2
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.1
-ERROR: Source file not found:
-/!_bnw2-version-2.1
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local\!_bnw2-version-2.2
+File copied successfully.
+Source file: /!_bnw2-version-2.2
+Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/!_bnw2-version-2.2
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Server-Local
 No deletions detected in the source folder.
 Deletion check complete.

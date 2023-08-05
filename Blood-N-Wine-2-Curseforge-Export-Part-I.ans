@@ -21624,18 +21624,16 @@ Deletion check complete.
 [33m[33mProcessing complete for this entry.[0m[0m
 [33mProcessing entry:[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\!_bnw2-version-2.2[0m
-[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.2[0m
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\!_bnw2-version-2.2
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.2
 File copied successfully.
 Source file: /!_bnw2-version-2.2
-Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/!_bnw2-version-2.1
+Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/!_bnw2-version-2.2
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -21649,9 +21647,7 @@ File copied successfully.
 Source file: /!_bnw2-forge-1.16.5-36.2.35
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/!_bnw2-forge-1.16.5-36.2.35
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -21665,9 +21661,7 @@ File copied successfully.
 Source file: /!_copyright.txt
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/!_copyright.txt
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -21681,9 +21675,7 @@ File copied successfully.
 Source file: /HOW TO ADD OPTIFINE.txt
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/HOW TO ADD OPTIFINE.txt
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33mProcessing entry:[0m
@@ -21697,9 +21689,7 @@ File copied successfully.
 Source file: /servers.dat
 Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/servers.dat
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export
-WARNING PROGRAM MALFUNCTION: The following files were deleted in the source folder:
-Deleted file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.1
-Please verify your configuration and program logic to prevent unintended deletions.
+No deletions detected in the source folder.
 Deletion check complete.
 Processing complete for this entry.
 [33m[33mTask completed successfully.[0m[0m
