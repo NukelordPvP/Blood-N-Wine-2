@@ -48,7 +48,7 @@ SOURCE_FILES:
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
-  Bloody Minerals = Wolfrest's Better Minerology 1.3.txt
+  Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
