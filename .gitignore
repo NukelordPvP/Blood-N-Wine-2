@@ -35,6 +35,9 @@ logs/
 crash-reports
 dumps
 
+#litematica cache
+litematica
+
 #worlds
 saves/
 
