@@ -86,7 +86,11 @@ SOURCE_FILES:
 CONFIG_LIST:
   oculus.properties
   Blood-N-Wine-2-Music.zip-link.txt
-  Blood-N-Wine-2-Music-md5-=-CB52DEDDCCE17B925EDC31A198F884A5.txt
+  Blood-N-Wine-2-Music-md5-=-D5399C82D600834BB3850680F41EA8AA.txt
+  Blood-N-Wine-2-Music-II.zip-link.txt
+  Blood-N-Wine-2-Music-II-md5-=-9FCDC2B598698DA56C603E421B38CEA1.txt
+  Blood-N-Wine-2-Menu.zip-link.txt
+  Blood-N-Wine-2-Menu-md5-=-5008F119CCC995FDAD125892EF0EC0EE.txt
   Delete-Quark-Programmer-Art.zip-when-exporting-modpack.txt
   Quark Programmer Art.zip
 # mods we ported or were paywalled or we jewed

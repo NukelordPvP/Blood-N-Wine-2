@@ -69,7 +69,7 @@ mods_backup
 bloodnwine2_backup
 
 #ignore modrinth pack
-Blood N Wine 2 2.1.mrpack
+Blood N Wine 2 2.2.mrpack
 
 #ignore sound compression presets
 bloodnwine2-128kbs-48khz-5-Reduc
@@ -87,11 +87,17 @@ mods_-_closed_perms_list_for_exporting_to_Modrinth.7z
 mods_-_required_by_closed_perms_list
 mods_-_required_by_closed_perms_list.7z
 
-#ignore Blood-N-Wine-2-Music Test Folders
+#ignore Blood-N-Wine-2-Assets Test Folders
 0_Blood-N-Wine-2-Assets/resourcepacks/Blood-N-Wine-2-Music
+0_Blood-N-Wine-2-Assets/resourcepacks/Blood-N-Wine-2-Music-II
+0_Blood-N-Wine-2-Assets/slideshows/Blood-N-Wine-2-Menu
 
 #ignore Blood-N-Wine-2-Music Archive
 Blood-N-Wine-2-Music.zip
+Blood-N-Wine-2-Music-II.zip
+
+#ignore Blood-N-Wine-2-Menu Archive
+Blood-N-Wine-2-Menu.zip
 
 #ignore cache
 lightspeed-cache

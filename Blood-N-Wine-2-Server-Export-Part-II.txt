@@ -76,6 +76,10 @@ CONFIG_LIST:
   7OOF.zip
   Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
   Bloody_Minerals.zip
+  !_01_delete_files_missing_-.bat
+  !_02_delete_-converted_from_files.bat
+  !_2_delete_files_without_underscore.bat
+  !_3_remove_underscores_from_files.bat
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
