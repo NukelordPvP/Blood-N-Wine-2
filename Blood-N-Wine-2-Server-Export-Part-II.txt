@@ -59,7 +59,6 @@ SOURCE_FILES:
   - SOURCE=/0_Serverside-Only-Files/server.properties
     CUSTOM_OUTPUT_DIR=/server.properties
 
-
   - SOURCE=/0_Serverside-Only-Files/server-icon.png
     CUSTOM_OUTPUT_DIR=/server-icon.png
 
