@@ -51,7 +51,7 @@ SOURCE_FOLDERS:
 SOURCE_FILES:
 
   - SOURCE=/!_bnw2-version-2.1
-    CUSTOM_OUTPUT_DIR=/!_bnw2-version-2.1
+    CUSTOM_OUTPUT_DIR=/!_bnw2-version-2.2s
 
   - SOURCE=/!_bnw2-forge-1.16.5-36.2.35
     CUSTOM_OUTPUT_DIR=/!_bnw2-forge-1.16.5-36.2.35
