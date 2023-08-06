@@ -4642,12 +4642,26 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resourc
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb
+File copied successfully.
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb
 [32mFolder copy complete.
 Source folder: ./config
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export./config[0m
@@ -15603,12 +15617,12 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks\Blood-N-Wine-2-Music.zip-link.txt
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Blood-N-Wine-2-Music.zip-link.txt
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\resourcepacks\Default-Dark-Mode-1.16.2+-(v1.3.1).zip
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\resourcepacks\Default-Dark-Mode-1.16-2023.7.0.zip
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Default-Dark-Mode-1.16.2+-(v1.3.1).zip
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Default-Dark-Mode-1.16-2023.7.0.zip
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks\Default-Dark-Mode-1.16.2+-(v1.3.1).zip
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Default-Dark-Mode-1.16.2+-(v1.3.1).zip
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks\Default-Dark-Mode-1.16-2023.7.0.zip
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Default-Dark-Mode-1.16-2023.7.0.zip
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\resourcepacks\Delete-Quark-Programmer-Art.zip-when-exporting-modpack.txt
 to
@@ -15638,12 +15652,12 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks\Xaero's Minimap - Mod Icons.zip
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Xaero's Minimap - Mod Icons.zip
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\resourcepacks\xali-s-Enchanted-Books-16x-v0.10.1.zip
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\resourcepacks\xali's Enchanted Books v0.12.0.zip
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\xali-s-Enchanted-Books-16x-v0.10.1.zip
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\xali's Enchanted Books v0.12.0.zip
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks\xali-s-Enchanted-Books-16x-v0.10.1.zip
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\xali-s-Enchanted-Books-16x-v0.10.1.zip
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\resourcepacks\xali's Enchanted Books v0.12.0.zip
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\xali's Enchanted Books v0.12.0.zip
 [32mFolder copy complete.
 Source folder: ./resourcepacks
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export./resourcepacks[0m
@@ -15671,7 +15685,7 @@ Checking relativePath: Blood-N-Wine-2-Music.zip
 Checking relativePath: Blood-N-Wine-2-Music.zip-link.txt
 Found match in configList: Blood-N-Wine-2-Music.zip-link.txt
 Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Blood-N-Wine-2-Music.zip-link.txt
-Checking relativePath: Default-Dark-Mode-1.16.2+-(v1.3.1).zip
+Checking relativePath: Default-Dark-Mode-1.16-2023.7.0.zip
 Checking relativePath: Delete-Quark-Programmer-Art.zip-when-exporting-modpack.txt
 Found match in configList: Delete-Quark-Programmer-Art.zip-when-exporting-modpack.txt
 Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Delete-Quark-Programmer-Art.zip-when-exporting-modpack.txt
@@ -15680,7 +15694,7 @@ Checking relativePath: Quark Programmer Art.zip
 Found match in configList: Quark Programmer Art.zip
 Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks\Quark Programmer Art.zip
 Checking relativePath: Xaero's Minimap - Mod Icons.zip
-Checking relativePath: xali-s-Enchanted-Books-16x-v0.10.1.zip
+Checking relativePath: xali's Enchanted Books v0.12.0.zip
 [33mConfig file removal complete.[0m
 [33mDeleting folders: [] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\resourcepacks[0m
@@ -16001,12 +16015,12 @@ File copied successfully.
 Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\BlockySiege-3.0.4-1.16.5.jar
 Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BlockySiege-3.0.4-1.16.5.jar
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bloodnwine2resources-0.6.6.6.jar
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\bloodnwine2resources-0.6.6.7.jar
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\bloodnwine2resources-0.6.6.6.jar
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\bloodnwine2resources-0.6.6.7.jar
 File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\bloodnwine2resources-0.6.6.6.jar
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\bloodnwine2resources-0.6.6.6.jar
+Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\mods\bloodnwine2resources-0.6.6.7.jar
+Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\bloodnwine2resources-0.6.6.7.jar
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\mods\Blur-1.1.0-1.jar
 to
@@ -17726,7 +17740,7 @@ Checking relativePath: BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
 Found match in configList: BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
 Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Technic-Export.\mods\BiomesOPlenty-1.16.5-13.1.0.488-universal.jar
 Checking relativePath: BlockySiege-3.0.4-1.16.5.jar
-Checking relativePath: bloodnwine2resources-0.6.6.6.jar
+Checking relativePath: bloodnwine2resources-0.6.6.7.jar
 Checking relativePath: Blur-1.1.0-1.jar
 Checking relativePath: Bookshelf-Forge-1.16.5-10.4.33.jar
 Checking relativePath: bottleyourxp_1.16.5-1.6.jar

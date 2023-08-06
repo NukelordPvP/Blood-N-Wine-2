@@ -7,7 +7,7 @@
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\bloodnwine2resources[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources[0m
 [33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
-[33mFOLDER_LIST: [songs, extraction_cache][0m
+[33mFOLDER_LIST: [songs, extraction_cache, slideshows][0m
 [33mSOURCE_FILES: [][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources
@@ -18,11 +18,23 @@ C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resourc
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb
 Destination file is up-to-date. Skipping file copy:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb
 [32mFolder copy complete.
 Source folder: ./config/bloodnwine2resources
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/bloodnwine2resources[0m
@@ -33,14 +45,20 @@ Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./conf
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources[0m
 Checking relativePath: extraction_cache
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [songs, extraction_cache] from [0m
+[33mDeleting folders: [songs, extraction_cache, slideshows] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\songs[0m
 [35mDeleted:[0m
-[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache.bomb[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Menu.bomb[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music-II.bomb[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache\extraction_cache_Blood-N-Wine-2-Music.bomb[0m
 [35mDeleted folder:[0m
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\extraction_cache[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources\slideshows[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\bloodnwine2resources
 No deletions detected in the source folder.
@@ -50,7 +68,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\MusicTriggers[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers[0m
 [33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
-[33mFOLDER_LIST: [songs, extraction_cache][0m
+[33mFOLDER_LIST: [songs, extraction_cache, slideshows][0m
 [33mSOURCE_FILES: [][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\MusicTriggers
@@ -1247,7 +1265,7 @@ Checking relativePath: registration.toml
 Checking relativePath: songs
 Checking relativePath: [USING]-128kbs-48khz-for-audio.txt
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [songs, extraction_cache] from [0m
+[33mDeleting folders: [songs, extraction_cache, slideshows] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers[0m
 [35mDeleted:[0m
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\songs\bloodnwine2\60.ogg[0m
@@ -1607,8 +1625,1443 @@ Checking relativePath: [USING]-128kbs-48khz-for-audio.txt
 [35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\songs[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\extraction_cache[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers\slideshows[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\MusicTriggers
+No deletions detected in the source folder.
+Deletion check complete.
+[33m[33mProcessing complete for this entry.[0m[0m
+[33mProcessing entry:[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\config\fancymenu[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu[0m
+[33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
+[33mFOLDER_LIST: [songs, extraction_cache, slideshows][0m
+[33mSOURCE_FILES: [][0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\animations
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\animations
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\buttonscripts
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\buttonscripts
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\config.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\config.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\config.txt
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\customguis
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customguis
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\customizablemenus.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customizablemenus.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customizablemenus.txt
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\customization
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\customization\.disabled
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization\.disabled
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\customization\bloodnwine20.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization\bloodnwine20.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization\bloodnwine20.txt
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\customization\bloodnwine21.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization\bloodnwine21.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization\bloodnwine21.txt
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\customization\bloodnwine22.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization\bloodnwine22.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\customization\bloodnwine22.txt
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\custom_locals
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\custom_locals
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals\de_de.local
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\de_de.local
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\de_de.local
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals\en_us.local
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\en_us.local
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\en_us.local
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals\pl_pl.local
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\pl_pl.local
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\pl_pl.local
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals\pt_br.local
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\pt_br.local
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\pt_br.local
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals\ru_ru.local
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\ru_ru.local
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\ru_ru.local
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals\uk_ua.local
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\uk_ua.local
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\uk_ua.local
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\locals\zh_cn.local
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\zh_cn.local
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\locals\zh_cn.local
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\menu_identifiers.db
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\menu_identifiers.db
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\menu_identifiers.db
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\minecraftwindow
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\minecraftwindow
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\minecraftwindow\icons
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\minecraftwindow\icons
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\panoramas
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\panoramas
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\12.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\12.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\12.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\13.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\13.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\13.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\15.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\15.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\15.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\1a111.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\1a111.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\1a111.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\20.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\20.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\20.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\21.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\21.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\21.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\22.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\22.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\22.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\25.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\25.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\25.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\26.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\26.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\26.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\27.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\27.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\27.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\28.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\28.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\28.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\29.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\29.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\29.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\30.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\30.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\30.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\3117.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\3117.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\3117.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\32.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\32.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\32.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\33.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\33.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\33.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\34.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\34.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\34.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\36.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\36.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\36.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\37.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\37.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\37.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\38.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\38.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\38.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\39.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\39.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\39.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\40.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\40.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\40.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\41.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\41.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\41.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\42.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\42.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\42.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\43.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\43.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\43.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\44.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\44.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\44.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\45.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\45.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\45.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\46.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\46.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\46.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\47.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\47.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\47.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\49.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\49.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\49.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\4d2.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\4d2.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\4d2.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\50.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\50.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\50.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\9.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\9.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\9.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\a1o4.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\a1o4.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\a1o4.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d08.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d08.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d08.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d14.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d14.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d14.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d18.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d18.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d18.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d35.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d35.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d35.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\dd31.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\dd31.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\dd31.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\i.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\i.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\i.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\l16.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\l16.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\l16.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\p5.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\p5.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\p5.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\s6.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\s6.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\s6.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\u24.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\u24.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\u24.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w23.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w23.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w23.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w7.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w7.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w7.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\x48.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\x48.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\x48.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\images\z10.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\z10.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\z10.jpg
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine20_slideshow\properties.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\properties.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\properties.txt
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\12.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\12.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\12.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\15.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\15.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\15.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\1p139.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\1p139.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\1p139.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\26.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\26.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\26.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\27.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\27.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\27.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\28.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\28.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\28.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\29.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\29.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\29.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3473.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3473.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3473.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3479.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3479.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3479.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\438.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\438.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\438.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\45.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\45.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\45.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\511.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\511.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\511.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\513.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\513.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\513.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\5352.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\5352.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\5352.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\725.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\725.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\725.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\73.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\73.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\73.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\741.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\741.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\741.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\746.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\746.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\746.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\8644.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\8644.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\8644.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\9529.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\9529.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\9529.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\a37.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\a37.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\a37.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad18.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad18.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad18.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad2.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad2.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad2.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ap330.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ap330.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ap330.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d14.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d14.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d14.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d35.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d35.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d35.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ed08.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ed08.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ed08.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\edd31.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\edd31.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\edd31.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\g20.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\g20.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\g20.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i22.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i22.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i22.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i340.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i340.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i340.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\j17.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\j17.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\j17.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\l16.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\l16.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\l16.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n47.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n47.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n47.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n50.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n50.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n50.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o336.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o336.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o336.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o4.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o4.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o4.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p21.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p21.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p21.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p5.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p5.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p5.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\s6.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\s6.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\s6.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\t433.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\t433.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\t433.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\u24.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\u24.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\u24.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w23.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w23.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w23.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w7.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w7.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w7.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\x48.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\x48.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\x48.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\y342.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\y342.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\y342.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ze10.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ze10.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ze10.jpg
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine21_slideshow\properties.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\properties.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\properties.txt
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow
+Copying folder from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\1p21.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\1p21.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\1p21.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\212.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\212.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\212.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\238.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\238.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\238.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\3473.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\3473.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\3473.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\39.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\39.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\39.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\438.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\438.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\438.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\4t433.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\4t433.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\4t433.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\511.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\511.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\511.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\513.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\513.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\513.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\515.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\515.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\515.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\533.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\533.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\533.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\53542.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\53542.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\53542.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\725.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\725.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\725.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\741.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\741.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\741.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\746.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\746.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\746.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\8644.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\8644.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\8644.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\926.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\926.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\926.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\927.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\927.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\927.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a34479.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a34479.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a34479.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a45.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a45.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a45.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\aa37.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\aa37.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\aa37.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad18.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad18.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad18.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad2.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad2.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad2.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ap330.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ap330.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ap330.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d14.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d14.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d14.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d35.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d35.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d35.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed08.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed08.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed08.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed4d31.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed4d31.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed4d31.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\g20.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\g20.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\g20.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i22.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i22.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i22.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i340.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i340.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i340.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\j17.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\j17.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\j17.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\l1d6.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\l1d6.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\l1d6.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\n50.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\n50.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\n50.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o336.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o336.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o336.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o4.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o4.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o4.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p139.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p139.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p139.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p5.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p5.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p5.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\r9529.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\r9529.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\r9529.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\sa6.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\sa6.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\sa6.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\t.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\t.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\t.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\u24.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\u24.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\u24.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w23.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w23.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w23.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w47.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w47.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w47.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\x48.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\x48.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\x48.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\y342.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\y342.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\y342.jpg
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ze10.jpg
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ze10.jpg
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ze10.jpg
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\slideshows\bloodnwine22_slideshow\properties.txt
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\properties.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\properties.txt
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+Copying file from:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\config\fancymenu\user_variables.db
+to
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\user_variables.db
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\user_variables.db
+[32mFolder copy complete.
+Source folder: ./config/fancymenu
+Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./config/fancymenu[0m
+[33mRemoving config files: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat] from [0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu[0m
+Checking relativePath: animations
+Checking relativePath: buttonscripts
+Checking relativePath: config.txt
+Checking relativePath: customguis
+Checking relativePath: customizablemenus.txt
+Checking relativePath: customization
+Checking relativePath: custom_locals
+Checking relativePath: locals
+Checking relativePath: menu_identifiers.db
+Checking relativePath: minecraftwindow
+Checking relativePath: panoramas
+Checking relativePath: slideshows
+Checking relativePath: user_variables.db
+[33mConfig file removal complete.[0m
+[33mDeleting folders: [songs, extraction_cache, slideshows] from [0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\songs[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\extraction_cache[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\12.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\13.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\15.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\1a111.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\20.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\21.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\22.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\25.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\26.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\27.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\28.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\29.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\30.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\3117.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\32.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\33.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\34.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\36.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\37.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\38.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\39.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\40.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\41.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\42.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\43.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\44.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\45.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\46.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\47.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\49.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\4d2.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\50.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\9.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\a1o4.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d08.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d14.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d18.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\d35.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\dd31.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\i.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\l16.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\p5.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\s6.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\u24.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w23.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\w7.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\x48.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images\z10.jpg[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\images[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow\properties.txt[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine20_slideshow[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\12.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\15.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\1p139.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\26.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\27.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\28.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\29.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3473.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\3479.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\438.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\45.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\511.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\513.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\5352.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\725.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\73.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\741.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\746.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\8644.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\9529.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\a37.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad18.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ad2.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ap330.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d14.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\d35.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ed08.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\edd31.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\g20.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i22.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\i340.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\j17.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\l16.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n47.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\n50.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o336.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\o4.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p21.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\p5.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\s6.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\t433.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\u24.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w23.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\w7.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\x48.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\y342.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images\ze10.jpg[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\images[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow\properties.txt[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine21_slideshow[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\1p21.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\212.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\238.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\3473.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\39.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\438.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\4t433.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\511.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\513.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\515.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\533.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\53542.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\725.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\741.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\746.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\8644.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\926.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\927.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a34479.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\a45.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\aa37.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad18.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ad2.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ap330.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d14.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\d35.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed08.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ed4d31.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\g20.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i22.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\i340.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\j17.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\l1d6.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\n50.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o336.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\o4.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p139.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\p5.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\r9529.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\sa6.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\t.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\u24.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w23.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\w47.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\x48.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\y342.jpg[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images\ze10.jpg[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\images[0m
+[35mDeleted:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow\properties.txt[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows\bloodnwine22_slideshow[0m
+[35mDeleted folder:[0m
+[35mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu\slideshows[0m
+[33mFolder deletion complete.[0m
+Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\config\fancymenu
 No deletions detected in the source folder.
 Deletion check complete.
 [33m[33mProcessing complete for this entry.[0m[0m
@@ -1616,7 +3069,7 @@ Deletion check complete.
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader\resources[0m
 [90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources[0m
 [33mCONFIG_LIST: [Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt, !_01_delete_files_missing_-.bat, !_02_delete_-converted_from_files.bat, !_2_delete_files_without_underscore.bat, !_3_remove_underscores_from_files.bat][0m
-[33mFOLDER_LIST: [songs, extraction_cache][0m
+[33mFOLDER_LIST: [songs, extraction_cache, slideshows][0m
 [33mSOURCE_FILES: [][0m
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources
@@ -1665,12 +3118,14 @@ Found match in configList: Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.tx
 Deleted: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
 Checking relativePath: contenttweaker
 [33mConfig file removal complete.[0m
-[33mDeleting folders: [songs, extraction_cache] from [0m
+[33mDeleting folders: [songs, extraction_cache, slideshows] from [0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\songs[0m
 [33mFolder not found:[0m
 [33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\extraction_cache[0m
+[33mFolder not found:[0m
+[33mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\slideshows[0m
 [33mFolder deletion complete.[0m
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources
 No deletions detected in the source folder.
