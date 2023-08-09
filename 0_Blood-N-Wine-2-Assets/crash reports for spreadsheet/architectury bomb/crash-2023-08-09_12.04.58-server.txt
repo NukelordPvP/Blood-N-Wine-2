@@ -1,0 +1,128 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 8/9/23 12:04 PM
+Description: Ticking memory connection
+
+java.lang.NullPointerException: Ticking memory connection
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:625) ~[?:1.8.0_51] {}
+	at me.shedaniel.architectury.event.EventFactory.invokeMethod(EventFactory.java:71) ~[?:?] {re:classloading}
+	at me.shedaniel.architectury.event.EventFactory.access$000(EventFactory.java:42) ~[?:?] {re:classloading}
+	at me.shedaniel.architectury.event.EventFactory$1.handleInvocation(EventFactory.java:80) ~[?:?] {re:classloading}
+	at com.google.common.reflect.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:84) ~[guava-21.0.jar:?] {}
+	at com.sun.proxy.$Proxy66.join(Unknown Source) ~[?:?] {}
+	at me.shedaniel.architectury.event.forge.EventHandlerImplCommon.event(EventHandlerImplCommon.java:111) ~[?:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_322_EventHandlerImplCommon_event_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus$$Lambda$3318/340621397.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.fml.hooks.BasicEventHooks.firePlayerLoggedIn(BasicEventHooks.java:30) ~[?:?] {re:classloading}
+	at net.minecraft.server.management.PlayerList.func_72355_a(PlayerList.java:232) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:curtain.mixins.json:rules.command_player.PlayerListMixin,pl:mixin:A}
+	at net.minecraft.network.login.ServerLoginNetHandler.func_147326_c(ServerLoginNetHandler.java:118) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:connectivity.mixins.json:ServerLoginNetHandlerMixin,pl:mixin:A}
+	at net.minecraft.network.login.ServerLoginNetHandler.func_73660_a(ServerLoginNetHandler.java:65) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:connectivity.mixins.json:ServerLoginNetHandlerMixin,pl:mixin:A}
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:222) ~[?:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:mixins.bloodnwine2resources.json:MixinNetworkManager,pl:mixin:A}
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:134) ~[?:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:865) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:78) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) [?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) [?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer$$Lambda$8484/756146778.run(Unknown Source) [?:?] {}
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 647492432 bytes (617 MB) / 2187853824 bytes (2086 MB) up to 4712824832 bytes (4494 MB)
+	CPUs: 16
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx5056m -Xms256m
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.35.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.35.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.35.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.35.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.35.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.35
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		supermartijn642configlib-1.1.7-forge-mc1.16.jar   |SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.7               |DONE      |Manifest: NOSIGNATURE
+		DontClearChatHistory-1.jar                        |Dont Clear Chat History       |dcch                          |1                   |DONE      |Manifest: NOSIGNATURE
+		upsizer-mc1.16.4-6.1.1.jar                        |Upsizer                       |upsizer                       |6.1.1               |DONE      |Manifest: NOSIGNATURE
+		camoucreeper-2.0.0.jar                            |Camouflaged Creepers          |camoucreepers                 |1.16.5-2.0.0        |DONE      |Manifest: NOSIGNATURE
+		player-animation-lib-forge-0.4.0+1.16.5.jar       |Player Animator               |playeranimator                |0.4.0+1.16.5        |DONE      |Manifest: NOSIGNATURE
+		allay-forge-1.16.5-4.2.0.jar                      |YDM's Allay Mod               |allay                         |4.2.0               |DONE      |Manifest: NOSIGNATURE
+		connectivity-2.4-1.16.5.jar                       |Connectivity Mod              |connectivity                  |2.4-1.16.5          |DONE      |Manifest: NOSIGNATURE
+		InsaneLib-1.4.2-mc1.16.5.jar                      |InsaneLib                     |insanelib                     |1.4.2               |DONE      |Manifest: NOSIGNATURE
+		ForgeEndertech-1.16.5-7.3.0.0-build.0330.jar      |ForgeEndertech                |forgeendertech                |7.3.0.0             |DONE      |Manifest: NOSIGNATURE
+		TerraForged-1.16.5-0.2.16.jar                     |TerraForged                   |terraforged                   |0.2.16              |DONE      |Manifest: 7b:73:d0:a2:c3:40:13:84:35:4f:c9:0e:2b:85:8c:08:ea:3c:3c:eb:f1:98:8b:5b:6e:ca:8a:a0:9a:cf:12:b3
+		BetterSprinting-1.16.3-v3.2.0.jar                 |Better Sprinting              |bettersprinting               |3.2.0               |DONE      |Manifest: NOSIGNATURE
+		SereneSeasons-1.16.5-4.0.1.130-universal.jar      |Serene Seasons                |sereneseasons                 |1.16.5-4.0.1.130    |DONE      |Manifest: NOSIGNATURE
+		configured-1.5.4-1.16.5.jar                       |Configured                    |configured                    |1.5.4               |DONE      |Manifest: NOSIGNATURE
+		oreconfig-1.2.0.jar                               |Ore Config                    |oreconfig                     |1.2.0               |DONE      |Manifest: NOSIGNATURE
+		farsight-1.7.jar                                  |Farsight mod                  |farsight_view                 |1.7                 |DONE      |Manifest: NOSIGNATURE
+		FpsReducer-forge-1.24-mc1.16.5.jar                |FPS Reducer                   |fpsreducer                    |1.24-mc1.16.5       |DONE      |Manifest: NOSIGNATURE
+		CraftableDebugStick.jar                           |Craftable Debugstick          |craftable_debugstick          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		AdPother-1.16.5-4.2.1.1-build.0351.jar            |Pollution of the Realms       |adpother                      |4.2.1.1             |DONE      |Manifest: NOSIGNATURE
+		ThrowableExplosives-1.16.5-1.2.0.jar              |Throwable Explosives          |throwableexplosives           |1.2.0               |DONE      |Manifest: NOSIGNATURE
+		dragonfight-1.8-patched.jar                       |dragonfight mod               |dragonfight                   |1.8                 |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.35-universal.jar                |Forge                         |forge                         |36.2.35             |DONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		sereneseasonsphc2crops-1.16.5-1.0.1.jar           |Serene Seasons - Pam's Harvest|sereneseasonsphc2crops        |1.16.5-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		bloodnwine2resources-0.6.6.8.jar                  |Blood N Wine 2 Resources      |bloodnwine2resources          |0.6.6.8             |DONE      |Manifest: NOSIGNATURE
+		curtain-mc1.16.5-1.2.2.jar                        |Curtain                       |curtain                       |1.2.2               |DONE      |Manifest: NOSIGNATURE
+		out_of_sight-1.16.4-1.0.1.jar                     |Out of Sight                  |out_of_sight                  |1.16.4-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.35-client.jar                   |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: NOSIGNATURE
+		smoothchunk1.16.5-2.0.jar                         |Smoothchunk mod               |smoothchunk                   |2.0                 |DONE      |Manifest: NOSIGNATURE
+		biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar      |BiggerChatHistory             |biggerchathistory             |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5|Better Compatibility Checker  |bcc                           |1.0.7-build.22+mc1.1|DONE      |Manifest: NOSIGNATURE
+		woodarmor-1.16.5.jar                              |Wooden Armors Mod             |woodarmor                     |1.16.5              |DONE      |Manifest: NOSIGNATURE
+		forgedfabric-0.0.7+1.16.jar                       |ForgedFabric API              |forgedfabric                  |NONE                |DONE      |Manifest: NOSIGNATURE
+		bettercombat-1.4.5.3+1.16.jar                     |Better Combat                 |bettercombat                  |1.4.5.3+1.16        |DONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-1.16.5-13.1.0.488-universal.jar     |Biomes O' Plenty              |biomesoplenty                 |1.16.5-13.1.0.488   |DONE      |Manifest: NOSIGNATURE
+		simpleshops-1.1.3.jar                             |Simple Shops                  |simpleshops                   |1.1.3               |DONE      |Manifest: NOSIGNATURE
+		pamhc2crops-1.16.3-1.0.2.jar                      |Pam's HarvestCraft 2 Crops    |pamhc2crops                   |version             |DONE      |Manifest: NOSIGNATURE
+		propertymodifier-1.16.5-0.6.4.jar                 |Property Modifier             |propertymodifier              |1.16.5-0.6.4        |DONE      |Manifest: NOSIGNATURE
+		DeadlyWorld-1.16.5-1.0.0.jar                      |Deadly World                  |deadlyworld                   |NONE                |DONE      |Manifest: NOSIGNATURE
+		cavesandcliffs-1.16.5-7.2.0.jar                   |Caves and Cliffs Backport     |cavesandcliffs                |1.16.5-7.2.0        |DONE      |Manifest: NOSIGNATURE
+		IguanaTweaksReborn-2.8.5-mc1.16.5.jar             |IguanaTweaks Reborn           |iguanatweaksreborn            |2.8.5               |DONE      |Manifest: NOSIGNATURE
+		CavesCliffsBackportAdditions-3.4.1jar.jar         |CavesandCliffsbackportaddition|cavesandcliffsbackportaddition|3.4                 |DONE      |Manifest: NOSIGNATURE
+		LongerDays-2.0.0-mc1.16.4.jar                     |Longer Days                   |longerdays                    |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		brutalbosses-4.7.jar                              |brutalbosses mod              |brutalbosses                  |4.7                 |DONE      |Manifest: NOSIGNATURE
+		collective-1.16.5-5.49.jar                        |Collective                    |collective                    |5.49                |DONE      |Manifest: NOSIGNATURE
+		serverconfigupdater-1.3.2.jar                     |ServerConfig Updater          |serverconfigupdater           |1.3.2               |DONE      |Manifest: NOSIGNATURE
+		glennsGasesPort1.16-1.0.6.jar                     |Gases Framework               |gasesframework                |1.0.6               |DONE      |Manifest: NOSIGNATURE
+		Exlosive Arrows 1_16_x.jar                        |Baumkuchen's Explosive Arrows |bkexplosivearrows             |[1.16,)             |DONE      |Manifest: NOSIGNATURE
+		cavebiomeapi-1.16.5-1.4.2.jar                     |CaveBiomeAPI                  |cavebiomeapi                  |1.16.5-1.4.2        |DONE      |Manifest: NOSIGNATURE
+		architectury-1.32.68.jar                          |Architectury                  |architectury                  |1.32.68             |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-1605.3.4-build.90.jar           |FTB Library                   |ftblibrary                    |1605.3.4-build.90   |DONE      |Manifest: NOSIGNATURE
+		item-filters-forge-1605.2.5-build.9.jar           |Item Filters                  |itemfilters                   |1605.2.5-build.9    |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-1605.2.3-build.40.jar             |FTB Teams                     |ftbteams                      |1605.2.3-build.40   |DONE      |Manifest: NOSIGNATURE
+		ftb-quests-forge-1605.3.7-build.165.jar           |FTB Quests                    |ftbquests                     |1605.3.7-build.165  |DONE      |Manifest: NOSIGNATURE
+		cloth-config-4.17.101-forge.jar                   |Cloth Config v4 API           |cloth-config                  |4.17.101            |DONE      |Manifest: NOSIGNATURE
+		chunksending-1.16.5-2.5.jar                       |chunksending mod              |chunksending                  |1.16.5-2.5          |DONE      |Manifest: NOSIGNATURE
+		altereddamage_1.16.5-1.5.jar                      |Altered Damage                |altereddamage                 |1.5                 |DONE      |Manifest: NOSIGNATURE
+		NatureExpansion1.5.jar                            |Nature Expansion              |nature_expansion              |1.3.0               |DONE      |Manifest: NOSIGNATURE
+		DefaultOptions_1.16.5-12.2.1.jar                  |Default Options               |defaultoptions                |12.2.1              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 06f398a1-2978-4608-a91c-872f4d646fe5
+	Player Count: 1 / 8; [ServerPlayerEntity['IH8teMinorities'/250, l='ServerLevel[New World]', x=2801.20, y=74.00, z=-5415.80]]
+	Data Packs: vanilla, mod:forge, mod:supermartijn642configlib, mod:dcch, mod:upsizer, mod:camoucreepers, mod:playeranimator, mod:allay (incompatible), mod:connectivity, mod:insanelib, mod:forgeendertech, mod:terraforged, mod:bettersprinting (incompatible), mod:sereneseasons, mod:configured, mod:oreconfig, mod:farsight_view, mod:fpsreducer, mod:craftable_debugstick, mod:adpother, mod:throwableexplosives, mod:dragonfight, mod:sereneseasonsphc2crops, mod:bloodnwine2resources, mod:curtain, mod:out_of_sight (incompatible), mod:smoothchunk, mod:biggerchathistory (incompatible), mod:bcc (incompatible), mod:woodarmor, mod:forgedfabric, mod:bettercombat (incompatible), mod:biomesoplenty, mod:simpleshops, mod:pamhc2crops (incompatible), mod:propertymodifier, mod:deadlyworld, mod:cavesandcliffs, mod:iguanatweaksreborn (incompatible), mod:cavesandcliffsbackportadditions, mod:longerdays (incompatible), mod:brutalbosses, mod:collective, mod:serverconfigupdater (incompatible), mod:gasesframework, mod:bkexplosivearrows, mod:cavebiomeapi, mod:architectury, mod:ftblibrary, mod:itemfilters, mod:ftbteams, mod:ftbquests, mod:cloth-config (incompatible), mod:chunksending, mod:altereddamage, mod:nature_expansion, mod:defaultoptions (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'
