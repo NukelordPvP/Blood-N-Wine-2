@@ -1,0 +1,10 @@
+
+#General mod settings
+[general]
+	#Range: 1.0 ~ 30000.0
+	tileEntityRenderRangeMax = 64.0
+	#Range: 1.0 ~ 30000.0
+	entityRenderRangeMax = 140.0
+	tileEntityRenderLimitModdedOnly = false
+	entityRenderLimitModdedOnly = false
+
