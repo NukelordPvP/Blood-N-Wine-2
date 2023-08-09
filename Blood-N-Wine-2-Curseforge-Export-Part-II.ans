@@ -3079,23 +3079,20 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\7OOF.zip
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\7OOF.zip
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader\resources\7OOF.zip
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\7OOF.zip
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\7OOF.zip
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\Bloody_Minerals.zip
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\Bloody_Minerals.zip
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader\resources\Bloody_Minerals.zip
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\Bloody_Minerals.zip
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\Bloody_Minerals.zip
 Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\Bloody_Minerals_=_Wolfrest's_Better_Minerology_1.3.txt
 Copying folder from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\contenttweaker
 to
@@ -3104,9 +3101,8 @@ Copying file from:
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\openloader\resources\contenttweaker\pack.mcmeta
 to
 C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\contenttweaker\pack.mcmeta
-File copied successfully.
-Source file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\.\openloader\resources\contenttweaker\pack.mcmeta
-Destination file: C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\contenttweaker\pack.mcmeta
+Destination file is up-to-date. Skipping file copy:
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export.\openloader\resources\contenttweaker\pack.mcmeta
 [32mFolder copy complete.
 Source folder: ./openloader/resources
 Destination folder: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export./openloader/resources[0m
