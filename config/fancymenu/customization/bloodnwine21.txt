@@ -159,9 +159,9 @@ customization {
 customization {
   identifier = %id=3763941%
   orientation = mid-right
-  x = -172
+  x = -150
   action = movebutton
-  y = -12
+  y = -50
 }
 
 customization {
@@ -328,5 +328,22 @@ customization {
   y = -52
   scale = 30
   parrot = false
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = mid-right
+  x = -173
+  action = movebutton
+  y = -12
+}
+
+customization {
+  identifier = %id=376310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen/bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen/bloodnwine2bynukelord420bg2.png
 }
 

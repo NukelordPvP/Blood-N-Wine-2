@@ -28,7 +28,7 @@
 	"Wobbly Cow Udder" = true
 	#Changes wolf tails to be fluffier and flowier, wagging realistically while they stand and run.
 	#Also makes tamed wolves lie down instead of sitting. Hold up some meat and they'll roll over, too.
-	"Playful Doggy" = true
+	"Playful Doggy" = false
 	#If an enderman is angry it will wave its arms around wildly while chasing its target.
 	#Suits their twisted nature very well.
 	"Arm Flailing Enderman" = true
@@ -145,7 +145,7 @@
 	"Mob Blacklist" = []
 	#Different directional behaviour modes for the walking animation.
 	#Allowed Values: SIDE, FRONT, CIRCLE, RANDOM
-	"Wobble Direction" = "SIDE"
+	"Wobble Direction" = "RANDOM"
 
 [wobbly_cow_udder]
 	#Mob variants these model changes shouldn't be applied to.

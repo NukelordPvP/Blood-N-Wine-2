@@ -17,7 +17,7 @@
 	#Allowed Values: KEYSYM, SCANCODE, MOUSE
 	keyTypeOptionsMenu = "KEYSYM"
 	#Allowed Values: TAP, HOLD
-	sprintKeyMode = "HOLD"
+	sprintKeyMode = "TAP"
 	#Range: 0 ~ 7
 	flySpeedBoost = 3
 	flyOnGround = true

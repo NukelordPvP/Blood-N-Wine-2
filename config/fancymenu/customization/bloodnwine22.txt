@@ -23,7 +23,7 @@ customization {
   orientation = mid-left
   x = 3
   action = movebutton
-  y = -31
+  y = -30
 }
 
 customization {
@@ -88,7 +88,7 @@ customization {
   orientation = mid-left
   x = 3
   action = movebutton
-  y = -50
+  y = -48
 }
 
 customization {
@@ -129,9 +129,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
-  x = 3
+  x = 4
   action = movebutton
-  y = 11
+  y = 10
 }
 
 customization {
@@ -159,9 +159,9 @@ customization {
 customization {
   identifier = %id=3763941%
   orientation = mid-left
-  x = 156
+  x = 133
   action = movebutton
-  y = -10
+  y = -48
 }
 
 customization {
@@ -185,7 +185,7 @@ customization {
   orientation = mid-left
   x = 87
   action = movebutton
-  y = 11
+  y = 10
 }
 
 customization {
@@ -328,5 +328,22 @@ customization {
   y = -53
   scale = 30
   parrot = false
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = mid-left
+  x = 155
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=376310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen/bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen/bloodnwine2bynukelord420bg2.png
 }
 

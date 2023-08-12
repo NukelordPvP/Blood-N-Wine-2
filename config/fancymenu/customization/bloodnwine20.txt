@@ -84,6 +84,23 @@ customization {
 }
 
 customization {
+  identifier = %id=376310%
+  orientation = mid-centered
+  x = -3
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=376310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen/bloodnwine2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen/bloodnwine2bynukelord420bg2.png
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -42
@@ -129,9 +146,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = 5
+  x = -86
   action = movebutton
-  y = 33
+  y = -7
 }
 
 customization {
@@ -183,9 +200,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -88
+  x = 4
   action = movebutton
-  y = -7
+  y = 33
 }
 
 customization {
