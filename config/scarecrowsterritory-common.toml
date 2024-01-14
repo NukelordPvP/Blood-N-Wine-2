@@ -4,7 +4,7 @@
     loadSpawners = true
 
     # In what range will the scarecrows load spawners?
-    # Allowed range: 1.0 ~ 25.0 - Default: 8.0
+    # Allowed range: 1.0 ~ 25.0 - Default: 5.0
     loadSpawnerRange = 8.0
 
     # Should mobs passively spawn within the scarecrows' range
@@ -14,4 +14,8 @@
     # In what range will mobs passively spawn?
     # Allowed range: 1.0 ~ 128.0 - Default: 8.0
     passiveMobRange = 8.0
+
+    # How many blocks away in addition to passiveMobRange and loadSpawnerRange should mobs be prevented from despawning? I.e. no despawn range = max(passiveMobRange, loadSpawnerRange) + noDespawnBuffer.
+    # Allowed range: 0.0 ~ 128.0 - Default: 10.0
+    noDespawnBuffer = 10.0
 

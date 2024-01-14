@@ -22913,14 +22913,15 @@ No deletions detected in the source folder.
 Deletion check complete.
 [33m[33mProcessing complete for this entry.[0m[0m
 [33mProcessing entry:[0m
-[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\!_bnw2-version-2.2[0m
-[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.2[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\!_bnw2-version-2.4[0m
+[90mC:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.4[0m
 Copying file from:
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\!_bnw2-version-2.2
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\!_bnw2-version-2.4
 to
-C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.2
-ERROR: Source file not found:
-/!_bnw2-version-2.2
+C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export\!_bnw2-version-2.4
+File copied successfully.
+Source file: /!_bnw2-version-2.4
+Destination file: Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/!_bnw2-version-2.4
 Checking for deletions in C:\Games\CurseForge\Minecraft\Instances\Blood-N-Wine-2\.\Blood-N-Wine-2-Export\Blood-N-Wine-2-Curseforge-Export
 No deletions detected in the source folder.
 Deletion check complete.

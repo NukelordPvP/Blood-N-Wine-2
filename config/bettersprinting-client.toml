@@ -19,7 +19,7 @@
 	#Allowed Values: TAP, HOLD
 	sprintKeyMode = "TAP"
 	#Range: 0 ~ 7
-	flySpeedBoost = 3
+	flySpeedBoost = 4
 	flyOnGround = true
 	enableDoubleTap = true
 	enableAllDirs = false

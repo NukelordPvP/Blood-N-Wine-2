@@ -2,7 +2,50 @@
   "selections": {
     "mode": "NORMAL"
   },
-  "placements": {},
+  "placements": {
+    "placements": [
+      {
+        "schematic": "C:\\Games\\CurseForge\\Minecraft\\Instances\\Blood-N-Wine-2\\schematics\\_qnT\u0027s Tunnel Bore for Tinkers Construct and Quark.litematic",
+        "name": "_qnT\u0027s Tunnel Bore for Tinkers Construct and Quark",
+        "origin": [
+          -303,
+          139,
+          356
+        ],
+        "rotation": "NONE",
+        "mirror": "NONE",
+        "ignore_entities": false,
+        "enabled": true,
+        "enable_render": true,
+        "render_enclosing_box": false,
+        "locked": false,
+        "locked_coords": 0,
+        "bb_color": 8404597,
+        "verifier_type": "all",
+        "placements": [
+          {
+            "name": "_qnT\u0027s Tunnel Bore for Tinkers Construct and Quark",
+            "placement": {
+              "pos": [
+                10,
+                6,
+                0
+              ],
+              "name": "_qnT\u0027s Tunnel Bore for Tinkers Construct and Quark",
+              "rotation": "NONE",
+              "mirror": "NONE",
+              "locked_coords": 0,
+              "enabled": true,
+              "rendering_enabled": true,
+              "ignore_entities": false
+            }
+          }
+        ]
+      }
+    ],
+    "selected": 0,
+    "origin_selected": true
+  },
   "schematic_projects_manager": {},
   "operation_mode": "SCHEMATIC_PLACEMENT",
   "render_range": {
