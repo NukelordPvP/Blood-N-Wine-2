@@ -88,8 +88,8 @@ CONFIG_LIST:
   seamless_loading_screen-1.16.5-1.1.7.jar
   TRansliterationLib-1.0.4.jar
   AnimatedRecipeBook-v1.3.2-1.16.5.jar
-  drippyloadingscreen_forge_2.2.2_MC_1.16.5.jar
-  fancymenu_forge_2.14.9_MC_1.16.2-1.16.5.jar
+  drippyloadingscreen_forge_1.6.6_MC_1.16.2-1.16.5.jar
+  fancymenu_forge_2.14.3_MC_1.16.2-1.16.5.jar
   skinlayers3d-forge-1.6.2-mc1.16.5.jar
   DefaultOptions_1.16.5-12.2.1.jar
   FpsReducer-forge-1.24-mc1.16.5.jar
@@ -108,6 +108,7 @@ CONFIG_LIST:
   BetterThirdPerson-Forge-1.16.4-1.9.0.jar
   auudio_forge_1.0.3-1_MC_1.16.2-1.16.5.jar
   biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
+  Highlighter-1.16.5-1.1.1.jar
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
