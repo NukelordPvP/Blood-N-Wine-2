@@ -1,16 +1,16 @@
 #Blood-N-Wine-2-Modrinth-Export steps to create the !_Blood N Wine 2 x.x.mrpack
 #Step 1
-Build the Blood-N-Wine-2-Technic-Export
+Build the Blood-N-Wine-2-CurseForge-Export
 #Step 2
 Install the Prism Launcher
 #Step 3
 Press the add instance button in upper left corner of the program
 #Step 4
-Open the Technic Tab -> In Search and Filter search for -> Blood N Wine 2 -> Click Search
+Open the Curseforge Tab -> In Search and Filter search for -> Blood N Wine 2 -> Click Search
 #Step 5
 Install Blood N Wine 2
 #Step 6
-Once done importing the Technic version of the modpack, right click the Blood N Wine 2 Profile
+Once done importing the Curseforge version of the modpack, right click the Blood N Wine 2 Profile
 #Step 7
 Click Export -> Modrinth (mrpack)
 #Step 8
