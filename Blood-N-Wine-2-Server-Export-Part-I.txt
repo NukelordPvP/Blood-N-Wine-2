@@ -106,6 +106,8 @@ CONFIG_LIST:
   DistantHorizons-2.0.1-a-1.16.5.jar
   InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar
   BetterThirdPerson-Forge-1.16.4-1.9.0.jar
+  auudio_forge_1.0.3-1_MC_1.16.2-1.16.5.jar
+  biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
