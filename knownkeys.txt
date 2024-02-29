@@ -187,3 +187,4 @@ key.jei.bookmark
 key.jei.toggleBookmarkOverlay
 key.waila.show_recipes
 key.waila.show_uses
+gui.xaero_toggle_dimension
