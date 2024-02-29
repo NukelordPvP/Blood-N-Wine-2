@@ -80,6 +80,9 @@ SOURCE_FILES:
   - SOURCE=/servers.dat
     CUSTOM_OUTPUT_DIR=/servers.dat
 
+  - SOURCE=/options.txt
+    CUSTOM_OUTPUT_DIR=/options.dat
+
 #Deletes? confirmed!
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.
