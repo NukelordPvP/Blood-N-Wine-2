@@ -164,3 +164,47 @@ config/FatherToast/specialmobs/zombified_piglins/vampire_zombified_piglins.toml
 
 #ignore minecraftinstance
 minecraftinstance.json
+
+#ignore constantly updating files
+config/FatherToast/specialmobs/drowned/abyssal_drowned.toml
+config/FatherToast/specialmobs/drowned/brute_drowned.toml
+config/FatherToast/specialmobs/drowned/fishing_drowned.toml
+config/FatherToast/specialmobs/drowned/frozen_drowned.toml
+config/FatherToast/specialmobs/drowned/giant_drowned.toml
+config/FatherToast/specialmobs/drowned/hungry_drowned.toml
+config/FatherToast/specialmobs/drowned/knight_drowned.toml
+config/FatherToast/specialmobs/drowned/plague_drowned.toml
+config/FatherToast/specialmobs/skeletons/brute_skeletons.toml
+config/FatherToast/specialmobs/skeletons/fire_skeletons.toml
+config/FatherToast/specialmobs/skeletons/gatling_skeletons.toml
+config/FatherToast/specialmobs/skeletons/giant_skeletons.toml
+config/FatherToast/specialmobs/skeletons/knight_skeletons.toml
+config/FatherToast/specialmobs/skeletons/ninja_skeletons.toml
+config/FatherToast/specialmobs/skeletons/poison_skeletons.toml
+config/FatherToast/specialmobs/skeletons/sniper_skeletons.toml
+config/FatherToast/specialmobs/skeletons/spitfire_skeletons.toml
+config/FatherToast/specialmobs/skeletons/stray_skeletons.toml
+config/FatherToast/specialmobs/skeletons/weathered_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/brute_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/gatling_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/giant_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/knight_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/ninja_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/sniper_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/spitfire_wither_skeletons.toml
+config/FatherToast/specialmobs/zombies/brute_zombies.toml
+config/FatherToast/specialmobs/zombies/fire_zombies.toml
+config/FatherToast/specialmobs/zombies/fishing_zombies.toml
+config/FatherToast/specialmobs/zombies/frozen_zombies.toml
+config/FatherToast/specialmobs/zombies/giant_zombies.toml
+config/FatherToast/specialmobs/zombies/hungry_zombies.toml
+config/FatherToast/specialmobs/zombies/husk_zombies.toml
+config/FatherToast/specialmobs/zombies/mad_scientist_zombies.toml
+config/FatherToast/specialmobs/zombies/plague_zombies.toml
+config/FatherToast/specialmobs/zombified_piglins/brute_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/fishing_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/giant_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/hungry_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/knight_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/plague_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/vampire_zombified_piglins.toml
