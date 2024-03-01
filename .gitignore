@@ -125,9 +125,6 @@ config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Men
 config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music-II.bomb
 config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music.bomb
 
-#ignore options.txt
-options.txt
-
 #ignore constantly updating files
 abyssal_drowned.toml
 brute_drowned.toml
