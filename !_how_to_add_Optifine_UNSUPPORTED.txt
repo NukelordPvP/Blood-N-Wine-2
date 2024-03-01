@@ -1,0 +1,7 @@
+To use optifine shaders remove (this list is outdated you will have to figure out what else to remove):
+bmvsb-1.0.2.jar
+dynamiclightsreforged-mc1.16.5_v1.0.1.jar
+magnesium_extras-mc1.16.5_v1.4.0.jar
+rubidium-0.2.12.jar
+DistantHorizons-2.0.1-a-1.16.5.jar
+oculus-1.4.5.jar

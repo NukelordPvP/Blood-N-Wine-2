@@ -1,0 +1,1 @@
+To use DistantHorizons install/enable the .disabled mod and disable shaders because LOD is incompatible with shaders in 1.16.5.
