@@ -82,6 +82,9 @@ SOURCE_FILES:
 
   - SOURCE=/options.txt
     CUSTOM_OUTPUT_DIR=/options.dat
+
+  - SOURCE=/minecraftinstance.json
+    CUSTOM_OUTPUT_DIR=/minecraftinstance.json
     
 #Deletes? confirmed!
 # List of client-side config files to be removed from the copied folder.
