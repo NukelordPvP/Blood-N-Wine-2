@@ -80,7 +80,6 @@ CONFIG_LIST:
   LegendaryTooltips-1.16.5-1.3.1.jar
   magnesium_extras-mc1.16.5_v1.4.0.jar
   notenoughanimations-1.2.4.jar
-  oculus-1.4.5.jar
   physics-mod-pro-v36b-forge-1.16.5.jar
   ReAuth-1.16-Forge-4.0.7.jar
   recast_1.16.5-1.5.jar
@@ -102,13 +101,13 @@ CONFIG_LIST:
   DynamicSurroundings-1.16.5-4.0.5.0.jar
   EnchantmentDescriptions-1.16.5-7.1.23.jar
   Controlling-7.0.0.30.jar
-  DistantHorizons-2.0.1-a-1.16.5.jar.disabled
-  DistantHorizons-2.0.1-a-1.16.5.jar
   InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar
   BetterThirdPerson-Forge-1.16.4-1.9.0.jar
   auudio_forge_1.0.3-1_MC_1.16.2-1.16.5.jar
   biggerchathistory_1.0.0_MC_1.16.2-1.16.5.jar
   Highlighter-1.16.5-1.1.1.jar
+  DistantHorizons-2.0.1-a-1.16.5-Oculus-shadow-fix.jar
+  oculus-mc1.16.5-1.4.7-DH-support.jar
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.

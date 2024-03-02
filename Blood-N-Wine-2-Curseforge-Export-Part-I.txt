@@ -104,6 +104,8 @@ CONFIG_LIST:
   DeadlyWorld-1.16.5-1.0.0.jar
   curtain-mc1.16.5-1.2.2.jar
   bettercombat-1.4.5.3+1.16.jar
+  DistantHorizons-2.0.1-a-1.16.5-Oculus-shadow-fix.jar
+  oculus-mc1.16.5-1.4.7-DH-support.jar
 #  mods_-_closed_perms_list_for_exporting_to_Modrinth
   AdPother-1.16.5-4.2.1.1-build.0351.jar
   allay-forge-1.16.5-4.2.0.jar
