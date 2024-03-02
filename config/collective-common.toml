@@ -9,7 +9,7 @@
 	#Range: 0 ~ 3600000
 	findABlockcheckAroundEntitiesDelayMs = 30000
 	#Please check out https://stopmodreposts.org/ for more information on why this feature exists.
-	enableAntiRepostingCheck = true
+	enableAntiRepostingCheck = false
 	#Enables pets for Patrons. Will be added in a future release.
-	enablePatronPets = true
+	enablePatronPets = false
 

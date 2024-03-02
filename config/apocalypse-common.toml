@@ -1,7 +1,7 @@
 
 [version_check]
 	#If enabled, the player will receive an in-game message when a new mod update is released.
-	sendUpdateMessage = true
+	sendUpdateMessage = false
 
 [difficulty]
 	#If enabled, world difficulty will increased by the configured multiplier
