@@ -65,8 +65,8 @@ SOURCE_FOLDERS:
 # Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FILES:
 
-  - SOURCE=/!_bnw2-version-2.5.1
-    CUSTOM_OUTPUT_DIR=/!_bnw2-version-2.5.1
+  - SOURCE=/!_bnw2-version-2.6
+    CUSTOM_OUTPUT_DIR=/!_bnw2-version-2.6
 
   - SOURCE=/!_bnw2-forge-1.16.5-36.2.35
     CUSTOM_OUTPUT_DIR=/!_bnw2-forge-1.16.5-36.2.35
