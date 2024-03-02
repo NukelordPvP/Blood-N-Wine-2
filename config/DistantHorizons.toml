@@ -352,7 +352,7 @@ _version = 2
 				radius = 4.0
 				# Enable Screen Space Ambient Occlusion
 				# 
-				enabled = false
+				enabled = true
 
 			[client.advanced.graphics.advancedGraphics]
 				# What the value should vanilla Minecraft's texture LodBias be? 
@@ -457,7 +457,7 @@ _version = 2
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
 				# 
-				horizontalQuality = "LOW"
+				horizontalQuality = "MEDIUM"
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
@@ -465,7 +465,7 @@ _version = 2
 				# DISABLED: LODs will be opaque. 
 				# 
 				# 
-				transparency = "FAKE"
+				transparency = "COMPLETE"
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 
 				# Higher options will make the world more accurate, butwill increase memory and GPU usage. 
@@ -473,7 +473,7 @@ _version = 2
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
 				# 
-				verticalQuality = "LOW"
+				verticalQuality = "MEDIUM"
 				# What blocks shouldn't be rendered as LODs? 
 				# 
 				# NONE: Represent all blocks in the LODs 
@@ -647,7 +647,7 @@ _version = 2
 			# WARNING: This may cause world generator bugs or instability when paired with certain world generator mods. 
 			# 
 			# 
-			distantGeneratorMode = "FEATURES"
+			distantGeneratorMode = "PRE_EXISTING_ONLY"
 			# How long should a world generator thread run for before timing out? 
 			# Note: If you are experiencing timeout errors it is better to lower your CPU usage first 
 			# via the thread config before changing this value. 
