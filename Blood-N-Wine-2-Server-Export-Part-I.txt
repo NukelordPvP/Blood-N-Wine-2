@@ -108,6 +108,7 @@ CONFIG_LIST:
   Highlighter-1.16.5-1.1.1.jar
   DistantHorizons-2.0.1-a-1.16.5-Oculus-shadow-fix.jar
   oculus-mc1.16.5-1.4.7-DH-support.jar
+  OptifineCapes-1.16.x-1.1.jar
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.

@@ -172,6 +172,9 @@ vampire_zombified_piglins.toml
 #ignore .curseclient
 .curseclient
 
+#ignore Distant Horizons server data
+Distant_Horizons_server_data/
+
 #ignore impossible_data
 what_is_this_folder.txt
 
