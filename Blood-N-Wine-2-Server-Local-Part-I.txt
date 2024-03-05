@@ -110,6 +110,10 @@ CONFIG_LIST:
   oculus-mc1.16.5-1.4.7-DH-support.jar
   OptifineCapes-1.16.x-1.1.jar
   cataclysmbossbar-1.16.5-1.0.1.jar
+  embeddiumextension-1.16.5-0.1.1.jar
+  embeddiumextras-mc1.16.5_v1.11.9.jar
+  bocchium-1.16.5-0.0.2.jar
+  heaven-burner-1.0.0.jar
 
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.

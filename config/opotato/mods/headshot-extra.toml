@@ -1,0 +1,8 @@
+
+[HeadshotExtraConfig]
+	enableDingOnHeadshot = true
+	#Range: 0.01 ~ 1.7976931348623157E308
+	dingOnHeadshotVolume = 1.0
+	#Range: 0.01 ~ 1.7976931348623157E308
+	dingOnHeadshotPitch = 1.0
+
