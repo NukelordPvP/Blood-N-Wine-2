@@ -1,0 +1,6 @@
+
+[ConfigurableConflicts]
+	#Format: 'minecraft:infinity;minecraft:mending', that will make this two enchantments compatible
+	enchantmentsToBeAlwaysIncompatible = []
+	enchantmentsToBeAlwaysCompatible = []
+

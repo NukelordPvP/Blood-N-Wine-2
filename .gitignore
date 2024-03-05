@@ -181,3 +181,7 @@ what_is_this_folder.txt
 #ignore worldedit
 WorldEdit-CUI-FE3-1.16.5-3.0.9.jar
 worldedit-mod-7.2.5-dist.jar
+
+#ignore litematica data
+config/litematica/*
+schematics/litematics_private/*

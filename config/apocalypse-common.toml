@@ -191,16 +191,16 @@
 
 [misc]
 	#A list of blocks that the destroyer cannot explode. Generally speaking this list should be empty since destroyers are supposed to destroy any block, but if an exception is absolutely needed, the block in question can be whitelisted here.
-	destroyerProofBlocks = ["minecraft:spawner", "minecraft:barrier", "minecraft:bedrock", "minecraft:obsidian", "minecraft:crying_obsidian", "minecraft:water", "minecraft:lava", "minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:end_gateway", "minecraft:command_block", "minecraft:command_block_minecart", "minecraft:repeating_command_block", "minecraft:chain_command_block", "minecraft:structure_block", "minecraft:structure_void", "minecraft:nether_portal", "minecraft:end_gateway", "minecraft:cobblestone_wall", "minecraft:mossy_cobblestone_wall", "minecraft:stone", "minecraft:stone_bricks", "minecraft:mossy_stone_bricks", "minecraft:cracked_stone_bricks", "minecraft:chiseled_stone_bricks", "minecraft:deepslate", "minecraft:iron_door", "minecraft:iron_trapdoor", "minecraft:netherite_block", "minecraft:iron_block", "minecraft:diamond_block", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:ancient_debris", "quark:framed_glass", "tconstruct:clear_glass", "tconstruct:seared_bricks", "tconstruct:smeltery_controller", "tconstruct:seared_drain", "tconstruct:seared_fuel_tank", "tconstruct:seared_heater", "tconstruct:seared_melter", "tconstruct:tinkers_anvil", "cavesandcliffs:cobbled_deepslate", "cavesandcliffs:polished_deepslate", "dead_guys_untitled_deep_dark_:cold_deep_stone", "dead_guys_untitled_deep_dark_:deep_stone", "dead_guys_untitled_deep_dark_:deep_slate", "cavesandcliffs:deepslate"]
+	destroyerProofBlocks = ["minecraft:spawner", "minecraft:barrier", "minecraft:bedrock", "minecraft:obsidian", "minecraft:crying_obsidian", "minecraft:water", "minecraft:lava", "minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:end_gateway", "minecraft:command_block", "minecraft:command_block_minecart", "minecraft:repeating_command_block", "minecraft:chain_command_block", "minecraft:structure_block", "minecraft:structure_void", "minecraft:nether_portal", "minecraft:end_gateway", "minecraft:netherite_block", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:ancient_debris"]
 	#This is the chance in percentage for grumps to spawn with a bucket helmet equipped. Grumps with bucket helmets are heavily armored against arrows.
 	#Range: 0.0 ~ 1.0
 	grumpBucketHelmetChance = 1.0
 	#The explosion power of Seeker fireballs.
 	#Range: 1 ~ 10
-	seekerExplosionPower = 4
+	seekerExplosionPower = 2
 	#The explosion power of Destroyer fireballs.
 	#Range: 1 ~ 10
-	destroyerExplosionPower = 2
+	destroyerExplosionPower = 1
 	#If enabled, Destroyers will attempt to blow up their target player's respawn point (bed, respawn anchor etc.). This does not apply to the global respawn point (where players respawn if they have no bed etc.)
 	destroyerTargetRespawnPos = false
 	#Additional damage destroyer fireballs deals to its target's equipment (armor, shield etc.). Set this to 0 to deal no extra damage.
@@ -216,7 +216,7 @@
 [acid_rain]
 	#The chance of triggering an Acid Rain event when it starts raining. 1 = 100% chance, 0.5 = 50% etc. Defaults to 0.33 (roughly 1/3 chance).
 	#Range: 0.0 ~ 1.0
-	acidRainChance = 0.0
+	acidRainChance = 0.05
 	#Determines the interval in which acid rain damage should be dealt in seconds. A value of 2 will inflict acid rain damage on players every 2 seconds.
 	#Range: 1 ~ 1000
 	rainTickRate = 3
@@ -224,7 +224,7 @@
 	#Range: 1 ~ 10000
 	rainDamage = 1
 	#Set to false to disable acid rain damage, or to true to turn it on.
-	enableRainDamage = false
+	enableRainDamage = true
 
 [equipment]
 	#A list of entity types that can be given weapons.

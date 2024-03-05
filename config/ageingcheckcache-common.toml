@@ -1,0 +1,4 @@
+
+[AgeingCheckCache]
+	TrackableSpawners = ["minecraft:spawner"]
+

@@ -2,34 +2,18 @@
   "minecraft": {
     "crop_progress": true,
     "comparator": true,
-    "display_furnace_contents": true,
     "hide_infestations": true,
+    "display_furnace_contents": true,
     "jukebox": true,
     "lever": true,
     "spawner_type": true,
     "redstone": true,
     "repeater": true
   },
-  "harvestability": {
-    "unharvestableonly": false,
-    "toolrequiredonly": true,
-    "harvestlevel.sneakingonly": false,
-    "currentlyharvestable.sneakingonly": false,
-    "harvestlevelnum.sneakingonly": false,
-    "shearability.sneakingonly": false,
-    "harvestlevel": true,
-    "minimal": false,
-    "effectivetool.sneakingonly": false,
-    "oresonly": false,
-    "currentlyharvestable": true,
-    "shearability": true,
-    "effectivetool": true,
-    "harvestlevelnum": false
-  },
   "jade": {
     "horse_inventory": true,
-    "total_ench_power": true,
     "show_entity_armor": true,
+    "total_ench_power": true,
     "chicken_egg": true,
     "horse_stat": true,
     "brewing_stand": true,
@@ -56,10 +40,15 @@
     "harvest_tool_new_line": false,
     "trapped_chest": true
   },
+  "amber": {
+    "create_speed": true,
+    "create_stress": true,
+    "forge_energy": true
+  },
   "waila": {
     "show_registry": true,
-    "show_states": true,
     "show_entity_hp": true,
+    "show_states": true,
     "show_entities": true
   }
 }
