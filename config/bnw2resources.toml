@@ -36,7 +36,7 @@ ScreenshotJPGQuality = 80
 	#Is installer enabled
 	EnableInstaller = true
 	#ids to be removed
-	ModIDsToBeRemoved = ["kleeslabs", "roadrunner", "snowrealmagic", "kiwi"]
+	ModIDsToBeRemoved = ["kleeslabs", "snowrealmagic", "kiwi"]
 	#jars to be removed
 	ModJarsToBeRemoved = ["magnesium-1.5.jar", "dragonfight-1.8.jar"]
 

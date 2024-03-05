@@ -7,7 +7,7 @@
 		"Enable GPU Memory Leak Fix" = true
 		#FastChest helps by removing their dynamic models (aka BlockEntityRenderer) and making them render as static chunk geometry, like most normal blocks. This means they will lose their lid opening animation!
 		"Enable Fast Chest" = true
-		"Chunk Fade In Speed Modifier" = 10
+		"Chunk Fade In Speed Modifier" = 30
 		#Tweak JEI rendering so that the item list does not display unless search is active. This de-clutters the screen significantly unless you're actively using JEI.
 		"Hide JEI Items" = false
 
