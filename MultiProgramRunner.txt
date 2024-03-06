@@ -8,7 +8,7 @@ Blood-N-Wine-2-Curseforge-Export-Part-II.jar;5
 #Blood-N-Wine-2-Modrinth-Export.jar;5
 Blood-N-Wine-2-Server-Export-Part-I.jar;10
 Blood-N-Wine-2-Server-Export-Part-II.jar;5
-Blood-N-Wine-2-Server-Local-Part-I.jar;10
-Blood-N-Wine-2-Server-Local-Part-II.jar;5
+#Blood-N-Wine-2-Server-Local-Part-I.jar;10
+#Blood-N-Wine-2-Server-Local-Part-II.jar;5
 Blood-N-Wine-2-Technic-Export-Part-I.jar;10
 Blood-N-Wine-2-Technic-Export-Part-II.jar;5
