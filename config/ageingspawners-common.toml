@@ -19,8 +19,8 @@
 [Blacklist]
 	#Decides the amount of spawns a spawner can have in BLACKLIST mode [Default: 20]
 	#Range: > 1
-	blacklistMaxSpawnCount = 20
+	blacklistMaxSpawnCount = 999
 	#Decides which mobs don't age a spawner (requires spawnerMode to be set to BLACKLIST) 
 	#[syntax: 'modid:entity']
-	blacklist = [""]
+	blacklist = ["minecraft:pig", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:spider", "minecraft:cave_spider", "minecraft:blaze", "minecraft:silverfish", "minecraft:magma_cube", "minecraft:creeper", "deadlyworld:dungeon_deadly_spawner", "deadlyworld:mini_deadly_spawner", "iceandfire:dread_spawner", "deadlyworld:simple_deadly_spawner", "deadlyworld:stream_deadly_spawner", "deadlyworld:swarm_deadly_spawner", "deadlyworld:brutal_deadly_spawner", "deadlyworld:nest_deadly_spawner"]
 

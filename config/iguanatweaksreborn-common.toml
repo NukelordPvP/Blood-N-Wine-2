@@ -61,7 +61,7 @@
 		"Minimum Spawnable Mobs" = 100
 		#This multiplier increases the max mobs spawned.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Spawnable mobs multiplier" = 0.5
+		"Spawnable mobs multiplier" = 1
 		#If true, the spawner will drop more experience when broken based of distance from spawn. +100% every 1024 blocks from spawn. The multiplier from 'Experience From Blocks' Feature still applies.
 		"Bonus experience the farther from spawn" = false
 		#Set here an item that can be used on spawners and let you re-enable them.
@@ -69,7 +69,7 @@
 
 		#A list of mobs (and optionally dimensions) that shouldn't have their spawner disabled. Each entry has an entity or entity tag and optionally a dimension. E.g. ["minecraft:zombie", "minecraft:blaze,minecraft:the_nether"]
 		[Miscellaneous."Temporary Spawners"."Entity Blacklist"]
-			Blacklist = []
+			Blacklist = ["minecraft:pig", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:spider", "minecraft:cave_spider", "minecraft:blaze", "minecraft:silverfish", "minecraft:magma_cube", "minecraft:creeper"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
 

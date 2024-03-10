@@ -1,5 +1,8 @@
 {
-  "last_directories": {},
+  "last_directories": {
+    "schematic_load": "C:\\Games\\CurseForge\\Minecraft\\Instances\\Blood-N-Wine-2\\schematics",
+    "schematic_manager": "C:\\Games\\CurseForge\\Minecraft\\Instances\\Blood-N-Wine-2\\schematics"
+  },
   "create_placement_on_load": true,
   "config_gui_tab": "GENERIC"
 }
