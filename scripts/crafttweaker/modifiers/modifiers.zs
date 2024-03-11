@@ -1,7 +1,7 @@
 
 
 
-//remove tconstruct op recipes
+//remove tconstruct op modifiers recipes
 <recipetype:tconstruct:tinker_station>.removeRecipe("tconstruct:diamond");
 <recipetype:tconstruct:tinker_station>.removeRecipe("tconstruct:revitalizing");
 <recipetype:tconstruct:tinker_station>.removeRecipe("tconstruct:expanded");

@@ -542,10 +542,13 @@ val removeRecipes = [
 		//<item:create:copper_block>,
 		//<item:create:copper_ore>,
 
-		//tinkersconstruct
+		//tinkers construct
+		//hide copper because our backport adds real copper
 		<item:tconstruct:copper_ore>,
 		<item:tconstruct:copper_ingot>,
 		<item:tconstruct:copper_nugget>,
+
+		//make moving mobs hard
 		<item:tconstruct:piggy_backpack>,
 
 		//aqua culture
@@ -580,7 +583,7 @@ val removeRecipes = [
 
 		//cataclysm
 		<item:cataclysm:the_incinerator>,
-		//temp enabled for testing
+		//no forge allowed besides tinkers
 		//<item:cataclysm:infernal_forge>
 
 		//rats

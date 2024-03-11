@@ -5,7 +5,7 @@ import crafttweaker.api.tag.TagManagerItem;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.registries.IRecipeManager;
 
-//remove dupilcate copper ingots and nuggets
+//remove duplicate tconstruct copper ingots and nuggets
 craftingTable.removeRecipe(<item:tconstruct:copper_ingot>);
 craftingTable.removeRecipe(<item:tconstruct:copper_nugget>);
 craftingTable.removeRecipe(<item:tconstruct:copper_block>);
@@ -37,12 +37,12 @@ furnace.removeRecipe(<item:tconstruct:copper_ingot>);
 <recipetype:tconstruct:melting>.addMeltingRecipe("gold_bars", <item:quark:gold_bars>, <fluid:tconstruct:molten_gold> * 54, 700, 35);
 
 
-//remove rail melting recipes
+//remove rail melting recipes (because rails can be duped)
 <recipetype:tconstruct:melting>.removeByName("tconstruct:smeltery/melting/metal/iron/ingot_6_16");
 <recipetype:tconstruct:melting>.removeByName("tconstruct:smeltery/melting/metal/iron/ingot_1");
 <recipetype:tconstruct:melting>.removeByName("tconstruct:smeltery/melting/metal/gold/powered_rail");
 
-//add rail melting recipes
+//add rail melting recipes but extremely nerfed
 <recipetype:tconstruct:melting>.addMeltingRecipe("rail", <item:minecraft:rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
 <recipetype:tconstruct:melting>.addMeltingRecipe("detector_rail", <item:minecraft:detector_rail>, <fluid:tconstruct:molten_iron> * 2, 800, 35);
 <recipetype:tconstruct:melting>.addMeltingRecipe("powered_rail", <item:minecraft:powered_rail>, <fluid:tconstruct:molten_gold> * 2, 700, 35);

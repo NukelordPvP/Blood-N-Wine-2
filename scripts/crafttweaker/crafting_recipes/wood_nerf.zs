@@ -1,5 +1,7 @@
 import crafttweaker.api.CraftingTableManager;
 
+//this is not finished for now
+
 //remove ALL
 //craftingTable.removeByName("nourished_end:shulker_shell_to_bone_meal");
 //craftingTable.removeByName("minecraft:oak_planks");

@@ -65,5 +65,6 @@ ItemStages.restrict(<item:tconstruct:piggy_backpack>, "banned");
 
 //cataclysm BAN
 ItemStages.restrict(<item:cataclysm:the_incinerator>, "banned");
+
 //temp enabled for testing
 ItemStages.restrict(<item:cataclysm:infernal_forge>, "banned");
