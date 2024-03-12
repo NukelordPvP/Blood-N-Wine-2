@@ -2,7 +2,7 @@
 # or the discord server located at https:#discord.gg/FZHXFYp8fc
 # for any specific questions you might have regarding the main config file
 [triggers]
-		#Global Trigger Parameters
+	# Global Trigger Parameters
 	[triggers.universal]
 		# The number of ticks a trigger will be active for after its parameters are no longer met.
 		persistence = "100"
@@ -16,11 +16,11 @@
 		fade_out = "100"
 		# The number of ticks it takes for a song to start playing after a song within the same pool finishes.
 		song_delay = "1"
-		# Dead
+	# Dead
 	[triggers.dead]
 		#The numerical priority of a trigger. In the case of multiple triggers being able to play at once, the highest priority wins, unless REVERSE_PRIORITY is enabled.
 		priority = "69"
-		# Gamestage
+	# Gamestage
 	[triggers.gamestage]
 
 	[triggers.menu]
@@ -28,44 +28,44 @@
 		song_delay = "600"
 		persistence = "600"
 
-		# Overworld
+	# Overworld
 	[[triggers.dimension]]
 		identifier = "overworld"
 		resource_name = [ "overworld" ]
 		priority = "1"
 
-		# Night
+	# Night
 	[[triggers.time]]
 		identifier = "night"
 		start_hour = "14"
 		end_hour = "24"
 		priority = "1"
 
-		# Day
+	# Day
 	[[triggers.time]]
 		identifier = "day"
 		end_hour = "14"
 		priority = "1"
 
-		# Deep Dark
+	# Deep Dark
 	[[triggers.dimension]]
 		identifier = "deep_darky"
 		resource_name = [ "deep_darky" ]
 		priority = "1"
 
-		# Nether
+	# Nether
 	[[triggers.dimension]]
 		identifier = "nether"
 		resource_name = [ "nether" ]
 		priority = "1"
 
-		# End
+	# End
 	[[triggers.dimension]]
 		identifier = "end"
 		resource_name = [ "end" ]
 		priority = "1"
 
-		# Stronghold
+	# Stronghold
 	[[triggers.structure]]
 		identifier = "stronghold"
 		resource_name = [ "stronghold" ]
@@ -75,7 +75,7 @@
 		priority = "9"
 		song_delay = "3600"
 
-		# Village
+	# Village
 	[[triggers.structure]]
 		identifier = "village"
 		resource_name = [ "village" ]
@@ -85,7 +85,7 @@
 		priority = "5"
 		song_delay = "1200"
 
-		# Dragons
+	# Dragons
 	[[triggers.mob]]
 		identifier = "dragon"
 		#A list of strings used for anything that needs to access a registry. It will be explained more in depth for the triggers that use it.
@@ -98,7 +98,7 @@
 		priority = "10"
 		song_delay = "1200"
 
-		# Enderdragon
+	# Enderdragon
 	[[triggers.mob]]
 		identifier = "enderdragon"
 		resource_name = [ "Ender Dragon" ]
@@ -110,7 +110,7 @@
 		priority = "10"
 		song_delay = "1200"
 
-		# Zombie
+	# Zombie
 	#[[triggers.mob]]
 		#	identifier = "basic"
 		#	resource_name = [ "zombie" "skeleton" "creeper" "spider" "blaze" "pillager" "vindicator" "summoner" ]
@@ -133,7 +133,7 @@
 	[songs.602]
 		triggers = [ "dead" ]
 
-		# Yoda Death Easter Egg
+	# Yoda Death Easter Egg
 	[songs.yodadeath]
 		triggers = [ "dead" ]
 		# Lower Death Fade in to 0 since the deathscreen should be responsive.
@@ -147,7 +147,7 @@
 		# The song must finish playing before the trigger is able to change
 		must_finish = false
 
-		# Witcher 3 Death
+	# Witcher 3 Death
 	[songs.death]
 		triggers = [ "dead" ]
 		fade_in = "0"
@@ -156,7 +156,7 @@
 		toggle_inactive_playable = true
 		must_finish = false
 
-		# 8bit Death
+	# 8bit Death
 	[songs.death8bit]
 		triggers = [ "dead" ]
 		fade_in = "0"
@@ -165,7 +165,7 @@
 		toggle_inactive_playable = true
 		must_finish = false
 
-		# oof
+	# oof
 	[songs.oof]
 		triggers = [ "dead" ]
 		fade_in = "0"
@@ -174,7 +174,7 @@
 		toggle_inactive_playable = true
 		must_finish = false
 
-		# itsjustaburningmemory
+	# itsjustaburningmemory
 	[songs.itsjustaburningmemory]
 		triggers = [ "dead" ]
 		fade_in = "0"
@@ -183,7 +183,7 @@
 		toggle_inactive_playable = true
 		must_finish = false
 
-		# Main Menu
+	# Main Menu
 	[songs.frozenintime]
 		triggers = [ "menu" ]
 		fade_in = "200"
@@ -196,7 +196,7 @@
 		fade_out = "200"
 		must_finish = false
 
-		# Day
+	# Day
 	# The Hermit [day]
 	[songs.apokatastasisi]
 		triggers = [ "time-day" "dimension-overworld" ]
@@ -271,16 +271,16 @@
 	[songs.themanifestation]
 		triggers = [ "time-day" "dimension-overworld" ]
 
-		# Night
-		# 0 = Any moon phase
-		# 1 = Full Moon
-		# 2 = Waning Gibbous
-		# 3 = Last Quarter
-		# 4 = Waning Crescent
-		# 5 = New Moon
-		# 6 = Waxing Crescent
-		# 7 = First Quarter
-		# 8 = Waxing Gibbous
+	# Night
+	# 0 = Any moon phase
+	# 1 = Full Moon
+	# 2 = Waning Gibbous
+	# 3 = Last Quarter
+	# 4 = Waning Crescent
+	# 5 = New Moon
+	# 6 = Waxing Crescent
+	# 7 = First Quarter
+	# 8 = Waxing Gibbous
 	# Darkwood (Original Video Game Soundtrack)
 	[songs.intro]
 		triggers = [ "time-night" "dimension-overworld" ]
@@ -377,13 +377,13 @@
 		triggers = [ "time-night" "dimension-overworld" ]
 		moon_phase = "0"
 	
-		# Sunrise
+	# Sunrise
 	[songs.endofthenight]
 		triggers = [ "time-not_set" "dimension-overworld" ]
 		moon_phase = "0"
 		time_bundle = "sunrise"
 
-		# Nether
+	# Nether
 	# Echo [nether]
 	[songs.whattheearthbore]
 		triggers = ["dimension-nether"]
@@ -556,7 +556,7 @@
 		triggers = [ "dimension-deep_darky"]
 
 	# Invisible Cities [situational]
-		# Unique to Enderdragons [end]
+	# Unique to Enderdragons [end]
 	[songs.thecelestialcity]
 			triggers = [ "mob-enderdragon" ]
 	[songs.onlystringsandtheirsupportsremain]
@@ -564,7 +564,7 @@
 	[songs.totalperspectivevortex]
 			triggers = [ "mob-enderdragon" ]
 
-		# Unique to Dragons [overworld and nether]
+	# Unique to Dragons [overworld and nether]
 	[songs.themerchantsofsevennations]
 		triggers = [ "mob-dragon" ]
 	[songs.nothingofthecitytouchestheearth]
@@ -574,7 +574,7 @@
 	[songs.everysolsticeequinox]
 			triggers = [ "mob-dragon" ]
 
-		# Unique to Strongholds [overworld]
+	# Unique to Strongholds [overworld]
 	[songs.thedeadoutnumbertheliving]
 			triggers = [ "dimension-overworld" "stronghold" ]
 	[songs.thirteenthcenturytravelogue]
@@ -582,8 +582,12 @@
 	[songs.despairdialogue]
 			triggers = [ "dimension-overworld" "stronghold" ]
 
-		# Unique to Villages [overworld]
+	# Unique to Villages [overworld]
 	[songs.sothatthecitycanbegintoexist]
 			triggers = [ "dimension-overworld" "village" ]
 	[songs.thedividedcity]
 			triggers = [ "dimension-overworld" "village" ]
+
+	# Custom Discs
+    [songs.rasputin]
+            triggers = [ "none"]

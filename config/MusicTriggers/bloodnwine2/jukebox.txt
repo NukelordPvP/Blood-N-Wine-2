@@ -154,3 +154,5 @@ thirteenthcenturytravelogue = thirteenthcenturytravelogueName
 despairdialogue = despairdialogueName
 sothatthecitycanbegintoexist = sothatthecitycanbegintoexistName
 thedividedcity = thedividedcityName
+
+rasputin = rasputinName

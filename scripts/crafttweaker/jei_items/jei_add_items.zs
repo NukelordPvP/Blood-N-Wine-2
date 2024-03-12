@@ -158,6 +158,8 @@
         <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "despairdialogue" as string, trackID: "despairdialogue" as string}),
         <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "sothatthecitycanbegintoexist" as string, trackID: "sothatthecitycanbegintoexist" as string}),
         <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "thedividedcity" as string, trackID: "thedividedcity" as string})
+
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "rasputin" as string, trackID: "rasputin" as string})
 	] as IItemStack[];
 		
 	for item in addItems {
