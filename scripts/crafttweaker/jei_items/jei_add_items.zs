@@ -157,9 +157,26 @@
         <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "thirteenthcenturytravelogue" as string, trackID: "thirteenthcenturytravelogue" as string}),
         <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "despairdialogue" as string, trackID: "despairdialogue" as string}),
         <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "sothatthecitycanbegintoexist" as string, trackID: "sothatthecitycanbegintoexist" as string}),
-        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "thedividedcity" as string, trackID: "thedividedcity" as string})
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "thedividedcity" as string, trackID: "thedividedcity" as string}),
 
-        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "rasputin" as string, trackID: "rasputin" as string})
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "alabamanigger" as string, trackID: "alabamanigger" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "bigchungus" as string, trackID: "bigchungus" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "cheekibreeki" as string, trackID: "cheekibreeki" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "crystals" as string, trackID: "crystals" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "deargod" as string, trackID: "deargod" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "descent" as string, trackID: "descent" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "donaldtrumpwall" as string, trackID: "donaldtrumpwall" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "ifpjusgremix" as string, trackID: "ifpjusgremix" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "immunity" as string, trackID: "immunity" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "joebidenisniffedagirl" as string, trackID: "joebidenisniffedagirl" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "mobyextremeways" as string, trackID: "mobyextremeways" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "rasputin" as string, trackID: "rasputin" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "redarmychoirpolyushka" as string, trackID: "redarmychoirpolyushka" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "redsuninthesky" as string, trackID: "redsuninthesky" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "russiacometoyou" as string, trackID: "russiacometoyou" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "thebigship2004" as string, trackID: "thebigship2004" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "unconditional" as string, trackID: "unconditional" as string}),
+        <item:musictriggers:music_triggers_record>.withTag({channelFrom: "bloodnwine2" as string, DiscID: "theiranianbomb" as string, trackID: "theiranianbomb" as string})
 	] as IItemStack[];
 		
 	for item in addItems {
