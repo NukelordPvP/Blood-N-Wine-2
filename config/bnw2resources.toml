@@ -1,24 +1,3 @@
-#JPG image quality percentage for screenshots
-#Range: 0 ~ 100
-ScreenshotJPGQuality = 80
-
-[Modules]
-
-	[Modules.Freecam]
-		#Enable or disable Freecam
-		enableFreecam = false
-		#Freecam movement speed
-		#Range: 0.0 ~ 10.0
-		speed = 1.5
-		#control speed with mouse wheel. use 0 to disable
-		#Range: 0.0 ~ 2.0
-		speed-scroll-sensitivity = 1.0
-		#Disable when you take damage
-		disable-on-damage = true
-
-	[Modules.PacketStats]
-		#Enable or disable PacketStats
-		enablePacketStats = false
 
 [Ghast]
 
@@ -31,14 +10,6 @@ ScreenshotJPGQuality = 80
 		#Ghast's fireball cooldown ticks (40 in vanilla)
 		#Range: 0 ~ 500
 		CooldownTicks = 15
-
-["Installer/Setup"]
-	#Is installer enabled
-	EnableInstaller = true
-	#ids to be removed
-	ModIDsToBeRemoved = ["kleeslabs", "snowrealmagic", "kiwi"]
-	#jars to be removed
-	ModJarsToBeRemoved = ["magnesium-1.5.jar", "dragonfight-1.8.jar"]
 
 ["Ender Dragon"]
 	#custom exit portal generation height (use 0 for vanilla behavior)
@@ -95,9 +66,6 @@ ScreenshotJPGQuality = 80
 [GamePlay]
 	#Whether to disable night skips while sleeping or not
 	NoNightSkip = true
-	#Lock max game brightness to this value (makes slider above this value useless, use -1 to disable lock)
-	#Range: -1.0 ~ 1.0
-	MaxGamma = 0.3
 	#at which day should halloween end in November? (default=3)
 	HalloweenNovemberEndDay = 10
 	#Limit max mending repair in % (100 means no limit and 0 disables Mending repair)
@@ -114,8 +82,11 @@ ScreenshotJPGQuality = 80
 	RavagerAttackReach = 2.0
 
 [Villager]
-	#Initial player reputation for villager pricing (0 in vanilla)
-	VillagerStartReputation = -20
 	#Additional list of entities that villagers are scared from. The number is distance radius of panic which should be 8.0 for normal-sized zombie type entities to match vanilla zombies.
 	VillagerPanicExtraEntities = ["8.0:specialmobs:zombie", "8.0:specialmobs:plaguezombie", "8.0:specialmobs:plaguedrowned", "8.0:specialmobs:huskzombie", "8.0:specialmobs:hungryzombie", "8.0:specialmobs:hungrydrowned", "9.0:specialmobs:giantzombie", "9.0:specialmobs:giantdrowned", "8.0:specialmobs:frozenzombie", "8.0:specialmobs:frozendrowned", "8.0:specialmobs:fishingzombie", "8.0:specialmobs:fishingdrowned", "8.0:specialmobs:firezombie", "8.0:specialmobs:brutezombie", "8.0:specialmobs:brutedrowned", "8.0:specialmobs:abyssaldrowned", "8.0:specialmobs:undeadwitch", "8.0:specialmobs:knightdrowned", "8.0:specialmobs:madscientistzombie", "8.0:dungeons_mobs:zombified_fungus_thrower", "8.0:dungeons_mobs:frozen_zombie", "8.0:dungeons_mobs:drowned_necromancer", "8.0:dungeons_mobs:necromancer", "8.0:dungeons_mobs:jungle_zombie", "16.0:iceandfire:fire_dragon", "16.0:iceandfire:ice_dragon", "8.0:illagers_plus:necromancer", "6.0:deadly_world:mini_zombie", "8.0:dead_guys_untitled_deep_dark_:sculk_villager", "8.0:dead_guys_untitled_deep_dark_:zombie_of_the_sculk", "12.0:dead_guys_untitled_deep_dark_:warden", "12.0:dead_guys_untitled_deep_dark_:warden_variant_2", "12.0:dead_guys_untitled_deep_dark_:warden_variant_3"]
+	#Chance of greedy villager spawning 
+	#Range: 0.0 ~ 1.0
+	VillagerGreedyChance = 0.736
+	#Offset player reputation for greedy villager pricing (should be non zero to raise prices)
+	VillagerGreedyOffsetReputation = -10
 

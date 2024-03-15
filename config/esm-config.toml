@@ -1,0 +1,110 @@
+#Enable Enemies Swarming You
+enablesiege = true
+#Enable Increased Enemy Presence
+incenemies = true
+#Should special mobs spawn riding other mobs?
+isjockies = true
+#Charged Creepers Spawn Naturally
+ischargedcreepers = true
+#Allow Bloodlusting Enemies
+isbloodlusting = true
+#Give Zombies Pickaxes and Weapons?
+iszombiepickaxes = true
+#Give Zombies Armor?
+iszombiearmor = true
+#Give Skeletons Armor?
+isskeletonarmor = true
+#Allow Zombies to Lay TNT?
+iszombietnt = true
+#Chance of zombies placing TNT each tick if in distance.
+zombietntchance = 0.25
+#How close zombies need to be to player to allow setting TNT.
+zombietntdistance = 2
+#Allow Zombies To Destroy Blocks? SETTING IS DEPRECATED AND WILL BE REMOVED IN FUTURE RELEASE. Please set mobGriefing server game rule instead.
+iszombiegriefing = true
+#Allow Zombies To Place Blocks? DEPRECATED - REPLACED BY mobGriefing game rule. Will be removed in future.
+iszombiebuilding = true
+#Allow Spiders to Shoot Webs?
+isspidershootwebs = true
+#Can Creepers Breach Walls?
+iscreeperbreaching = true
+#Do entities bounce when they touch water? Default = true.
+isoceansurfing = true
+#Allow Sleeping?
+allowsleep = false
+#Allow Monster Infighting?
+allowmonsterinfighting = false
+#Allow Zombies and Piglins to light flammable things on fire?
+zombieslightfires = true
+#Allow Super Skeletons to Spawn in the Game?
+allowsuperskeletons = true
+#Should monsters target villagers?
+isMonstersTargetVillagers = true
+#Should only entities holding pickaxes be able to dig?
+zombiepickaxedigonly = false
+#What days should sieges occur? 1 = default (everyday, constantly). 2 = every other day, 7 every week, and so on.
+siegerecurrence = 1
+#Chance of special mob spawning and riding another entity.
+#Range: 0.0 ~ 1.0
+jockeychance = 0.05
+#Chance Entity Duplicate on Spawn (Out of 100)
+dupechance = 10
+#Chance of Creepers Spawning Charged
+#Range: 0.0 ~ 1.0
+chargedchance = 0.01
+#Chance of Entities Spawning with Bloodlust
+#Range: 0.0 ~ 1.0
+angryentitychance = 0.1
+#Distance at Which Creepers Will Breach if Blocked (in Blocks)
+breachingdist = 64
+#Creepers Will Explode if This Close to Player (in Blocks)
+creeperexplodedist = 6
+#Distance At Which Creepers Breech the Ground (in Blocks)
+creepersbreechgrounddist = 6
+#Ticks Until Blocked Creeper Explodes (in Game Ticks)
+obstructedcreeperexpticks = 60
+#Maximum ticks in an entity's life until they despawn (if their target is the player). 20 Ticks = 1 second.
+mobmaxlife = 4800
+#Nuclear Creeper Explosion Radius (Default vanilla is 3
+nuclearcreeperexplosionradius = 10
+#How long (in ticks) Nuclear Creeper is lit before it blows up
+nuclearcreeperfuse = 120
+#Chance of Nuclear Creeper out of 100
+chancenuclearcreeper = 0.25
+#Chance of Zombies Recieving Special Item or Pickaxe Out of 100
+pickaxechance = 20
+#Chance of Zombies Lighting Flammable Items on Fire Per Tick Out of 100
+zombiefirechance = 1.0
+#Chance of More Powerful Skeleton Spawning
+superskeletonchance = 1.0
+#Cooloff time for entities breaking blocks in ticks
+entitydigdelay = 5
+#Cooloff time for entities placing blocks in ticks
+entitybuilddelay = 5
+#If entity is within this distance for X and Z, it'll start digging to player
+entitydigdist = 32
+#Above Ground Monster Attack Distance (in Blocks)
+grounddist = 96
+#Below Ground Monster Attack Distance (in Blocks)
+cavedist = 48
+#Chance out of 100 for spider shooting webs each tick. Default = 0.5
+spiderwebchance = 0.5
+#Distance at which spider can shoot a web at player. Default = 2 blocks
+spiderwebdist = 2
+#Maximum Duplicated Enemies. Recommend Min. 1, Max. 4. Must be greater than min duplication clones and greater than 0.
+maxdupes = 3
+#Maximum Duplicated Enemies. Recommend Min. 0, Max. 4. Must be less than max duplication clones, or, will use max dupes value.
+mindupes = 0
+#Maximum Duplicated Enemies FROM A DUNGEON. Recommend Min. 1, Max. 6. Must be greater than min duplication clones and greater than 0.
+maxdungeondupes = 6
+#Maximum Duplicated Enemies FROM A DUNGEON. Recommend Min. 0, Max. 3. Must be less than max duplication clones, or, will use max dupes value.
+mindungeondupes = 1
+#Entities that will besiege players.
+siegewhitelist = ["minecraft:spider", "minecraft:cave_spider", "minecraft:creeper", "minecraft:skeleton", "minecraft:witch", "minecraft:ghast", "minecraft:giant", "minecraft:husk", "minecraft:hoglin", "minecraft:pillager", "minecraft:vindicator", "minecraft:illusioner", "minecraft:evoker", "minecraft:ravager", "minecraft:shulker", "minecraft:silverfish", "minecraft:stray", "minecraft:slime", "minecraft:witch", "minecraft:zoglin", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombified_piglin", "minecraft:drowned", "minecraft:wither_skeleton"]
+#Any part of a block name, which defines which blocks that siege monsters CANNOT break to try and get to your positon.
+siegebreakableblockblacklist = "_ore,_sign,air,water,lava,_bed,rail,_block,obsidian,torch,fire,spawner,ladder,furnace,level,iron_door,pressure_plate,_button,sugar_cane,juke,soul_,portal,cake,repeater,trapdoor,iron_bars,chain,vine,lily_pad,enchanting,brewing,cauldron,end_,dragon,potted_,skull,_head,anvil,chest,dropper,comparator,hopper,detector,Pillar,terracotta,light,prismarine,book,grass,snow,flower,sapling,bush,stem,dragon,carrots,potatoes,detector,powered,concrete,barrier,carpet,banner,beet,void,shulker,structure,compost,piston,dispenser,fern,pickle,chorus,purpur,beacon,conduit,frame,lectern,smith,ancient,armor,wither,barrel,cutter,hive,lode,respawn,sculk,brick,copper"
+#Defines all mobs that can spawn as rideable by spawning monsters. E.g. 'chicken' will cause enemies to spawn riding chickens.
+rideablemobs = "creeper,spider,skeleton,chicken,pig,skeleton horse,zombie horse"
+#Mobs that can spawn riding other mobs.
+jockeymobs = "creeper,skeleton,zombie,pillager,zombified piglin"
+

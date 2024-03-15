@@ -1,0 +1,33 @@
+#JPG image quality percentage for screenshots
+#Range: 0 ~ 100
+ScreenshotJPGQuality = 80
+#Lock max game brightness to this value (makes slider above this value useless, use -1 to disable lock)
+#Range: -1.0 ~ 1.0
+MaxGamma = 0.3
+
+["Installer/Setup"]
+	#Is setup enabled
+	EnableSetup = true
+	#mod ids to be removed
+	ModIDsToBeRemoved = ["kleeslabs", "snowrealmagic", "kiwi"]
+	#mod jars to be removed
+	ModJarsToBeRemoved = ["magnesium-1.5.jar", "dragonfight-1.8.jar"]
+
+[Modules]
+
+	[Modules.Freecam]
+		#Enable or disable Freecam
+		enableFreecam = false
+		#Freecam movement speed
+		#Range: 0.0 ~ 10.0
+		speed = 1.5
+		#control speed with mouse wheel. use 0 to disable
+		#Range: 0.0 ~ 2.0
+		speed-scroll-sensitivity = 1.0
+		#Disable when you take damage
+		disable-on-damage = true
+
+	[Modules.PacketStats]
+		#Enable or disable PacketStats
+		enablePacketStats = false
+
