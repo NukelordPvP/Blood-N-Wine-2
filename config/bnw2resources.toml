@@ -1,4 +1,30 @@
 
+[GamePlay]
+	#at which day should halloween end in November? (default=3)
+	HalloweenNovemberEndDay = 3
+	#Whether to disable night skips while sleeping or not
+	NoNightSkip = true
+	#Limit max mending repair in % (100 means no limit and 0 disables Mending repair)
+	#Range: 66.0 ~ 100.0
+	PlayerHeadDropChance = 66.0
+
+[TerraForged]
+	#The range that terraforged generates terrain. chunks outside this range will be generated using vanilla code.
+	TfMaxGenerationRange = 100000
+
+["Ender Dragon"]
+	#custom exit portal generation height (use 0 for vanilla behavior)
+	#Range: 0 ~ 255
+	customExitPortalHeight = 100
+	#custom dragon landing height (use 0 for vanilla behavior)
+	#Range: 0 ~ 255
+	customDragonLandingHeight = 105
+
+[Ravager]
+	#Ravager's attack reach (4 in vanilla)
+	#Range: 0.0 ~ 8.0
+	RavagerAttackReach = 2.0
+
 [Ghast]
 
 	[Ghast."Ghast's Fireball"]
@@ -10,14 +36,6 @@
 		#Ghast's fireball cooldown ticks (40 in vanilla)
 		#Range: 0 ~ 500
 		CooldownTicks = 15
-
-["Ender Dragon"]
-	#custom exit portal generation height (use 0 for vanilla behavior)
-	#Range: 0 ~ 255
-	customExitPortalHeight = 100
-	#custom dragon landing height (use 0 for vanilla behavior)
-	#Range: 0 ~ 255
-	customDragonLandingHeight = 105
 
 ["Snow Golem"]
 
@@ -36,6 +54,15 @@
 	#Wither's initial explosion strength. (7 in vanilla)
 	#Range: 1.0 ~ 100.0
 	ExplosionRadius = 14.0
+
+[Villager]
+	#Chance of greedy villager spawning 
+	#Range: 0.0 ~ 1.0
+	VillagerGreedyChance = 0.736
+	#Offset player reputation for greedy villager pricing (should be non zero to raise prices)
+	VillagerGreedyOffsetReputation = -10
+	#Additional list of entities that villagers are scared from. The number is distance radius of panic which should be 8.0 for normal-sized zombie type entities to match vanilla zombies.
+	VillagerPanicExtraEntities = ["8.0:specialmobs:zombie", "8.0:specialmobs:plaguezombie", "8.0:specialmobs:plaguedrowned", "8.0:specialmobs:huskzombie", "8.0:specialmobs:hungryzombie", "8.0:specialmobs:hungrydrowned", "9.0:specialmobs:giantzombie", "9.0:specialmobs:giantdrowned", "8.0:specialmobs:frozenzombie", "8.0:specialmobs:frozendrowned", "8.0:specialmobs:fishingzombie", "8.0:specialmobs:fishingdrowned", "8.0:specialmobs:firezombie", "8.0:specialmobs:brutezombie", "8.0:specialmobs:brutedrowned", "8.0:specialmobs:abyssaldrowned", "8.0:specialmobs:undeadwitch", "8.0:specialmobs:knightdrowned", "8.0:specialmobs:madscientistzombie", "8.0:dungeons_mobs:zombified_fungus_thrower", "8.0:dungeons_mobs:frozen_zombie", "8.0:dungeons_mobs:drowned_necromancer", "8.0:dungeons_mobs:necromancer", "8.0:dungeons_mobs:jungle_zombie", "16.0:iceandfire:fire_dragon", "16.0:iceandfire:ice_dragon", "8.0:illagers_plus:necromancer", "6.0:deadly_world:mini_zombie", "8.0:dead_guys_untitled_deep_dark_:sculk_villager", "8.0:dead_guys_untitled_deep_dark_:zombie_of_the_sculk", "12.0:dead_guys_untitled_deep_dark_:warden", "12.0:dead_guys_untitled_deep_dark_:warden_variant_2", "12.0:dead_guys_untitled_deep_dark_:warden_variant_3"]
 
 ["Mob Attribute Modifiers"]
 	#Mob list to control their speed attribute using ratios 
@@ -62,31 +89,4 @@
 	# -1.0 means mob won't deal damage
 	#- format: value:modname:mobname
 	MobDamageModifier = ["0.2:minecraft:iron_golem"]
-
-[GamePlay]
-	#Whether to disable night skips while sleeping or not
-	NoNightSkip = true
-	#at which day should halloween end in November? (default=3)
-	HalloweenNovemberEndDay = 10
-	#Limit max mending repair in % (100 means no limit and 0 disables Mending repair)
-	#Range: 66.0 ~ 100.0
-	PlayerHeadDropChance = 66.0
-
-[TerraForged]
-	#The range that terraforged generates terrain. chunks outside this range will be generated using vanilla code.
-	TfMaxGenerationRange = 100000
-
-[Ravager]
-	#Ravager's attack reach (4 in vanilla)
-	#Range: 0.0 ~ 8.0
-	RavagerAttackReach = 2.0
-
-[Villager]
-	#Additional list of entities that villagers are scared from. The number is distance radius of panic which should be 8.0 for normal-sized zombie type entities to match vanilla zombies.
-	VillagerPanicExtraEntities = ["8.0:specialmobs:zombie", "8.0:specialmobs:plaguezombie", "8.0:specialmobs:plaguedrowned", "8.0:specialmobs:huskzombie", "8.0:specialmobs:hungryzombie", "8.0:specialmobs:hungrydrowned", "9.0:specialmobs:giantzombie", "9.0:specialmobs:giantdrowned", "8.0:specialmobs:frozenzombie", "8.0:specialmobs:frozendrowned", "8.0:specialmobs:fishingzombie", "8.0:specialmobs:fishingdrowned", "8.0:specialmobs:firezombie", "8.0:specialmobs:brutezombie", "8.0:specialmobs:brutedrowned", "8.0:specialmobs:abyssaldrowned", "8.0:specialmobs:undeadwitch", "8.0:specialmobs:knightdrowned", "8.0:specialmobs:madscientistzombie", "8.0:dungeons_mobs:zombified_fungus_thrower", "8.0:dungeons_mobs:frozen_zombie", "8.0:dungeons_mobs:drowned_necromancer", "8.0:dungeons_mobs:necromancer", "8.0:dungeons_mobs:jungle_zombie", "16.0:iceandfire:fire_dragon", "16.0:iceandfire:ice_dragon", "8.0:illagers_plus:necromancer", "6.0:deadly_world:mini_zombie", "8.0:dead_guys_untitled_deep_dark_:sculk_villager", "8.0:dead_guys_untitled_deep_dark_:zombie_of_the_sculk", "12.0:dead_guys_untitled_deep_dark_:warden", "12.0:dead_guys_untitled_deep_dark_:warden_variant_2", "12.0:dead_guys_untitled_deep_dark_:warden_variant_3"]
-	#Chance of greedy villager spawning 
-	#Range: 0.0 ~ 1.0
-	VillagerGreedyChance = 0.736
-	#Offset player reputation for greedy villager pricing (should be non zero to raise prices)
-	VillagerGreedyOffsetReputation = -10
 

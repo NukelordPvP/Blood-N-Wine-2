@@ -9,7 +9,7 @@ MaxGamma = 0.3
 	#Is setup enabled
 	EnableSetup = true
 	#mod ids to be removed
-	ModIDsToBeRemoved = ["kleeslabs", "snowrealmagic", "kiwi"]
+	ModIDsToBeRemoved = ["kleeslabs", "snowrealmagic", "kiwi", "defaultoptions", "physicsmod", "sereneseasons", "sereneseasonsphc2crops"]
 	#mod jars to be removed
 	ModJarsToBeRemoved = ["magnesium-1.5.jar", "dragonfight-1.8.jar"]
 
