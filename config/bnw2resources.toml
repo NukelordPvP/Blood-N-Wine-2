@@ -1,6 +1,7 @@
 
 [GamePlay]
 	#at which day should halloween end in November? (default=3)
+	#Range: 1 ~ 30
 	HalloweenNovemberEndDay = 3
 	#Whether to disable night skips while sleeping or not
 	NoNightSkip = true

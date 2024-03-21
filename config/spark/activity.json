@@ -5,6 +5,19 @@
       "name": "Nukelord420",
       "uniqueId": "29e423c1-26c9-42d8-9e77-6772bd06df02"
     },
+    "time": 1710949987292,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fq437nXMp5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Nukelord420",
+      "uniqueId": "29e423c1-26c9-42d8-9e77-6772bd06df02"
+    },
     "time": 1710610732349,
     "type": "Profiler",
     "data": {

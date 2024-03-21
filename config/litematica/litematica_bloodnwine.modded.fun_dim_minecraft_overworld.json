@@ -9,7 +9,7 @@
         "name": "Rays Works - Azalea Tree Wood Farm",
         "origin": [
           -1112,
-          105,
+          118,
           1581
         ],
         "rotation": "NONE",
@@ -22,6 +22,13 @@
         "locked_coords": 0,
         "bb_color": 16757504,
         "verifier_type": "all",
+        "material_list": {
+          "type": "all",
+          "sort_criteria": "COUNT_TOTAL",
+          "sort_reverse": false,
+          "hide_available": false,
+          "multiplier": 1
+        },
         "placements": [
           {
             "name": "infwoodfarm (Converted Structure)",
@@ -42,9 +49,7 @@
           }
         ]
       }
-    ],
-    "selected": 0,
-    "origin_selected": true
+    ]
   },
   "schematic_projects_manager": {},
   "operation_mode": "SCHEMATIC_PLACEMENT",
