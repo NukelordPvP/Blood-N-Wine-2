@@ -185,3 +185,6 @@ worldedit-mod-7.2.5-dist.jar
 #ignore litematica data
 config/litematica/*
 schematics/litematics_private/*
+
+#ignore spark data
+config/spark/activity.json
