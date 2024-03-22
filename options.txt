@@ -62,7 +62,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:true
+skipMultiplayerWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
 syncChunkWrites:false
@@ -123,22 +123,22 @@ key_Open Config:key.keyboard.unknown
 key_Add Block:key.keyboard.delete
 key_Remove Block:key.keyboard.end
 key_Cycle Profile:key.keyboard.unknown
-key_key.modernfix.config:key.keyboard.unknown
 key_key.musictriggers.menu:key.keyboard.right
+key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_key.solpotato.open_food_book:key.keyboard.unknown
-key_key.solpotato.open_food_book:key.keyboard.unknown
-key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.up
-key_key.astikorcarts.desc:key.keyboard.i
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_key.dungeons_libraries.curiosintegration.description_slot1:key.keyboard.unknown
 key_key.dungeons_libraries.curiosintegration.description_slot2:key.keyboard.unknown
 key_key.dungeons_libraries.curiosintegration.description_slot3:key.keyboard.unknown
-key_key.open_menu:key.keyboard.z
+key_key.solpotato.open_food_book:key.keyboard.unknown
+key_key.solpotato.open_food_book:key.keyboard.unknown
+key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.up
+key_key.astikorcarts.desc:key.keyboard.i
 key_Open sound muffler screen:key.keyboard.unknown
+key_key.open_menu:key.keyboard.z
 key_placebo.toggleWings:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
 key_Piston Pushcart Up:key.keyboard.space
@@ -148,6 +148,22 @@ key_worldeditcuife3.key.cui.toggle.visibility:key.keyboard.unknown
 key_worldeditcuife3.key.cui.clear.selection:key.keyboard.unknown
 key_worldeditcuife3.key.chunk.toggle.visibility:key.keyboard.f4
 key_worldeditcuife3.key.distance.toggle.visibility:key.keyboard.k
+key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
+key_fpsreducer.key.openGui:key.keyboard.unknown
+key_fpsreducer.key.forceIdle:key.keyboard.pause
+key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
+key_key.moreoverlays.chunkbounds.desc:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.right.control
+key_key.ship_sail:key.keyboard.r
+key_key.ship_inventory:key.keyboard.i
+key_key.lower_ship_sail:key.keyboard.down
+key_key.higher_ship_sail:key.keyboard.up
+key_key.effortlessbuilding.hud.desc:key.keyboard.unknown
+key_key.effortlessbuilding.replace.desc:key.keyboard.unknown
+key_key.effortlessbuilding.mode.desc:key.keyboard.c
+key_key.effortlessbuilding.undo.desc:key.keyboard.unknown
+key_key.effortlessbuilding.redo.desc:key.keyboard.unknown
+key_key.effortlessbuilding.altplacement.desc:key.keyboard.unknown
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.apostrophe
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -168,22 +184,8 @@ key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
 key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
-key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
-key_fpsreducer.key.openGui:key.keyboard.unknown
-key_fpsreducer.key.forceIdle:key.keyboard.pause
-key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
-key_key.moreoverlays.chunkbounds.desc:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.right.control
-key_key.ship_sail:key.keyboard.r
-key_key.ship_inventory:key.keyboard.i
-key_key.lower_ship_sail:key.keyboard.down
-key_key.higher_ship_sail:key.keyboard.up
-key_key.effortlessbuilding.hud.desc:key.keyboard.unknown
-key_key.effortlessbuilding.replace.desc:key.keyboard.unknown
-key_key.effortlessbuilding.mode.desc:key.keyboard.c
-key_key.effortlessbuilding.undo.desc:key.keyboard.unknown
-key_key.effortlessbuilding.redo.desc:key.keyboard.unknown
-key_key.effortlessbuilding.altplacement.desc:key.keyboard.unknown
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.apocalypse.toggleDifficulty:key.keyboard.c
 key_key.apocalypse.launchGrumpHook:key.keyboard.unknown
 key_key.apocalypse.grumpDescent:key.keyboard.unknown
@@ -191,32 +193,27 @@ key_key.toastcontrol.clear:key.keyboard.t:ALT
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_keybinds.bettercombat.feint:key.keyboard.unknown
-key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.unknown
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.p
 key_key.tconstruct.leggings_interact:key.keyboard.l
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_Clear Follower List:key.keyboard.backslash
-key_quark.keybind.autorun:key.keyboard.caps.lock
-key_quark.keybind.lock_rotation:key.keyboard.down
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.down
 key_quark.keybind.change_hotbar:key.keyboard.x
+key_key.curios.open.desc:key.keyboard.unknown
+key_Clear Follower List:key.keyboard.backslash
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
+key_quark.keybind.autorun:key.keyboard.caps.lock
 key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
@@ -236,6 +233,9 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_Freecam (ON/OFF):key.keyboard.u
