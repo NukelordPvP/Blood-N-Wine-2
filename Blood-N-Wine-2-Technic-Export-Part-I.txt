@@ -99,7 +99,7 @@ CONFIG_LIST:
 # mods we ported or were paywalled or we jewed
   TerraForged-1.16.5-0.2.16.jar
   physics-mod-pro-v36b-forge-1.16.5.jar
-  glennsGasesPort1.16-1.0.6.jar
+  glennsGasesPort1.16-1.0.8.jar
   dragonfight-1.8-patched.jar
   DeadlyWorld-1.16.5-1.0.0.jar
   curtain-mc1.16.5-1.2.2.jar
