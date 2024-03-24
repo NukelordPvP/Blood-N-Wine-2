@@ -49,7 +49,9 @@ dumps
 #litematica cache
 litematica
 
+#more cache folders
 modernfix/structureCacheV1/*
+ESM/
 
 #worlds
 saves/
@@ -188,3 +190,6 @@ schematics/litematics_private/*
 
 #ignore spark data
 config/spark/activity.json
+
+#ignore modrinth stuff
+modpack.jar
