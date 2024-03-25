@@ -122,10 +122,7 @@ oculus.properties
 
 #ignore bloodnwine2resources extraction_cache.bomb to prevent sound files from not extracting
 #due to the program thinking the songs folder is already installed
-config/bloodnwine2resources/extraction_cache/extraction_cache.bomb
-config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Menu.bomb
-config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music-II.bomb
-config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music.bomb
+config/bloodnwine2resources/extraction_cache/*
 
 #ignore constantly updating files
 abyssal_drowned.toml
