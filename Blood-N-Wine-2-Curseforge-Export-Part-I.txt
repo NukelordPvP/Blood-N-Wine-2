@@ -95,6 +95,8 @@ CONFIG_LIST:
   Blood-N-Wine-2-Music-md5-=-D5399C82D600834BB3850680F41EA8AA.txt
   Blood-N-Wine-2-Music-II.zip-link.txt
   Blood-N-Wine-2-Music-II-md5-=-9FCDC2B598698DA56C603E421B38CEA1.txt
+  Blood-N-Wine-2-Music-III.zip-link.txt
+  Blood-N-Wine-2-Music-III-md5-=-CD310D1412EEDB7D8F5A4B3275F33F49.txt
   Blood-N-Wine-2-Menu.zip-link.txt
   Blood-N-Wine-2-Menu-md5-=-5008F119CCC995FDAD125892EF0EC0EE.txt
   Delete-Quark-Programmer-Art.zip-when-exporting-modpack.txt
